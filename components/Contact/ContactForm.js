@@ -11,12 +11,12 @@ class ContactForm extends Component {
                          </div>
 
                     <div className="row align-items-center">
-                        <div className="col-lg-6">
-                            <div className="contact-image">
+                        <div className="col-lg-7 col-md-12">
+                            <div className="contact-image col-lg-8">
                                 <p>We work with business, who share our beliefs and not just do business because it has to be done</p>
                             </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-5 col-md-12">
                             <div className="contact-form">
                                 <form id="contactForm">
                                     <div className="form-group">

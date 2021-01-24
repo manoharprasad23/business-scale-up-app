@@ -14,8 +14,6 @@ class Contact extends Component {
                 <div className="pb-100">
                     <ContactForm />
                 </div>
-                
-                <Footer />
             </React.Fragment>
         );
     }

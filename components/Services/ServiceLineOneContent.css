@@ -168,7 +168,6 @@
 }
 
 .growth-tips .left-side-heading {
-    width: 21%;
     padding: 20px;
     background-color: #fff;
     margin-right: 24px;
@@ -384,10 +383,6 @@
 
 /* --------------------------- About Us css --------------------------- */
 
-.about-section-container {
-    margin: 20px 0;
-}
-
 .about-section-container .services-details .text {
     text-align: center;
     margin-bottom: 15px;
@@ -469,7 +464,6 @@
 .contact-section .contact-image {
     background-color: #ccc;
     padding: 70px;
-    width: 70%;
     text-align: center;
 }
 
@@ -494,4 +488,107 @@
 .navbar .navbar-brand img {
     width: 150px;
     object-fit: contain;
+}
+
+/*---------------------- landing page css --------------------- */
+
+.landing-page-section {
+    display: flex;
+    justify-content: center;
+}
+
+.landing-page-section .content p{
+    font-size: 14px;
+    padding: 0 20%;
+}
+
+.landing-page-section .view-more button{
+    padding: 5px 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #ccc;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+
+/* ---------------- mobile css --------------------- */
+
+@media only screen and (max-width: 767px) {
+    .ptb-100 {
+        padding-top: 90px;
+    }
+
+    .service-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service-footer h2 {
+        text-align: center;
+    }
+
+    .service-footer button {
+        width: 50%;
+        align-self: center;
+        margin-top: 20px;
+    }
+
+    .services-section {
+        padding-top: 100px;
+    }
+
+    .about-section-container {
+        padding-top: 0;
+        margin: 75px 0;
+    }
+
+    .about-founder-container .about-founder-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services-banner-heading {
+        padding: 0;
+    }
+
+    .services-banner-heading p {
+        width: 95%;
+    }
+
+    .services-banner-heading .services-banner-buttons {
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .services-banner-heading .services-banner-buttons button:first-child {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    
+    .results-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .approach-design-concept .circle, .approach-design .circle {
+        margin-right: 10px;
+    }
+
+    .story-behind-scaleUp-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .story-behind-scaleUp-container .logo-and-sub-heading {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .landing-page-section .view-more button {
+        margin-right: 0;
+    }
 }

@@ -632,7 +632,7 @@ var service_line_two_jsx = external_react_default.a.createElement;
 
 class service_line_two_ServiceLineOne extends external_react_["Component"] {
   render() {
-    return service_line_two_jsx(external_react_default.a.Fragment, null, service_line_two_jsx(Navbar["a" /* default */], null), service_line_two_jsx(ServiceLineTwoContent, null), service_line_two_jsx(Footer["a" /* default */], null));
+    return service_line_two_jsx(external_react_default.a.Fragment, null, service_line_two_jsx(Navbar["a" /* default */], null), service_line_two_jsx(ServiceLineTwoContent, null));
   }
 
 }

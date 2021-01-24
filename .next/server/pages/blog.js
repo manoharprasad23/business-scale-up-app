@@ -844,7 +844,7 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       className: "content"
     }, __jsx("h3", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
       href: "/blog-details"
-    }, __jsx("a", null, "Government segment focused company"))), __jsx("p", null, "Connection with new brands & product lines"), __jsx("p", null, "Increased revenues & profitability"))))))), __jsx(_components_Layout_Footer__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"], null));
+    }, __jsx("a", null, "Government segment focused company"))), __jsx("p", null, "Connection with new brands & product lines"), __jsx("p", null, "Increased revenues & profitability"))))))));
   }
 
 }

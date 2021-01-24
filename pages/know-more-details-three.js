@@ -12,7 +12,6 @@ class KnowMore extends Component {
 
                 <KnowMoreContent />
                 
-                <Footer />
             </React.Fragment>
         );
     }

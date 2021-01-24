@@ -9,11 +9,11 @@ const GrowthTipsContent = () => {
                         <div className="text">
                             <h3>Business Growth Tips</h3>
                         </div>
-                        <div className="banner-heading">
-                            <div className="left-side-heading">
-                                <h3>How future ready is your business?</h3>
+                        <div className="banner-heading row">
+                            <div className="left-side-heading col-lg-4 col-md-12">
+                                <h3 className="col-lg-12 col-md-6">How future ready is your business?</h3>
                             </div>
-                            <div className="right-side-content">
+                            <div className="right-side-content col-lg-6 col-md-12">
                                 <div className="text-content">
                                     <p>Business dynamics are always changing - more so today than ever before and every business leader or owner is planning and executing strategies to survive, grow and thrive!</p>
                                     <p>Our "How future ready is your business ?" template helps you assess your readiness !</p>

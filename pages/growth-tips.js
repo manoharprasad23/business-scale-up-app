@@ -11,8 +11,6 @@ class GrowthTips extends Component {
                 <Navbar />
 
                 <GrowthTipsContent />
-                
-                <Footer />
             </React.Fragment>
         );
     }

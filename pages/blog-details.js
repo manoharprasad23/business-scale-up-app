@@ -11,8 +11,6 @@ class BlogDetails extends Component {
                 <Navbar />
 
                 <BlogDetailsContent />
-                
-                <Footer />
             </React.Fragment>
         );
     }

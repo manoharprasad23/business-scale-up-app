@@ -17,8 +17,6 @@ class ServiceDetails extends Component {
                 /> 
 
                 <ServiceDetailsContent />
-         
-                <Footer />
             </React.Fragment>
         );
     }

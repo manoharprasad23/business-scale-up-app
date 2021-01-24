@@ -10,7 +10,6 @@ class Services extends Component {
             <React.Fragment>
                 <Navbar />
                 <ServicesStyleOne />
-                <Footer />
             </React.Fragment>
         );
     }

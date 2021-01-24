@@ -528,7 +528,7 @@ class contact_Contact extends external_react_["Component"] {
   render() {
     return contact_jsx(external_react_default.a.Fragment, null, contact_jsx(Navbar["a" /* default */], null), contact_jsx("div", {
       className: "pb-100"
-    }, contact_jsx(ContactForm["a" /* default */], null)), contact_jsx(Footer["a" /* default */], null));
+    }, contact_jsx(ContactForm["a" /* default */], null)));
   }
 
 }
@@ -2238,11 +2238,11 @@ class ContactForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("h3", null, "Contact Us")), __jsx("div", {
       className: "row align-items-center"
     }, __jsx("div", {
-      className: "col-lg-6"
+      className: "col-lg-7 col-md-12"
     }, __jsx("div", {
-      className: "contact-image"
+      className: "contact-image col-lg-8"
     }, __jsx("p", null, "We work with business, who share our beliefs and not just do business because it has to be done"))), __jsx("div", {
-      className: "col-lg-6"
+      className: "col-lg-5 col-md-12"
     }, __jsx("div", {
       className: "contact-form"
     }, __jsx("form", {

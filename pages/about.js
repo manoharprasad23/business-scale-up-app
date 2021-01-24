@@ -12,7 +12,6 @@ class About extends Component {
             <React.Fragment>
                 <Navbar />
                 <AboutContent />
-                <Footer />
             </React.Fragment>
         );
     }

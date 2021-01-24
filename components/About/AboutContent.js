@@ -43,7 +43,7 @@ class AboutContent extends Component {
                 <div className="story-behind-scaleUp">
                     <h2>The story behind ScaleUp</h2>
                     <div className="story-behind-scaleUp-container">
-                        <div class="story-behind-scaleUp-content">
+                        <div class="story-behind-scaleUp-content col-lg-8 col-md-8 col-sm-12 col-xs-12">
                             <p>Entrepreneurship & business are magnets for people with unique minds, ideas & convictions, often armed with key traits of people, dedication and drive to succeed. The thought of controlling your own destiny - to do what you want, and your way is a huge attractive prospect.</p>
                             <p>But there is a noteworthy catch. Not everyone is equipped with deep knowledge & understanding about what it takes to succeed. And this limits the true potential of the business to succeed. As Jim Collins quipped, "Good is often the enemy of great"</p>
                             <p>On the other hand great (& successful) business combine thoughtful strategy, systematic implementation-execution and organizational accountability to drive business improvement, profile growth and success. And this is a result of experience! </p>
@@ -51,7 +51,7 @@ class AboutContent extends Component {
                             <p>Our Vision is "To Empower business and individuals with ideas, tools and support to make them more successful"</p>
                             <p>And we will contribute to the success of as many business and individuals, as we can! And cherish the creation of a prosperous future.</p>
                         </div>
-                        <div className="logo-and-sub-heading">
+                        <div className="logo-and-sub-heading col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <img src={require("../../images/logo.png")} alt="logo" />
                             <h6>Great business stories happen when the passion to make a difference matched the ability to keep the long term execution going</h6>
                         </div>

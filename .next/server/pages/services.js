@@ -1000,128 +1000,28 @@ function mitt() {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__("cDcd");
-var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
-
-// EXTERNAL MODULE: ./components/Layout/Navbar.js + 1 modules
-var Navbar = __webpack_require__("zCU4");
-
-// EXTERNAL MODULE: ./components/Common/PageBanner.js
-var PageBanner = __webpack_require__("Ix5F");
-
-// EXTERNAL MODULE: ./node_modules/next/link.js
-var next_link = __webpack_require__("YFqc");
-var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
-
-// CONCATENATED MODULE: ./components/Services/ServicesStyleOne.js
-var __jsx = external_react_default.a.createElement;
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("cDcd");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Layout_Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("zCU4");
+/* harmony import */ var _components_Common_PageBanner__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("Ix5F");
+/* harmony import */ var _components_Services_ServicesStyleOne__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("tVbm");
+/* harmony import */ var _components_Layout_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("v6Hh");
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-class ServicesStyleOne_ServicesStyleOne extends external_react_["Component"] {
+
+
+
+class Services extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
-    return __jsx("section", {
-      className: "services-section pt-100 pb-100"
-    }, __jsx("div", {
-      className: "container"
-    }, __jsx("div", {
-      className: "section-title"
-    }, __jsx("h2", null, "Our Services"), __jsx("p", null, "All leading to your growth"), __jsx("div", {
-      className: "bar"
-    })), __jsx("div", {
-      className: "row"
-    }, __jsx("div", {
-      className: "col-lg-4 col-md-6"
-    }, __jsx("div", {
-      className: "single-services"
-    }, __jsx("div", {
-      className: "icon"
-    }, __jsx("i", {
-      className: "flaticon-it"
-    })), __jsx("h3", null, "ScaleUp to the Next level"), __jsx("p", null, "Holistic Business mentoring to deliver higher growth & profits"), __jsx(link_default.a, {
-      href: "/service-line-one"
-    }, __jsx("a", {
-      className: "read-btn"
-    }, "Know More")))), __jsx("div", {
-      className: "col-lg-4 col-md-6"
-    }, __jsx("div", {
-      className: "single-services"
-    }, __jsx("div", {
-      className: "icon"
-    }, __jsx("i", {
-      className: "flaticon-setting"
-    })), __jsx("h3", null, "Accelerate your growth"), __jsx("p", null, "Business Consulting & Advisory Services to win in the market place"), __jsx(link_default.a, {
-      href: "/service-line-two"
-    }, __jsx("a", {
-      className: "read-btn"
-    }, "Know More")))), __jsx("div", {
-      className: "col-lg-4 col-md-6"
-    }, __jsx("div", {
-      className: "single-services"
-    }, __jsx("div", {
-      className: "icon"
-    }, __jsx("i", {
-      className: "flaticon-promotion"
-    })), __jsx("h3", null, "Connect to  ScaleUp"), __jsx("p", null, "Strategic Connections & eco systems to scaleup your business"), __jsx(link_default.a, {
-      href: "/service-line-three"
-    }, __jsx("a", {
-      className: "read-btn"
-    }, "Know More")))))), __jsx("div", {
-      className: "default-shape"
-    }, __jsx("div", {
-      className: "shape-1"
-    }, __jsx("img", {
-      src: __webpack_require__("+ZGN"),
-      alt: "image"
-    })), __jsx("div", {
-      className: "shape-2 rotateme"
-    }, __jsx("img", {
-      src: __webpack_require__("gSvT"),
-      alt: "image"
-    })), __jsx("div", {
-      className: "shape-3"
-    }, __jsx("img", {
-      src: __webpack_require__("8XMI"),
-      alt: "image"
-    })), __jsx("div", {
-      className: "shape-4"
-    }, __jsx("img", {
-      src: __webpack_require__("vDBV"),
-      alt: "image"
-    })), __jsx("div", {
-      className: "shape-5"
-    }, __jsx("img", {
-      src: __webpack_require__("kyF1"),
-      alt: "image"
-    }))));
+    return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_Layout_Navbar__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], null), __jsx(_components_Services_ServicesStyleOne__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"], null));
   }
 
 }
 
-/* harmony default export */ var Services_ServicesStyleOne = (ServicesStyleOne_ServicesStyleOne);
-// EXTERNAL MODULE: ./components/Layout/Footer.js
-var Footer = __webpack_require__("v6Hh");
-
-// CONCATENATED MODULE: ./pages/services.js
-var services_jsx = external_react_default.a.createElement;
-
-
-
-
-
-
-class services_Services extends external_react_["Component"] {
-  render() {
-    return services_jsx(external_react_default.a.Fragment, null, services_jsx(Navbar["a" /* default */], null), services_jsx(Services_ServicesStyleOne, null), services_jsx(Footer["a" /* default */], null));
-  }
-
-}
-
-/* harmony default export */ var services = __webpack_exports__["default"] = (services_Services);
+/* harmony default export */ __webpack_exports__["default"] = (Services);
 
 /***/ }),
 
@@ -2434,6 +2334,102 @@ function makePublicRouterInstance(router) {
   });
   return instance;
 }
+
+/***/ }),
+
+/***/ "tVbm":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("cDcd");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("YFqc");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+class ServicesStyleOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    return __jsx("section", {
+      className: "services-section pt-100 pb-100"
+    }, __jsx("div", {
+      className: "container"
+    }, __jsx("div", {
+      className: "section-title"
+    }, __jsx("h2", null, "Our Services"), __jsx("p", null, "All leading to your growth"), __jsx("div", {
+      className: "bar"
+    })), __jsx("div", {
+      className: "row"
+    }, __jsx("div", {
+      className: "col-lg-4 col-md-6"
+    }, __jsx("div", {
+      className: "single-services"
+    }, __jsx("div", {
+      className: "icon"
+    }, __jsx("i", {
+      className: "flaticon-it"
+    })), __jsx("h3", null, "ScaleUp to the Next level"), __jsx("p", null, "Holistic Business mentoring to deliver higher growth & profits"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/service-line-one"
+    }, __jsx("a", {
+      className: "read-btn"
+    }, "Know More")))), __jsx("div", {
+      className: "col-lg-4 col-md-6"
+    }, __jsx("div", {
+      className: "single-services"
+    }, __jsx("div", {
+      className: "icon"
+    }, __jsx("i", {
+      className: "flaticon-setting"
+    })), __jsx("h3", null, "Accelerate your growth"), __jsx("p", null, "Business Consulting & Advisory Services to win in the market place"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/service-line-two"
+    }, __jsx("a", {
+      className: "read-btn"
+    }, "Know More")))), __jsx("div", {
+      className: "col-lg-4 col-md-6"
+    }, __jsx("div", {
+      className: "single-services"
+    }, __jsx("div", {
+      className: "icon"
+    }, __jsx("i", {
+      className: "flaticon-promotion"
+    })), __jsx("h3", null, "Connect to  ScaleUp"), __jsx("p", null, "Strategic Connections & eco systems to scaleup your business"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/service-line-three"
+    }, __jsx("a", {
+      className: "read-btn"
+    }, "Know More")))))), __jsx("div", {
+      className: "default-shape"
+    }, __jsx("div", {
+      className: "shape-1"
+    }, __jsx("img", {
+      src: __webpack_require__("+ZGN"),
+      alt: "image"
+    })), __jsx("div", {
+      className: "shape-2 rotateme"
+    }, __jsx("img", {
+      src: __webpack_require__("gSvT"),
+      alt: "image"
+    })), __jsx("div", {
+      className: "shape-3"
+    }, __jsx("img", {
+      src: __webpack_require__("8XMI"),
+      alt: "image"
+    })), __jsx("div", {
+      className: "shape-4"
+    }, __jsx("img", {
+      src: __webpack_require__("vDBV"),
+      alt: "image"
+    })), __jsx("div", {
+      className: "shape-5"
+    }, __jsx("img", {
+      src: __webpack_require__("kyF1"),
+      alt: "image"
+    }))));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["a"] = (ServicesStyleOne);
 
 /***/ }),
 

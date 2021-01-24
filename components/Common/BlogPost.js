@@ -7,13 +7,13 @@ class BlogPost extends Component {
             <section className="blog-section pt-100 pb-70">
                 <div className="container">
                     <div className="section-title">
-                        <h2>Our <span>Latest</span> News</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                        <h2>Case Studies</h2>
+                        <p>We have the expertise in supporting business across industries</p>
                         <div className="bar"></div>
                     </div>
 
-                    <div className="row">
-                        <div className="col-lg-4 col-md-6">
+                    <div className="row landing-page-section">
+                        <div className="col-lg-6 col-md-6">
                             <div className="single-blog">
                                 <div className="image">
                                     <Link href="/blog-details">
@@ -24,22 +24,17 @@ class BlogPost extends Component {
                                 </div>
 
                                 <div className="content">
-                                    <span>20 April 2020</span>
                                     <h3>
                                         <Link href="/blog-details">
-                                            <a>Great Tips To Earn More Money From Digital Industry</a>
+                                            <a>Last mile Rural Distribution & Logistics Company</a>
                                         </Link>
                                     </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor</p>
-
-                                    <Link href="/blog-details">
-                                        <a className="read-more">Read More</a>
-                                    </Link>
+                                    <p>Helped redraw strategies & execution plans for 10x growth</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6">
+                        <div className="col-lg-6 col-md-6">
                             <div className="single-blog">
                                 <div className="image">
                                     <Link href="/blog-details">
@@ -50,46 +45,20 @@ class BlogPost extends Component {
                                 </div>
 
                                 <div className="content">
-                                    <span>21 April 2020</span>
                                     <h3>
                                         <Link href="/blog-details">
-                                            <a>The Billionaire Guide On Design That will Get You Rich</a>
+                                            <a>AI Technology startup</a>
                                         </Link>
                                     </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor</p>
-                                    
-                                    <Link href="/blog-details">
-                                        <a className="read-more">Read More</a>
-                                    </Link>
+                                    <p>Product ideas converted into Go To Market models – new Customer pipes</p>
                                 </div>
                             </div>
                         </div>
-
-                        <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
-                            <div className="single-blog">
-                                <div className="image">
-                                    <Link href="/blog-details">
-                                        <a>
-                                            <img src={require("../../images/blog/blog3.jpg")} alt="image" />
-                                        </a>
-                                    </Link>
-                                </div>
-
-                                <div className="content">
-                                    <span>22 April 2020</span>
-                                    <h3>
-                                        <Link href="/blog-details">
-                                            <a>Making Peace With The Feast Or Famine Of Freelancing</a>
-                                        </Link>
-                                    </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor</p>
-                                    
-                                    <Link href="/blog-details">
-                                        <a className="read-more">Read More</a>
-                                    </Link>
-                                </div>
+                        <Link href="/blog-details">
+                            <div className="view-more">
+                                <button>View More</button>
                             </div>
-                        </div>
+                        </Link>
                     </div>
                 </div>
             </section>

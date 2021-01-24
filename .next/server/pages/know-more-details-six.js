@@ -788,7 +788,7 @@ var know_more_details_six_jsx = external_react_default.a.createElement;
 
 class know_more_details_six_KnowMore extends external_react_["Component"] {
   render() {
-    return know_more_details_six_jsx(external_react_default.a.Fragment, null, know_more_details_six_jsx(Navbar["a" /* default */], null), know_more_details_six_jsx(KnowMoreContentSix, null), know_more_details_six_jsx(Footer["a" /* default */], null));
+    return know_more_details_six_jsx(external_react_default.a.Fragment, null, know_more_details_six_jsx(Navbar["a" /* default */], null), know_more_details_six_jsx(KnowMoreContentSix, null));
   }
 
 }

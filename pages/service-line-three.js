@@ -10,8 +10,6 @@ class ServiceLineOne extends Component {
                 <Navbar />
 
                 <ServiceLineThreeContent />
-         
-                <Footer />
             </React.Fragment>
         );
     }

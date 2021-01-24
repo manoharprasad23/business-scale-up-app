@@ -2167,11 +2167,13 @@ const GrowthTipsContent = () => {
   }, __jsx("div", {
     className: "text"
   }, __jsx("h3", null, "Business Growth Tips")), __jsx("div", {
-    className: "banner-heading"
+    className: "banner-heading row"
   }, __jsx("div", {
-    className: "left-side-heading"
-  }, __jsx("h3", null, "How future ready is your business?")), __jsx("div", {
-    className: "right-side-content"
+    className: "left-side-heading col-lg-4 col-md-12"
+  }, __jsx("h3", {
+    className: "col-lg-12 col-md-6"
+  }, "How future ready is your business?")), __jsx("div", {
+    className: "right-side-content col-lg-6 col-md-12"
   }, __jsx("div", {
     className: "text-content"
   }, __jsx("p", null, "Business dynamics are always changing - more so today than ever before and every business leader or owner is planning and executing strategies to survive, grow and thrive!"), __jsx("p", null, "Our \"How future ready is your business ?\" template helps you assess your readiness !"), __jsx("p", null, "To assure you that you are indeed on the right track for the future or spot areas to help your plans & execution more robust to succeed in the future.")), __jsx("div", {
@@ -2194,7 +2196,7 @@ var growth_tips_jsx = external_react_default.a.createElement;
 
 class growth_tips_GrowthTips extends external_react_["Component"] {
   render() {
-    return growth_tips_jsx(external_react_default.a.Fragment, null, growth_tips_jsx(Navbar["a" /* default */], null), growth_tips_jsx(GrowthTips_GrowthTipsContent, null), growth_tips_jsx(Footer["a" /* default */], null));
+    return growth_tips_jsx(external_react_default.a.Fragment, null, growth_tips_jsx(Navbar["a" /* default */], null), growth_tips_jsx(GrowthTips_GrowthTipsContent, null));
   }
 
 }

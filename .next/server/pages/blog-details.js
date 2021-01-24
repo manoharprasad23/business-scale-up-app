@@ -2397,7 +2397,7 @@ var blog_details_jsx = external_react_default.a.createElement;
 
 class blog_details_BlogDetails extends external_react_["Component"] {
   render() {
-    return blog_details_jsx(external_react_default.a.Fragment, null, blog_details_jsx(Navbar["a" /* default */], null), blog_details_jsx(Blog_BlogDetailsContent, null), blog_details_jsx(Footer["a" /* default */], null));
+    return blog_details_jsx(external_react_default.a.Fragment, null, blog_details_jsx(Navbar["a" /* default */], null), blog_details_jsx(Blog_BlogDetailsContent, null));
   }
 
 }

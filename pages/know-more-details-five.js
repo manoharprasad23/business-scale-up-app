@@ -11,8 +11,6 @@ class KnowMore extends Component {
                 <Navbar />
 
                 <KnowMoreContent />
-                
-                <Footer />
             </React.Fragment>
         );
     }

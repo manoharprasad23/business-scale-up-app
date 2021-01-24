@@ -685,7 +685,7 @@ class service_details_ServiceDetails extends external_react_["Component"] {
       homePageUrl: "/",
       homePageText: "Home",
       activePageText: "Service Details"
-    }), service_details_jsx(Services_ServiceDetailsContent, null), service_details_jsx(Footer["a" /* default */], null));
+    }), service_details_jsx(Services_ServiceDetailsContent, null));
   }
 
 }

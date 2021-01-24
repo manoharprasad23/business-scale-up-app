@@ -784,9 +784,9 @@ class AboutContent_AboutContent extends external_react_["Component"] {
     }, __jsx("h2", null, "The story behind ScaleUp"), __jsx("div", {
       className: "story-behind-scaleUp-container"
     }, __jsx("div", {
-      class: "story-behind-scaleUp-content"
+      class: "story-behind-scaleUp-content col-lg-8 col-md-8 col-sm-12 col-xs-12"
     }, __jsx("p", null, "Entrepreneurship & business are magnets for people with unique minds, ideas & convictions, often armed with key traits of people, dedication and drive to succeed. The thought of controlling your own destiny - to do what you want, and your way is a huge attractive prospect."), __jsx("p", null, "But there is a noteworthy catch. Not everyone is equipped with deep knowledge & understanding about what it takes to succeed. And this limits the true potential of the business to succeed. As Jim Collins quipped, \"Good is often the enemy of great\""), __jsx("p", null, "On the other hand great (& successful) business combine thoughtful strategy, systematic implementation-execution and organizational accountability to drive business improvement, profile growth and success. And this is a result of experience! "), __jsx("p", null, "The passion for sharing decades of business understanding, knowledge and hands-on experience to make business grow & succeed was the driving force behind the start of ScaleUp."), __jsx("p", null, "Our Vision is \"To Empower business and individuals with ideas, tools and support to make them more successful\""), __jsx("p", null, "And we will contribute to the success of as many business and individuals, as we can! And cherish the creation of a prosperous future.")), __jsx("div", {
-      className: "logo-and-sub-heading"
+      className: "logo-and-sub-heading col-lg-4 col-md-4 col-sm-12 col-xs-12"
     }, __jsx("img", {
       src: __webpack_require__("Cc5c"),
       alt: "logo"
@@ -834,7 +834,7 @@ var about_jsx = external_react_default.a.createElement;
 
 class about_About extends external_react_["Component"] {
   render() {
-    return about_jsx(external_react_default.a.Fragment, null, about_jsx(Navbar["a" /* default */], null), about_jsx(About_AboutContent, null), about_jsx(Footer["a" /* default */], null));
+    return about_jsx(external_react_default.a.Fragment, null, about_jsx(Navbar["a" /* default */], null), about_jsx(About_AboutContent, null));
   }
 
 }

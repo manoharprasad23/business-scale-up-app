@@ -180,8 +180,6 @@ class Blog extends Component {
                         </div>
                     </div>
                 </section>
-                
-                <Footer />
             </React.Fragment>
         );
     }
