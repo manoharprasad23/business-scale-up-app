@@ -17,7 +17,7 @@ class BlogDetailsContent extends Component {
                         <h2>Last mile Rural Distribution & Logistics Company</h2>
                         <h6>Helping redraw strategies & execution plans for 10x growth</h6>
                     </div>
-                    <img src={require("../../images/service-details/services-details1.jpg")} alt="image" />
+                    <img src={require("../../images/last-mile-banner.jpg")} alt="image" />
                     <div className="row strategic-plans">
                         <div className="col-lg-4 col-md-6">
                             <div className="more-features-content">

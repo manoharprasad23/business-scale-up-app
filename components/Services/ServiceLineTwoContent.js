@@ -90,7 +90,7 @@ class ServiceLineOneContent extends Component {
                     <div className="results-container">
                         <IndividualResult results={this.IndividualResult} />
                         <div className="image-container">
-                            <img src={require("../../images/shape/shape4.png")} alt="image" />
+                            <img src={require("../../images/delivering-on-our promise-3.png")} alt="image" />
                         </div>
                     </div>
                 </div>

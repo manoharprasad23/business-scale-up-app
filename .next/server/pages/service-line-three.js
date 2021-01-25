@@ -93,13 +93,6 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "+ZGN":
-/***/ (function(module, exports) {
-
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3FpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDozOTRmMGRjMy1mNjc2LTkwNDctOTIzNi1hMWI2ZWQ3NGY0ZmEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NjFBMTIwODNDRkFCMTFFOUE5RjdDRUZCOTc4RDMzQ0IiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NjFBMTIwODJDRkFCMTFFOUE5RjdDRUZCOTc4RDMzQ0IiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOmE1ZWI4ZmZhLWQ4MzctNjE0Ni1hZjg4LWFmYjU5NDgzYTQyYyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozOTRmMGRjMy1mNjc2LTkwNDctOTIzNi1hMWI2ZWQ3NGY0ZmEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7ycCA1AAAA+ElEQVR42qSTvQ7BYBSGv3YRYiQGJG5AwtBZuRBxA0azmI1uQFxI6dxBEzcgwSCMQiziOcmpdEBbTvL0JO37nu/nnFomFtXG2CY50IIa5OEGewghOGwnj0hvxYwV0gDKIIIdXKAIdZDCJ5hT4Pgyq3EIOfDBQ3CNFS6QetCBO8ykgKVbHUEJFrzcmA+Btknqwxmm0Rllq/43o4R+91XviLmtZ/RMuvBU3xJzVS4nfsaE1a96mTVb23Ex2UL0eVv7WMxoFv1NzAfpo7YjMVQnfd+Lea0D0E25alf1oTwCnRxX+2gS+uyqPng3YStYppqwv2f717/qKcAAAANl1ADqJKUAAAAASUVORK5CYII="
-
-/***/ }),
-
 /***/ "/jkW":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -191,6 +184,13 @@ const ActiveLink = (_ref) => {
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (Object(next_router__WEBPACK_IMPORTED_MODULE_0__["withRouter"])(ActiveLink));
+
+/***/ }),
+
+/***/ "0jcP":
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/approach-design-1-836cc79a3ca8aa680835d39d005667d6.png";
 
 /***/ }),
 
@@ -297,7 +297,7 @@ class ServiceLineThreeContent_ServiceLineOneContent extends external_react_["Com
     }, __jsx("p", null, "Our eco system")), __jsx("div", {
       className: "image-container"
     }, __jsx("img", {
-      src: __webpack_require__("+ZGN"),
+      src: __webpack_require__("0jcP"),
       alt: "image"
     })))), __jsx("div", {
       className: "business-strategy-details"
@@ -310,7 +310,7 @@ class ServiceLineThreeContent_ServiceLineOneContent extends external_react_["Com
     }), __jsx("div", {
       className: "image-container"
     }, __jsx("img", {
-      src: __webpack_require__("+ZGN"),
+      src: __webpack_require__("bqWm"),
       alt: "image"
     })))), __jsx("div", {
       className: "business-strategy-details business-case-studies"
@@ -957,6 +957,13 @@ const ServicesFooter = () => {
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (ServicesFooter);
+
+/***/ }),
+
+/***/ "bqWm":
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/delivering-on-our promise-2-8a54ce26603c448aaa79cd78ee926981.png";
 
 /***/ }),
 

@@ -75,7 +75,7 @@ class ServiceLineOneContent extends Component {
                             <p>Our eco system</p>
                         </div>
                         <div className="image-container">
-                            <img src={require("../../images/shape/shape4.png")} alt="image" />
+                            <img src={require("../../images/approach-design-1.png")} alt="image" />
                         </div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@ class ServiceLineOneContent extends Component {
                     <div className="results-container">
                         <IndividualResult results={this.IndividualResult} />
                         <div className="image-container">
-                            <img src={require("../../images/shape/shape4.png")} alt="image" />
+                            <img src={require("../../images/delivering-on-our promise-2.png")} alt="image" />
                         </div>
                     </div>
                 </div>

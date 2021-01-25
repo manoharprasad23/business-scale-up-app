@@ -22,7 +22,7 @@ class Blog extends Component {
                                     <div className="image">
                                         <Link href="/blog-details">
                                             <a>
-                                                <img src={require("../images/blog/blog1.jpg")} alt="image" />
+                                                <img src={require("../images/case-studies-1.jpg")} alt="image" />
                                             </a>
                                         </Link>
                                     </div>
@@ -43,7 +43,7 @@ class Blog extends Component {
                                     <div className="image">
                                         <Link href="/blog-details">
                                             <a>
-                                                <img src={require("../images/blog/blog2.jpg")} alt="image" />
+                                                <img src={require("../images/case-studies-2.jpg")} alt="image" />
                                             </a>
                                         </Link>
                                     </div>
@@ -64,7 +64,7 @@ class Blog extends Component {
                                     <div className="image">
                                         <Link href="/blog-details">
                                             <a>
-                                                <img src={require("../images/blog/blog3.jpg")} alt="image" />
+                                                <img src={require("../images/case-studies-3.jpg")} alt="image" />
                                             </a>
                                         </Link>
                                     </div>
@@ -85,7 +85,7 @@ class Blog extends Component {
                                     <div className="image">
                                         <Link href="/blog-details">
                                             <a>
-                                                <img src={require("../images/blog/blog4.jpg")} alt="image" />
+                                                <img src={require("../images/case-studies-4.jpg")} alt="image" />
                                             </a>
                                         </Link>
                                     </div>
@@ -108,7 +108,7 @@ class Blog extends Component {
                                     <div className="image">
                                         <Link href="/blog-details">
                                             <a>
-                                                <img src={require("../images/blog/blog5.jpg")} alt="image" />
+                                                <img src={require("../images/case-studies-5.jpg")} alt="image" />
                                             </a>
                                         </Link>
                                     </div>
@@ -130,7 +130,7 @@ class Blog extends Component {
                                     <div className="image">
                                         <Link href="/blog-details">
                                             <a>
-                                                <img src={require("../images/blog/blog6.jpg")} alt="image" />
+                                                <img src={require("../images/case-studies-6.jpg")} alt="image" />
                                             </a>
                                         </Link>
                                     </div>

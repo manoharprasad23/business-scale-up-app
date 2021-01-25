@@ -143,6 +143,13 @@ function withRouter(ComposedComponent) {
 
 /***/ }),
 
+/***/ "0OLa":
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/last-mile-banner-fe485da540e642f44220033d9dcff646.jpg";
+
+/***/ }),
+
 /***/ "0Yqi":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -447,13 +454,6 @@ function _interopRequireWildcard(obj) {
 }
 
 module.exports = _interopRequireWildcard;
-
-/***/ }),
-
-/***/ "9g2t":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/services-details1-9759ab38e836a62ffe77d5e6527a600b.jpg";
 
 /***/ }),
 
@@ -2361,7 +2361,7 @@ class BlogDetailsContent_BlogDetailsContent extends external_react_["Component"]
     }, BlogDetailsContent_jsx("div", {
       className: "text"
     }, BlogDetailsContent_jsx("h2", null, "Last mile Rural Distribution & Logistics Company"), BlogDetailsContent_jsx("h6", null, "Helping redraw strategies & execution plans for 10x growth")), BlogDetailsContent_jsx("img", {
-      src: __webpack_require__("9g2t"),
+      src: __webpack_require__("0OLa"),
       alt: "image"
     }), BlogDetailsContent_jsx("div", {
       className: "row strategic-plans"
