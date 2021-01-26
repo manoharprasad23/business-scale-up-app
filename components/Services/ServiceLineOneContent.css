@@ -166,6 +166,10 @@
     padding: 20px;
 }
 
+.main-banner-content .banner-heading img {
+    width: 30%;
+}
+
 .growth-tips .left-side-heading {
     padding: 20px;
     background-color: #fff;
@@ -590,4 +594,32 @@
     .landing-page-section .view-more button {
         margin-right: 0;
     }
+}
+
+/* -------------- main banner slider 2 css ------------------- */
+
+.main-banner-content-2 .banner-heading {
+    justify-content: center;
+}
+
+.main-banner-content-2 .banner-heading .slider-2-left-img {
+    width: 24%;
+    object-fit: contain;
+}
+
+.main-banner-content-2 .banner-heading .slider-2-right-img {
+    width: 44%;
+    margin-left: 40px;
+    object-fit: contain;
+    z-index: 100;
+}
+
+.main-banner-content-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.main-banner-content-4 img {
+    width: 70%;
+    z-index: 100;
 }

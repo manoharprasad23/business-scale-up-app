@@ -10,8 +10,6 @@ class Quiz extends Component {
                 <Navbar />
 
                 <QuizContent />
-         
-                <Footer />
             </React.Fragment>
         );
     }

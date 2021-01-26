@@ -263,7 +263,7 @@ var download_result_jsx = external_react_default.a.createElement;
 
 class download_result_Result extends external_react_["Component"] {
   render() {
-    return download_result_jsx(external_react_default.a.Fragment, null, download_result_jsx(Navbar["a" /* default */], null), download_result_jsx(DownloadResultContent_DownloadResultContent, null), download_result_jsx(Footer["a" /* default */], null));
+    return download_result_jsx(external_react_default.a.Fragment, null, download_result_jsx(Navbar["a" /* default */], null), download_result_jsx(DownloadResultContent_DownloadResultContent, null));
   }
 
 }

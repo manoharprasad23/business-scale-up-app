@@ -2072,7 +2072,7 @@ var quiz_jsx = external_react_default.a.createElement;
 
 class quiz_Quiz extends external_react_["Component"] {
   render() {
-    return quiz_jsx(external_react_default.a.Fragment, null, quiz_jsx(Navbar["a" /* default */], null), quiz_jsx(QuizContent_QuizContent, null), quiz_jsx(Footer["a" /* default */], null));
+    return quiz_jsx(external_react_default.a.Fragment, null, quiz_jsx(Navbar["a" /* default */], null), quiz_jsx(QuizContent_QuizContent, null));
   }
 
 }

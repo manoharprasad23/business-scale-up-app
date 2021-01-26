@@ -222,6 +222,13 @@ module.exports = __webpack_require__("RNiq");
 
 /***/ }),
 
+/***/ "2W9I":
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/slider-4-784987d9d1c68a898b0b57ebbbd2a82d.png";
+
+/***/ }),
+
 /***/ "3WeD":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -282,6 +289,13 @@ function assign(target, ...searchParamsList) {
 /***/ (function(module, exports) {
 
 module.exports = require("next/router");
+
+/***/ }),
+
+/***/ "53mW":
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/slider-2-right-24d7e0d75809d497f4c17db5ab76c139.png";
 
 /***/ }),
 
@@ -657,18 +671,20 @@ class BannerSlider_BannerSlider extends external_react_["Component"] {
     }) => __jsx("div", {
       className: "container mt-50"
     }, __jsx("div", {
-      className: "main-banner-content"
-    }, __jsx("h1", {
-      className: isVisible ? "animated fadeInUp" : ''
-    }, "Software & Development"), __jsx("p", {
-      className: isVisible ? "animated fadeInUp" : ''
-    }, "Lorem ipsum dolor sit amet, consectetur adipiscing incididunt ut laboredolore magna aliqua elsed  tempomet, consectetur adipiscing."), __jsx("div", {
-      className: `banner-btn ${isVisible ? "animated fadeInUp" : ''}`
-    }, __jsx(link_default.a, {
-      href: "/contact"
-    }, __jsx("a", {
-      className: "default-btn"
-    }, "Get Started")))), __jsx("div", {
+      className: "main-banner-content-2"
+    }, __jsx("div", {
+      className: "banner-heading growth-tips row"
+    }, __jsx("img", {
+      className: "slider-2-left-img",
+      src: __webpack_require__("s/Jc"),
+      alt: "Image"
+    }), __jsx(link_default.a, {
+      href: "/quiz"
+    }, __jsx("img", {
+      className: "slider-2-right-img",
+      src: __webpack_require__("53mW"),
+      alt: "Image"
+    }))), __jsx("div", {
       className: `banner-image ${isVisible ? "animated fadeInUp" : ''}`
     }, __jsx("img", {
       src: __webpack_require__("tdna"),
@@ -677,7 +693,7 @@ class BannerSlider_BannerSlider extends external_react_["Component"] {
       src: __webpack_require__("iXsl"),
       className: "banner-img",
       alt: "image"
-    }))))))), __jsx("div", {
+    })))))))), __jsx("div", {
       className: "home-item item-bg3"
     }, __jsx("div", {
       className: "d-table"
@@ -719,18 +735,13 @@ class BannerSlider_BannerSlider extends external_react_["Component"] {
     }) => __jsx("div", {
       className: "container mt-50"
     }, __jsx("div", {
-      className: "main-banner-content"
-    }, __jsx("h1", {
-      className: isVisible ? "animated fadeInUp" : ''
-    }, "Helping you \u201CScaleUp to the next Level\u201D"), __jsx("p", {
-      className: isVisible ? "animated fadeInUp" : ''
-    }, "Last Mile Rural Distribution & Logistics company Helped re draw strategies and execution plans for 10x growth"), __jsx("div", {
-      className: `banner-btn ${isVisible ? "animated fadeInUp" : ''}`
+      className: "main-banner-content-4"
     }, __jsx(link_default.a, {
       href: "/contact"
-    }, __jsx("a", {
-      className: "default-btn"
-    }, "Know more")))), __jsx("div", {
+    }, __jsx("img", {
+      src: __webpack_require__("2W9I"),
+      alt: "Image"
+    }))), __jsx("div", {
       className: `banner-image ${isVisible ? "animated fadeInUp" : ''}`
     }, __jsx("img", {
       src: __webpack_require__("tdna"),
@@ -765,7 +776,10 @@ var pages_jsx = external_react_default.a.createElement;
 
 class pages_Index extends external_react_["Component"] {
   render() {
-    return pages_jsx(external_react_default.a.Fragment, null, pages_jsx(Navbar["a" /* default */], null), pages_jsx(HomeOne_BannerSlider, null), pages_jsx(ServicesStyleOne["a" /* default */], null), pages_jsx(BlogPost["a" /* default */], null), pages_jsx(ServicesFooter["a" /* default */], null));
+    return pages_jsx(external_react_default.a.Fragment, null, pages_jsx(Navbar["a" /* default */], null), pages_jsx(HomeOne_BannerSlider, null), pages_jsx(ServicesStyleOne["a" /* default */], null), pages_jsx("img", {
+      src: __webpack_require__("vONH"),
+      alt: "who-benefits-from-us"
+    }), pages_jsx(BlogPost["a" /* default */], null), pages_jsx(ServicesFooter["a" /* default */], null));
   }
 
 }
@@ -2653,6 +2667,13 @@ module.exports = "/_next/static/images/home-1-img1-e32f5ef39dc7ea5f860038fcb19a2
 
 /***/ }),
 
+/***/ "s/Jc":
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/slider-2-left-2f31d8be084618fecb72cfc2a05bdc16.png";
+
+/***/ }),
+
 /***/ "s3bY":
 /***/ (function(module, exports) {
 
@@ -2767,6 +2788,13 @@ module.exports = "/_next/static/images/home-1-shape-19f7531362a821f9175ea11e593c
 /***/ (function(module, exports) {
 
 module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3FpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDozOTRmMGRjMy1mNjc2LTkwNDctOTIzNi1hMWI2ZWQ3NGY0ZmEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OTA2NjJDRTJDRkFCMTFFOTkxRDhENjk4NzU3Q0E0NTMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OTA2NjJDRTFDRkFCMTFFOTkxRDhENjk4NzU3Q0E0NTMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOmE1ZWI4ZmZhLWQ4MzctNjE0Ni1hZjg4LWFmYjU5NDgzYTQyYyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozOTRmMGRjMy1mNjc2LTkwNDctOTIzNi1hMWI2ZWQ3NGY0ZmEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7n29L9AAABJUlEQVR42qyUsUoDURBF304WrNzCFCJYJWWK9Kn3HwRBsEgpFn6IhVhaCIKQf9h6+xRbJlUgWMQiVgElnoGrhCfortmBwyve3LvDvJlNQxTr88uEYwBD6EP2dQUzmEKVPT9ud3VJZHLKcQYn8A5zWOm6Cz1IYQkTzBY/jDDxKi7gAwooSdxEHzrgGEEOHXgip/o2UiVX8AYPXL6EX4L8Y44xHMK9V5aoJzdwBHd/mURm1/AKt6bGek+KuiYeyi2kHZhexxtbhuZRSjs0PfE8bmzNqjZ62b5pTlbh/+HazEJLYZrY7h4erl2bxr6nYWsU0vi0z0y7k2pim8ZI2qkbVdqdXEMWGgxkLm1l2uKJdmdcx2xnRTpa3m27S9vqb2TfH9unAAMAznd8GeFGdb8AAAAASUVORK5CYII="
+
+/***/ }),
+
+/***/ "vONH":
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/who-benefits-from-us-62e2bb942de395031cd7c4df3e8f78cd.png";
 
 /***/ }),
 

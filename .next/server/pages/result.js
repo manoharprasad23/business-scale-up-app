@@ -2297,7 +2297,7 @@ var result_jsx = external_react_default.a.createElement;
 
 class result_Result extends external_react_["Component"] {
   render() {
-    return result_jsx(external_react_default.a.Fragment, null, result_jsx(Navbar["a" /* default */], null), result_jsx(ResultContent_ResultContent, null), result_jsx(Footer["a" /* default */], null));
+    return result_jsx(external_react_default.a.Fragment, null, result_jsx(Navbar["a" /* default */], null), result_jsx(ResultContent_ResultContent, null));
   }
 
 }

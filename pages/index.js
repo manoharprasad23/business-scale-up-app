@@ -12,6 +12,7 @@ class Index extends Component {
                 <Navbar />
                 <BannerSlider />
                 <Services />
+                <img src={require("../images/who-benefits-from-us.png")} alt="who-benefits-from-us" />
                 <BlogPost />
                 <ServicesFooter />
             </React.Fragment>

@@ -10,8 +10,6 @@ class Result extends Component {
                 <Navbar />
 
                 <DownloadResultContent />
-         
-                <Footer />
             </React.Fragment>
         );
     }
