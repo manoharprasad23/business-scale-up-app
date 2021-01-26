@@ -1,9 +1,35 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {QuizData} from '../QuizData/QuizData';
 
-const Question = () => {
-    console.log(QuizData);
+const Question = (props) => {
     const totalNumberOfQuestions = QuizData.length;
+
+    const [ questionAndAnswer, setQuestionAndAnswer ] = useState([]); 
+
+    const clickHandler = (id, answerOption) => {
+        if(answerOption === '_first_option') {
+            const newElement = {
+                question: JSON.parse(JSON.stringify(QuizData[id-1].question)),
+                answerSelected: JSON.parse(JSON.stringify(QuizData[id-1].optionOne))
+            }
+            setQuestionAndAnswer(questionAndAnswer => [...questionAndAnswer, newElement]);
+        } else if (answerOption === '_second_option') {
+            const newElement = {
+                question: JSON.parse(JSON.stringify(QuizData[id-1].question)),
+                answerSelected: JSON.parse(JSON.stringify(QuizData[id-1].optionTwo))
+            }
+            setQuestionAndAnswer(questionAndAnswer => [...questionAndAnswer, newElement]);
+        } else if(answerOption === '_third_option') {
+            const newElement = {
+                question: JSON.parse(JSON.stringify(QuizData[id-1].question)),
+                answerSelected: JSON.parse(JSON.stringify(QuizData[id-1].optionThree))
+            }
+            setQuestionAndAnswer(questionAndAnswer => [...questionAndAnswer, newElement]);
+        }
+        console.log('q-'+JSON.stringify(questionAndAnswer));
+        props.sendFormData(questionAndAnswer);
+    }
+
     return (
         <div className="question-content">
             {
@@ -27,19 +53,19 @@ const Question = () => {
                                 <div className="answer-options">
                                     <div className="option">
                                         <label for="one">
-                                            <input type="radio" id="one" name="first_item" value="1" />
+                                            <input onClick={()=>clickHandler(id, '_first_option')} type="radio" id={id} name={id+"-answer"} value="1" />
                                             {optionOne}
                                         </label>
                                     </div>
                                     <div className="option">
                                         <label for="two">
-                                            <input type="radio" id="two" name="first_item" value="2" />
+                                            <input onClick={()=>clickHandler(id, '_second_option')} type="radio" id={id} name={id+"-answer"} value="2" />
                                             {optionTwo}
                                         </label>
                                     </div>
                                     <div className="option">
                                         <label for="three">
-                                            <input type="radio" id="three" name="first_item" value="3" />
+                                            <input onClick={()=>clickHandler(id, '_third_option')} type="radio" id={id} name={id+"-answer"} value="3" />
                                             {optionThree}
                                         </label>
                                     </div>

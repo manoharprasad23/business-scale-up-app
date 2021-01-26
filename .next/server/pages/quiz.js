@@ -1970,9 +1970,38 @@ var __jsx = external_react_default.a.createElement;
 
 
 
-const Question = () => {
-  console.log(QuizData);
+const Question = props => {
   const totalNumberOfQuestions = QuizData.length;
+  const {
+    0: questionAndAnswer,
+    1: setQuestionAndAnswer
+  } = Object(external_react_["useState"])([]);
+
+  const clickHandler = (id, answerOption) => {
+    if (answerOption === '_first_option') {
+      const newElement = {
+        question: JSON.parse(JSON.stringify(QuizData[id - 1].question)),
+        answerSelected: JSON.parse(JSON.stringify(QuizData[id - 1].optionOne))
+      };
+      setQuestionAndAnswer(questionAndAnswer => [...questionAndAnswer, newElement]);
+    } else if (answerOption === '_second_option') {
+      const newElement = {
+        question: JSON.parse(JSON.stringify(QuizData[id - 1].question)),
+        answerSelected: JSON.parse(JSON.stringify(QuizData[id - 1].optionTwo))
+      };
+      setQuestionAndAnswer(questionAndAnswer => [...questionAndAnswer, newElement]);
+    } else if (answerOption === '_third_option') {
+      const newElement = {
+        question: JSON.parse(JSON.stringify(QuizData[id - 1].question)),
+        answerSelected: JSON.parse(JSON.stringify(QuizData[id - 1].optionThree))
+      };
+      setQuestionAndAnswer(questionAndAnswer => [...questionAndAnswer, newElement]);
+    }
+
+    console.log('q-' + JSON.stringify(questionAndAnswer));
+    props.sendFormData(questionAndAnswer);
+  };
+
   return __jsx("div", {
     className: "question-content"
   }, QuizData.map(item => {
@@ -2004,27 +2033,30 @@ const Question = () => {
     }, __jsx("label", {
       for: "one"
     }, __jsx("input", {
+      onClick: () => clickHandler(id, '_first_option'),
       type: "radio",
-      id: "one",
-      name: "first_item",
+      id: id,
+      name: id + "-answer",
       value: "1"
     }), optionOne)), __jsx("div", {
       className: "option"
     }, __jsx("label", {
       for: "two"
     }, __jsx("input", {
+      onClick: () => clickHandler(id, '_second_option'),
       type: "radio",
-      id: "two",
-      name: "first_item",
+      id: id,
+      name: id + "-answer",
       value: "2"
     }), optionTwo)), __jsx("div", {
       className: "option"
     }, __jsx("label", {
       for: "three"
     }, __jsx("input", {
+      onClick: () => clickHandler(id, '_third_option'),
       type: "radio",
-      id: "three",
-      name: "first_item",
+      id: id,
+      name: id + "-answer",
       value: "3"
     }), optionThree)))));
   }));
@@ -2042,6 +2074,25 @@ var QuizContent_jsx = external_react_default.a.createElement;
 
 
 const QuizContent = () => {
+  let questionAndAnswerForm;
+
+  const getFormData = formData => {
+    questionAndAnswerForm = JSON.stringify(formData);
+    console.log('form--->' + questionAndAnswerForm);
+  };
+
+  const handleSubmit = event => {
+    event.preventDefault(); //if(questionAndAnswerForm.length >= 10){
+
+    fetch('https://jsonplaceholder.typicode.com/posts', {
+      method: 'POST',
+      body: questionAndAnswerForm,
+      headers: {
+        'Content-type': 'application/json; charset=UTF-8'
+      }
+    }); //}
+  };
+
   return QuizContent_jsx("div", {
     className: "quiz-content ptb-100"
   }, QuizContent_jsx("div", {
@@ -2050,13 +2101,18 @@ const QuizContent = () => {
     className: "text"
   }, QuizContent_jsx("h3", null, "How future ready is your business?")), QuizContent_jsx("div", {
     className: "sub-heading"
-  }, QuizContent_jsx("p", null, "Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here")), QuizContent_jsx(Question_Question, null), QuizContent_jsx("div", {
+  }, QuizContent_jsx("p", null, "Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here")), QuizContent_jsx("form", {
+    onSubmit: handleSubmit
+  }, QuizContent_jsx(Question_Question, {
+    sendFormData: getFormData
+  }), QuizContent_jsx("div", {
     className: "submit-button"
   }, QuizContent_jsx(link_default.a, {
     href: "/result"
   }, QuizContent_jsx("button", {
-    className: "submit"
-  }, "Submit")))));
+    className: "submit",
+    type: "submit"
+  }, "Submit"))))));
 };
 
 /* harmony default export */ var QuizContent_QuizContent = (QuizContent);
