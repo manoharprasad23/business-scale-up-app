@@ -9,7 +9,14 @@ class Services extends Component {
         return (
             <React.Fragment>
                 <Navbar />
+                <PageBanner 
+                    pageTitle="Our Services" 
+                    homePageUrl="/" 
+                    homePageText="Home" 
+                    activePageText="Our Services" 
+                /> 
                 <ServicesStyleOne />
+                <Footer />
             </React.Fragment>
         );
     }

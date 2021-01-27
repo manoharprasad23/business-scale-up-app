@@ -9,12 +9,18 @@ class Blog extends Component {
         return (
             <React.Fragment>
                 <Navbar />
+                <PageBanner 
+                    pageTitle="Case Studies" 
+                    homePageUrl="/" 
+                    homePageText="Home" 
+                    activePageText="Case Studies" 
+                /> 
           
-                <section className="blog-section case-studies-container ptb-100">
+                <section className="blog-section case-studies-container">
                     <div className="container">
-                        <div className="text">
-                            <h2>Case Studies</h2>    
-                            <h6 className="case-studies-sub-headline">We have the expertise in supporting businesses across industries</h6>
+                        <div className="section-title">   
+                            <h2>We have the expertise in supporting businesses across industries</h2>
+                            <div className="bar"></div>
                         </div>
                         <div className="row">
                             <div className="col-lg-4 col-md-6">
@@ -180,6 +186,7 @@ class Blog extends Component {
                         </div>
                     </div>
                 </section>
+                <Footer />
             </React.Fragment>
         );
     }

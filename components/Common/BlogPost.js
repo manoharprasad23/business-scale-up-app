@@ -4,7 +4,7 @@ import Link from 'next/link';
 class BlogPost extends Component {
     render() {
         return (
-            <section className="blog-section pt-100 pb-70">
+            <section className="blog-section pb-70">
                 <div className="container">
                     <div className="section-title">
                         <h2>Case Studies</h2>
@@ -55,8 +55,13 @@ class BlogPost extends Component {
                             </div>
                         </div>
                         <Link href="/blog-details">
-                            <div className="view-more">
+                            {/* <div className="view-more">
                                 <button>View More</button>
+                            </div> */}
+                            <div className="col-lg-6 col-md-6">
+                                <div className="view-more">
+                                    <button type="button">View More</button>
+                                </div>
                             </div>
                         </Link>
                     </div>

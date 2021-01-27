@@ -11,11 +11,11 @@ class BlogDetailsContent extends Component {
         console.log(this.props);
         
         return (
-            <section className="news-details-area case-studies-sub-component-container ptb-100">
+            <section className="news-details-area case-studies-sub-component-container">
                 <div className="container">
-                    <div className="text">
-                        <h2>Last mile Rural Distribution & Logistics Company</h2>
-                        <h6>Helping redraw strategies & execution plans for 10x growth</h6>
+                    <div className="section-title">
+                        <h2>Helping redraw strategies & execution plans for 10x growth</h2>
+                        <div className="bar"></div>
                     </div>
                     <img src={require("../../images/last-mile-banner.jpg")} alt="image" />
                     <div className="row strategic-plans">

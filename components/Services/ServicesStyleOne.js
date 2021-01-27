@@ -4,11 +4,10 @@ import Link from 'next/link';
 class ServicesStyleOne extends Component {
     render() {
         return (
-            <section className="services-section pt-100 pb-100">
+            <section className="services-section">
                 <div className="container">
                     <div className="section-title">
-                        <h2>Our Services</h2>
-                        <p>All leading to your growth</p>
+                        <h2>All leading to your growth</h2>
                         <div className="bar"></div>
                     </div>
 

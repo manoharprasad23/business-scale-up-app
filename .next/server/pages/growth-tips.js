@@ -2159,30 +2159,26 @@ var __jsx = external_react_default.a.createElement;
 
 const GrowthTipsContent = () => {
   return __jsx("div", {
-    className: "growth-tips pt-100 pb-100"
+    className: "growth-tips"
   }, __jsx("div", {
     className: "container"
   }, __jsx("div", {
-    className: "services-details"
+    className: "section-title"
+  }, __jsx("h2", null, "Business Growth Tips"), __jsx("div", {
+    className: "bar"
+  })), __jsx("div", {
+    className: "row"
   }, __jsx("div", {
-    className: "text"
-  }, __jsx("h3", null, "Business Growth Tips")), __jsx("div", {
-    className: "banner-heading row"
+    className: "col-lg-4 col-md-6"
   }, __jsx("div", {
-    className: "left-side-heading col-lg-4 col-md-12"
-  }, __jsx("h3", {
-    className: "col-lg-12 col-md-6"
-  }, "How future ready is your business?")), __jsx("div", {
-    className: "right-side-content col-lg-6 col-md-12"
-  }, __jsx("div", {
-    className: "text-content"
-  }, __jsx("p", null, "Business dynamics are always changing - more so today than ever before and every business leader or owner is planning and executing strategies to survive, grow and thrive!"), __jsx("p", null, "Our \"How future ready is your business ?\" template helps you assess your readiness !"), __jsx("p", null, "To assure you that you are indeed on the right track for the future or spot areas to help your plans & execution more robust to succeed in the future.")), __jsx("div", {
-    className: "banner-bottom-content"
-  }, __jsx("h6", null, "How future ready is your business?"), __jsx(link_default.a, {
+    className: "single-services"
+  }, __jsx("h3", null, "How Future Ready Is Your Business?"))), __jsx("div", {
+    class: "right-side-content section-title col-lg-7 col-md-6"
+  }, __jsx("p", null, "Business dynamics are always changing - more so today than ever before and every business leader or owner is planning and executing strategies to survive, grow and thrive!"), __jsx("p", null, "Our \"How future ready is your business ?\" template helps you assess your readiness !"), __jsx("p", null, "To assure you that you are indeed on the right track for the future or spot areas to help your plans & execution more robust to succeed in the future."), __jsx("h6", null, "How future ready is your business?"), __jsx(link_default.a, {
     href: "/quiz"
   }, __jsx("button", {
-    className: "check-now-button"
-  }, "Check Now - Free"))))))));
+    className: "default-btn"
+  }, "Check Now - Free"))))));
 };
 
 /* harmony default export */ var GrowthTips_GrowthTipsContent = (GrowthTipsContent);
@@ -2196,7 +2192,12 @@ var growth_tips_jsx = external_react_default.a.createElement;
 
 class growth_tips_GrowthTips extends external_react_["Component"] {
   render() {
-    return growth_tips_jsx(external_react_default.a.Fragment, null, growth_tips_jsx(Navbar["a" /* default */], null), growth_tips_jsx(GrowthTips_GrowthTipsContent, null));
+    return growth_tips_jsx(external_react_default.a.Fragment, null, growth_tips_jsx(Navbar["a" /* default */], null), growth_tips_jsx(PageBanner["a" /* default */], {
+      pageTitle: "Growth Tips",
+      homePageUrl: "/",
+      homePageText: "Home",
+      activePageText: "Growth Tips"
+    }), growth_tips_jsx(GrowthTips_GrowthTipsContent, null), growth_tips_jsx(Footer["a" /* default */], null));
   }
 
 }
@@ -2384,22 +2385,16 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       className: "col-lg-6 col-md-6"
     }, __jsx("div", {
       className: "subscribe-content"
-    }, __jsx("h2", null, "Join Our Newsletter"), __jsx("p", null, "News letter dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."))), __jsx("div", {
+    }, __jsx("h2", null, "Think We Can Help You?"))), __jsx("div", {
       className: "col-lg-6 col-md-6"
     }, __jsx("form", {
       className: "newsletter-form"
-    }, __jsx("input", {
-      type: "email",
-      className: "input-newsletter",
-      placeholder: "Enter your email",
-      name: "email",
-      required: true
-    }), __jsx("button", {
+    }, __jsx("button", {
       type: "submit"
-    }, "Subscribe Now"))))), __jsx("div", {
+    }, "Enquire Now"))))), __jsx("div", {
       className: "row"
     }, __jsx("div", {
-      className: "col-lg-3 col-md-6 col-sm-6"
+      className: "col-lg-4 col-md-6 col-sm-6"
     }, __jsx("div", {
       className: "single-footer-widget"
     }, __jsx("div", {
@@ -2431,7 +2426,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("i", {
       className: "flaticon-instagram"
     }))))))), __jsx("div", {
-      className: "col-lg-3 col-md-6 col-sm-6"
+      className: "col-lg-4 col-md-6 col-sm-6"
     }, __jsx("div", {
       className: "single-footer-widget"
     }, __jsx("div", {
@@ -2449,27 +2444,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("a", null, "Blog"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/contact"
     }, __jsx("a", null, "Contact")))))), __jsx("div", {
-      className: "col-lg-3 col-md-6 col-sm-6"
-    }, __jsx("div", {
-      className: "single-footer-widget"
-    }, __jsx("div", {
-      className: "footer-heading"
-    }, __jsx("h3", null, "Featured Service")), __jsx("ul", {
-      className: "footer-quick-links"
-    }, __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, "IT Management"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", {
-      href: "#"
-    }, "Development"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/services"
-    }, __jsx("a", null, "Services"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, "UI/UX Design"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, "Support Engineer")))))), __jsx("div", {
-      className: "col-lg-3 col-md-6 col-sm-6"
+      className: "col-lg-4 col-md-6 col-sm-6"
     }, __jsx("div", {
       className: "single-footer-widget"
     }, __jsx("div", {

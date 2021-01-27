@@ -11,7 +11,7 @@ const QuizContent = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        //if(questionAndAnswerForm.length >= 10){
+        if(questionAndAnswerForm.length > 0){
             fetch('https://jsonplaceholder.typicode.com/posts', {
                 method: 'POST',
                 body: questionAndAnswerForm,
@@ -19,16 +19,14 @@ const QuizContent = () => {
                   'Content-type': 'application/json; charset=UTF-8',
                 }
             })
-        //}
+        }
     }
     return (
         <div className="quiz-content ptb-100">
             <div className="container">
-                <div className="text">
-                    <h3>How future ready is your business?</h3>
-                </div>
-                <div className="sub-heading">
-                    <p>Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here</p>
+                <div className="section-title">
+                    <h2>Take the test</h2>
+                    <div className="bar"></div>
                 </div>
                 <form onSubmit={handleSubmit}>
                 <Question sendFormData={getFormData}/>

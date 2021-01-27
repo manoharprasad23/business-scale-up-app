@@ -190,7 +190,7 @@ const ActiveLink = (_ref) => {
 /***/ "0jcP":
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/approach-design-1-836cc79a3ca8aa680835d39d005667d6.png";
+module.exports = "/_next/static/images/approach-design-1-a21c7b576bff14c3df760bbbb5a993ea.png";
 
 /***/ }),
 
@@ -208,11 +208,15 @@ var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_)
 // EXTERNAL MODULE: ./components/Layout/Navbar.js + 1 modules
 var Navbar = __webpack_require__("zCU4");
 
+// EXTERNAL MODULE: ./components/Common/PageBanner.js
+var PageBanner = __webpack_require__("Ix5F");
+
 // EXTERNAL MODULE: ./components/Services/ServicesBannerHeading.js
 var ServicesBannerHeading = __webpack_require__("ZXap");
 
 // EXTERNAL MODULE: ./node_modules/next/link.js
 var next_link = __webpack_require__("YFqc");
+var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 
 // EXTERNAL MODULE: ./components/Services/IndividualResult.js
 var IndividualResult = __webpack_require__("KTN4");
@@ -220,14 +224,10 @@ var IndividualResult = __webpack_require__("KTN4");
 // EXTERNAL MODULE: ./components/Services/ServiceCaseStudies.js
 var ServiceCaseStudies = __webpack_require__("6cVd");
 
-// EXTERNAL MODULE: ./components/Services/ServicesFooter.js
-var ServicesFooter = __webpack_require__("a9bI");
-
 // CONCATENATED MODULE: ./components/Services/ServiceLineThreeContent.js
 var __jsx = external_react_default.a.createElement;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 
 
 
@@ -275,10 +275,36 @@ class ServiceLineThreeContent_ServiceLineOneContent extends external_react_["Com
     }, __jsx("div", {
       className: "services-details"
     }, __jsx("div", {
-      className: "text"
-    }, __jsx("h3", null, "Connect to ScaleUp"), __jsx(ServicesBannerHeading["a" /* default */], {
-      bannerHeadingData: this.bannerHeadingData
-    })))), __jsx("div", {
+      className: "section-title"
+    }, __jsx("h2", null, "Connect to ScaleUp"), __jsx("div", {
+      className: "bar"
+    }), __jsx("section", {
+      className: "tech-section"
+    }, __jsx("div", {
+      className: ""
+    }, __jsx("div", {
+      className: "row align-items-center"
+    }, __jsx("div", {
+      className: "col-lg-6"
+    }, __jsx("div", {
+      className: "tech-content"
+    }, __jsx("h3", null, "Strategic connections & eco system to scaleup your business"), __jsx("div", {
+      className: "bar"
+    }))), __jsx("div", {
+      className: "col-lg-6 tech-section-buttons"
+    }, __jsx("div", {
+      className: "tech-btn"
+    }, __jsx(link_default.a, {
+      href: "#"
+    }, __jsx("a", {
+      className: "default-btn"
+    }, "Know More"))), __jsx("div", {
+      className: "tech-btn"
+    }, __jsx(link_default.a, {
+      href: "#"
+    }, __jsx("a", {
+      className: "default-btn"
+    }, "Enquire More")))))))))), __jsx("div", {
       className: "business-strategy-details"
     }, __jsx("div", {
       className: "title"
@@ -287,36 +313,72 @@ class ServiceLineThreeContent_ServiceLineOneContent extends external_react_["Com
     }, __jsx("p", null, "We bring our eco system expertise to help you in creating new success"), __jsx("p", null, "Facilitating growth - Help you establish connects for business engagement & sales success: Be it a customer connect or a new channel"), __jsx("p", null, "Raising capital - help you raise capital: Financial Institutions to VC"), __jsx("p", null, "Personal coaching to Leadership training to Sales development program - every aspect of organization capability building is addressed"), __jsx("p", null, "Marketing success: Marketing Engine & Digital impact actions"), __jsx("p", null, "And many more......"))), __jsx("div", {
       className: "business-strategy-details approach-and-methodology"
     }, __jsx("div", {
-      className: "title"
-    }, __jsx("h3", null, "Our approach & methodology"), __jsx("h4", null, "Address Key need of client")), __jsx("div", {
-      className: "approach-design-concept"
+      className: "section-title"
+    }, __jsx("h3", null, "Our approach & methodology"), __jsx("h4", null, "Address Key need of client"), __jsx("div", {
+      class: "bar"
+    })), __jsx("div", {
+      className: "row"
     }, __jsx("div", {
-      className: "circle"
-    }, __jsx("p", null, "Your new plan")), __jsx("div", {
-      className: "circle"
-    }, __jsx("p", null, "Our eco system")), __jsx("div", {
+      className: "col-lg-4 col-md-6"
+    }, __jsx("div", {
+      className: "single-services"
+    }, __jsx("p", null, "Your new"), __jsx("p", null, "plan"))), __jsx("div", {
+      className: "col-lg-4 col-md-6"
+    }, __jsx("div", {
+      className: "single-services"
+    }, __jsx("p", null, "Our eco system"))), __jsx("div", {
+      className: "col-lg-4 col-md-6"
+    }, __jsx("div", {
       className: "image-container"
     }, __jsx("img", {
       src: __webpack_require__("0jcP"),
       alt: "image"
-    })))), __jsx("div", {
+    }))))), __jsx("div", {
       className: "business-strategy-details"
+    }, __jsx("section", {
+      className: "experience-section ptb-100"
     }, __jsx("div", {
-      className: "title"
-    }, __jsx("h3", null, "The result"), __jsx("h4", null, "New ways to increase Sales & Profits")), __jsx("div", {
-      className: "results-container"
-    }, __jsx(IndividualResult["a" /* default */], {
-      results: this.IndividualResult
-    }), __jsx("div", {
-      className: "image-container"
+      className: "container-fluid"
+    }, __jsx("div", {
+      className: "row align-items-center"
+    }, __jsx("div", {
+      className: "col-lg-6"
+    }, __jsx("div", {
+      className: "experience-inner-area"
+    }, __jsx("div", {
+      className: "experience-content"
+    }, __jsx("h3", null, "The result"), __jsx("div", {
+      className: "bar"
+    }), __jsx("p", null, "Delivering on our promise")), __jsx("div", {
+      className: "experience-inner-content"
+    }, __jsx("div", {
+      className: "icon"
+    }, __jsx("i", {
+      className: "flaticon-check"
+    })), __jsx("h3", null, "New connects for business success")), __jsx("div", {
+      className: "experience-inner-content"
+    }, __jsx("div", {
+      className: "icon"
+    }, __jsx("i", {
+      className: "flaticon-check"
+    })), __jsx("h3", null, "Capital raised for business growth")), __jsx("div", {
+      className: "experience-inner-content"
+    }, __jsx("div", {
+      className: "icon"
+    }, __jsx("i", {
+      className: "flaticon-check"
+    })), __jsx("h3", null, "Organized skill & ready for the future")))), __jsx("div", {
+      className: "col-lg-6 pr-0"
+    }, __jsx("div", {
+      className: "experience-image"
     }, __jsx("img", {
-      src: __webpack_require__("bqWm"),
+      src: __webpack_require__("3DWa"),
       alt: "image"
-    })))), __jsx("div", {
+    }))))))), __jsx("div", {
       className: "business-strategy-details business-case-studies"
     }, __jsx("div", {
       className: "results-container"
-    }, __jsx(ServiceCaseStudies["a" /* default */], null))), __jsx(ServicesFooter["a" /* default */], null));
+    }, __jsx(ServiceCaseStudies["a" /* default */], null))), __jsx(ServicesFooter, null));
   }
 
 }
@@ -332,9 +394,15 @@ var service_line_three_jsx = external_react_default.a.createElement;
 
 
 
+
 class service_line_three_ServiceLineOne extends external_react_["Component"] {
   render() {
-    return service_line_three_jsx(external_react_default.a.Fragment, null, service_line_three_jsx(Navbar["a" /* default */], null), service_line_three_jsx(ServiceLineThreeContent, null));
+    return service_line_three_jsx(external_react_default.a.Fragment, null, service_line_three_jsx(Navbar["a" /* default */], null), service_line_three_jsx(PageBanner["a" /* default */], {
+      pageTitle: "Our Services",
+      homePageUrl: "/",
+      homePageText: "Home",
+      activePageText: "Services"
+    }), service_line_three_jsx(ServiceLineThreeContent, null), service_line_three_jsx(Footer["a" /* default */], null));
   }
 
 }
@@ -348,6 +416,13 @@ class service_line_three_ServiceLineOne extends external_react_["Component"] {
 
 module.exports = __webpack_require__("1u4+");
 
+
+/***/ }),
+
+/***/ "3DWa":
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/experience-3-9402a02fbc9a88e143eb244a18437f91.png";
 
 /***/ }),
 
@@ -688,6 +763,47 @@ module.exports = "/_next/static/images/logo-d78e6355605cf2d2e92506c9873489e6.png
 
 /***/ }),
 
+/***/ "Ix5F":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("cDcd");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("YFqc");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+class PageBanner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    let {
+      pageTitle,
+      homePageUrl,
+      homePageText,
+      activePageText
+    } = this.props;
+    return __jsx("div", {
+      className: "page-title-area item-bg-1 pt-50"
+    }, __jsx("div", {
+      className: "d-table"
+    }, __jsx("div", {
+      className: "d-table-cell"
+    }, __jsx("div", {
+      className: "container"
+    }, __jsx("div", {
+      className: "page-title-content"
+    }, __jsx("h2", null, pageTitle), __jsx("ul", null, __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: homePageUrl
+    }, __jsx("a", null, homePageText))), __jsx("li", null, activePageText)))))));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["a"] = (PageBanner);
+
+/***/ }),
+
 /***/ "KTN4":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -719,7 +835,7 @@ const IndividualResult = props => {
   }));
 };
 
-/* harmony default export */ __webpack_exports__["a"] = (IndividualResult);
+/* unused harmony default export */ var _unused_webpack_default_export = (IndividualResult);
 
 /***/ }),
 
@@ -933,37 +1049,6 @@ const ServicesBannerHeading = props => {
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (ServicesBannerHeading);
-
-/***/ }),
-
-/***/ "a9bI":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("cDcd");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("YFqc");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-const ServicesFooter = () => {
-  return __jsx("div", {
-    className: "service-footer"
-  }, __jsx("h2", null, "Think we can help you?"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/service-details"
-  }, __jsx("button", null, "Enquire Now")));
-};
-
-/* harmony default export */ __webpack_exports__["a"] = (ServicesFooter);
-
-/***/ }),
-
-/***/ "bqWm":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/delivering-on-our promise-2-8a54ce26603c448aaa79cd78ee926981.png";
 
 /***/ }),
 
@@ -2565,22 +2650,16 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       className: "col-lg-6 col-md-6"
     }, __jsx("div", {
       className: "subscribe-content"
-    }, __jsx("h2", null, "Join Our Newsletter"), __jsx("p", null, "News letter dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."))), __jsx("div", {
+    }, __jsx("h2", null, "Think We Can Help You?"))), __jsx("div", {
       className: "col-lg-6 col-md-6"
     }, __jsx("form", {
       className: "newsletter-form"
-    }, __jsx("input", {
-      type: "email",
-      className: "input-newsletter",
-      placeholder: "Enter your email",
-      name: "email",
-      required: true
-    }), __jsx("button", {
+    }, __jsx("button", {
       type: "submit"
-    }, "Subscribe Now"))))), __jsx("div", {
+    }, "Enquire Now"))))), __jsx("div", {
       className: "row"
     }, __jsx("div", {
-      className: "col-lg-3 col-md-6 col-sm-6"
+      className: "col-lg-4 col-md-6 col-sm-6"
     }, __jsx("div", {
       className: "single-footer-widget"
     }, __jsx("div", {
@@ -2612,7 +2691,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("i", {
       className: "flaticon-instagram"
     }))))))), __jsx("div", {
-      className: "col-lg-3 col-md-6 col-sm-6"
+      className: "col-lg-4 col-md-6 col-sm-6"
     }, __jsx("div", {
       className: "single-footer-widget"
     }, __jsx("div", {
@@ -2630,27 +2709,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("a", null, "Blog"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/contact"
     }, __jsx("a", null, "Contact")))))), __jsx("div", {
-      className: "col-lg-3 col-md-6 col-sm-6"
-    }, __jsx("div", {
-      className: "single-footer-widget"
-    }, __jsx("div", {
-      className: "footer-heading"
-    }, __jsx("h3", null, "Featured Service")), __jsx("ul", {
-      className: "footer-quick-links"
-    }, __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, "IT Management"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", {
-      href: "#"
-    }, "Development"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/services"
-    }, __jsx("a", null, "Services"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, "UI/UX Design"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, "Support Engineer")))))), __jsx("div", {
-      className: "col-lg-3 col-md-6 col-sm-6"
+      className: "col-lg-4 col-md-6 col-sm-6"
     }, __jsx("div", {
       className: "single-footer-widget"
     }, __jsx("div", {

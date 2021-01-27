@@ -2,6 +2,30 @@
     text-align: center;
 }
 
+.service-line-one-content .tech-content .bar {
+    margin: 0 auto;
+}
+
+.service-line-one-content .services-details .tech-section {
+    padding: 4%;
+}
+
+.service-line-one-content .tech-section-buttons {
+    display: flex;
+    justify-content: center;
+    height: 228px;
+}
+
+.service-line-one-content .tech-section-buttons .tech-btn {
+    margin-left: 7%;
+    align-self: flex-end;
+}
+
+.service-line-one-content .tech-section-buttons .tech-btn .default-btn {
+    text-decoration: none;
+    border-radius: 30px;
+}
+
 .services-banner-heading {
     background: #ccc;
     display: flex;
@@ -31,11 +55,26 @@
     cursor: pointer;
 }
 
-.business-strategy-details {
+.approach-and-methodology {
     padding: 20px 12%;
     border: 1px solid black;
     margin: 30px 5px;
     margin-bottom: 0;
+}
+
+.we-understand-your-business {
+    display: flex;
+    justify-content: center;
+}
+
+.we-understand-your-business .features-content {
+    text-align: center;
+    margin-bottom: 40px;;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .business-strategy-details .title {
@@ -55,6 +94,21 @@
 
 .approach-and-methodology {
     border: none;
+    background-color: #f0f1fe;
+}
+
+.approach-and-methodology .single-services {
+    padding: 100px;
+    border-radius: 200px;
+}
+
+.approach-and-methodology .single-services:before {
+    border-radius: 200px;
+    background: none;
+}
+
+.approach-and-methodology .single-services p {
+    color: #666;
 }
 
 .approach-design {
@@ -133,7 +187,7 @@
     justify-content: space-around;
 }
 
-.service-footer {
+/* .service-footer {
     background-color: #ccc;
     display: flex;
     padding: 20px 0;
@@ -146,6 +200,11 @@
     border-radius: 20px;
     padding: 0 30px;
     cursor: pointer;
+} */
+
+.service-footer .subscribe-content h2 {
+    position:relative;
+    top: 40px;
 }
 
 .details .exp-guides p{
@@ -186,8 +245,33 @@
     align-self: center;
 }
 
-.growth-tips .banner-heading .right-side-content {
-    margin-top: 20px;
+.growth-tips .right-side-content {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.growth-tips .right-side-content p {
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+
+.growth-tips .single-services h3 {
+    margin: 70px 0 50px;
+}
+
+.growth-tips .default-btn {
+    border-radius: 20px;
+    border: none;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.section-title h2 {
+    font-size: 50px;
+    margin: 20px 0 20px;
+    position: relative;
+    line-height: 1.1;
 }
 
 .growth-tips .banner-heading .text-content p {
@@ -377,7 +461,6 @@
 .case-studies-sub-component-container .strategic-plans .more-features-content h3 {
     position: relative;
     top: -30px;
-    text-decoration: underline;
 }
 
 .case-studies-sub-component-container .strategic-plans .more-features-content .details-list {
@@ -464,11 +547,11 @@
     text-align: center;
 }
 
-.contact-section .contact-image {
+/* .contact-section .contact-image {
     background-color: #ccc;
     padding: 70px;
     text-align: center;
-}
+} */
 
 .contact-section .contact-image p {
     font-size: 30px;
@@ -483,14 +566,14 @@
 
 /* ------------------- navbar css --------------------- */
 
-.navbar {
+/* .navbar {
     background-color: #ccc;
     border: 1px solid #000;
-}
+} */
 
 .navbar .navbar-brand img {
-    width: 150px;
     object-fit: contain;
+    width: 50%;
 }
 
 /*---------------------- landing page css --------------------- */
@@ -505,13 +588,37 @@
     padding: 0 20%;
 }
 
+.landing-page-section .view-more {
+    display: flex;
+}
+
 .landing-page-section .view-more button{
-    padding: 5px 30px;
+    /* padding: 5px 30px;
     border: 1px solid black;
     border-radius: 10px;
     background-color: #ccc;
     margin-right: 30px;
+    cursor: pointer; */
+    background-color: #086ad8;
+    color: #fff;
+    border: none;
+    height: 62px;
+    padding: 0 30px;
+    border-radius: 10px;
+    -webkit-transition: .5s;
+    transition: .5s;
+    line-height: 50px;
+    text-transform: capitalize;
     cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    width: 170px;
+    margin: 0 auto;
+}
+
+.landing-page-section .view-more button:hover {
+    background-color: #212121;
+    color: #fff;
 }
 
 
@@ -522,7 +629,7 @@
         padding-top: 90px;
     }
 
-    .service-footer {
+    /* .service-footer {
         display: flex;
         flex-direction: column;
     }
@@ -535,6 +642,10 @@
         width: 50%;
         align-self: center;
         margin-top: 20px;
+    } */
+
+    .navbar .navbar-brand {
+        width: 75%;
     }
 
     .services-section {
@@ -589,10 +700,6 @@
         display: flex;
         flex-direction: column;
         padding-left: 0;
-    }
-
-    .landing-page-section .view-more button {
-        margin-right: 0;
     }
 }
 

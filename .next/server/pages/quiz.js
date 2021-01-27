@@ -493,6 +493,47 @@ module.exports = "/_next/static/images/logo-d78e6355605cf2d2e92506c9873489e6.png
 
 /***/ }),
 
+/***/ "Ix5F":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("cDcd");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("YFqc");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+class PageBanner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    let {
+      pageTitle,
+      homePageUrl,
+      homePageText,
+      activePageText
+    } = this.props;
+    return __jsx("div", {
+      className: "page-title-area item-bg-1 pt-50"
+    }, __jsx("div", {
+      className: "d-table"
+    }, __jsx("div", {
+      className: "d-table-cell"
+    }, __jsx("div", {
+      className: "container"
+    }, __jsx("div", {
+      className: "page-title-content"
+    }, __jsx("h2", null, pageTitle), __jsx("ul", null, __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: homePageUrl
+    }, __jsx("a", null, homePageText))), __jsx("li", null, activePageText)))))));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["a"] = (PageBanner);
+
+/***/ }),
+
 /***/ "Osoz":
 /***/ (function(module, exports) {
 
@@ -2082,15 +2123,17 @@ const QuizContent = () => {
   };
 
   const handleSubmit = event => {
-    event.preventDefault(); //if(questionAndAnswerForm.length >= 10){
+    event.preventDefault();
 
-    fetch('https://jsonplaceholder.typicode.com/posts', {
-      method: 'POST',
-      body: questionAndAnswerForm,
-      headers: {
-        'Content-type': 'application/json; charset=UTF-8'
-      }
-    }); //}
+    if (questionAndAnswerForm.length > 0) {
+      fetch('https://jsonplaceholder.typicode.com/posts', {
+        method: 'POST',
+        body: questionAndAnswerForm,
+        headers: {
+          'Content-type': 'application/json; charset=UTF-8'
+        }
+      });
+    }
   };
 
   return QuizContent_jsx("div", {
@@ -2098,8 +2141,10 @@ const QuizContent = () => {
   }, QuizContent_jsx("div", {
     className: "container"
   }, QuizContent_jsx("div", {
-    className: "text"
-  }, QuizContent_jsx("h3", null, "How future ready is your business?")), QuizContent_jsx("div", {
+    className: "section-title"
+  }, QuizContent_jsx("h2", null, "Take the test"), QuizContent_jsx("div", {
+    className: "bar"
+  })), QuizContent_jsx("div", {
     className: "sub-heading"
   }, QuizContent_jsx("p", null, "Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here")), QuizContent_jsx("form", {
     onSubmit: handleSubmit
@@ -2116,6 +2161,9 @@ const QuizContent = () => {
 };
 
 /* harmony default export */ var QuizContent_QuizContent = (QuizContent);
+// EXTERNAL MODULE: ./components/Common/PageBanner.js
+var PageBanner = __webpack_require__("Ix5F");
+
 // EXTERNAL MODULE: ./components/Layout/Footer.js
 var Footer = __webpack_require__("v6Hh");
 
@@ -2126,9 +2174,15 @@ var quiz_jsx = external_react_default.a.createElement;
 
 
 
+
 class quiz_Quiz extends external_react_["Component"] {
   render() {
-    return quiz_jsx(external_react_default.a.Fragment, null, quiz_jsx(Navbar["a" /* default */], null), quiz_jsx(QuizContent_QuizContent, null));
+    return quiz_jsx(external_react_default.a.Fragment, null, quiz_jsx(Navbar["a" /* default */], null), quiz_jsx(PageBanner["a" /* default */], {
+      pageTitle: "How Future Ready Is Your Business?",
+      homePageUrl: "/",
+      homePageText: "Home",
+      activePageText: "How Future Ready Is Your Business?"
+    }), quiz_jsx(QuizContent_QuizContent, null), quiz_jsx(Footer["a" /* default */], null));
   }
 
 }
@@ -2534,22 +2588,16 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       className: "col-lg-6 col-md-6"
     }, __jsx("div", {
       className: "subscribe-content"
-    }, __jsx("h2", null, "Join Our Newsletter"), __jsx("p", null, "News letter dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."))), __jsx("div", {
+    }, __jsx("h2", null, "Think We Can Help You?"))), __jsx("div", {
       className: "col-lg-6 col-md-6"
     }, __jsx("form", {
       className: "newsletter-form"
-    }, __jsx("input", {
-      type: "email",
-      className: "input-newsletter",
-      placeholder: "Enter your email",
-      name: "email",
-      required: true
-    }), __jsx("button", {
+    }, __jsx("button", {
       type: "submit"
-    }, "Subscribe Now"))))), __jsx("div", {
+    }, "Enquire Now"))))), __jsx("div", {
       className: "row"
     }, __jsx("div", {
-      className: "col-lg-3 col-md-6 col-sm-6"
+      className: "col-lg-4 col-md-6 col-sm-6"
     }, __jsx("div", {
       className: "single-footer-widget"
     }, __jsx("div", {
@@ -2581,7 +2629,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("i", {
       className: "flaticon-instagram"
     }))))))), __jsx("div", {
-      className: "col-lg-3 col-md-6 col-sm-6"
+      className: "col-lg-4 col-md-6 col-sm-6"
     }, __jsx("div", {
       className: "single-footer-widget"
     }, __jsx("div", {
@@ -2599,27 +2647,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("a", null, "Blog"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/contact"
     }, __jsx("a", null, "Contact")))))), __jsx("div", {
-      className: "col-lg-3 col-md-6 col-sm-6"
-    }, __jsx("div", {
-      className: "single-footer-widget"
-    }, __jsx("div", {
-      className: "footer-heading"
-    }, __jsx("h3", null, "Featured Service")), __jsx("ul", {
-      className: "footer-quick-links"
-    }, __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, "IT Management"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", {
-      href: "#"
-    }, "Development"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/services"
-    }, __jsx("a", null, "Services"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, "UI/UX Design"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, "Support Engineer")))))), __jsx("div", {
-      className: "col-lg-3 col-md-6 col-sm-6"
+      className: "col-lg-4 col-md-6 col-sm-6"
     }, __jsx("div", {
       className: "single-footer-widget"
     }, __jsx("div", {

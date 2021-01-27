@@ -3,7 +3,6 @@ import ServicesBannerHeading from './ServicesBannerHeading';
 import Link from 'next/link';
 import IndividualResult from './IndividualResult';
 import ServiceCaseStudies from './ServiceCaseStudies';
-import ServicesFooter from './ServicesFooter';
 
 class ServiceLineOneContent extends Component {
 
@@ -40,9 +39,34 @@ class ServiceLineOneContent extends Component {
             <div className="services-details-area ptb-100 service-line-one-content">
                 <div className="container">
                     <div className="services-details">
-                        <div className="text">
-                            <h3>Connect to ScaleUp</h3>
-                            <ServicesBannerHeading bannerHeadingData={this.bannerHeadingData}/>
+                        <div className="section-title">
+                             <h2>Connect to ScaleUp</h2>
+                             <div className="bar"></div>
+                            {/* <ServicesBannerHeading bannerHeadingData={this.bannerHeadingData}/> */}
+                            <section className="tech-section">
+                                <div className="">
+                                    <div className="row align-items-center">
+                                        <div className="col-lg-6">
+                                            <div className="tech-content">
+                                                <h3>Strategic connections & eco system to scaleup your business</h3>
+                                                <div className="bar"></div>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6 tech-section-buttons">
+                                            <div className="tech-btn">
+                                                        <Link href="#">
+                                                            <a className="default-btn">Know More</a>
+                                                        </Link>
+                                                    </div>
+                                                    <div className="tech-btn">
+                                                        <Link href="#">
+                                                            <a className="default-btn">Enquire More</a>
+                                                        </Link>
+                                                    </div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </section>
                         </div>
                     </div>
                 </div>
@@ -63,11 +87,12 @@ class ServiceLineOneContent extends Component {
                 </div>
 
                 <div className="business-strategy-details approach-and-methodology">
-                    <div className="title">
+                    <div className="section-title">
                         <h3>Our approach & methodology</h3>
                         <h4>Address Key need of client</h4>
+                        <div class="bar"></div>
                     </div>
-                    <div className="approach-design-concept">
+                    {/* <div className="approach-design-concept">
                         <div className="circle">
                             <p>Your new plan</p>
                         </div>
@@ -77,11 +102,31 @@ class ServiceLineOneContent extends Component {
                         <div className="image-container">
                             <img src={require("../../images/approach-design-1.png")} alt="image" />
                         </div>
+                    </div> */}
+                    <div className="row">
+                        <div className="col-lg-4 col-md-6">
+                            <div className="single-services">
+                                <p>Your new</p>
+                                <p>plan</p>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-md-6">
+                            <div className="single-services">
+                                <p>Our eco system</p>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-md-6">
+                            <div className="image-container">
+                                <img src={require("../../images/approach-design-1.png")} alt="image" />
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div className="business-strategy-details">
-                    <div className="title">
+                    {/* <div className="title">
                         <h3>The result</h3>
                         <h4>New ways to increase Sales & Profits</h4>
                     </div>
@@ -90,7 +135,52 @@ class ServiceLineOneContent extends Component {
                         <div className="image-container">
                             <img src={require("../../images/delivering-on-our promise-2.png")} alt="image" />
                         </div>
-                    </div>
+                    </div> */}
+                    <section className="experience-section ptb-100">
+                        <div className="container-fluid">
+                            <div className="row align-items-center">
+                                <div className="col-lg-6">
+                                    <div className="experience-inner-area">
+                                        <div className="experience-content">
+                                            <h3>The result</h3>
+                                            <div className="bar"></div>
+                                            <p>Delivering on our promise</p>
+                                        </div>
+
+                                        <div className="experience-inner-content">
+                                            <div className="icon">
+                                                <i className="flaticon-check"></i>
+                                            </div>
+                                            <h3>New connects for business success</h3>
+                                            {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore ipsum.</p> */}
+                                        </div>
+
+                                        <div className="experience-inner-content">
+                                            <div className="icon">
+                                                <i className="flaticon-check"></i>
+                                            </div>
+                                            <h3>Capital raised for business growth</h3>
+                                            {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore ipsum.</p> */}
+                                        </div>
+
+                                        <div className="experience-inner-content">
+                                            <div className="icon">
+                                                <i className="flaticon-check"></i>
+                                            </div>
+                                            <h3>Organized skill & ready for the future</h3>
+                                            {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore ipsum.</p> */}
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div className="col-lg-6 pr-0">
+                                    <div className="experience-image">
+                                        <img src={require("../../images/experience-3.png")} alt="image" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
 
                 <div className="business-strategy-details business-case-studies">

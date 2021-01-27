@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Layout/Navbar';
+import PageBanner from '../components/Common/PageBanner';
 import ServiceLineTwoContent from '../components/Services/ServiceLineTwoContent';
 import Footer from '../components/Layout/Footer';
 
@@ -8,8 +9,14 @@ class ServiceLineOne extends Component {
         return (
             <React.Fragment>
                 <Navbar />
-
+                <PageBanner 
+                    pageTitle="Our Services" 
+                    homePageUrl="/" 
+                    homePageText="Home" 
+                    activePageText="Services" 
+                /> 
                 <ServiceLineTwoContent />
+                <Footer />
             </React.Fragment>
         );
     }

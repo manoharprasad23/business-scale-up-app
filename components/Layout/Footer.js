@@ -12,22 +12,22 @@ class Footer extends Component {
                             <div className="row align-items-center">
                                 <div className="col-lg-6 col-md-6">
                                     <div className="subscribe-content">
-                                        <h2>Join Our Newsletter</h2>
-                                        <p>News letter dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                        <h2>Think We Can Help You?</h2>
+                                        {/* <p>News letter dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p> */}
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <form className="newsletter-form">
-                                        <input type="email" className="input-newsletter" placeholder="Enter your email" name="email" required />
-                                        <button type="submit">Subscribe Now</button>
+                                        {/* <input type="email" className="input-newsletter" placeholder="Enter your email" name="email" required /> */}
+                                        <button type="submit">Enquire Now</button>
                                     </form>
                                 </div>
                             </div>
                         </div>
 
                         <div className="row">
-                            <div className="col-lg-3 col-md-6 col-sm-6">
+                            <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="single-footer-widget">
                                     <div className="footer-heading">
                                         <h3>About Us</h3>
@@ -68,7 +68,7 @@ class Footer extends Component {
                                 </div>
                             </div>
 
-                            <div className="col-lg-3 col-md-6 col-sm-6">
+                            <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="single-footer-widget">
                                     <div className="footer-heading">
                                         <h3>Important Links</h3>
@@ -104,7 +104,7 @@ class Footer extends Component {
                                 </div>    
                             </div>
 
-                            <div className="col-lg-3 col-md-6 col-sm-6">
+                            {/* <div className="col-lg-3 col-md-6 col-sm-6">
                                 <div className="single-footer-widget">
                                     <div className="footer-heading">
                                         <h3>Featured Service</h3>
@@ -138,9 +138,9 @@ class Footer extends Component {
                                         </li>
                                     </ul>
                                 </div>    
-                            </div>
+                            </div> */}
 
-                            <div className="col-lg-3 col-md-6 col-sm-6">
+                            <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="single-footer-widget">
                                     <div className="footer-heading">
                                         <h3>Contact</h3>

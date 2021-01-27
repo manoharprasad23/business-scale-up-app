@@ -9,8 +9,15 @@ class GrowthTips extends Component {
         return (
             <React.Fragment>
                 <Navbar />
+                <PageBanner 
+                    pageTitle="Growth Tips" 
+                    homePageUrl="/" 
+                    homePageText="Home" 
+                    activePageText="Growth Tips" 
+                /> 
 
                 <GrowthTipsContent />
+                <Footer />
             </React.Fragment>
         );
     }

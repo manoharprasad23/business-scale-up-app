@@ -9,8 +9,15 @@ class BlogDetails extends Component {
         return (
             <React.Fragment>
                 <Navbar />
+                <PageBanner 
+                    pageTitle="Last Mile Rural Distribution & Logistics Company" 
+                    homePageUrl="/" 
+                    homePageText="Home" 
+                    activePageText="Last Mile Rural Distribution & Logistics Company" 
+                /> 
 
                 <BlogDetailsContent />
+                <Footer />
             </React.Fragment>
         );
     }

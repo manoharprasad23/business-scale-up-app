@@ -3,9 +3,13 @@ import Link from 'next/link';
 
 const GrowthTipsContent = () => {
     return (
-        <div className="growth-tips pt-100 pb-100">
+        <div className="growth-tips">
             <div className="container">
-                    <div className="services-details">
+                        <div className="section-title">
+                            <h2>Business Growth Tips</h2>
+                            <div className="bar"></div>
+                        </div>
+                    {/* <div className="services-details">
                         <div className="text">
                             <h3>Business Growth Tips</h3>
                         </div>
@@ -26,6 +30,28 @@ const GrowthTipsContent = () => {
                                     </Link>
                                 </div>
                             </div>
+                        </div>
+                    </div> */}
+                    <div className="row">
+                        <div className="col-lg-4 col-md-6">
+                            <div className="single-services">
+                                <h3>How Future Ready Is Your Business?</h3>
+                                {/* <p>Holistic Business mentoring to deliver higher growth & profits</p> */}
+
+                                {/* <Link href="/service-line-one">
+                                    <a className="read-btn">Know More</a>
+                                </Link> */}
+                            </div>
+                        </div>
+                        <div class="right-side-content section-title col-lg-7 col-md-6">
+                                <p>Business dynamics are always changing - more so today than ever before and every business leader or owner is planning and executing strategies to survive, grow and thrive!</p>
+                                <p>Our "How future ready is your business ?" template helps you assess your readiness !</p>
+                                <p>To assure you that you are indeed on the right track for the future or spot areas to help your plans & execution more robust to succeed in the future.</p>
+                                {/* <a class="read-btn" href="/service-line-one">Know More</a> */}
+                                <h6>How future ready is your business?</h6>
+                                    <Link href="/quiz">
+                                        <button className="default-btn">Check Now - Free</button>
+                                    </Link>
                         </div>
                     </div>
                 </div>

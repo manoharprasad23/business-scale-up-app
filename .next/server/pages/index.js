@@ -222,13 +222,6 @@ module.exports = __webpack_require__("RNiq");
 
 /***/ }),
 
-/***/ "2W9I":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/slider-4-784987d9d1c68a898b0b57ebbbd2a82d.png";
-
-/***/ }),
-
 /***/ "3WeD":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -289,13 +282,6 @@ function assign(target, ...searchParamsList) {
 /***/ (function(module, exports) {
 
 module.exports = require("next/router");
-
-/***/ }),
-
-/***/ "53mW":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/slider-2-right-24d7e0d75809d497f4c17db5ab76c139.png";
 
 /***/ }),
 
@@ -671,20 +657,18 @@ class BannerSlider_BannerSlider extends external_react_["Component"] {
     }) => __jsx("div", {
       className: "container mt-50"
     }, __jsx("div", {
-      className: "main-banner-content-2"
-    }, __jsx("div", {
-      className: "banner-heading growth-tips row"
-    }, __jsx("img", {
-      className: "slider-2-left-img",
-      src: __webpack_require__("s/Jc"),
-      alt: "Image"
-    }), __jsx(link_default.a, {
-      href: "/quiz"
-    }, __jsx("img", {
-      className: "slider-2-right-img",
-      src: __webpack_require__("53mW"),
-      alt: "Image"
-    }))), __jsx("div", {
+      className: "main-banner-content"
+    }, __jsx("h1", {
+      className: isVisible ? "animated fadeInUp" : ''
+    }, "Software & Development"), __jsx("p", {
+      className: isVisible ? "animated fadeInUp" : ''
+    }, "Lorem ipsum dolor sit amet, consectetur adipiscing incididunt ut laboredolore magna aliqua elsed  tempomet, consectetur adipiscing."), __jsx("div", {
+      className: `banner-btn ${isVisible ? "animated fadeInUp" : ''}`
+    }, __jsx(link_default.a, {
+      href: "/contact"
+    }, __jsx("a", {
+      className: "default-btn"
+    }, "Get Started")))), __jsx("div", {
       className: `banner-image ${isVisible ? "animated fadeInUp" : ''}`
     }, __jsx("img", {
       src: __webpack_require__("tdna"),
@@ -693,7 +677,7 @@ class BannerSlider_BannerSlider extends external_react_["Component"] {
       src: __webpack_require__("iXsl"),
       className: "banner-img",
       alt: "image"
-    })))))))), __jsx("div", {
+    }))))))), __jsx("div", {
       className: "home-item item-bg3"
     }, __jsx("div", {
       className: "d-table"
@@ -725,7 +709,7 @@ class BannerSlider_BannerSlider extends external_react_["Component"] {
       className: "banner-img",
       alt: "image"
     }))))))), __jsx("div", {
-      className: "home-item item-bg4"
+      className: "home-item item-bg3"
     }, __jsx("div", {
       className: "d-table"
     }, __jsx("div", {
@@ -735,13 +719,18 @@ class BannerSlider_BannerSlider extends external_react_["Component"] {
     }) => __jsx("div", {
       className: "container mt-50"
     }, __jsx("div", {
-      className: "main-banner-content-4"
+      className: "main-banner-content"
+    }, __jsx("h1", {
+      className: isVisible ? "animated fadeInUp" : ''
+    }, "Digital Agency & Marketing"), __jsx("p", {
+      className: isVisible ? "animated fadeInUp" : ''
+    }, "Lorem ipsum dolor sit amet, consectetur adipiscing incididunt ut laboredolore magna aliqua elsed  tempomet, consectetur adipiscing."), __jsx("div", {
+      className: `banner-btn ${isVisible ? "animated fadeInUp" : ''}`
     }, __jsx(link_default.a, {
       href: "/contact"
-    }, __jsx("img", {
-      src: __webpack_require__("2W9I"),
-      alt: "Image"
-    }))), __jsx("div", {
+    }, __jsx("a", {
+      className: "default-btn"
+    }, "Get Started")))), __jsx("div", {
       className: `banner-image ${isVisible ? "animated fadeInUp" : ''}`
     }, __jsx("img", {
       src: __webpack_require__("tdna"),
@@ -762,8 +751,8 @@ var ServicesStyleOne = __webpack_require__("tVbm");
 // EXTERNAL MODULE: ./components/Common/BlogPost.js
 var BlogPost = __webpack_require__("azCz");
 
-// EXTERNAL MODULE: ./components/Services/ServicesFooter.js
-var ServicesFooter = __webpack_require__("a9bI");
+// EXTERNAL MODULE: ./components/Layout/Footer.js
+var Footer = __webpack_require__("v6Hh");
 
 // CONCATENATED MODULE: ./pages/index.js
 var pages_jsx = external_react_default.a.createElement;
@@ -776,10 +765,7 @@ var pages_jsx = external_react_default.a.createElement;
 
 class pages_Index extends external_react_["Component"] {
   render() {
-    return pages_jsx(external_react_default.a.Fragment, null, pages_jsx(Navbar["a" /* default */], null), pages_jsx(HomeOne_BannerSlider, null), pages_jsx(ServicesStyleOne["a" /* default */], null), pages_jsx("img", {
-      src: __webpack_require__("vONH"),
-      alt: "who-benefits-from-us"
-    }), pages_jsx(BlogPost["a" /* default */], null), pages_jsx(ServicesFooter["a" /* default */], null));
+    return pages_jsx(external_react_default.a.Fragment, null, pages_jsx(Navbar["a" /* default */], null), pages_jsx(HomeOne_BannerSlider, null), pages_jsx(ServicesStyleOne["a" /* default */], null), pages_jsx(BlogPost["a" /* default */], null), pages_jsx(Footer["a" /* default */], null));
   }
 
 }
@@ -963,30 +949,6 @@ function getRouteRegex(normalizedRoute) {
 
 /***/ }),
 
-/***/ "a9bI":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("cDcd");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("YFqc");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-const ServicesFooter = () => {
-  return __jsx("div", {
-    className: "service-footer"
-  }, __jsx("h2", null, "Think we can help you?"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/service-details"
-  }, __jsx("button", null, "Enquire Now")));
-};
-
-/* harmony default export */ __webpack_exports__["a"] = (ServicesFooter);
-
-/***/ }),
-
 /***/ "azCz":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1002,7 +964,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 class BlogPost extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
     return __jsx("section", {
-      className: "blog-section pt-100 pb-70"
+      className: "blog-section pb-70"
     }, __jsx("div", {
       className: "container"
     }, __jsx("div", {
@@ -1044,8 +1006,12 @@ class BlogPost extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("a", null, "AI Technology startup"))), __jsx("p", null, "Product ideas converted into Go To Market models \u2013 new Customer pipes")))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/blog-details"
     }, __jsx("div", {
+      className: "col-lg-6 col-md-6"
+    }, __jsx("div", {
       className: "view-more"
-    }, __jsx("button", null, "View More"))))));
+    }, __jsx("button", {
+      type: "button"
+    }, "View More")))))));
   }
 
 }
@@ -2663,14 +2629,7 @@ module.exports = require("react-owl-carousel3");
 /***/ "qFu6":
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/home-1-img1-e32f5ef39dc7ea5f860038fcb19a293e.png";
-
-/***/ }),
-
-/***/ "s/Jc":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/slider-2-left-2f31d8be084618fecb72cfc2a05bdc16.png";
+module.exports = "/_next/static/images/home-1-img1-4964889679e8af947425d4aa42473305.png";
 
 /***/ }),
 
@@ -2696,12 +2655,12 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 class ServicesStyleOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
     return __jsx("section", {
-      className: "services-section pt-100 pb-100"
+      className: "services-section"
     }, __jsx("div", {
       className: "container"
     }, __jsx("div", {
       className: "section-title"
-    }, __jsx("h2", null, "Our Services"), __jsx("p", null, "All leading to your growth"), __jsx("div", {
+    }, __jsx("h2", null, "All leading to your growth"), __jsx("div", {
       className: "bar"
     })), __jsx("div", {
       className: "row"
@@ -2784,17 +2743,150 @@ module.exports = "/_next/static/images/home-1-shape-19f7531362a821f9175ea11e593c
 
 /***/ }),
 
+/***/ "v6Hh":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("cDcd");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("YFqc");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    let currentYear = new Date().getFullYear();
+    return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("footer", {
+      className: "footer-section pt-100 pb-70"
+    }, __jsx("div", {
+      className: "container"
+    }, __jsx("div", {
+      className: "subscribe-area"
+    }, __jsx("div", {
+      className: "row align-items-center"
+    }, __jsx("div", {
+      className: "col-lg-6 col-md-6"
+    }, __jsx("div", {
+      className: "subscribe-content"
+    }, __jsx("h2", null, "Think We Can Help You?"))), __jsx("div", {
+      className: "col-lg-6 col-md-6"
+    }, __jsx("form", {
+      className: "newsletter-form"
+    }, __jsx("button", {
+      type: "submit"
+    }, "Enquire Now"))))), __jsx("div", {
+      className: "row"
+    }, __jsx("div", {
+      className: "col-lg-4 col-md-6 col-sm-6"
+    }, __jsx("div", {
+      className: "single-footer-widget"
+    }, __jsx("div", {
+      className: "footer-heading"
+    }, __jsx("h3", null, "About Us")), __jsx("p", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"), __jsx("ul", {
+      className: "footer-social"
+    }, __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "#"
+    }, __jsx("a", {
+      target: "_blank"
+    }, __jsx("i", {
+      className: "flaticon-facebook"
+    })))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "#"
+    }, __jsx("a", {
+      target: "_blank"
+    }, __jsx("i", {
+      className: "flaticon-twitter"
+    })))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "#"
+    }, __jsx("a", {
+      target: "_blank"
+    }, __jsx("i", {
+      className: "flaticon-pinterest"
+    })))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "#"
+    }, __jsx("a", {
+      target: "_blank"
+    }, __jsx("i", {
+      className: "flaticon-instagram"
+    }))))))), __jsx("div", {
+      className: "col-lg-4 col-md-6 col-sm-6"
+    }, __jsx("div", {
+      className: "single-footer-widget"
+    }, __jsx("div", {
+      className: "footer-heading"
+    }, __jsx("h3", null, "Important Links")), __jsx("ul", {
+      className: "footer-quick-links"
+    }, __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/about"
+    }, __jsx("a", null, "About Us"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/projects"
+    }, __jsx("a", null, "Projects"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/services"
+    }, __jsx("a", null, "Services"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/blog"
+    }, __jsx("a", null, "Blog"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/contact"
+    }, __jsx("a", null, "Contact")))))), __jsx("div", {
+      className: "col-lg-4 col-md-6 col-sm-6"
+    }, __jsx("div", {
+      className: "single-footer-widget"
+    }, __jsx("div", {
+      className: "footer-heading"
+    }, __jsx("h3", null, "Contact")), __jsx("div", {
+      className: "footer-info-contact"
+    }, __jsx("i", {
+      className: "flaticon-phone-call"
+    }), __jsx("h3", null, "Phone"), __jsx("span", null, "+123(456)123")), __jsx("div", {
+      className: "footer-info-contact"
+    }, __jsx("i", {
+      className: "flaticon-envelope"
+    }), __jsx("h3", null, "Email"), __jsx("span", null, "hello@luzon.com")), __jsx("div", {
+      className: "footer-info-contact"
+    }, __jsx("i", {
+      className: "flaticon-pin"
+    }), __jsx("h3", null, "Address"), __jsx("span", null, "32 st Kilda Road, Melbourne VIC, 3004 Australia")))))), __jsx("div", {
+      className: "lines"
+    }, __jsx("div", {
+      className: "line"
+    }), __jsx("div", {
+      className: "line"
+    }), __jsx("div", {
+      className: "line"
+    }))), __jsx("div", {
+      className: "copyright-area"
+    }, __jsx("div", {
+      className: "container"
+    }, __jsx("div", {
+      className: "copyright-area-content"
+    }, __jsx("div", {
+      className: "row align-items-center"
+    }, __jsx("div", {
+      className: "col-lg-6 col-md-6"
+    }, __jsx("p", null, "Copyright @", currentYear, " Luzon. All Rights Reserved by ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "https://envytheme.com/"
+    }, __jsx("a", {
+      target: "_blank"
+    }, "EnvyTheme")))), __jsx("div", {
+      className: "col-lg-6 col-md-6"
+    }, __jsx("ul", null, __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/terms-conditions"
+    }, __jsx("a", null, "Terms & Conditions"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/privacy-policy"
+    }, __jsx("a", null, "Privacy Policy"))))))))));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["a"] = (Footer);
+
+/***/ }),
+
 /***/ "vDBV":
 /***/ (function(module, exports) {
 
 module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3FpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDozOTRmMGRjMy1mNjc2LTkwNDctOTIzNi1hMWI2ZWQ3NGY0ZmEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OTA2NjJDRTJDRkFCMTFFOTkxRDhENjk4NzU3Q0E0NTMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OTA2NjJDRTFDRkFCMTFFOTkxRDhENjk4NzU3Q0E0NTMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOmE1ZWI4ZmZhLWQ4MzctNjE0Ni1hZjg4LWFmYjU5NDgzYTQyYyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozOTRmMGRjMy1mNjc2LTkwNDctOTIzNi1hMWI2ZWQ3NGY0ZmEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7n29L9AAABJUlEQVR42qyUsUoDURBF304WrNzCFCJYJWWK9Kn3HwRBsEgpFn6IhVhaCIKQf9h6+xRbJlUgWMQiVgElnoGrhCfortmBwyve3LvDvJlNQxTr88uEYwBD6EP2dQUzmEKVPT9ud3VJZHLKcQYn8A5zWOm6Cz1IYQkTzBY/jDDxKi7gAwooSdxEHzrgGEEOHXgip/o2UiVX8AYPXL6EX4L8Y44xHMK9V5aoJzdwBHd/mURm1/AKt6bGek+KuiYeyi2kHZhexxtbhuZRSjs0PfE8bmzNqjZ62b5pTlbh/+HazEJLYZrY7h4erl2bxr6nYWsU0vi0z0y7k2pim8ZI2qkbVdqdXEMWGgxkLm1l2uKJdmdcx2xnRTpa3m27S9vqb2TfH9unAAMAznd8GeFGdb8AAAAASUVORK5CYII="
-
-/***/ }),
-
-/***/ "vONH":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/who-benefits-from-us-62e2bb942de395031cd7c4df3e8f78cd.png";
 
 /***/ }),
 

@@ -526,9 +526,14 @@ var contact_jsx = external_react_default.a.createElement;
 
 class contact_Contact extends external_react_["Component"] {
   render() {
-    return contact_jsx(external_react_default.a.Fragment, null, contact_jsx(Navbar["a" /* default */], null), contact_jsx("div", {
+    return contact_jsx(external_react_default.a.Fragment, null, contact_jsx(Navbar["a" /* default */], null), contact_jsx(PageBanner["a" /* default */], {
+      pageTitle: "Contact",
+      homePageUrl: "/",
+      homePageText: "Home",
+      activePageText: "Contact"
+    }), contact_jsx(Contact_ContactInfo, null), contact_jsx("div", {
       className: "pb-100"
-    }, contact_jsx(ContactForm["a" /* default */], null)));
+    }, contact_jsx(ContactForm["a" /* default */], null)), contact_jsx(Footer["a" /* default */], null));
   }
 
 }
@@ -633,6 +638,13 @@ module.exports = require("next/dist/next-server/lib/router-context.js");
 
 "use strict";
 
+
+/***/ }),
+
+/***/ "VIUF":
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/contact-0daf5ff0ff0ae3eee44f8e189ec61683.png";
 
 /***/ }),
 
@@ -2225,40 +2237,81 @@ function parseRelativeUrl(url, base) {
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-
+ // class ContactForm extends Component {
+//     render() {
+//         return (
+//             <section className="contact-section ptb-100">
+//                 <div className="container">
+//                     <div className="contact-text">
+//                         <h3>Contact Us</h3>
+//                          </div>
+//                     <div className="row align-items-center">
+//                         <div className="col-lg-7 col-md-12">
+//                             <div className="contact-image col-lg-8">
+//                                 <p>We work with business, who share our beliefs and not just do business because it has to be done</p>
+//                             </div>
+//                         </div>
+//                         <div className="col-lg-5 col-md-12">
+//                             <div className="contact-form">
+//                                 <form id="contactForm">
+//                                     <div className="form-group">
+//                                         <input type="text" name="name" id="name" className="form-control" required placeholder="Your Name" />
+//                                     </div>
+//                                     <div className="form-group">
+//                                         <input type="email" name="email" id="email" className="form-control" required placeholder="Your Email" />
+//                                     </div>
+//                                     <div className="form-group">
+//                                         <input type="text" name="msg_subject" id="msg_subject" className="form-control" required  placeholder="Your Contact Number" />
+//                                     </div>
+//                                     <div className="form-group">
+//                                         <input type="text" name="msg_subject" id="msg_subject" className="form-control" required  placeholder="Your Company" />
+//                                     </div>
+//                                     <div className="form-group">
+//                                         <textarea name="message" className="form-control" id="message" cols="30" rows="6" required  placeholder="How can we help you? You could brief us, if possible"></textarea>
+//                                     </div>
+//                                     <div className="send-btn">
+//                                         <button type="submit" className="default-btn">
+//                                             Enquire Now
+//                                         </button>
+//                                     </div>
+//                                 </form>
+//                             </div>
+//                         </div>
+//                     </div>
+//                 </div>
+//             </section>
+//         );
+//     }
+// }
 
 class ContactForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
     return __jsx("section", {
-      className: "contact-section ptb-100"
+      className: "contact-section"
     }, __jsx("div", {
       className: "container"
     }, __jsx("div", {
       className: "contact-text"
-    }, __jsx("h3", null, "Contact Us")), __jsx("div", {
+    }, __jsx("h3", null, "We work with business, who share our beliefs and not just do business because it has to be done"), __jsx("p", null, "Have Any Questions About Us?")), __jsx("div", {
       className: "row align-items-center"
     }, __jsx("div", {
-      className: "col-lg-7 col-md-12"
-    }, __jsx("div", {
-      className: "contact-image col-lg-8"
-    }, __jsx("p", null, "We work with business, who share our beliefs and not just do business because it has to be done"))), __jsx("div", {
-      className: "col-lg-5 col-md-12"
+      className: "col-lg-6"
     }, __jsx("div", {
       className: "contact-form"
     }, __jsx("form", {
       id: "contactForm"
     }, __jsx("div", {
       className: "form-group"
-    }, __jsx("input", {
+    }, __jsx("label", null, "User Name"), __jsx("input", {
       type: "text",
       name: "name",
       id: "name",
       className: "form-control",
       required: true,
-      placeholder: "Your Name"
+      placeholder: "User Name"
     })), __jsx("div", {
       className: "form-group"
-    }, __jsx("input", {
+    }, __jsx("label", null, "Email"), __jsx("input", {
       type: "email",
       name: "email",
       id: "email",
@@ -2267,7 +2320,7 @@ class ContactForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       placeholder: "Your Email"
     })), __jsx("div", {
       className: "form-group"
-    }, __jsx("input", {
+    }, __jsx("label", null, "Mobile Number"), __jsx("input", {
       type: "text",
       name: "msg_subject",
       id: "msg_subject",
@@ -2276,7 +2329,7 @@ class ContactForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       placeholder: "Your Contact Number"
     })), __jsx("div", {
       className: "form-group"
-    }, __jsx("input", {
+    }, __jsx("label", null, "Company"), __jsx("input", {
       type: "text",
       name: "msg_subject",
       id: "msg_subject",
@@ -2285,7 +2338,7 @@ class ContactForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       placeholder: "Your Company"
     })), __jsx("div", {
       className: "form-group"
-    }, __jsx("textarea", {
+    }, __jsx("label", null, "Message"), __jsx("textarea", {
       name: "message",
       className: "form-control",
       id: "message",
@@ -2298,7 +2351,14 @@ class ContactForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("button", {
       type: "submit",
       className: "default-btn"
-    }, "Enquire Now"))))))));
+    }, "Enquire Now"))))), __jsx("div", {
+      className: "col-lg-6"
+    }, __jsx("div", {
+      className: "contact-image"
+    }, __jsx("img", {
+      src: __webpack_require__("VIUF"),
+      alt: "image"
+    }))))));
   }
 
 }
@@ -2486,22 +2546,16 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       className: "col-lg-6 col-md-6"
     }, __jsx("div", {
       className: "subscribe-content"
-    }, __jsx("h2", null, "Join Our Newsletter"), __jsx("p", null, "News letter dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."))), __jsx("div", {
+    }, __jsx("h2", null, "Think We Can Help You?"))), __jsx("div", {
       className: "col-lg-6 col-md-6"
     }, __jsx("form", {
       className: "newsletter-form"
-    }, __jsx("input", {
-      type: "email",
-      className: "input-newsletter",
-      placeholder: "Enter your email",
-      name: "email",
-      required: true
-    }), __jsx("button", {
+    }, __jsx("button", {
       type: "submit"
-    }, "Subscribe Now"))))), __jsx("div", {
+    }, "Enquire Now"))))), __jsx("div", {
       className: "row"
     }, __jsx("div", {
-      className: "col-lg-3 col-md-6 col-sm-6"
+      className: "col-lg-4 col-md-6 col-sm-6"
     }, __jsx("div", {
       className: "single-footer-widget"
     }, __jsx("div", {
@@ -2533,7 +2587,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("i", {
       className: "flaticon-instagram"
     }))))))), __jsx("div", {
-      className: "col-lg-3 col-md-6 col-sm-6"
+      className: "col-lg-4 col-md-6 col-sm-6"
     }, __jsx("div", {
       className: "single-footer-widget"
     }, __jsx("div", {
@@ -2551,27 +2605,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("a", null, "Blog"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/contact"
     }, __jsx("a", null, "Contact")))))), __jsx("div", {
-      className: "col-lg-3 col-md-6 col-sm-6"
-    }, __jsx("div", {
-      className: "single-footer-widget"
-    }, __jsx("div", {
-      className: "footer-heading"
-    }, __jsx("h3", null, "Featured Service")), __jsx("ul", {
-      className: "footer-quick-links"
-    }, __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, "IT Management"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", {
-      href: "#"
-    }, "Development"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/services"
-    }, __jsx("a", null, "Services"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, "UI/UX Design"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, "Support Engineer")))))), __jsx("div", {
-      className: "col-lg-3 col-md-6 col-sm-6"
+      className: "col-lg-4 col-md-6 col-sm-6"
     }, __jsx("div", {
       className: "single-footer-widget"
     }, __jsx("div", {

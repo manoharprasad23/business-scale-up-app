@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import ServicesFooter from '../Services/ServicesFooter'
 
 const DownloadResultContent = () => {
     return (
@@ -23,7 +22,6 @@ const DownloadResultContent = () => {
                     </div>
                 </div>
             </div>
-            <ServicesFooter />
         </div>
     )
 }

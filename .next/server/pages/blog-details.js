@@ -2355,12 +2355,14 @@ class BlogDetailsContent_BlogDetailsContent extends external_react_["Component"]
   render() {
     console.log(this.props);
     return BlogDetailsContent_jsx("section", {
-      className: "news-details-area case-studies-sub-component-container ptb-100"
+      className: "news-details-area case-studies-sub-component-container"
     }, BlogDetailsContent_jsx("div", {
       className: "container"
     }, BlogDetailsContent_jsx("div", {
-      className: "text"
-    }, BlogDetailsContent_jsx("h2", null, "Last mile Rural Distribution & Logistics Company"), BlogDetailsContent_jsx("h6", null, "Helping redraw strategies & execution plans for 10x growth")), BlogDetailsContent_jsx("img", {
+      className: "section-title"
+    }, BlogDetailsContent_jsx("h2", null, "Helping redraw strategies & execution plans for 10x growth"), BlogDetailsContent_jsx("div", {
+      className: "bar"
+    })), BlogDetailsContent_jsx("img", {
       src: __webpack_require__("0OLa"),
       alt: "image"
     }), BlogDetailsContent_jsx("div", {
@@ -2397,7 +2399,12 @@ var blog_details_jsx = external_react_default.a.createElement;
 
 class blog_details_BlogDetails extends external_react_["Component"] {
   render() {
-    return blog_details_jsx(external_react_default.a.Fragment, null, blog_details_jsx(Navbar["a" /* default */], null), blog_details_jsx(Blog_BlogDetailsContent, null));
+    return blog_details_jsx(external_react_default.a.Fragment, null, blog_details_jsx(Navbar["a" /* default */], null), blog_details_jsx(PageBanner["a" /* default */], {
+      pageTitle: "Last Mile Rural Distribution & Logistics Company",
+      homePageUrl: "/",
+      homePageText: "Home",
+      activePageText: "Last Mile Rural Distribution & Logistics Company"
+    }), blog_details_jsx(Blog_BlogDetailsContent, null), blog_details_jsx(Footer["a" /* default */], null));
   }
 
 }
@@ -2585,22 +2592,16 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       className: "col-lg-6 col-md-6"
     }, __jsx("div", {
       className: "subscribe-content"
-    }, __jsx("h2", null, "Join Our Newsletter"), __jsx("p", null, "News letter dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."))), __jsx("div", {
+    }, __jsx("h2", null, "Think We Can Help You?"))), __jsx("div", {
       className: "col-lg-6 col-md-6"
     }, __jsx("form", {
       className: "newsletter-form"
-    }, __jsx("input", {
-      type: "email",
-      className: "input-newsletter",
-      placeholder: "Enter your email",
-      name: "email",
-      required: true
-    }), __jsx("button", {
+    }, __jsx("button", {
       type: "submit"
-    }, "Subscribe Now"))))), __jsx("div", {
+    }, "Enquire Now"))))), __jsx("div", {
       className: "row"
     }, __jsx("div", {
-      className: "col-lg-3 col-md-6 col-sm-6"
+      className: "col-lg-4 col-md-6 col-sm-6"
     }, __jsx("div", {
       className: "single-footer-widget"
     }, __jsx("div", {
@@ -2632,7 +2633,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("i", {
       className: "flaticon-instagram"
     }))))))), __jsx("div", {
-      className: "col-lg-3 col-md-6 col-sm-6"
+      className: "col-lg-4 col-md-6 col-sm-6"
     }, __jsx("div", {
       className: "single-footer-widget"
     }, __jsx("div", {
@@ -2650,27 +2651,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("a", null, "Blog"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/contact"
     }, __jsx("a", null, "Contact")))))), __jsx("div", {
-      className: "col-lg-3 col-md-6 col-sm-6"
-    }, __jsx("div", {
-      className: "single-footer-widget"
-    }, __jsx("div", {
-      className: "footer-heading"
-    }, __jsx("h3", null, "Featured Service")), __jsx("ul", {
-      className: "footer-quick-links"
-    }, __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, "IT Management"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", {
-      href: "#"
-    }, "Development"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/services"
-    }, __jsx("a", null, "Services"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, "UI/UX Design"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, "Support Engineer")))))), __jsx("div", {
-      className: "col-lg-3 col-md-6 col-sm-6"
+      className: "col-lg-4 col-md-6 col-sm-6"
     }, __jsx("div", {
       className: "single-footer-widget"
     }, __jsx("div", {
