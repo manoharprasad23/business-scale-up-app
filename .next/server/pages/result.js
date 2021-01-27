@@ -493,6 +493,47 @@ module.exports = "/_next/static/images/logo-d78e6355605cf2d2e92506c9873489e6.png
 
 /***/ }),
 
+/***/ "Ix5F":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("cDcd");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("YFqc");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+class PageBanner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    let {
+      pageTitle,
+      homePageUrl,
+      homePageText,
+      activePageText
+    } = this.props;
+    return __jsx("div", {
+      className: "page-title-area item-bg-1 pt-50"
+    }, __jsx("div", {
+      className: "d-table"
+    }, __jsx("div", {
+      className: "d-table-cell"
+    }, __jsx("div", {
+      className: "container"
+    }, __jsx("div", {
+      className: "page-title-content"
+    }, __jsx("h2", null, pageTitle), __jsx("ul", null, __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: homePageUrl
+    }, __jsx("a", null, homePageText))), __jsx("li", null, activePageText)))))));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["a"] = (PageBanner);
+
+/***/ }),
+
 /***/ "Osoz":
 /***/ (function(module, exports) {
 
@@ -2264,14 +2305,20 @@ var __jsx = external_react_default.a.createElement;
 
 const ResultContent = () => {
   return __jsx("div", {
-    className: "result-container container ptb-100"
+    className: "container"
   }, __jsx("div", {
-    className: "left-side-box"
-  }, __jsx("p", null, "How future ready is your business?")), __jsx("div", {
-    className: "result-content"
-  }, __jsx("p", {
-    className: "thank-you-text"
-  }, "Thank you for checking future readiness of your business"), __jsx("h3", null, "Your score was 55 out of 100"), __jsx("div", {
+    className: "section-title"
+  }, __jsx("h2", null, "Thank you for checking future readiness of your business"), __jsx("div", {
+    className: "bar"
+  })), __jsx("div", {
+    className: "row result-container"
+  }, __jsx("div", {
+    className: "col-lg-4 col-md-6"
+  }, __jsx("div", {
+    className: "single-services"
+  }, __jsx("h3", null, "How future ready is your business ?"))), __jsx("div", {
+    className: "result-content col-lg-7 col-md-6"
+  }, __jsx("h3", null, "Your score was 25 out of 100"), __jsx("div", {
     className: "score-indicator"
   }, __jsx("h6", null, "What does this score indicate ?"), __jsx("p", null, "In this volatile business world, you are facing issues similar to many business around you. It's time for some significant 'surgery'. A detailed business health review is needed to help understand key challenges, prioritize actions and take corrective measures. You will certainly benefit from the advice and assistance of an expert Business advisor to explore and recommend impactful actions to you firmly on the way to stability, growth and success.")), __jsx("div", {
     className: "page-report"
@@ -2280,13 +2327,16 @@ const ResultContent = () => {
   }, __jsx(link_default.a, {
     href: "/download-result"
   }, __jsx("button", {
-    className: "download"
-  }, "Download Now")))));
+    className: "download-now-button"
+  }, "Download Now"))))));
 };
 
 /* harmony default export */ var ResultContent_ResultContent = (ResultContent);
 // EXTERNAL MODULE: ./components/Layout/Footer.js
 var Footer = __webpack_require__("v6Hh");
+
+// EXTERNAL MODULE: ./components/Common/PageBanner.js
+var PageBanner = __webpack_require__("Ix5F");
 
 // CONCATENATED MODULE: ./pages/result.js
 var result_jsx = external_react_default.a.createElement;
@@ -2295,9 +2345,15 @@ var result_jsx = external_react_default.a.createElement;
 
 
 
+
 class result_Result extends external_react_["Component"] {
   render() {
-    return result_jsx(external_react_default.a.Fragment, null, result_jsx(Navbar["a" /* default */], null), result_jsx(ResultContent_ResultContent, null));
+    return result_jsx(external_react_default.a.Fragment, null, result_jsx(Navbar["a" /* default */], null), result_jsx(PageBanner["a" /* default */], {
+      pageTitle: "Result",
+      homePageUrl: "/",
+      homePageText: "Home",
+      activePageText: "Result"
+    }), result_jsx(ResultContent_ResultContent, null), result_jsx(Footer["a" /* default */], null));
   }
 
 }
@@ -2334,7 +2390,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("div", {
       className: "subscribe-content"
     }, __jsx("h2", null, "Think We Can Help You?"))), __jsx("div", {
-      className: "col-lg-6 col-md-6"
+      className: "col-lg-6 col-md-6 newsletter-form-container"
     }, __jsx("form", {
       className: "newsletter-form"
     }, __jsx("button", {

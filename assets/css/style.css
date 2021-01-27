@@ -1217,6 +1217,10 @@ Banner Area CSS
   background-image: url(../../images/home-one/slider-bg-3.jpg);
 }
 
+.home-sliders .home-item.item-bg4 {
+  background-image: url(../../images/home-one/slider-bg-4.jpg);
+}
+
 .home-sliders .home-item .main-banner-content {
   position: relative;
   max-width: 630px;

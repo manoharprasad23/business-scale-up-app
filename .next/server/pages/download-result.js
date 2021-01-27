@@ -203,7 +203,6 @@ var Navbar = __webpack_require__("zCU4");
 
 // EXTERNAL MODULE: ./node_modules/next/link.js
 var next_link = __webpack_require__("YFqc");
-var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 
 // CONCATENATED MODULE: ./components/DownloadResultContent/DownloadResultContent.js
 var __jsx = external_react_default.a.createElement;
@@ -213,42 +212,88 @@ var __jsx = external_react_default.a.createElement;
 const DownloadResultContent = () => {
   return __jsx("div", {
     className: "download-result-content"
+  }, __jsx("section", {
+    className: "contact-section"
   }, __jsx("div", {
-    className: "result-container container ptb-100"
+    className: "container"
   }, __jsx("div", {
-    className: "left-side-box"
-  }, __jsx("p", null, "How future ready is your business?")), __jsx("div", {
-    className: "result-content"
+    className: "row align-items-center"
   }, __jsx("div", {
-    className: "download-form-input-field"
-  }, __jsx("input", {
+    className: "col-lg-6"
+  }, __jsx("div", {
+    className: "contact-form"
+  }, __jsx("form", {
+    id: "contactForm"
+  }, __jsx("div", {
+    className: "form-group"
+  }, __jsx("label", null, "User Name"), __jsx("input", {
     type: "text",
-    placeholder: "Your Name",
-    className: "download-form-input-text"
-  }), __jsx("input", {
-    type: "text",
-    placeholder: "Your Email",
-    className: "download-form-input-text"
-  }), __jsx("input", {
-    type: "text",
-    placeholder: "Your Contact Number",
-    className: "download-form-input-text"
-  }), __jsx("input", {
-    type: "text",
-    placeholder: "Your Company",
-    className: "download-form-input-text"
+    name: "name",
+    id: "name",
+    className: "form-control",
+    required: true,
+    placeholder: "User Name"
   })), __jsx("div", {
-    className: "download-button"
-  }, __jsx(link_default.a, {
-    href: "/service-details"
+    className: "form-group"
+  }, __jsx("label", null, "Email"), __jsx("input", {
+    type: "email",
+    name: "email",
+    id: "email",
+    className: "form-control",
+    required: true,
+    placeholder: "Your Email"
+  })), __jsx("div", {
+    className: "form-group"
+  }, __jsx("label", null, "Mobile Number"), __jsx("input", {
+    type: "text",
+    name: "msg_subject",
+    id: "msg_subject",
+    className: "form-control",
+    required: true,
+    placeholder: "Your Contact Number"
+  })), __jsx("div", {
+    className: "form-group"
+  }, __jsx("label", null, "Company"), __jsx("input", {
+    type: "text",
+    name: "msg_subject",
+    id: "msg_subject",
+    className: "form-control",
+    required: true,
+    placeholder: "Your Company"
+  })), __jsx("div", {
+    className: "form-group"
+  }, __jsx("label", null, "Message"), __jsx("textarea", {
+    name: "message",
+    className: "form-control",
+    id: "message",
+    cols: "30",
+    rows: "6",
+    required: true,
+    placeholder: "How can we help you? You could brief us, if possible"
+  })), __jsx("div", {
+    className: "send-btn"
   }, __jsx("button", {
-    className: "download"
-  }, "Download Now"))))));
+    className: "default-btn"
+  }, __jsx("a", {
+    href: "https://www.learningcontainer.com/download/sample-pdf-file-for-testing/?wpdmdl=1566&refresh=6011cff8ecb041611780088",
+    download: true,
+    target: "_blank"
+  }, "Download Now")))))), __jsx("div", {
+    className: "col-lg-6"
+  }, __jsx("div", {
+    className: "contact-image"
+  }, __jsx("img", {
+    src: __webpack_require__("VIUF"),
+    alt: "image"
+  })))))));
 };
 
 /* harmony default export */ var DownloadResultContent_DownloadResultContent = (DownloadResultContent);
 // EXTERNAL MODULE: ./components/Layout/Footer.js
 var Footer = __webpack_require__("v6Hh");
+
+// EXTERNAL MODULE: ./components/Common/PageBanner.js
+var PageBanner = __webpack_require__("Ix5F");
 
 // CONCATENATED MODULE: ./pages/download-result.js
 var download_result_jsx = external_react_default.a.createElement;
@@ -257,9 +302,15 @@ var download_result_jsx = external_react_default.a.createElement;
 
 
 
+
 class download_result_Result extends external_react_["Component"] {
   render() {
-    return download_result_jsx(external_react_default.a.Fragment, null, download_result_jsx(Navbar["a" /* default */], null), download_result_jsx(DownloadResultContent_DownloadResultContent, null));
+    return download_result_jsx(external_react_default.a.Fragment, null, download_result_jsx(Navbar["a" /* default */], null), download_result_jsx(PageBanner["a" /* default */], {
+      pageTitle: "Download Result",
+      homePageUrl: "/",
+      homePageText: "Home",
+      activePageText: "Download Result"
+    }), download_result_jsx(DownloadResultContent_DownloadResultContent, null), download_result_jsx(Footer["a" /* default */], null));
   }
 
 }
@@ -574,6 +625,47 @@ module.exports = "/_next/static/images/logo-d78e6355605cf2d2e92506c9873489e6.png
 
 /***/ }),
 
+/***/ "Ix5F":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("cDcd");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("YFqc");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+class PageBanner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    let {
+      pageTitle,
+      homePageUrl,
+      homePageText,
+      activePageText
+    } = this.props;
+    return __jsx("div", {
+      className: "page-title-area item-bg-1 pt-50"
+    }, __jsx("div", {
+      className: "d-table"
+    }, __jsx("div", {
+      className: "d-table-cell"
+    }, __jsx("div", {
+      className: "container"
+    }, __jsx("div", {
+      className: "page-title-content"
+    }, __jsx("h2", null, pageTitle), __jsx("ul", null, __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: homePageUrl
+    }, __jsx("a", null, homePageText))), __jsx("li", null, activePageText)))))));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["a"] = (PageBanner);
+
+/***/ }),
+
 /***/ "Osoz":
 /***/ (function(module, exports) {
 
@@ -586,6 +678,13 @@ module.exports = require("next/dist/next-server/lib/router-context.js");
 
 "use strict";
 
+
+/***/ }),
+
+/***/ "VIUF":
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/contact-0daf5ff0ff0ae3eee44f8e189ec61683.png";
 
 /***/ }),
 
@@ -2348,7 +2447,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("div", {
       className: "subscribe-content"
     }, __jsx("h2", null, "Think We Can Help You?"))), __jsx("div", {
-      className: "col-lg-6 col-md-6"
+      className: "col-lg-6 col-md-6 newsletter-form-container"
     }, __jsx("form", {
       className: "newsletter-form"
     }, __jsx("button", {

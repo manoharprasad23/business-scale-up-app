@@ -17,7 +17,7 @@ class Footer extends Component {
                                     </div>
                                 </div>
 
-                                <div className="col-lg-6 col-md-6">
+                                <div className="col-lg-6 col-md-6 newsletter-form-container">
                                     <form className="newsletter-form">
                                         {/* <input type="email" className="input-newsletter" placeholder="Enter your email" name="email" required /> */}
                                         <button type="submit">Enquire Now</button>

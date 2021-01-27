@@ -534,6 +534,13 @@ module.exports = "/_next/static/images/logo-d78e6355605cf2d2e92506c9873489e6.png
 
 /***/ }),
 
+/***/ "D1UI":
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/home-1-img4-f5e772b94a7df56605d3c4da5519ac70.png";
+
+/***/ }),
+
 /***/ "Osoz":
 /***/ (function(module, exports) {
 
@@ -660,12 +667,12 @@ class BannerSlider_BannerSlider extends external_react_["Component"] {
       className: "main-banner-content"
     }, __jsx("h1", {
       className: isVisible ? "animated fadeInUp" : ''
-    }, "Software & Development"), __jsx("p", {
+    }, "How future ready is your business ?"), __jsx("p", {
       className: isVisible ? "animated fadeInUp" : ''
-    }, "Lorem ipsum dolor sit amet, consectetur adipiscing incididunt ut laboredolore magna aliqua elsed  tempomet, consectetur adipiscing."), __jsx("div", {
+    }, "Our \"How future ready is your business ?\" template helps you assess your readiness !"), __jsx("div", {
       className: `banner-btn ${isVisible ? "animated fadeInUp" : ''}`
     }, __jsx(link_default.a, {
-      href: "/contact"
+      href: "/quiz"
     }, __jsx("a", {
       className: "default-btn"
     }, "Get Started")))), __jsx("div", {
@@ -696,7 +703,7 @@ class BannerSlider_BannerSlider extends external_react_["Component"] {
     }, "Last Mile Rural Distribution & Logistics company Helped re draw strategies and execution plans for 10x growth"), __jsx("div", {
       className: `banner-btn ${isVisible ? "animated fadeInUp" : ''}`
     }, __jsx(link_default.a, {
-      href: "/contact"
+      href: "/blog-details"
     }, __jsx("a", {
       className: "default-btn"
     }, "Know more")))), __jsx("div", {
@@ -709,7 +716,7 @@ class BannerSlider_BannerSlider extends external_react_["Component"] {
       className: "banner-img",
       alt: "image"
     }))))))), __jsx("div", {
-      className: "home-item item-bg3"
+      className: "home-item item-bg4"
     }, __jsx("div", {
       className: "d-table"
     }, __jsx("div", {
@@ -722,9 +729,9 @@ class BannerSlider_BannerSlider extends external_react_["Component"] {
       className: "main-banner-content"
     }, __jsx("h1", {
       className: isVisible ? "animated fadeInUp" : ''
-    }, "Digital Agency & Marketing"), __jsx("p", {
+    }, "Who benefits from us ?"), __jsx("p", {
       className: isVisible ? "animated fadeInUp" : ''
-    }, "Lorem ipsum dolor sit amet, consectetur adipiscing incididunt ut laboredolore magna aliqua elsed  tempomet, consectetur adipiscing."), __jsx("div", {
+    }, "How do we make it more appealing ?"), __jsx("div", {
       className: `banner-btn ${isVisible ? "animated fadeInUp" : ''}`
     }, __jsx(link_default.a, {
       href: "/contact"
@@ -736,7 +743,7 @@ class BannerSlider_BannerSlider extends external_react_["Component"] {
       src: __webpack_require__("tdna"),
       alt: "Image"
     }), __jsx("img", {
-      src: __webpack_require__("s3bY"),
+      src: __webpack_require__("D1UI"),
       className: "banner-img",
       alt: "image"
     })))))))) : '');
@@ -2449,7 +2456,7 @@ function parseRelativeUrl(url, base) {
 /***/ "iXsl":
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/home-1-img2-b3af8278cc9a1017ac3ca0e44c3b2f20.png";
+module.exports = "/_next/static/images/home-1-img2-81991bf26bcb99687f61abc940ae9e75.png";
 
 /***/ }),
 
@@ -2636,7 +2643,7 @@ module.exports = "/_next/static/images/home-1-img1-4964889679e8af947425d4aa42473
 /***/ "s3bY":
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/home-1-img3-6d7a8736f68b281e3ea9fa3c573e19c3.png";
+module.exports = "/_next/static/images/home-1-img3-8a67b58c79e2051f10bda45d307960dd.png";
 
 /***/ }),
 
@@ -2771,7 +2778,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("div", {
       className: "subscribe-content"
     }, __jsx("h2", null, "Think We Can Help You?"))), __jsx("div", {
-      className: "col-lg-6 col-md-6"
+      className: "col-lg-6 col-md-6 newsletter-form-container"
     }, __jsx("form", {
       className: "newsletter-form"
     }, __jsx("button", {

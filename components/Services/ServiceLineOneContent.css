@@ -26,6 +26,11 @@
     border-radius: 30px;
 }
 
+.contact-section .default-btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .services-banner-heading {
     background: #ccc;
     display: flex;
@@ -305,11 +310,29 @@
 }
 
 .quiz-content .submit {
-    padding: 5px 40px;
+    /* padding: 5px 40px;
     border: 1px solid black;
     border-radius: 10px;
     background-color: #ccc;
+    cursor: pointer; */
+    background-color: #086ad8;
+    color: #fff;
+    border: none;
+    height: 62px;
+    padding: 0 50px;
+    border-radius: 10px;
+    transition: .5s;
+    line-height: 50px;
+    text-transform: capitalize;
     cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.quiz-content .submit:hover {
+    background-color: #212121;
+    color: #fff;
 }
 
 .quiz-content .submit-button {
@@ -322,13 +345,19 @@
 /* --------------- Question-css ----------------*/
 
 .question-content {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     margin-top: 20px;
 }
 
 .question-content .question-section {
     display: flex;
-    border-bottom: 1px solid #000;
+    /* border-bottom: 1px solid #000; */
+}
+
+.question-section .single-services, .result-container .single-services{
+    margin-top: 14%;
+    margin-right: 17%;
+    padding: 60px;
 }
 
 .question-content .left-side-heading-content {
@@ -402,15 +431,6 @@
     justify-content: center;
 }
 
-.result-container .result-content .download-button button {
-    padding: 5px 30px;
-    border: 1px solid black;
-    border-radius: 10px;
-    background-color: #ccc;
-    margin-right: 30px;
-    cursor: pointer;
-}
-
 .download-result-content .result-content {
     width: 70%;
 }
@@ -465,6 +485,14 @@
 
 .case-studies-sub-component-container .strategic-plans .more-features-content .details-list {
     padding: 0 20px 20px;
+}
+
+.footer-section .newsletter-form-container {
+    align-self: flex-start;
+}
+
+.footer-section .subscribe-area .subscribe-content h2 {
+    margin-top: 25px;
 }
 
 /* --------------------------- About Us css --------------------------- */
@@ -614,6 +642,22 @@
     font-weight: 400;
     width: 170px;
     margin: 0 auto;
+}
+
+.download-button .download-now-button {
+    padding: 14px 35px;
+    background-color: #086ad8;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 30px;
+    margin: 20px 0;
+    border: none;
+}
+
+.download-button .download-now-button:hover {
+    background-color: #10dce8;
+    color: #fff;
 }
 
 .landing-page-section .view-more button:hover {

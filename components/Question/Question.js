@@ -37,10 +37,16 @@ const Question = (props) => {
                     const {id, heading, leftBannerText, optionOne, optionTwo, optionThree, question} = item;
                     return (
                         <div className="question-section">
-                            <div className="left-side-heading-content">
+                            {/* <div className="left-side-heading-content">
                                 <p>{id}/{totalNumberOfQuestions}</p>
                                 <div className="text">
                                     {leftBannerText}
+                                </div>
+                            </div> */}
+                            <div className="col-lg-4 col-md-6">
+                                <div className="single-services">
+                                    <p>{id}/{totalNumberOfQuestions}</p>
+                                    <h3>{leftBannerText}</h3>
                                 </div>
                             </div>
                             <div className="right-side-question-content">

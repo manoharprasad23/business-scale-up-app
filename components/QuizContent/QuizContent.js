@@ -22,7 +22,7 @@ const QuizContent = () => {
         }
     }
     return (
-        <div className="quiz-content ptb-100">
+        <div className="quiz-content">
             <div className="container">
                 <div className="section-title">
                     <h2>Take the test</h2>

@@ -2058,10 +2058,10 @@ const Question = props => {
     return __jsx("div", {
       className: "question-section"
     }, __jsx("div", {
-      className: "left-side-heading-content"
-    }, __jsx("p", null, id, "/", totalNumberOfQuestions), __jsx("div", {
-      className: "text"
-    }, leftBannerText)), __jsx("div", {
+      className: "col-lg-4 col-md-6"
+    }, __jsx("div", {
+      className: "single-services"
+    }, __jsx("p", null, id, "/", totalNumberOfQuestions), __jsx("h3", null, leftBannerText))), __jsx("div", {
       className: "right-side-question-content"
     }, __jsx("div", {
       className: "question-title"
@@ -2137,16 +2137,14 @@ const QuizContent = () => {
   };
 
   return QuizContent_jsx("div", {
-    className: "quiz-content ptb-100"
+    className: "quiz-content"
   }, QuizContent_jsx("div", {
     className: "container"
   }, QuizContent_jsx("div", {
     className: "section-title"
   }, QuizContent_jsx("h2", null, "Take the test"), QuizContent_jsx("div", {
     className: "bar"
-  })), QuizContent_jsx("div", {
-    className: "sub-heading"
-  }, QuizContent_jsx("p", null, "Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here Some random text goes here")), QuizContent_jsx("form", {
+  })), QuizContent_jsx("form", {
     onSubmit: handleSubmit
   }, QuizContent_jsx(Question_Question, {
     sendFormData: getFormData
@@ -2589,7 +2587,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("div", {
       className: "subscribe-content"
     }, __jsx("h2", null, "Think We Can Help You?"))), __jsx("div", {
-      className: "col-lg-6 col-md-6"
+      className: "col-lg-6 col-md-6 newsletter-form-container"
     }, __jsx("form", {
       className: "newsletter-form"
     }, __jsx("button", {

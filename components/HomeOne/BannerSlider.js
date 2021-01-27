@@ -93,7 +93,7 @@ class BannerSlider extends Component {
                                                         isVisible ? "animated fadeInUp" : ''
                                                     }
                                                 >
-                                                    Software & Development
+                                                    How future ready is your business ?
                                                 </h1>
 
                                                 <p
@@ -101,7 +101,7 @@ class BannerSlider extends Component {
                                                         isVisible ? "animated fadeInUp" : ''
                                                     }
                                                 >
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing incididunt ut laboredolore magna aliqua elsed  tempomet, consectetur adipiscing.
+                                                    Our "How future ready is your business ?" template helps you assess your readiness !
                                                 </p>
                                                 
                                                 <div 
@@ -109,7 +109,7 @@ class BannerSlider extends Component {
                                                         `banner-btn ${isVisible ? "animated fadeInUp" : ''}`
                                                     }
                                                 >
-                                                    <Link href="/contact">
+                                                    <Link href="/quiz">
                                                         <a className="default-btn">Get Started</a>
                                                     </Link>
                                                 </div>
@@ -159,7 +159,7 @@ class BannerSlider extends Component {
                                                         `banner-btn ${isVisible ? "animated fadeInUp" : ''}`
                                                     }
                                                 >
-                                                    <Link href="/contact">
+                                                    <Link href="/blog-details">
                                                         <a className="default-btn">Know more</a>
                                                     </Link>
                                                 </div>
@@ -180,7 +180,7 @@ class BannerSlider extends Component {
                         </div>
                     </div>
 
-                    <div className="home-item item-bg3">
+                    <div className="home-item item-bg4">
                         <div className="d-table">
                             <div className="d-table-cell">
                                 <VisibilitySensor>
@@ -192,7 +192,7 @@ class BannerSlider extends Component {
                                                         isVisible ? "animated fadeInUp" : ''
                                                     }
                                                 >
-                                                    Digital Agency & Marketing
+                                                    Who benefits from us ?
                                                 </h1>
 
                                                 <p
@@ -200,7 +200,7 @@ class BannerSlider extends Component {
                                                         isVisible ? "animated fadeInUp" : ''
                                                     }
                                                 >
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing incididunt ut laboredolore magna aliqua elsed  tempomet, consectetur adipiscing.
+                                                    How do we make it more appealing ?
                                                 </p>
                                                 
                                                 <div 
@@ -220,7 +220,7 @@ class BannerSlider extends Component {
                                                 }
                                             >
                                                 <img src={require("../../images/home-one/home-1-shape.png")} alt="Image" />
-                                                <img src={require("../../images/home-one/home-1-img3.png")} className="banner-img" alt="image" />
+                                                <img src={require("../../images/home-one/home-1-img4.png")} className="banner-img" alt="image" />
                                             </div>
                                         </div>
                                     )}

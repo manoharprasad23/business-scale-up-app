@@ -2315,7 +2315,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("div", {
       className: "subscribe-content"
     }, __jsx("h2", null, "Think We Can Help You?"))), __jsx("div", {
-      className: "col-lg-6 col-md-6"
+      className: "col-lg-6 col-md-6 newsletter-form-container"
     }, __jsx("form", {
       className: "newsletter-form"
     }, __jsx("button", {
