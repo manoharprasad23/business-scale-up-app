@@ -797,7 +797,7 @@ class ServiceLineOneContent_ServiceLineOneContent extends external_react_["Compo
       className: "col-lg-4 col-md-6"
     }, __jsx("div", {
       className: "single-services"
-    }, __jsx("p", null, "Execution, Execution Execution,"), __jsx("p", null, "Support and reviews"), __jsx("p", null, "& corrections?"))))), __jsx("div", {
+    }, __jsx("p", null, "Execution,"), __jsx("p", null, "Support and reviews"), __jsx("p", null, "& corrections?"))))), __jsx("div", {
       className: "business-strategy-details"
     }, __jsx("section", {
       className: "experience-section ptb-100"

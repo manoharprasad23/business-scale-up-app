@@ -182,7 +182,7 @@ class ServiceLineOneContent extends Component {
 
                         <div className="col-lg-4 col-md-6">
                             <div className="single-services">
-                                <p>Execution, Execution Execution,</p>
+                                <p>Execution,</p>
                                 <p>Support and reviews</p>
                                 <p>& corrections?</p>
                             </div>
