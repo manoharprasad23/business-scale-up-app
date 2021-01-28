@@ -269,7 +269,7 @@ class ServiceLineThreeContent_ServiceLineOneContent extends external_react_["Com
 
   render() {
     return __jsx("div", {
-      className: "services-details-area ptb-100 service-line-one-content"
+      className: "services-details-area service-line-one-content"
     }, __jsx("div", {
       className: "container"
     }, __jsx("div", {
@@ -306,11 +306,57 @@ class ServiceLineThreeContent_ServiceLineOneContent extends external_react_["Com
       className: "default-btn"
     }, "Enquire More")))))))))), __jsx("div", {
       className: "business-strategy-details"
+    }, __jsx("section", {
+      className: "features-section pt-100 pb-70"
     }, __jsx("div", {
-      className: "title"
-    }, __jsx("h3", null, "Connections to scaleup your business"), __jsx("h4", null, "We help you win in the market place")), __jsx("div", {
-      className: "details"
-    }, __jsx("p", null, "We bring our eco system expertise to help you in creating new success"), __jsx("p", null, "Facilitating growth - Help you establish connects for business engagement & sales success: Be it a customer connect or a new channel"), __jsx("p", null, "Raising capital - help you raise capital: Financial Institutions to VC"), __jsx("p", null, "Personal coaching to Leadership training to Sales development program - every aspect of organization capability building is addressed"), __jsx("p", null, "Marketing success: Marketing Engine & Digital impact actions"), __jsx("p", null, "And many more......"))), __jsx("div", {
+      className: "container"
+    }, __jsx("div", {
+      className: "section-title"
+    }, __jsx("h2", null, "Connections to scaleup your business"), __jsx("p", null, "We help you win in the market place"), __jsx("div", {
+      className: "bar"
+    })), __jsx("div", {
+      className: "row we-understand-your-business"
+    }, __jsx("div", {
+      className: "col-lg-4 col-sm-6"
+    }, __jsx("div", {
+      className: "features-content"
+    }, __jsx("div", {
+      className: "icon"
+    }, __jsx("i", {
+      className: "flaticon-blueprint"
+    })), __jsx("p", null, "We bring our eco system expertise to help you in creating new success"))), __jsx("div", {
+      className: "col-lg-4 col-sm-6"
+    }, __jsx("div", {
+      className: "features-content"
+    }, __jsx("div", {
+      className: "icon"
+    }, __jsx("i", {
+      className: "flaticon-update"
+    })), __jsx("p", null, "Facilitating growth - Help you establish connects for business engagement & sales success: Be it a customer connect or a new channel"))), __jsx("div", {
+      className: "col-lg-4 col-sm-6"
+    }, __jsx("div", {
+      className: "features-content"
+    }, __jsx("div", {
+      className: "icon left-icon"
+    }, __jsx("i", {
+      className: "flaticon-security"
+    })), __jsx("p", null, "Raising capital - help you raise capital: Financial Institutions to VC"))), __jsx("div", {
+      className: "col-lg-4 col-sm-6"
+    }, __jsx("div", {
+      className: "features-content"
+    }, __jsx("div", {
+      className: "icon"
+    }, __jsx("i", {
+      className: "flaticon-clock"
+    })), __jsx("p", null, "Personal coaching to Leadership training to Sales development program - every aspect of organization capability building is addressed"))), __jsx("div", {
+      className: "col-lg-4 col-sm-6"
+    }, __jsx("div", {
+      className: "features-content"
+    }, __jsx("div", {
+      className: "icon"
+    }, __jsx("i", {
+      className: "flaticon-clock"
+    })), __jsx("p", null, "Marketing success: Marketing Engine & Digital impact actions"))))))), __jsx("div", {
       className: "business-strategy-details approach-and-methodology"
     }, __jsx("div", {
       className: "section-title"
@@ -378,7 +424,7 @@ class ServiceLineThreeContent_ServiceLineOneContent extends external_react_["Com
       className: "business-strategy-details business-case-studies"
     }, __jsx("div", {
       className: "results-container"
-    }, __jsx(ServiceCaseStudies["a" /* default */], null))), __jsx(ServicesFooter, null));
+    }, __jsx(ServiceCaseStudies["a" /* default */], null))));
   }
 
 }

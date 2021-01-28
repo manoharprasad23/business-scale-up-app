@@ -36,7 +36,7 @@ class ServiceLineOneContent extends Component {
 
     render() {
         return (
-            <div className="services-details-area ptb-100 service-line-one-content">
+            <div className="services-details-area service-line-one-content">
                 <div className="container">
                     <div className="services-details">
                         <div className="section-title">
@@ -72,7 +72,7 @@ class ServiceLineOneContent extends Component {
                 </div>
 
                 <div className="business-strategy-details">
-                    <div className="title">
+                    {/* <div className="title">
                         <h3>Connections to scaleup your business</h3>
                         <h4>We help you win in the market place</h4>
                     </div>
@@ -83,7 +83,68 @@ class ServiceLineOneContent extends Component {
                         <p>Personal coaching to Leadership training to Sales development program - every aspect of organization capability building is addressed</p>
                         <p>Marketing success: Marketing Engine & Digital impact actions</p>
                         <p>And many more......</p>
+                    </div> */}
+                    <section className="features-section pt-100 pb-70">
+                <div className="container">
+                    <div className="section-title">
+                        <h2>Connections to scaleup your business</h2>
+                        <p>We help you win in the market place</p>
+                        <div className="bar"></div>
                     </div>
+
+                    <div className="row we-understand-your-business">
+                        <div className="col-lg-4 col-sm-6">
+                            <div className="features-content">
+                                <div className="icon">
+                                    <i className="flaticon-blueprint"></i>
+                                </div>
+                                {/* <h3>Great Design</h3> */}
+                                <p>We bring our eco system expertise to help you in creating new success</p>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-sm-6">
+                            <div className="features-content">
+                                <div className="icon">
+                                    <i className="flaticon-update"></i>
+                                </div>
+                                {/* <h3>Optimal Choice</h3> */}
+                                <p>Facilitating growth - Help you establish connects for business engagement & sales success: Be it a customer connect or a new channel</p>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-sm-6">
+                            <div className="features-content">
+                                <div className="icon left-icon">
+                                    <i className="flaticon-security"></i>
+                                </div>
+                                {/* <h3>Finest Quality</h3> */}
+                                <p>Raising capital - help you raise capital: Financial Institutions to VC</p>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-sm-6">
+                            <div className="features-content">
+                                <div className="icon">
+                                    <i className="flaticon-clock"></i>
+                                </div>
+                                {/* <h3>Time Saving</h3> */}
+                                <p>Personal coaching to Leadership training to Sales development program - every aspect of organization capability building is addressed</p>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-sm-6">
+                            <div className="features-content">
+                                <div className="icon">
+                                    <i className="flaticon-clock"></i>
+                                </div>
+                                {/* <h3>Time Saving</h3> */}
+                                <p>Marketing success: Marketing Engine & Digital impact actions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
                 </div>
 
                 <div className="business-strategy-details approach-and-methodology">
@@ -188,7 +249,6 @@ class ServiceLineOneContent extends Component {
                         <ServiceCaseStudies />
                     </div>
                 </div>
-                <ServicesFooter />
             </div>
         );
     }

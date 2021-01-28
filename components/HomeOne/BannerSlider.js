@@ -209,7 +209,7 @@ class BannerSlider extends Component {
                                                     }
                                                 >
                                                     <Link href="/contact">
-                                                        <a className="default-btn">Get Started</a>
+                                                        <a className="default-btn">Enquire Now</a>
                                                     </Link>
                                                 </div>
                                             </div>

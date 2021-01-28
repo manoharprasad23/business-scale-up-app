@@ -737,7 +737,7 @@ class BannerSlider_BannerSlider extends external_react_["Component"] {
       href: "/contact"
     }, __jsx("a", {
       className: "default-btn"
-    }, "Get Started")))), __jsx("div", {
+    }, "Enquire Now")))), __jsx("div", {
       className: `banner-image ${isVisible ? "animated fadeInUp" : ''}`
     }, __jsx("img", {
       src: __webpack_require__("tdna"),

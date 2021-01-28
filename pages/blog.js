@@ -16,7 +16,7 @@ class Blog extends Component {
                     activePageText="Case Studies" 
                 /> 
           
-                <section className="blog-section case-studies-container">
+                <section className="case-studies-container">
                     <div className="container">
                         <div className="section-title">   
                             <h2>We have the expertise in supporting businesses across industries</h2>

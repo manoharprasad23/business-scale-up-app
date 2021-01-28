@@ -32,7 +32,7 @@ class ServiceLineOneContent extends Component {
 
     render() {
         return (
-            <div className="services-details-area ptb-100 service-line-one-content">
+            <div className="services-details-area service-line-one-content">
                 <div className="container">
                     <div className="services-details">
                         <div className="section-title">
@@ -68,7 +68,7 @@ class ServiceLineOneContent extends Component {
                 </div>
 
                 <div className="business-strategy-details">
-                    <div className="section-title">
+                    {/* <div className="section-title">
                         <h3>Need to build & Strengthen a key strategy?</h3>
                         <h4>We help you win in the market place</h4>
                     </div>
@@ -85,7 +85,69 @@ class ServiceLineOneContent extends Component {
                             <p>Marketing and brand building</p>
                             <p>Build a future ready organization</p>
                         </div>
+                    </div> */}
+
+<section className="features-section pt-100 pb-70">
+                <div className="container">
+                    <div className="section-title">
+                        <h2>Need to build & Strengthen a key strategy?</h2>
+                        <p>We help you win in the market place</p>
+                        <div className="bar"></div>
                     </div>
+
+                    <div className="row we-understand-your-business">
+                        <div className="col-lg-4 col-sm-6">
+                            <div className="features-content">
+                                <div className="icon">
+                                    <i className="flaticon-blueprint"></i>
+                                </div>
+                                {/* <h3>Great Design</h3> */}
+                                <p>Every business - a startup or growth focussed one needs a strong business plan for successful execution</p>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-sm-6">
+                            <div className="features-content">
+                                <div className="icon">
+                                    <i className="flaticon-update"></i>
+                                </div>
+                                {/* <h3>Optimal Choice</h3> */}
+                                <p>We work with you to plot your business strategies, align or growth plans and helps in flawless execution.</p>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-sm-6">
+                            <div className="features-content">
+                                <div className="icon left-icon">
+                                    <i className="flaticon-security"></i>
+                                </div>
+                                {/* <h3>Finest Quality</h3> */}
+                                <p>How do you address the parts of your strategy to Win in the market place? Our consulting expertise is available</p>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-sm-6">
+                            <div className="features-content">
+                                <div className="icon">
+                                    <i className="flaticon-clock"></i>
+                                </div>
+                                {/* <h3>Time Saving</h3> */}
+                                <p>exp-guides</p>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-sm-6">
+                            <div className="features-content">
+                                <div className="icon">
+                                    <i className="flaticon-clock"></i>
+                                </div>
+                                {/* <h3>Time Saving</h3> */}
+                                <p>Our deep and varied experience guides and helps you put into motion key strategy pillars.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
                 </div>
 
                 <div className="business-strategy-details approach-and-methodology">
@@ -188,7 +250,6 @@ class ServiceLineOneContent extends Component {
                         <ServiceCaseStudies />
                     </div>
                 </div>
-                <ServicesFooter />
             </div>
         );
     }

@@ -97,14 +97,23 @@
     font-weight: normal;
 }
 
+.business-strategy-details .features-section {
+    background-color: #f0f4f8;
+}
+
+.business-strategy-details .experience-section {
+    background-color: #f0f1fe;
+}
+
 .approach-and-methodology {
     border: none;
-    background-color: #f0f1fe;
+    margin: 0;
 }
 
 .approach-and-methodology .single-services {
     padding: 100px;
     border-radius: 200px;
+    height: 300px;
 }
 
 .approach-and-methodology .single-services:before {
@@ -274,9 +283,13 @@
 
 .section-title h2 {
     font-size: 50px;
-    margin: 20px 0 20px;
+    margin: 20px 0 0;
     position: relative;
     line-height: 1.1;
+}
+
+.section-title .bar {
+    margin: 20px auto 20px;
 }
 
 .growth-tips .banner-heading .text-content p {
@@ -302,6 +315,12 @@
 }
 
 /* --------------   quiz-css -----------------*/
+
+.quiz-content {
+    /* background-color: #f0f4f8; */
+    margin-top: -20px;
+    padding-top: 20px;
+}
 
 .quiz-content .text{
     text-align: center;
@@ -354,6 +373,10 @@
     /* border-bottom: 1px solid #000; */
 }
 
+.question-content .question-section:nth-child(even) {
+    background-color: #f0f4f8;
+}
+
 .question-section .single-services, .result-container .single-services{
     margin-top: 14%;
     margin-right: 17%;
@@ -382,6 +405,14 @@
 }
 .question-content .answer-options .option input {
     margin-right: 15px;
+}
+
+.question-content .answer-options .option label {
+    line-height: 1.8;
+    color: #666;
+    font-weight: 400;
+    font-family: Open Sans,sans-serif;
+    font-size: 15px;
 }
 
 /* --------------- Result-css ----------------*/
@@ -433,6 +464,10 @@
 
 .download-result-content .result-content {
     width: 70%;
+}
+
+.download-result-content .contact-section {
+    padding: 30px 0;
 }
 
 .download-result-content .left-side-box {
@@ -665,6 +700,15 @@
     color: #fff;
 }
 
+.services-section {
+    padding-top: 30px;
+
+}
+
+.blog-section {
+    background-color: #f0f1fe;
+    padding-top: 20px;
+}
 
 /* ---------------- mobile css --------------------- */
 

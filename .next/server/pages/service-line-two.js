@@ -568,7 +568,7 @@ class ServiceLineTwoContent_ServiceLineOneContent extends external_react_["Compo
 
   render() {
     return __jsx("div", {
-      className: "services-details-area ptb-100 service-line-one-content"
+      className: "services-details-area service-line-one-content"
     }, __jsx("div", {
       className: "container"
     }, __jsx("div", {
@@ -605,13 +605,57 @@ class ServiceLineTwoContent_ServiceLineOneContent extends external_react_["Compo
       className: "default-btn"
     }, "Enquire More")))))))))), __jsx("div", {
       className: "business-strategy-details"
+    }, __jsx("section", {
+      className: "features-section pt-100 pb-70"
+    }, __jsx("div", {
+      className: "container"
     }, __jsx("div", {
       className: "section-title"
-    }, __jsx("h3", null, "Need to build & Strengthen a key strategy?"), __jsx("h4", null, "We help you win in the market place")), __jsx("div", {
-      className: "details"
-    }, __jsx("p", null, "Every business - a startup or growth focussed one needs a strong business plan for successful execution"), __jsx("p", null, "How do you address the parts of your strategy to Win in the market place? Our consulting expertise is available"), __jsx("div", {
-      className: "exp-guides"
-    }, __jsx("p", null, "Our deep and varied experience guides and helps you put into motion key strategy pillars. A few example of our impactful consulting and advisory services are -"), __jsx("p", null, "Comprehensive Strategic business plan for growth"), __jsx("p", null, "Industry & market sizing"), __jsx("p", null, "Product launches"), __jsx("p", null, "Go To Market plans across geographises, channels and customer"), __jsx("p", null, "Sales Management capability"), __jsx("p", null, "Marketing and brand building"), __jsx("p", null, "Build a future ready organization")))), __jsx("div", {
+    }, __jsx("h2", null, "Need to build & Strengthen a key strategy?"), __jsx("p", null, "We help you win in the market place"), __jsx("div", {
+      className: "bar"
+    })), __jsx("div", {
+      className: "row we-understand-your-business"
+    }, __jsx("div", {
+      className: "col-lg-4 col-sm-6"
+    }, __jsx("div", {
+      className: "features-content"
+    }, __jsx("div", {
+      className: "icon"
+    }, __jsx("i", {
+      className: "flaticon-blueprint"
+    })), __jsx("p", null, "Every business - a startup or growth focussed one needs a strong business plan for successful execution"))), __jsx("div", {
+      className: "col-lg-4 col-sm-6"
+    }, __jsx("div", {
+      className: "features-content"
+    }, __jsx("div", {
+      className: "icon"
+    }, __jsx("i", {
+      className: "flaticon-update"
+    })), __jsx("p", null, "We work with you to plot your business strategies, align or growth plans and helps in flawless execution."))), __jsx("div", {
+      className: "col-lg-4 col-sm-6"
+    }, __jsx("div", {
+      className: "features-content"
+    }, __jsx("div", {
+      className: "icon left-icon"
+    }, __jsx("i", {
+      className: "flaticon-security"
+    })), __jsx("p", null, "How do you address the parts of your strategy to Win in the market place? Our consulting expertise is available"))), __jsx("div", {
+      className: "col-lg-4 col-sm-6"
+    }, __jsx("div", {
+      className: "features-content"
+    }, __jsx("div", {
+      className: "icon"
+    }, __jsx("i", {
+      className: "flaticon-clock"
+    })), __jsx("p", null, "exp-guides"))), __jsx("div", {
+      className: "col-lg-4 col-sm-6"
+    }, __jsx("div", {
+      className: "features-content"
+    }, __jsx("div", {
+      className: "icon"
+    }, __jsx("i", {
+      className: "flaticon-clock"
+    })), __jsx("p", null, "Our deep and varied experience guides and helps you put into motion key strategy pillars."))))))), __jsx("div", {
       className: "business-strategy-details approach-and-methodology"
     }, __jsx("div", {
       className: "section-title"
@@ -670,7 +714,7 @@ class ServiceLineTwoContent_ServiceLineOneContent extends external_react_["Compo
       className: "business-strategy-details business-case-studies"
     }, __jsx("div", {
       className: "results-container"
-    }, __jsx(ServiceCaseStudies["a" /* default */], null))), __jsx(ServicesFooter, null));
+    }, __jsx(ServiceCaseStudies["a" /* default */], null))));
   }
 
 }

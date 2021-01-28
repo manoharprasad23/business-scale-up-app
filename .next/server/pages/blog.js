@@ -764,7 +764,7 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       homePageText: "Home",
       activePageText: "Case Studies"
     }), __jsx("section", {
-      className: "blog-section case-studies-container"
+      className: "case-studies-container"
     }, __jsx("div", {
       className: "container"
     }, __jsx("div", {
