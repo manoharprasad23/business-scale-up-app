@@ -792,7 +792,7 @@ class AboutContent_AboutContent extends external_react_["Component"] {
       className: "services-details"
     }, __jsx("div", {
       className: "section-title"
-    }, __jsx("h2", null, "About Us"), __jsx("div", {
+    }, __jsx("h2", null, "Scale Up"), __jsx("div", {
       className: "bar"
     }), __jsx("section", {
       className: "tech-section"

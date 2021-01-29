@@ -35,7 +35,7 @@ class AboutContent extends Component {
                 <div className="">
                     <div className="services-details">
                             <div className="section-title">
-                                <h2>About Us</h2>
+                                <h2>Scale Up</h2>
                                 <div className="bar"></div>
                                 <section className="tech-section">
                                 <div className="">
