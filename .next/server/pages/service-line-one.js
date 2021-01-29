@@ -1077,7 +1077,7 @@ const ServicesBannerHeading = props => {
   }, "Enquire Now"))));
 };
 
-/* harmony default export */ __webpack_exports__["a"] = (ServicesBannerHeading);
+/* unused harmony default export */ var _unused_webpack_default_export = (ServicesBannerHeading);
 
 /***/ }),
 

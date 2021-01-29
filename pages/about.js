@@ -11,7 +11,14 @@ class About extends Component {
         return (
             <React.Fragment>
                 <Navbar />
+                <PageBanner 
+                    pageTitle="About Us" 
+                    homePageUrl="/" 
+                    homePageText="Home" 
+                    activePageText="About Us" 
+                /> 
                 <AboutContent />
+                <Footer />
             </React.Fragment>
         );
     }

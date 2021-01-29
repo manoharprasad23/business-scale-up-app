@@ -1930,7 +1930,7 @@ module.exports = "/_next/static/images/case-studies-1-240f4cc17c0d66ff2bfe7928f8
 /***/ "TD21":
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/about-2-f62d7c84d72ff149dbd1595bffc0fabc.jpg";
+module.exports = "/_next/static/images/about-2-e93f8bd383d93ffa2e5c3566a33493f8.jpg";
 
 /***/ }),
 

@@ -271,6 +271,13 @@ function assign(target, ...searchParamsList) {
 
 /***/ }),
 
+/***/ "47cN":
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/about-3-a458a70d34361e6ba1dc291b5a425685.jpg";
+
+/***/ }),
+
 /***/ "4Q3z":
 /***/ (function(module, exports) {
 
@@ -406,6 +413,13 @@ function formatUrl(urlObj) {
   search = search.replace('#', '%23');
   return `${protocol}${host}${pathname}${search}${hash}`;
 }
+
+/***/ }),
+
+/***/ "79j5":
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/about-1-12bdb63e7d990275312aab8d1e24d6ef.jpg";
 
 /***/ }),
 
@@ -724,6 +738,7 @@ var PageBanner = __webpack_require__("Ix5F");
 
 // EXTERNAL MODULE: ./node_modules/next/link.js
 var next_link = __webpack_require__("YFqc");
+var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 
 // EXTERNAL MODULE: ./components/Services/ServicesBannerHeading.js
 var ServicesBannerHeading = __webpack_require__("ZXap");
@@ -770,36 +785,83 @@ class AboutContent_AboutContent extends external_react_["Component"] {
 
   render() {
     return __jsx("section", {
-      className: "about-section about-section-container ptb-100 bor-tb"
+      className: "about-section about-section-container bor-tb"
     }, __jsx("div", {
-      className: "container"
+      className: ""
     }, __jsx("div", {
       className: "services-details"
     }, __jsx("div", {
-      className: "text"
-    }, __jsx("h3", null, "About Us"), __jsx(ServicesBannerHeading["a" /* default */], {
-      bannerHeadingData: this.bannerHeadingData
-    })))), __jsx("div", {
-      className: "story-behind-scaleUp"
-    }, __jsx("h2", null, "The story behind ScaleUp"), __jsx("div", {
-      className: "story-behind-scaleUp-container"
+      className: "section-title"
+    }, __jsx("h2", null, "About Us"), __jsx("div", {
+      className: "bar"
+    }), __jsx("section", {
+      className: "tech-section"
     }, __jsx("div", {
-      class: "story-behind-scaleUp-content col-lg-8 col-md-8 col-sm-12 col-xs-12"
-    }, __jsx("p", null, "Entrepreneurship & business are magnets for people with unique minds, ideas & convictions, often armed with key traits of people, dedication and drive to succeed. The thought of controlling your own destiny - to do what you want, and your way is a huge attractive prospect."), __jsx("p", null, "But there is a noteworthy catch. Not everyone is equipped with deep knowledge & understanding about what it takes to succeed. And this limits the true potential of the business to succeed. As Jim Collins quipped, \"Good is often the enemy of great\""), __jsx("p", null, "On the other hand great (& successful) business combine thoughtful strategy, systematic implementation-execution and organizational accountability to drive business improvement, profile growth and success. And this is a result of experience! "), __jsx("p", null, "The passion for sharing decades of business understanding, knowledge and hands-on experience to make business grow & succeed was the driving force behind the start of ScaleUp."), __jsx("p", null, "Our Vision is \"To Empower business and individuals with ideas, tools and support to make them more successful\""), __jsx("p", null, "And we will contribute to the success of as many business and individuals, as we can! And cherish the creation of a prosperous future.")), __jsx("div", {
-      className: "logo-and-sub-heading col-lg-4 col-md-4 col-sm-12 col-xs-12"
-    }, __jsx("img", {
-      src: __webpack_require__("Cc5c"),
-      alt: "logo"
-    }), __jsx("h6", null, "Great business stories happen when the passion to make a difference matched the ability to keep the long term execution going")))), __jsx("div", {
-      className: "about-founder-container"
-    }, __jsx("h2", null, "About Founder"), __jsx("div", {
-      className: "about-founder-content"
-    }, __jsx("img", {
-      src: __webpack_require__("Cc5c"),
-      alt: "logo"
+      className: ""
+    }, __jsx("div", {
+      className: "row align-items-center"
+    }, __jsx("div", {
+      className: "col-lg-6"
+    }, __jsx("div", {
+      className: "tech-content"
+    }, __jsx("h3", null, "We help business succeed and grow to their true potential"), __jsx("div", {
+      className: "bar"
     }), __jsx("div", {
-      className: "about-founder-text"
-    }, __jsx("p", null, "Uday Bhat is a leader with a successful track record of over 28 years in making business win!"), __jsx("p", null, "Uday's experience is the result of the leadership challenges he has handled in three world class organization: Samsung Electronics, Hewlett Packard & Xerox"), __jsx("p", null, "His leadership roles have been success stories in both B2C & B2B business - be it setting up new business, turning around business into profitable ones or scaling up existing business into multi million, profitable ventures."), __jsx("p", null, "Business success & scale is the result of merging the speed, energy, enthusiasm of an entrepreneur with the systems & processes of Corporate system - a philosophy that has been the cornerstone of Uday's leadership"), __jsx("p", null, "These experiences and learnings are the keys to help & support start ups, entrepreneurs and companies wade through this volatile, uncertain, complex and ambiguous business world! and Win!")))), __jsx("div", {
+      className: "tech-btn"
+    }, __jsx(link_default.a, {
+      href: "#"
+    }, __jsx("a", {
+      className: "default-btn"
+    }, "Enquire Now"))))), __jsx("div", {
+      className: "col-lg-6 p-0"
+    }, __jsx("div", {
+      className: "about-image-1"
+    }, __jsx("img", {
+      src: __webpack_require__("79j5"),
+      alt: "image"
+    }))))))))), __jsx("div", {
+      className: "story-behind-scaleUp"
+    }, __jsx("section", {
+      className: "about-section bor-tb"
+    }, __jsx("div", {
+      className: "container-fluid"
+    }, __jsx("div", {
+      className: "row"
+    }, __jsx("div", {
+      className: "col-lg-6"
+    }, __jsx("div", {
+      className: "about-tab"
+    }, __jsx("h2", null, "story-behind-scaleUp-content"), __jsx("div", {
+      className: "bar"
+    }), __jsx("p", null, "Entrepreneurship & business are magnets for people with unique minds, ideas & convictions, often armed with key traits of people, dedication and drive to succeed. The thought of controlling your own destiny - to do what you want, and your way is a huge attractive prospect."), __jsx("p", null, "But there is a noteworthy catch. Not everyone is equipped with deep knowledge & understanding about what it takes to succeed. And this limits the true potential of the business to succeed. As Jim Collins quipped, \"Good is often the enemy of great\""), __jsx("p", null, "On the other hand great (& successful) business combine thoughtful strategy, systematic implementation-execution and organizational accountability to drive business improvement, profile growth and success. And this is a result of experience! "), __jsx("p", null, "The passion for sharing decades of business understanding, knowledge and hands-on experience to make business grow & succeed was the driving force behind the start of ScaleUp."), __jsx("p", null, "Our Vision is \"To Empower business and individuals with ideas, tools and support to make them more successful\""), __jsx("p", null, "And we will contribute to the success of as many business and individuals, as we can! And cherish the creation of a prosperous future."))), __jsx("div", {
+      className: "col-lg-6 p-0"
+    }, __jsx("div", {
+      className: "about-image-2"
+    }, __jsx("img", {
+      src: __webpack_require__("TD21"),
+      alt: "image"
+    }))))))), __jsx("div", {
+      className: "about-founder-container"
+    }, __jsx("section", {
+      className: "about-section bor-tb"
+    }, __jsx("div", {
+      className: "container-fluid"
+    }, __jsx("div", {
+      className: "row"
+    }, __jsx("div", {
+      className: "col-lg-6 p-0"
+    }, __jsx("div", {
+      className: "about-image-3"
+    }, __jsx("img", {
+      src: __webpack_require__("47cN"),
+      alt: "image"
+    }))), __jsx("div", {
+      className: "col-lg-6"
+    }, __jsx("div", {
+      className: "about-tab"
+    }, __jsx("h2", null, "About Our Founder"), __jsx("div", {
+      className: "bar"
+    }), __jsx("p", null, "Uday Bhat is a leader with a successful track record of over 28 years in making business win!"), __jsx("p", null, "Uday's experience is the result of the leadership challenges he has handled in three world class organization: Samsung Electronics, Hewlett Packard & Xerox"), __jsx("p", null, "His leadership roles have been success stories in both B2C & B2B business - be it setting up new business, turning around business into profitable ones or scaling up existing business into multi million, profitable ventures."), __jsx("p", null, "Business success & scale is the result of merging the speed, energy, enthusiasm of an entrepreneur with the systems & processes of Corporate system - a philosophy that has been the cornerstone of Uday's leadership"), __jsx("p", null, "These experiences and learnings are the keys to help & support start ups, entrepreneurs and companies wade through this volatile, uncertain, complex and ambiguous business world! and Win!"))))))), __jsx("div", {
       className: "container vision-mission-values"
     }, __jsx("div", {
       class: "vision-mission-values-content"
@@ -834,7 +896,12 @@ var about_jsx = external_react_default.a.createElement;
 
 class about_About extends external_react_["Component"] {
   render() {
-    return about_jsx(external_react_default.a.Fragment, null, about_jsx(Navbar["a" /* default */], null), about_jsx(About_AboutContent, null));
+    return about_jsx(external_react_default.a.Fragment, null, about_jsx(Navbar["a" /* default */], null), about_jsx(PageBanner["a" /* default */], {
+      pageTitle: "About Us",
+      homePageUrl: "/",
+      homePageText: "Home",
+      activePageText: "About Us"
+    }), about_jsx(About_AboutContent, null), about_jsx(Footer["a" /* default */], null));
   }
 
 }
@@ -948,6 +1015,13 @@ module.exports = require("next/dist/next-server/lib/router-context.js");
 
 "use strict";
 
+
+/***/ }),
+
+/***/ "TD21":
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/about-2-e93f8bd383d93ffa2e5c3566a33493f8.jpg";
 
 /***/ }),
 
@@ -1145,7 +1219,7 @@ const ServicesBannerHeading = props => {
   }, "Enquire Now"))));
 };
 
-/* harmony default export */ __webpack_exports__["a"] = (ServicesBannerHeading);
+/* unused harmony default export */ var _unused_webpack_default_export = (ServicesBannerHeading);
 
 /***/ }),
 

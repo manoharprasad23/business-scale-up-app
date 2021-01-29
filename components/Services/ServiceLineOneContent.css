@@ -542,9 +542,25 @@
 }
 
 .story-behind-scaleUp, .about-founder-container {
-    border: 1px solid #000;
-    margin: 10px 3px;
-    padding: 25px 10px 50px 25px;
+    margin: 40px 0;
+}
+
+/* .about-founder-container .about-image img {
+    display: block;
+} */
+
+.vision-mission-values {
+    line-height: 1.8;
+    color: #666;
+    font-weight: 400;
+    font-family: Open Sans,sans-serif;
+    font-size: 15px;
+    display: flex;
+}
+
+.story-behind-scaleUp .about-tab .bar, .about-founder-container .about-tab .bar {
+    margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 .story-behind-scaleUp h3 {
@@ -596,6 +612,10 @@
 .about-founder-container .about-founder-text p{
     line-height: 16px;
     font-size: 12px;
+}
+
+.about-section-container .about-tab {
+    padding: 20px 0;
 }
 
 .vision-mission-values .vision-mission-values-content {
