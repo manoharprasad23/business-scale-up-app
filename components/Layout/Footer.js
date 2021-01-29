@@ -33,7 +33,7 @@ class Footer extends Component {
                                         <h3>About Us</h3>
                                     </div>
 
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                                    <p>Our work would be guided & recognized by our philosophy of trust, integrity and respect.</p>
 
                                     <ul className="footer-social">
                                         <li>

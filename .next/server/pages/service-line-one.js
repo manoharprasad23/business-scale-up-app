@@ -2693,7 +2693,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       className: "single-footer-widget"
     }, __jsx("div", {
       className: "footer-heading"
-    }, __jsx("h3", null, "About Us")), __jsx("p", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"), __jsx("ul", {
+    }, __jsx("h3", null, "About Us")), __jsx("p", null, "Our work would be guided & recognized by our philosophy of trust, integrity and respect."), __jsx("ul", {
       className: "footer-social"
     }, __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "#"
