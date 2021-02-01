@@ -44,35 +44,14 @@ class BannerSlider extends Component {
                                     {({ isVisible }) => (
                                         <div className="container mt-50">
                                             <div className="main-banner-content">
-                                                <h1
-                                                    className={
-                                                        isVisible ? "animated fadeInUp" : ''
-                                                    }
-                                                >
-                                                    We help businesses succeed & grow to achieve their true potential 
-
+                                                <h1>
+                                                    We help businesses succeed & grow to achieve their true potential
                                                 </h1>
-
-                                               
-                                                
-                                                <div 
-                                                    className={
-                                                        `banner-btn ${isVisible ? "animated fadeInUp" : ''}`
-                                                    }
-                                                >
+                                                <div>
                                                     <Link href="/contact">
                                                         <a className="default-btn">Enquire now</a>
                                                     </Link>
                                                 </div>
-                                            </div>
-                                            
-                                            <div 
-                                                className={
-                                                    `banner-image ${isVisible ? "animated fadeInUp" : ''}`
-                                                }
-                                            >
-                                                <img src={require("../../images/home-one/home-1-shape.png")} alt="Image" />
-                                                <img src={require("../../images/home-one/home-1-img1.png")} className="banner-img" alt="image" />
                                             </div>
                                         </div>
                                     )}
@@ -88,40 +67,19 @@ class BannerSlider extends Component {
                                     {({ isVisible }) => (
                                         <div className="container mt-50">
                                             <div className="main-banner-content">
-                                                <h1
-                                                    className={
-                                                        isVisible ? "animated fadeInUp" : ''
-                                                    }
-                                                >
+                                                <h1>
                                                     How future ready is your business ?
                                                 </h1>
 
-                                                <p
-                                                    className={
-                                                        isVisible ? "animated fadeInUp" : ''
-                                                    }
-                                                >
+                                                <p>
                                                     Our "How future ready is your business ?" template helps you assess your readiness !
                                                 </p>
                                                 
-                                                <div 
-                                                    className={
-                                                        `banner-btn ${isVisible ? "animated fadeInUp" : ''}`
-                                                    }
-                                                >
+                                                <div>
                                                     <Link href="/quiz">
                                                         <a className="default-btn">Get Started</a>
                                                     </Link>
                                                 </div>
-                                            </div>
-                                            
-                                            <div 
-                                                className={
-                                                    `banner-image ${isVisible ? "animated fadeInUp" : ''}`
-                                                }
-                                            >
-                                                <img src={require("../../images/home-one/home-1-shape.png")} alt="Image" />
-                                                <img src={require("../../images/home-one/home-1-img2.png")} className="banner-img" alt="image" />
                                             </div>
                                         </div>
                                     )}
@@ -137,41 +95,20 @@ class BannerSlider extends Component {
                                     {({ isVisible }) => (
                                         <div className="container mt-50">
                                             <div className="main-banner-content">
-                                                <h1
-                                                    className={
-                                                        isVisible ? "animated fadeInUp" : ''
-                                                    }
-                                                >
+                                                <h1>
                                                     Helping you “ScaleUp to the next Level”
                                                 </h1>
 
-                                                <p
-                                                    className={
-                                                        isVisible ? "animated fadeInUp" : ''
-                                                    }
-                                                >
+                                                <p>
                                                     Last Mile Rural Distribution & Logistics company
                                                     Helped re draw strategies and execution plans for 10x growth
                                                 </p>
                                                 
-                                                <div 
-                                                    className={
-                                                        `banner-btn ${isVisible ? "animated fadeInUp" : ''}`
-                                                    }
-                                                >
+                                                <div>
                                                     <Link href="/blog-details">
                                                         <a className="default-btn">Know more</a>
                                                     </Link>
                                                 </div>
-                                            </div>
-                                            
-                                            <div 
-                                                className={
-                                                    `banner-image ${isVisible ? "animated fadeInUp" : ''}`
-                                                }
-                                            >
-                                                <img src={require("../../images/home-one/home-1-shape.png")} alt="Image" />
-                                                <img src={require("../../images/home-one/home-1-img3.png")} className="banner-img" alt="image" />
                                             </div>
                                         </div>
                                     )}
@@ -187,40 +124,19 @@ class BannerSlider extends Component {
                                     {({ isVisible }) => (
                                         <div className="container mt-50">
                                             <div className="main-banner-content">
-                                                <h1
-                                                    className={
-                                                        isVisible ? "animated fadeInUp" : ''
-                                                    }
-                                                >
+                                                <h1>
                                                     Who benefits from us ?
                                                 </h1>
 
-                                                <p
-                                                    className={
-                                                        isVisible ? "animated fadeInUp" : ''
-                                                    }
-                                                >
+                                                <p>
                                                     How do we make it more appealing ?
                                                 </p>
                                                 
-                                                <div 
-                                                    className={
-                                                        `banner-btn ${isVisible ? "animated fadeInUp" : ''}`
-                                                    }
-                                                >
+                                                <div>
                                                     <Link href="/contact">
                                                         <a className="default-btn">Enquire Now</a>
                                                     </Link>
                                                 </div>
-                                            </div>
-                                            
-                                            <div 
-                                                className={
-                                                    `banner-image ${isVisible ? "animated fadeInUp" : ''}`
-                                                }
-                                            >
-                                                <img src={require("../../images/home-one/home-1-shape.png")} alt="Image" />
-                                                <img src={require("../../images/home-one/home-1-img4.png")} className="banner-img" alt="image" />
                                             </div>
                                         </div>
                                     )}
