@@ -2362,7 +2362,7 @@ class ServicesStyleOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       className: "container"
     }, __jsx("div", {
       className: "section-title"
-    }, __jsx("h2", null, "Our Services"), __jsx("div", {
+    }, __jsx("h2", null, "Our Services"), __jsx("p", null, "All leading to your growth"), __jsx("div", {
       className: "bar"
     })), __jsx("div", {
       className: "row"

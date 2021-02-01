@@ -709,7 +709,9 @@ class ServiceLineOneContent_ServiceLineOneContent extends external_react_["Compo
       className: "col-lg-6"
     }, __jsx("div", {
       className: "tech-content"
-    }, __jsx("h3", null, "Holistic Business mentoring to deliver higher growth and profits"), __jsx("div", {
+    }, __jsx("div", {
+      className: "custom-sub-heading"
+    }, "Holistic Business mentoring to deliver higher growth and profits"), __jsx("br", null), __jsx("div", {
       className: "bar"
     }))), __jsx("div", {
       className: "col-lg-6 tech-section-buttons"

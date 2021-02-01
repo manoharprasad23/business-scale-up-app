@@ -8,6 +8,7 @@ class ServicesStyleOne extends Component {
                 <div className="container">
                     <div className="section-title">
                         <h2>Our Services</h2>
+                        <p>All leading to your growth</p>
                         <div className="bar"></div>
                     </div>
 
