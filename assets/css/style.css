@@ -7894,4 +7894,8 @@ Go Top CSS
 .modal-video-close-btn {
   cursor: pointer;
 }
+
+.image-custom-border {
+  border-radius: 15px 15px 0px 0px;
+}
 /*# sourceMappingURL=style.css.map */
