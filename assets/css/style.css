@@ -107,7 +107,7 @@ p {
   color: #666666;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
-  font-size: 15px;
+  font-size: 15px !important;
 }
 
 p:last-child {
