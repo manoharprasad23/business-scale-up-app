@@ -7902,4 +7902,14 @@ Go Top CSS
 .custom-sub-heading {
   font-size: 22px;
 }
+
+.future-ready {
+  background-color: #f0f4f8;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.spacing-custom {
+  padding-top: 10px;
+}
 /*# sourceMappingURL=style.css.map */

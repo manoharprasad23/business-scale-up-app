@@ -2167,7 +2167,7 @@ const GrowthTipsContent = () => {
   }, __jsx("h2", null, "Business Growth Tips"), __jsx("div", {
     className: "bar"
   })), __jsx("div", {
-    className: "row"
+    className: "row future-ready"
   }, __jsx("div", {
     className: "col-lg-4 col-md-6"
   }, __jsx("div", {
@@ -2803,6 +2803,13 @@ class Navbar_Navbar extends external_react_["Component"] {
     }, Navbar_jsx("a", {
       className: "nav-link"
     }, "Growth Tips"))), Navbar_jsx("li", {
+      className: "nav-item"
+    }, Navbar_jsx(ActiveLink["a" /* default */], {
+      href: "/blog",
+      activeClassName: "active"
+    }, Navbar_jsx("a", {
+      className: "nav-link"
+    }, "Blogs"))), Navbar_jsx("li", {
       className: "nav-item"
     }, Navbar_jsx(ActiveLink["a" /* default */], {
       href: "/about",

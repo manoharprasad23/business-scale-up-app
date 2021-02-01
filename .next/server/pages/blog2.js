@@ -3100,6 +3100,13 @@ class Navbar_Navbar extends external_react_["Component"] {
     }, "Growth Tips"))), Navbar_jsx("li", {
       className: "nav-item"
     }, Navbar_jsx(ActiveLink["a" /* default */], {
+      href: "/blog",
+      activeClassName: "active"
+    }, Navbar_jsx("a", {
+      className: "nav-link"
+    }, "Blogs"))), Navbar_jsx("li", {
+      className: "nav-item"
+    }, Navbar_jsx(ActiveLink["a" /* default */], {
       href: "/about",
       activeClassName: "active"
     }, Navbar_jsx("a", {

@@ -531,9 +531,9 @@ class contact_Contact extends external_react_["Component"] {
       homePageUrl: "/",
       homePageText: "Home",
       activePageText: "Contact"
-    }), contact_jsx(Contact_ContactInfo, null), contact_jsx("div", {
+    }), contact_jsx("div", {
       className: "pb-100"
-    }, contact_jsx(ContactForm["a" /* default */], null)), contact_jsx(Footer["a" /* default */], null));
+    }, contact_jsx(ContactForm["a" /* default */], null)), contact_jsx(Contact_ContactInfo, null), contact_jsx(Footer["a" /* default */], null));
   }
 
 }
@@ -2291,7 +2291,7 @@ class ContactForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("div", {
       className: "container"
     }, __jsx("div", {
-      className: "contact-text"
+      className: "contact-text spacing-custom"
     }, __jsx("h3", null, "We work with business, who share our beliefs and not just do business because it has to be done"), __jsx("p", null, "Have Any Questions About Us?")), __jsx("div", {
       className: "row align-items-center"
     }, __jsx("div", {
@@ -2964,6 +2964,13 @@ class Navbar_Navbar extends external_react_["Component"] {
     }, Navbar_jsx("a", {
       className: "nav-link"
     }, "Growth Tips"))), Navbar_jsx("li", {
+      className: "nav-item"
+    }, Navbar_jsx(ActiveLink["a" /* default */], {
+      href: "/blog",
+      activeClassName: "active"
+    }, Navbar_jsx("a", {
+      className: "nav-link"
+    }, "Blogs"))), Navbar_jsx("li", {
       className: "nav-item"
     }, Navbar_jsx(ActiveLink["a" /* default */], {
       href: "/about",

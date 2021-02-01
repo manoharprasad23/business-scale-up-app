@@ -16,12 +16,10 @@ class Contact extends Component {
                     homePageText="Home" 
                     activePageText="Contact" 
                 /> 
-                <ContactInfo />
-
                 <div className="pb-100">
                     <ContactForm />
                 </div>
-
+                <ContactInfo />
                 <Footer />
             </React.Fragment>
         );

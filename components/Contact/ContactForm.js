@@ -59,7 +59,7 @@ class ContactForm extends Component {
         return (
             <section className="contact-section">
                 <div className="container">
-                    <div className="contact-text">
+                    <div className="contact-text spacing-custom">
                         <h3>We work with business, who share our beliefs and not just do business because it has to be done</h3>
                         <p>Have Any Questions About Us?</p>
                     </div>
