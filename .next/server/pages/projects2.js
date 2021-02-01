@@ -365,12 +365,7 @@ var projects2_jsx = external_react_default.a.createElement;
 
 class projects2_Projects2 extends external_react_["Component"] {
   render() {
-    return projects2_jsx(external_react_default.a.Fragment, null, projects2_jsx(Navbar["a" /* default */], null), projects2_jsx(PageBanner["a" /* default */], {
-      pageTitle: "Projects Two",
-      homePageUrl: "/",
-      homePageText: "Home",
-      activePageText: "Projects Style Two"
-    }), projects2_jsx(Projects_ProjectsStyleTwo, null), projects2_jsx(Footer["a" /* default */], null));
+    return projects2_jsx(external_react_default.a.Fragment, null, projects2_jsx(Navbar["a" /* default */], null), projects2_jsx(Projects_ProjectsStyleTwo, null), projects2_jsx(Footer["a" /* default */], null));
   }
 
 }
@@ -729,7 +724,7 @@ class PageBanner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 }
 
-/* harmony default export */ __webpack_exports__["a"] = (PageBanner);
+/* unused harmony default export */ var _unused_webpack_default_export = (PageBanner);
 
 /***/ }),
 

@@ -733,12 +733,7 @@ var service_line_two_jsx = external_react_default.a.createElement;
 
 class service_line_two_ServiceLineOne extends external_react_["Component"] {
   render() {
-    return service_line_two_jsx(external_react_default.a.Fragment, null, service_line_two_jsx(Navbar["a" /* default */], null), service_line_two_jsx(PageBanner["a" /* default */], {
-      pageTitle: "Our Services",
-      homePageUrl: "/",
-      homePageText: "Home",
-      activePageText: "Services"
-    }), service_line_two_jsx(ServiceLineTwoContent, null), service_line_two_jsx(Footer["a" /* default */], null));
+    return service_line_two_jsx(external_react_default.a.Fragment, null, service_line_two_jsx(Navbar["a" /* default */], null), service_line_two_jsx(ServiceLineTwoContent, null), service_line_two_jsx(Footer["a" /* default */], null));
   }
 
 }
@@ -827,7 +822,7 @@ class PageBanner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 }
 
-/* harmony default export */ __webpack_exports__["a"] = (PageBanner);
+/* unused harmony default export */ var _unused_webpack_default_export = (PageBanner);
 
 /***/ }),
 

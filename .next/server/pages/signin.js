@@ -528,12 +528,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 class Signin extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
-    return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_Layout_Navbar__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], null), __jsx(_components_Common_PageBanner__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"], {
-      pageTitle: "Signin",
-      homePageUrl: "/",
-      homePageText: "Home",
-      activePageText: "Signin"
-    }), __jsx("div", {
+    return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_Layout_Navbar__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], null), __jsx("div", {
       className: "login-section ptb-100"
     }, __jsx("div", {
       className: "container"
@@ -660,7 +655,7 @@ class PageBanner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 }
 
-/* harmony default export */ __webpack_exports__["a"] = (PageBanner);
+/* unused harmony default export */ var _unused_webpack_default_export = (PageBanner);
 
 /***/ }),
 

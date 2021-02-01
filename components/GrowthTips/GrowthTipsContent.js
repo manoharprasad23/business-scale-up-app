@@ -5,7 +5,7 @@ const GrowthTipsContent = () => {
     return (
         <div className="growth-tips">
             <div className="container">
-                        <div className="section-title">
+                        <div className="section-title header-padding">
                             <h2>Business Growth Tips</h2>
                             <div className="bar"></div>
                         </div>

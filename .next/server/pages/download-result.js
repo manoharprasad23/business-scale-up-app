@@ -305,12 +305,7 @@ var download_result_jsx = external_react_default.a.createElement;
 
 class download_result_Result extends external_react_["Component"] {
   render() {
-    return download_result_jsx(external_react_default.a.Fragment, null, download_result_jsx(Navbar["a" /* default */], null), download_result_jsx(PageBanner["a" /* default */], {
-      pageTitle: "Download Result",
-      homePageUrl: "/",
-      homePageText: "Home",
-      activePageText: "Download Result"
-    }), download_result_jsx(DownloadResultContent_DownloadResultContent, null), download_result_jsx(Footer["a" /* default */], null));
+    return download_result_jsx(external_react_default.a.Fragment, null, download_result_jsx(Navbar["a" /* default */], null), download_result_jsx(DownloadResultContent_DownloadResultContent, null), download_result_jsx(Footer["a" /* default */], null));
   }
 
 }
@@ -662,7 +657,7 @@ class PageBanner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 }
 
-/* harmony default export */ __webpack_exports__["a"] = (PageBanner);
+/* unused harmony default export */ var _unused_webpack_default_export = (PageBanner);
 
 /***/ }),
 

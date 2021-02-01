@@ -8,13 +8,6 @@ class TermsConditions extends Component {
         return (
             <React.Fragment>
                 <Navbar />
-                <PageBanner 
-                    pageTitle="Terms & Conditions" 
-                    homePageUrl="/" 
-                    homePageText="Home" 
-                    activePageText="Terms & Conditions" 
-                /> 
-
                 <div className="conditions-section ptb-100">
                     <div className="container">
                         <div className="single-privacy">

@@ -585,12 +585,7 @@ var project_details_jsx = external_react_default.a.createElement;
 
 class project_details_ProjectDetails extends external_react_["Component"] {
   render() {
-    return project_details_jsx(external_react_default.a.Fragment, null, project_details_jsx(Navbar["a" /* default */], null), project_details_jsx(PageBanner["a" /* default */], {
-      pageTitle: "Project Details",
-      homePageUrl: "/",
-      homePageText: "Home",
-      activePageText: "Project Details"
-    }), project_details_jsx(Projects_ProjectDetailsContent, null), project_details_jsx(Footer["a" /* default */], null));
+    return project_details_jsx(external_react_default.a.Fragment, null, project_details_jsx(Navbar["a" /* default */], null), project_details_jsx(Projects_ProjectDetailsContent, null), project_details_jsx(Footer["a" /* default */], null));
   }
 
 }
@@ -666,7 +661,7 @@ class PageBanner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 }
 
-/* harmony default export */ __webpack_exports__["a"] = (PageBanner);
+/* unused harmony default export */ var _unused_webpack_default_export = (PageBanner);
 
 /***/ }),
 

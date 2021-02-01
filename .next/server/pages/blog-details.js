@@ -551,7 +551,7 @@ class PageBanner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 }
 
-/* harmony default export */ __webpack_exports__["a"] = (PageBanner);
+/* unused harmony default export */ var _unused_webpack_default_export = (PageBanner);
 
 /***/ }),
 
@@ -2399,12 +2399,7 @@ var blog_details_jsx = external_react_default.a.createElement;
 
 class blog_details_BlogDetails extends external_react_["Component"] {
   render() {
-    return blog_details_jsx(external_react_default.a.Fragment, null, blog_details_jsx(Navbar["a" /* default */], null), blog_details_jsx(PageBanner["a" /* default */], {
-      pageTitle: "Last Mile Rural Distribution & Logistics Company",
-      homePageUrl: "/",
-      homePageText: "Home",
-      activePageText: "Last Mile Rural Distribution & Logistics Company"
-    }), blog_details_jsx(Blog_BlogDetailsContent, null), blog_details_jsx(Footer["a" /* default */], null));
+    return blog_details_jsx(external_react_default.a.Fragment, null, blog_details_jsx(Navbar["a" /* default */], null), blog_details_jsx(Blog_BlogDetailsContent, null), blog_details_jsx(Footer["a" /* default */], null));
   }
 
 }

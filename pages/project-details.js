@@ -9,12 +9,6 @@ class ProjectDetails extends Component {
         return (
             <React.Fragment>
                 <Navbar />
-                <PageBanner 
-                    pageTitle="Project Details" 
-                    homePageUrl="/" 
-                    homePageText="Home" 
-                    activePageText="Project Details" 
-                /> 
                 <ProjectDetailsContent />
                 <Footer />
             </React.Fragment>

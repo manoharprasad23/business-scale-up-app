@@ -9,13 +9,6 @@ class Signup extends Component {
         return (
             <React.Fragment>
                 <Navbar />
-                <PageBanner 
-                    pageTitle="Signup" 
-                    homePageUrl="/" 
-                    homePageText="Home" 
-                    activePageText="Signup" 
-                /> 
-
                 <div className="signup-section ptb-100">
                     <div className="container">
                         <div className="signup-form">

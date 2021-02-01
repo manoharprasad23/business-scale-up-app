@@ -10,13 +10,6 @@ class Faq extends Component {
         return (
             <React.Fragment>
                 <Navbar />
-                <PageBanner 
-                    pageTitle="FAQ" 
-                    homePageUrl="/" 
-                    homePageText="Home" 
-                    activePageText="FAQ" 
-                /> 
-
                 <div className="ptb-100">
                     <FaqsContent />
                 </div>

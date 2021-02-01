@@ -3590,7 +3590,7 @@ class ContactForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     return __jsx("section", {
       className: "contact-section"
     }, __jsx("div", {
-      className: "container"
+      className: "container header-padding"
     }, __jsx("div", {
       className: "contact-text spacing-custom"
     }, __jsx("h3", null, "We work with business, who share our beliefs and not just do business because it has to be done"), __jsx("p", null, "Have Any Questions About Us?")), __jsx("div", {

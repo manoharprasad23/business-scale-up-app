@@ -635,12 +635,7 @@ var services2_jsx = external_react_default.a.createElement;
 
 class services2_Services2 extends external_react_["Component"] {
   render() {
-    return services2_jsx(external_react_default.a.Fragment, null, services2_jsx(Navbar["a" /* default */], null), services2_jsx(PageBanner["a" /* default */], {
-      pageTitle: "Services Two",
-      homePageUrl: "/",
-      homePageText: "Home",
-      activePageText: "Services Style Two"
-    }), services2_jsx(Services_ServicesStyleTwo, null), services2_jsx(Footer["a" /* default */], null));
+    return services2_jsx(external_react_default.a.Fragment, null, services2_jsx(Navbar["a" /* default */], null), services2_jsx(Services_ServicesStyleTwo, null), services2_jsx(Footer["a" /* default */], null));
   }
 
 }
@@ -729,7 +724,7 @@ class PageBanner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 }
 
-/* harmony default export */ __webpack_exports__["a"] = (PageBanner);
+/* unused harmony default export */ var _unused_webpack_default_export = (PageBanner);
 
 /***/ }),
 

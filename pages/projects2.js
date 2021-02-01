@@ -9,12 +9,6 @@ class Projects2 extends Component {
         return (
             <React.Fragment>
                 <Navbar />
-                <PageBanner 
-                    pageTitle="Projects Two" 
-                    homePageUrl="/" 
-                    homePageText="Home" 
-                    activePageText="Projects Style Two" 
-                /> 
                 <ProjectsStyleTwo />
                 <Footer />
             </React.Fragment>

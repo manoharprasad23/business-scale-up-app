@@ -10,12 +10,6 @@ class Contact extends Component {
         return (
             <React.Fragment>
                 <Navbar />
-                <PageBanner 
-                    pageTitle="Contact" 
-                    homePageUrl="/" 
-                    homePageText="Home" 
-                    activePageText="Contact" 
-                /> 
                 <div className="pb-100">
                     <ContactForm />
                 </div>

@@ -9,12 +9,6 @@ class ServiceLineOne extends Component {
         return (
             <React.Fragment>
                 <Navbar />
-                <PageBanner 
-                    pageTitle="Our Services" 
-                    homePageUrl="/" 
-                    homePageText="Home" 
-                    activePageText="Services" 
-                /> 
                 <ServiceLineThreeContent />
                 <Footer />
             </React.Fragment>

@@ -9,15 +9,8 @@ class Blog extends Component {
         return (
             <React.Fragment>
                 <Navbar />
-                <PageBanner 
-                    pageTitle="Case Studies" 
-                    homePageUrl="/" 
-                    homePageText="Home" 
-                    activePageText="Case Studies" 
-                /> 
-          
                 <section className="case-studies-container">
-                    <div className="container">
+                    <div className="container header-padding">
                         <div className="section-title">   
                             <h2>We have the expertise in supporting businesses across industries</h2>
                             <div className="bar"></div>

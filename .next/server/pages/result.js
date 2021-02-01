@@ -530,7 +530,7 @@ class PageBanner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 }
 
-/* harmony default export */ __webpack_exports__["a"] = (PageBanner);
+/* unused harmony default export */ var _unused_webpack_default_export = (PageBanner);
 
 /***/ }),
 
@@ -2348,12 +2348,7 @@ var result_jsx = external_react_default.a.createElement;
 
 class result_Result extends external_react_["Component"] {
   render() {
-    return result_jsx(external_react_default.a.Fragment, null, result_jsx(Navbar["a" /* default */], null), result_jsx(PageBanner["a" /* default */], {
-      pageTitle: "Result",
-      homePageUrl: "/",
-      homePageText: "Home",
-      activePageText: "Result"
-    }), result_jsx(ResultContent_ResultContent, null), result_jsx(Footer["a" /* default */], null));
+    return result_jsx(external_react_default.a.Fragment, null, result_jsx(Navbar["a" /* default */], null), result_jsx(ResultContent_ResultContent, null), result_jsx(Footer["a" /* default */], null));
   }
 
 }

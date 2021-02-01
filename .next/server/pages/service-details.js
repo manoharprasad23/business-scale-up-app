@@ -537,7 +537,7 @@ class PageBanner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 }
 
-/* harmony default export */ __webpack_exports__["a"] = (PageBanner);
+/* unused harmony default export */ var _unused_webpack_default_export = (PageBanner);
 
 /***/ }),
 
@@ -680,12 +680,7 @@ var service_details_jsx = external_react_default.a.createElement;
 
 class service_details_ServiceDetails extends external_react_["Component"] {
   render() {
-    return service_details_jsx(external_react_default.a.Fragment, null, service_details_jsx(Navbar["a" /* default */], null), service_details_jsx(PageBanner["a" /* default */], {
-      pageTitle: "Service Details",
-      homePageUrl: "/",
-      homePageText: "Home",
-      activePageText: "Service Details"
-    }), service_details_jsx(Services_ServiceDetailsContent, null));
+    return service_details_jsx(external_react_default.a.Fragment, null, service_details_jsx(Navbar["a" /* default */], null), service_details_jsx(Services_ServiceDetailsContent, null));
   }
 
 }

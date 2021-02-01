@@ -9,12 +9,6 @@ class Quiz extends Component {
         return (
             <React.Fragment>
                 <Navbar />
-                <PageBanner 
-                    pageTitle="How Future Ready Is Your Business?" 
-                    homePageUrl="/" 
-                    homePageText="Home" 
-                    activePageText="How Future Ready Is Your Business?" 
-                /> 
                 <QuizContent />
                 <Footer />
             </React.Fragment>
