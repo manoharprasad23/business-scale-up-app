@@ -1,17 +1,40 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Question from '../Question/Question';
 import Link from 'next/link';
+import {QuizData} from '../QuizData/QuizData';
 
 const QuizContent = () => {
-    let questionAndAnswerForm;
-    const getFormData = (formData) => {
-        questionAndAnswerForm = JSON.stringify(formData);
-        console.log('form--->' + questionAndAnswerForm);
-    }
+    const totalNumberOfQuestions = QuizData.length;
+  
+    // const getFormData = (formData) => {
+    //     questionAndAnswerForm = [1,2];//JSON.stringify(formData);
+    //     //console.log('form--->' + questionAndAnswerForm);
+    // }
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        if(questionAndAnswerForm.length > 0){
+        let correctAnswerCount = 0;
+        let answersSelected = 0;
+        let questionAndAnswerForm = [];
+        var element = document.getElementsByTagName('input');
+        for(var i = 0; i < element.length; i++) {   
+            if(element[i].type="radio") { 
+                if(element[i].checked) {
+                    answersSelected++;
+                    questionAndAnswerForm.push(element[i].value);
+                }
+            } 
+        }
+        for(var i = 0; i < 10; i++) {
+            if(questionAndAnswerForm[i] == QuizData[i].correctAnswer) {
+                correctAnswerCount++;
+            }
+        }
+        console.log('correct answer count is -> ' + answersSelected, correctAnswerCount)
+
+
+        if(answersSelected == 10){
+            console.log('form submit initiated');
             fetch('https://jsonplaceholder.typicode.com/posts', {
                 method: 'POST',
                 body: questionAndAnswerForm,
@@ -29,12 +52,77 @@ const QuizContent = () => {
                     <div className="bar"></div>
                 </div>
                 <form onSubmit={handleSubmit}>
-                <Question sendFormData={getFormData}/>
-                    <div className="submit-button">
-                        <Link href="/result">
-                            <button className="submit" type="submit">Submit</button>
-                        </Link>
+                    {/* <Question sendFormData={getFormData}/> */}
+
+
+
+
+                    {/* Question partial starts here */}
+                    <div className="question-content">
+                        {
+                            
+                            QuizData.map((item) => {
+                                const clickHandler = (questionId, answerOption) => {
+                                    //console.log(questionId, answerOption);
+                                }
+                                const {id, heading, leftBannerText, optionOne, optionTwo, optionThree, question} = item;
+                                return (
+                                    <div className="question-section">
+                                        <div className="col-lg-4 col-md-6">
+                                            <div className="single-services">
+                                                <p>{id}/{totalNumberOfQuestions}</p>
+                                                <h3>{leftBannerText}</h3>
+                                            </div>
+                                        </div>
+                                        <div className="right-side-question-content">
+                                            <div className="question-title">
+                                                <h5>{heading}</h5>
+                                            </div>
+                                            <div className="question">
+                                                <p>{question}</p>
+                                            </div>
+                                            <div className="answer-options">
+                                                <div className="option">
+                                                    <label for="one">
+                                                        <input onClick={()=>clickHandler(id, '_first_option')} type="radio" id={id+'_first_option'} name={id+"-answer"} value="1" />
+                                                        {optionOne}
+                                                    </label>
+                                                </div>
+                                                <div className="option">
+                                                    <label for="two">
+                                                        <input onClick={()=>clickHandler(id, '_second_option')} type="radio" id={id+'_second_option'} name={id+"-answer"} value="2" />
+                                                        {optionTwo}
+                                                    </label>
+                                                </div>
+                                                <div className="option">
+                                                    <label for="three">
+                                                        <input onClick={()=>clickHandler(id, '_third_option')} type="radio" id={id+'_third_option'} name={id+"-answer"} value="3" />
+                                                        {optionThree}
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                )
+                            })
+                        }
                     </div>
+                    {/* Question partial ends here */}
+
+
+
+
+                    
+                        <div className="submit-button">
+                            {/* {
+                                count === 10
+                                ?   <Link href="/result">
+                                    <button className="submit" type="submit">Submit</button>
+                                    </Link>
+                                : <></>
+                            } */}
+                            <button className="submit" type="submit">Submit</button>
+                        </div>
                 </form>
             </div>
         </div>

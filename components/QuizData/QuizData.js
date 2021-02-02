@@ -7,6 +7,8 @@ export const QuizData = [
         optionOne: "Yes, we do have Business plans & work as per the objectives",
         optionTwo: "Yes, we do have Business plans & work as per the objectives",
         optionThree: "Yes, we do have Business plans & work as per the objectives",
+        correctAnswer: 1,
+        answerSelectedByUser: ""
     },
     {
         id: 2,
@@ -16,6 +18,8 @@ export const QuizData = [
         optionOne: "Yes, we do have Business plans & work as per the objectives",
         optionTwo: "Yes, we do have Business plans & work as per the objectives",
         optionThree: "Yes, we do have Business plans & work as per the objectives",
+        correctAnswer: 2,
+        answerSelectedByUser: ""
     },
     {
         id: 3,
@@ -25,6 +29,8 @@ export const QuizData = [
         optionOne: "Yes, we do have Business plans & work as per the objectives",
         optionTwo: "Yes, we do have Business plans & work as per the objectives",
         optionThree: "Yes, we do have Business plans & work as per the objectives",
+        correctAnswer: 3,
+        answerSelectedByUser: ""
     },
     {
         id: 4,
@@ -34,6 +40,8 @@ export const QuizData = [
         optionOne: "Yes, we do have Business plans & work as per the objectives",
         optionTwo: "Yes, we do have Business plans & work as per the objectives",
         optionThree: "Yes, we do have Business plans & work as per the objectives",
+        correctAnswer: 1,
+        answerSelectedByUser: ""
     },
     {
         id: 5,
@@ -43,6 +51,8 @@ export const QuizData = [
         optionOne: "Yes, we do have Business plans & work as per the objectives",
         optionTwo: "Yes, we do have Business plans & work as per the objectives",
         optionThree: "Yes, we do have Business plans & work as per the objectives",
+        correctAnswer: 2,
+        answerSelectedByUser: ""
     },
     {
         id: 6,
@@ -52,6 +62,8 @@ export const QuizData = [
         optionOne: "Yes, we do have Business plans & work as per the objectives",
         optionTwo: "Yes, we do have Business plans & work as per the objectives",
         optionThree: "Yes, we do have Business plans & work as per the objectives",
+        correctAnswer: 3,
+        answerSelectedByUser: ""
     },
     {
         id: 7,
@@ -61,6 +73,8 @@ export const QuizData = [
         optionOne: "Yes, we do have Business plans & work as per the objectives",
         optionTwo: "Yes, we do have Business plans & work as per the objectives",
         optionThree: "Yes, we do have Business plans & work as per the objectives",
+        correctAnswer: 1,
+        answerSelectedByUser: ""
     },
     {
         id: 8,
@@ -70,6 +84,8 @@ export const QuizData = [
         optionOne: "Yes, we do have Business plans & work as per the objectives",
         optionTwo: "Yes, we do have Business plans & work as per the objectives",
         optionThree: "Yes, we do have Business plans & work as per the objectives",
+        correctAnswer: 2,
+        answerSelectedByUser: ""
     },
     {
         id: 9,
@@ -79,6 +95,8 @@ export const QuizData = [
         optionOne: "Yes, we do have Business plans & work as per the objectives",
         optionTwo: "Yes, we do have Business plans & work as per the objectives",
         optionThree: "Yes, we do have Business plans & work as per the objectives",
+        correctAnswer: 3,
+        answerSelectedByUser: ""
     },
     {
         id: 10,
@@ -88,6 +106,8 @@ export const QuizData = [
         optionOne: "Yes, we do have Business plans & work as per the objectives",
         optionTwo: "Yes, we do have Business plans & work as per the objectives",
         optionThree: "Yes, we do have Business plans & work as per the objectives",
+        correctAnswer: 1,
+        answerSelectedByUser: ""
     },
 ]
 

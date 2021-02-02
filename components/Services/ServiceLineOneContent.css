@@ -809,6 +809,21 @@
         flex-direction: column;
         padding-left: 0;
     }
+
+    .question-content .question-section {
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .question-content .question-section .single-services {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .question-content .question-section .right-side-question-content {
+        margin-top: 0;
+        padding-left: 20px;
+    }
 }
 
 /* -------------- main banner slider 2 css ------------------- */
