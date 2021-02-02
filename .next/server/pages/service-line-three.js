@@ -269,9 +269,9 @@ class ServiceLineThreeContent_ServiceLineOneContent extends external_react_["Com
 
   render() {
     return __jsx("div", {
-      className: "services-details-area service-line-one-content"
+      className: "services-details-area service-line-one-content header-padding"
     }, __jsx("div", {
-      className: "container"
+      className: ""
     }, __jsx("div", {
       className: "services-details"
     }, __jsx("div", {
