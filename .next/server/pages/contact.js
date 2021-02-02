@@ -2297,7 +2297,7 @@ class ContactForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       id: "contactForm"
     }, __jsx("div", {
       className: "form-group"
-    }, __jsx("label", null, "User Name"), __jsx("input", {
+    }, __jsx("input", {
       type: "text",
       name: "name",
       id: "name",
@@ -2306,7 +2306,7 @@ class ContactForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       placeholder: "User Name"
     })), __jsx("div", {
       className: "form-group"
-    }, __jsx("label", null, "Email"), __jsx("input", {
+    }, __jsx("input", {
       type: "email",
       name: "email",
       id: "email",
@@ -2315,7 +2315,7 @@ class ContactForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       placeholder: "Your Email"
     })), __jsx("div", {
       className: "form-group"
-    }, __jsx("label", null, "Mobile Number"), __jsx("input", {
+    }, __jsx("input", {
       type: "text",
       name: "msg_subject",
       id: "msg_subject",
@@ -2324,7 +2324,7 @@ class ContactForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       placeholder: "Your Contact Number"
     })), __jsx("div", {
       className: "form-group"
-    }, __jsx("label", null, "Company"), __jsx("input", {
+    }, __jsx("input", {
       type: "text",
       name: "msg_subject",
       id: "msg_subject",
@@ -2333,7 +2333,7 @@ class ContactForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       placeholder: "Your Company"
     })), __jsx("div", {
       className: "form-group"
-    }, __jsx("label", null, "Message"), __jsx("textarea", {
+    }, __jsx("textarea", {
       name: "message",
       className: "form-control",
       id: "message",
