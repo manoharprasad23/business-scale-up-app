@@ -7916,4 +7916,12 @@ Go Top CSS
 .header-padding {
   padding-top: 100px;
 }
+
+.custom-banner {
+  display: flex;
+}
+
+.custom-btn-banner {
+  
+}
 /*# sourceMappingURL=style.css.map */

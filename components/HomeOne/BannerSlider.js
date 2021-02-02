@@ -43,11 +43,13 @@ class BannerSlider extends Component {
                                 <VisibilitySensor>
                                     {({ isVisible }) => (
                                         <div className="container mt-50">
-                                            <div className="main-banner-content">
-                                                <h1>
-                                                    We help businesses succeed & grow to achieve their true potential
-                                                </h1>
+                                            <div className="main-banner-content custom-banner">
                                                 <div>
+                                                    <h1>
+                                                        We help businesses succeed & grow to achieve their true potential
+                                                    </h1>
+                                                </div>
+                                                <div className="custom-btn-banner">
                                                     <Link href="/contact">
                                                         <a className="default-btn">Enquire now</a>
                                                     </Link>
@@ -66,16 +68,17 @@ class BannerSlider extends Component {
                                 <VisibilitySensor>
                                     {({ isVisible }) => (
                                         <div className="container mt-50">
-                                            <div className="main-banner-content">
-                                                <h1>
-                                                    How future ready is your business ?
-                                                </h1>
-
-                                                <p>
-                                                    Our "How future ready is your business ?" template helps you assess your readiness !
-                                                </p>
-                                                
+                                            <div className="main-banner-content custom-banner">
                                                 <div>
+                                                    <h1>
+                                                        How future ready is your business ?
+                                                    </h1>
+
+                                                    <p>
+                                                        Our "How future ready is your business ?" template helps you assess your readiness !
+                                                    </p>
+                                                </div>
+                                                <div className="custom-btn-banner">
                                                     <Link href="/quiz">
                                                         <a className="default-btn">Get Started</a>
                                                     </Link>
@@ -94,17 +97,18 @@ class BannerSlider extends Component {
                                 <VisibilitySensor>
                                     {({ isVisible }) => (
                                         <div className="container mt-50">
-                                            <div className="main-banner-content">
-                                                <h1>
-                                                    Helping you “ScaleUp to the next Level”
-                                                </h1>
-
-                                                <p>
-                                                    Last Mile Rural Distribution & Logistics company
-                                                    Helped re draw strategies and execution plans for 10x growth
-                                                </p>
-                                                
+                                            <div className="main-banner-content custom-banner">
                                                 <div>
+                                                    <h1>
+                                                        Helping you “ScaleUp to the next Level”
+                                                    </h1>
+
+                                                    <p>
+                                                        Last Mile Rural Distribution & Logistics company
+                                                        Helped re draw strategies and execution plans for 10x growth
+                                                    </p>
+                                                </div>
+                                                <div className="custom-btn-banner">
                                                     <Link href="/blog-details">
                                                         <a className="default-btn">Know more</a>
                                                     </Link>
@@ -123,16 +127,17 @@ class BannerSlider extends Component {
                                 <VisibilitySensor>
                                     {({ isVisible }) => (
                                         <div className="container mt-50">
-                                            <div className="main-banner-content">
-                                                <h1>
-                                                    Who benefits from us ?
-                                                </h1>
-
-                                                <p>
-                                                    How do we make it more appealing ?
-                                                </p>
-                                                
+                                            <div className="main-banner-content custom-banner">
                                                 <div>
+                                                    <h1>
+                                                        Who benefits from us ?
+                                                    </h1>
+
+                                                    <p>
+                                                        How do we make it more appealing ?
+                                                    </p>
+                                                </div>
+                                                <div className="custom-btn-banner">
                                                     <Link href="/contact">
                                                         <a className="default-btn">Enquire Now</a>
                                                     </Link>

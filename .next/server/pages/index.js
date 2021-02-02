@@ -628,8 +628,10 @@ class BannerSlider_BannerSlider extends external_react_["Component"] {
     }) => __jsx("div", {
       className: "container mt-50"
     }, __jsx("div", {
-      className: "main-banner-content"
-    }, __jsx("h1", null, "We help businesses succeed & grow to achieve their true potential"), __jsx("div", null, __jsx(link_default.a, {
+      className: "main-banner-content custom-banner"
+    }, __jsx("div", null, __jsx("h1", null, "We help businesses succeed & grow to achieve their true potential")), __jsx("div", {
+      className: "custom-btn-banner"
+    }, __jsx(link_default.a, {
       href: "/contact"
     }, __jsx("a", {
       className: "default-btn"
@@ -644,8 +646,10 @@ class BannerSlider_BannerSlider extends external_react_["Component"] {
     }) => __jsx("div", {
       className: "container mt-50"
     }, __jsx("div", {
-      className: "main-banner-content"
-    }, __jsx("h1", null, "How future ready is your business ?"), __jsx("p", null, "Our \"How future ready is your business ?\" template helps you assess your readiness !"), __jsx("div", null, __jsx(link_default.a, {
+      className: "main-banner-content custom-banner"
+    }, __jsx("div", null, __jsx("h1", null, "How future ready is your business ?"), __jsx("p", null, "Our \"How future ready is your business ?\" template helps you assess your readiness !")), __jsx("div", {
+      className: "custom-btn-banner"
+    }, __jsx(link_default.a, {
       href: "/quiz"
     }, __jsx("a", {
       className: "default-btn"
@@ -660,8 +664,10 @@ class BannerSlider_BannerSlider extends external_react_["Component"] {
     }) => __jsx("div", {
       className: "container mt-50"
     }, __jsx("div", {
-      className: "main-banner-content"
-    }, __jsx("h1", null, "Helping you \u201CScaleUp to the next Level\u201D"), __jsx("p", null, "Last Mile Rural Distribution & Logistics company Helped re draw strategies and execution plans for 10x growth"), __jsx("div", null, __jsx(link_default.a, {
+      className: "main-banner-content custom-banner"
+    }, __jsx("div", null, __jsx("h1", null, "Helping you \u201CScaleUp to the next Level\u201D"), __jsx("p", null, "Last Mile Rural Distribution & Logistics company Helped re draw strategies and execution plans for 10x growth")), __jsx("div", {
+      className: "custom-btn-banner"
+    }, __jsx(link_default.a, {
       href: "/blog-details"
     }, __jsx("a", {
       className: "default-btn"
@@ -676,8 +682,10 @@ class BannerSlider_BannerSlider extends external_react_["Component"] {
     }) => __jsx("div", {
       className: "container mt-50"
     }, __jsx("div", {
-      className: "main-banner-content"
-    }, __jsx("h1", null, "Who benefits from us ?"), __jsx("p", null, "How do we make it more appealing ?"), __jsx("div", null, __jsx(link_default.a, {
+      className: "main-banner-content custom-banner"
+    }, __jsx("div", null, __jsx("h1", null, "Who benefits from us ?"), __jsx("p", null, "How do we make it more appealing ?")), __jsx("div", {
+      className: "custom-btn-banner"
+    }, __jsx(link_default.a, {
       href: "/contact"
     }, __jsx("a", {
       className: "default-btn"
