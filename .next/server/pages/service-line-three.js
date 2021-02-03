@@ -269,9 +269,9 @@ class ServiceLineThreeContent_ServiceLineOneContent extends external_react_["Com
 
   render() {
     return __jsx("div", {
-      className: "services-details-area service-line-one-content"
+      className: "services-details-area service-line-one-content header-padding"
     }, __jsx("div", {
-      className: "container"
+      className: ""
     }, __jsx("div", {
       className: "services-details"
     }, __jsx("div", {
@@ -443,12 +443,7 @@ var service_line_three_jsx = external_react_default.a.createElement;
 
 class service_line_three_ServiceLineOne extends external_react_["Component"] {
   render() {
-    return service_line_three_jsx(external_react_default.a.Fragment, null, service_line_three_jsx(Navbar["a" /* default */], null), service_line_three_jsx(PageBanner["a" /* default */], {
-      pageTitle: "Our Services",
-      homePageUrl: "/",
-      homePageText: "Home",
-      activePageText: "Services"
-    }), service_line_three_jsx(ServiceLineThreeContent, null), service_line_three_jsx(Footer["a" /* default */], null));
+    return service_line_three_jsx(external_react_default.a.Fragment, null, service_line_three_jsx(Navbar["a" /* default */], null), service_line_three_jsx(ServiceLineThreeContent, null), service_line_three_jsx(Footer["a" /* default */], null));
   }
 
 }
@@ -846,7 +841,7 @@ class PageBanner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 }
 
-/* harmony default export */ __webpack_exports__["a"] = (PageBanner);
+/* unused harmony default export */ var _unused_webpack_default_export = (PageBanner);
 
 /***/ }),
 
@@ -3114,6 +3109,13 @@ class Navbar_Navbar extends external_react_["Component"] {
     }, Navbar_jsx("a", {
       className: "nav-link"
     }, "Growth Tips"))), Navbar_jsx("li", {
+      className: "nav-item"
+    }, Navbar_jsx(ActiveLink["a" /* default */], {
+      href: "/blog",
+      activeClassName: "active"
+    }, Navbar_jsx("a", {
+      className: "nav-link"
+    }, "Blogs"))), Navbar_jsx("li", {
       className: "nav-item"
     }, Navbar_jsx(ActiveLink["a" /* default */], {
       href: "/about",

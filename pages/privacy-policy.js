@@ -8,13 +8,6 @@ class PrivacyPolicy extends Component {
         return (
             <React.Fragment>
                 <Navbar />
-                <PageBanner 
-                    pageTitle="Privacy Policy" 
-                    homePageUrl="/" 
-                    homePageText="Home" 
-                    activePageText="Privacy Policy" 
-                /> 
-
                 <div className="conditions-section ptb-100">
                     <div className="container">
                         <div className="single-privacy">

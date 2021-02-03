@@ -8,12 +8,6 @@ class Result extends Component {
         return (
             <React.Fragment>
                 <Navbar />
-                <PageBanner 
-                    pageTitle="Result" 
-                    homePageUrl="/" 
-                    homePageText="Home" 
-                    activePageText="Result" 
-                /> 
                 <ResultContent />
                 <Footer />
             </React.Fragment>

@@ -33,7 +33,7 @@ class AboutContent extends Component {
         return (
             <section className="about-section about-section-container bor-tb">
                 <div className="">
-                    <div className="services-details">
+                    <div className="services-details header-padding">
                             <div className="section-title">
                                 <h2>Scale Up</h2>
                                 <div className="bar"></div>

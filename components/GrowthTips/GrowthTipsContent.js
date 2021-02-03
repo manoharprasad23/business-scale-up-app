@@ -5,7 +5,7 @@ const GrowthTipsContent = () => {
     return (
         <div className="growth-tips">
             <div className="container">
-                        <div className="section-title">
+                        <div className="section-title header-padding">
                             <h2>Business Growth Tips</h2>
                             <div className="bar"></div>
                         </div>
@@ -32,7 +32,7 @@ const GrowthTipsContent = () => {
                             </div>
                         </div>
                     </div> */}
-                    <div className="row">
+                    <div className="row future-ready">
                         <div className="col-lg-4 col-md-6">
                             <div className="single-services">
                                 <h3>How Future Ready Is Your Business?</h3>

@@ -10,13 +10,6 @@ class Blog2 extends Component {
         return (
             <React.Fragment>
                 <Navbar />
-                <PageBanner 
-                    pageTitle="Blog Right Sidebar" 
-                    homePageUrl="/" 
-                    homePageText="Home" 
-                    activePageText="Blog Right Sidebar" 
-                /> 
-
                 <section className="blog-section ptb-100">
                     <div className="container">
                         <div className="row">

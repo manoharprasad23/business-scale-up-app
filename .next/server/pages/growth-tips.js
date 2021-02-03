@@ -530,7 +530,7 @@ class PageBanner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 }
 
-/* harmony default export */ __webpack_exports__["a"] = (PageBanner);
+/* unused harmony default export */ var _unused_webpack_default_export = (PageBanner);
 
 /***/ }),
 
@@ -2163,11 +2163,11 @@ const GrowthTipsContent = () => {
   }, __jsx("div", {
     className: "container"
   }, __jsx("div", {
-    className: "section-title"
+    className: "section-title header-padding"
   }, __jsx("h2", null, "Business Growth Tips"), __jsx("div", {
     className: "bar"
   })), __jsx("div", {
-    className: "row"
+    className: "row future-ready"
   }, __jsx("div", {
     className: "col-lg-4 col-md-6"
   }, __jsx("div", {
@@ -2192,12 +2192,7 @@ var growth_tips_jsx = external_react_default.a.createElement;
 
 class growth_tips_GrowthTips extends external_react_["Component"] {
   render() {
-    return growth_tips_jsx(external_react_default.a.Fragment, null, growth_tips_jsx(Navbar["a" /* default */], null), growth_tips_jsx(PageBanner["a" /* default */], {
-      pageTitle: "Growth Tips",
-      homePageUrl: "/",
-      homePageText: "Home",
-      activePageText: "Growth Tips"
-    }), growth_tips_jsx(GrowthTips_GrowthTipsContent, null), growth_tips_jsx(Footer["a" /* default */], null));
+    return growth_tips_jsx(external_react_default.a.Fragment, null, growth_tips_jsx(Navbar["a" /* default */], null), growth_tips_jsx(GrowthTips_GrowthTipsContent, null), growth_tips_jsx(Footer["a" /* default */], null));
   }
 
 }
@@ -2803,6 +2798,13 @@ class Navbar_Navbar extends external_react_["Component"] {
     }, Navbar_jsx("a", {
       className: "nav-link"
     }, "Growth Tips"))), Navbar_jsx("li", {
+      className: "nav-item"
+    }, Navbar_jsx(ActiveLink["a" /* default */], {
+      href: "/blog",
+      activeClassName: "active"
+    }, Navbar_jsx("a", {
+      className: "nav-link"
+    }, "Blogs"))), Navbar_jsx("li", {
       className: "nav-item"
     }, Navbar_jsx(ActiveLink["a" /* default */], {
       href: "/about",

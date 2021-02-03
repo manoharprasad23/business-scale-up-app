@@ -7,7 +7,7 @@ const ResultContent = () => {
         setCorrectAnswerPercentage(window.sessionStorage.getItem('correctAnswerPercentage'));
     }, []);
     return (
-        <div className="container">
+        <div className="container header-padding">
                 <div className="section-title">
                     <h2>Thank you for checking future readiness of your business</h2>
                     <div className="bar"></div>

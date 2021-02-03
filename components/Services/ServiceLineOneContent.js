@@ -36,8 +36,8 @@ class ServiceLineOneContent extends Component {
 
     render() {
         return (
-            <div className="services-details-area service-line-one-content">
-                <div className="container">
+            <div className="services-details-area service-line-one-content header-padding">
+                <div className="">
                     <div className="services-details">
                         <div className="section-title">
                             <h2>Scale Up To The Next Level</h2>
@@ -48,7 +48,7 @@ class ServiceLineOneContent extends Component {
                                     <div className="row align-items-center">
                                         <div className="col-lg-6">
                                             <div className="tech-content">
-                                                <h3>Holistic Business mentoring to deliver higher growth and profits</h3>
+                                                <div className="custom-sub-heading">Holistic Business mentoring to deliver higher growth and profits</div><br/>
                                                 <div className="bar"></div>
                                             </div>
                                         </div>

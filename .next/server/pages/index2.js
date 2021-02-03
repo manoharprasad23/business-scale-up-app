@@ -995,7 +995,8 @@ class BlogPost extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       href: "/blog-details"
     }, __jsx("a", null, __jsx("img", {
       src: __webpack_require__("Stbh"),
-      alt: "image"
+      alt: "image",
+      className: "image-custom-border"
     })))), __jsx("div", {
       className: "content"
     }, __jsx("h3", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -1010,7 +1011,8 @@ class BlogPost extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       href: "/blog-details"
     }, __jsx("a", null, __jsx("img", {
       src: __webpack_require__("8fC8"),
-      alt: "image"
+      alt: "image",
+      className: "image-custom-border"
     })))), __jsx("div", {
       className: "content"
     }, __jsx("h3", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -4308,6 +4310,13 @@ class Navbar_Navbar extends external_react_["Component"] {
     }, Navbar_jsx("a", {
       className: "nav-link"
     }, "Growth Tips"))), Navbar_jsx("li", {
+      className: "nav-item"
+    }, Navbar_jsx(ActiveLink["a" /* default */], {
+      href: "/blog",
+      activeClassName: "active"
+    }, Navbar_jsx("a", {
+      className: "nav-link"
+    }, "Blogs"))), Navbar_jsx("li", {
       className: "nav-item"
     }, Navbar_jsx(ActiveLink["a" /* default */], {
       href: "/about",

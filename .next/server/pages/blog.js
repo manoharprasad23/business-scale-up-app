@@ -544,7 +544,7 @@ class PageBanner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 }
 
-/* harmony default export */ __webpack_exports__["a"] = (PageBanner);
+/* unused harmony default export */ var _unused_webpack_default_export = (PageBanner);
 
 /***/ }),
 
@@ -758,15 +758,10 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 class Blog extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
-    return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_Layout_Navbar__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], null), __jsx(_components_Common_PageBanner__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"], {
-      pageTitle: "Case Studies",
-      homePageUrl: "/",
-      homePageText: "Home",
-      activePageText: "Case Studies"
-    }), __jsx("section", {
+    return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_Layout_Navbar__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], null), __jsx("section", {
       className: "case-studies-container"
     }, __jsx("div", {
-      className: "container"
+      className: "container header-padding"
     }, __jsx("div", {
       className: "section-title"
     }, __jsx("h2", null, "We have the expertise in supporting businesses across industries"), __jsx("div", {
@@ -783,7 +778,8 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       href: "/blog-details"
     }, __jsx("a", null, __jsx("img", {
       src: __webpack_require__("Stbh"),
-      alt: "image"
+      alt: "image",
+      className: "image-custom-border"
     })))), __jsx("div", {
       className: "content"
     }, __jsx("h3", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -798,7 +794,8 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       href: "/blog-details"
     }, __jsx("a", null, __jsx("img", {
       src: __webpack_require__("8fC8"),
-      alt: "image"
+      alt: "image",
+      className: "image-custom-border"
     })))), __jsx("div", {
       className: "content"
     }, __jsx("h3", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -813,7 +810,8 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       href: "/blog-details"
     }, __jsx("a", null, __jsx("img", {
       src: __webpack_require__("Flw6"),
-      alt: "image"
+      alt: "image",
+      className: "image-custom-border"
     })))), __jsx("div", {
       className: "content"
     }, __jsx("h3", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -828,7 +826,8 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       href: "/blog-details"
     }, __jsx("a", null, __jsx("img", {
       src: __webpack_require__("UqRI"),
-      alt: "image"
+      alt: "image",
+      className: "image-custom-border"
     })))), __jsx("div", {
       className: "content"
     }, __jsx("h3", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -843,7 +842,8 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       href: "/blog-details"
     }, __jsx("a", null, __jsx("img", {
       src: __webpack_require__("Z/p/"),
-      alt: "image"
+      alt: "image",
+      className: "image-custom-border"
     })))), __jsx("div", {
       className: "content"
     }, __jsx("h3", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -858,7 +858,8 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       href: "/blog-details"
     }, __jsx("a", null, __jsx("img", {
       src: __webpack_require__("r7DN"),
-      alt: "image"
+      alt: "image",
+      className: "image-custom-border"
     })))), __jsx("div", {
       className: "content"
     }, __jsx("h3", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -2902,6 +2903,13 @@ class Navbar_Navbar extends external_react_["Component"] {
     }, Navbar_jsx("a", {
       className: "nav-link"
     }, "Growth Tips"))), Navbar_jsx("li", {
+      className: "nav-item"
+    }, Navbar_jsx(ActiveLink["a" /* default */], {
+      href: "/blog",
+      activeClassName: "active"
+    }, Navbar_jsx("a", {
+      className: "nav-link"
+    }, "Blogs"))), Navbar_jsx("li", {
       className: "nav-item"
     }, Navbar_jsx(ActiveLink["a" /* default */], {
       href: "/about",

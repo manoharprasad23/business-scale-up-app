@@ -715,7 +715,7 @@ class PageBanner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 }
 
-/* harmony default export */ __webpack_exports__["a"] = (PageBanner);
+/* unused harmony default export */ var _unused_webpack_default_export = (PageBanner);
 
 /***/ }),
 
@@ -789,7 +789,7 @@ class AboutContent_AboutContent extends external_react_["Component"] {
     }, __jsx("div", {
       className: ""
     }, __jsx("div", {
-      className: "services-details"
+      className: "services-details header-padding"
     }, __jsx("div", {
       className: "section-title"
     }, __jsx("h2", null, "Scale Up"), __jsx("div", {
@@ -896,12 +896,7 @@ var about_jsx = external_react_default.a.createElement;
 
 class about_About extends external_react_["Component"] {
   render() {
-    return about_jsx(external_react_default.a.Fragment, null, about_jsx(Navbar["a" /* default */], null), about_jsx(PageBanner["a" /* default */], {
-      pageTitle: "About Us",
-      homePageUrl: "/",
-      homePageText: "Home",
-      activePageText: "About Us"
-    }), about_jsx(About_AboutContent, null), about_jsx(Footer["a" /* default */], null));
+    return about_jsx(external_react_default.a.Fragment, null, about_jsx(Navbar["a" /* default */], null), about_jsx(About_AboutContent, null), about_jsx(Footer["a" /* default */], null));
   }
 
 }
@@ -3260,6 +3255,13 @@ class Navbar_Navbar extends external_react_["Component"] {
     }, Navbar_jsx("a", {
       className: "nav-link"
     }, "Growth Tips"))), Navbar_jsx("li", {
+      className: "nav-item"
+    }, Navbar_jsx(ActiveLink["a" /* default */], {
+      href: "/blog",
+      activeClassName: "active"
+    }, Navbar_jsx("a", {
+      className: "nav-link"
+    }, "Blogs"))), Navbar_jsx("li", {
       className: "nav-item"
     }, Navbar_jsx(ActiveLink["a" /* default */], {
       href: "/about",

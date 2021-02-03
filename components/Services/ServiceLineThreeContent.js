@@ -36,8 +36,8 @@ class ServiceLineOneContent extends Component {
 
     render() {
         return (
-            <div className="services-details-area service-line-one-content">
-                <div className="container">
+            <div className="services-details-area service-line-one-content header-padding">
+                <div className="">
                     <div className="services-details">
                         <div className="section-title">
                              <h2>Connect to ScaleUp</h2>

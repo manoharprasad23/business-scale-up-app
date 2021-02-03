@@ -537,7 +537,7 @@ class PageBanner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 }
 
-/* harmony default export */ __webpack_exports__["a"] = (PageBanner);
+/* unused harmony default export */ var _unused_webpack_default_export = (PageBanner);
 
 /***/ }),
 
@@ -1025,12 +1025,7 @@ var team_jsx = external_react_default.a.createElement;
 
 class team_Team extends external_react_["Component"] {
   render() {
-    return team_jsx(external_react_default.a.Fragment, null, team_jsx(Navbar["a" /* default */], null), team_jsx(PageBanner["a" /* default */], {
-      pageTitle: "Team",
-      homePageUrl: "/",
-      homePageText: "Home",
-      activePageText: "Team"
-    }), team_jsx(Team_TeamCard, null), team_jsx(Footer["a" /* default */], null));
+    return team_jsx(external_react_default.a.Fragment, null, team_jsx(Navbar["a" /* default */], null), team_jsx(Team_TeamCard, null), team_jsx(Footer["a" /* default */], null));
   }
 
 }
@@ -3090,6 +3085,13 @@ class Navbar_Navbar extends external_react_["Component"] {
     }, Navbar_jsx("a", {
       className: "nav-link"
     }, "Growth Tips"))), Navbar_jsx("li", {
+      className: "nav-item"
+    }, Navbar_jsx(ActiveLink["a" /* default */], {
+      href: "/blog",
+      activeClassName: "active"
+    }, Navbar_jsx("a", {
+      className: "nav-link"
+    }, "Blogs"))), Navbar_jsx("li", {
       className: "nav-item"
     }, Navbar_jsx(ActiveLink["a" /* default */], {
       href: "/about",

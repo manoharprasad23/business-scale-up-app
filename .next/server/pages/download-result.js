@@ -211,7 +211,7 @@ var __jsx = external_react_default.a.createElement;
 
 const DownloadResultContent = () => {
   return __jsx("div", {
-    className: "download-result-content"
+    className: "download-result-content header-padding"
   }, __jsx("section", {
     className: "contact-section"
   }, __jsx("div", {
@@ -226,7 +226,7 @@ const DownloadResultContent = () => {
     id: "contactForm"
   }, __jsx("div", {
     className: "form-group"
-  }, __jsx("label", null, "User Name"), __jsx("input", {
+  }, __jsx("input", {
     type: "text",
     name: "name",
     id: "name",
@@ -235,7 +235,7 @@ const DownloadResultContent = () => {
     placeholder: "User Name"
   })), __jsx("div", {
     className: "form-group"
-  }, __jsx("label", null, "Email"), __jsx("input", {
+  }, __jsx("input", {
     type: "email",
     name: "email",
     id: "email",
@@ -244,7 +244,7 @@ const DownloadResultContent = () => {
     placeholder: "Your Email"
   })), __jsx("div", {
     className: "form-group"
-  }, __jsx("label", null, "Mobile Number"), __jsx("input", {
+  }, __jsx("input", {
     type: "text",
     name: "msg_subject",
     id: "msg_subject",
@@ -253,7 +253,7 @@ const DownloadResultContent = () => {
     placeholder: "Your Contact Number"
   })), __jsx("div", {
     className: "form-group"
-  }, __jsx("label", null, "Company"), __jsx("input", {
+  }, __jsx("input", {
     type: "text",
     name: "msg_subject",
     id: "msg_subject",
@@ -262,7 +262,7 @@ const DownloadResultContent = () => {
     placeholder: "Your Company"
   })), __jsx("div", {
     className: "form-group"
-  }, __jsx("label", null, "Message"), __jsx("textarea", {
+  }, __jsx("textarea", {
     name: "message",
     className: "form-control",
     id: "message",
@@ -305,12 +305,7 @@ var download_result_jsx = external_react_default.a.createElement;
 
 class download_result_Result extends external_react_["Component"] {
   render() {
-    return download_result_jsx(external_react_default.a.Fragment, null, download_result_jsx(Navbar["a" /* default */], null), download_result_jsx(PageBanner["a" /* default */], {
-      pageTitle: "Download Result",
-      homePageUrl: "/",
-      homePageText: "Home",
-      activePageText: "Download Result"
-    }), download_result_jsx(DownloadResultContent_DownloadResultContent, null), download_result_jsx(Footer["a" /* default */], null));
+    return download_result_jsx(external_react_default.a.Fragment, null, download_result_jsx(Navbar["a" /* default */], null), download_result_jsx(DownloadResultContent_DownloadResultContent, null), download_result_jsx(Footer["a" /* default */], null));
   }
 
 }
@@ -662,7 +657,7 @@ class PageBanner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 }
 
-/* harmony default export */ __webpack_exports__["a"] = (PageBanner);
+/* unused harmony default export */ var _unused_webpack_default_export = (PageBanner);
 
 /***/ }),
 
@@ -2864,6 +2859,13 @@ class Navbar_Navbar extends external_react_["Component"] {
     }, Navbar_jsx("a", {
       className: "nav-link"
     }, "Growth Tips"))), Navbar_jsx("li", {
+      className: "nav-item"
+    }, Navbar_jsx(ActiveLink["a" /* default */], {
+      href: "/blog",
+      activeClassName: "active"
+    }, Navbar_jsx("a", {
+      className: "nav-link"
+    }, "Blogs"))), Navbar_jsx("li", {
       className: "nav-item"
     }, Navbar_jsx(ActiveLink["a" /* default */], {
       href: "/about",

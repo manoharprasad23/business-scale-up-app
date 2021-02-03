@@ -530,7 +530,7 @@ class PageBanner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 }
 
-/* harmony default export */ __webpack_exports__["a"] = (PageBanner);
+/* unused harmony default export */ var _unused_webpack_default_export = (PageBanner);
 
 /***/ }),
 
@@ -2304,18 +2304,15 @@ var __jsx = external_react_default.a.createElement;
 
 
 const ResultContent = () => {
-  // componentDidMount() {
-  //     const correctAnswerPercentage = window.sessionStorage.getItem('correctAnswerPercentage');
-  // }
   const {
     0: correctAnswerPercentage,
     1: setCorrectAnswerPercentage
   } = Object(external_react_["useState"])(0);
   external_react_default.a.useEffect(() => {
-    setCorrectAnswerPercentage(window.sessionStorage.getItem('correctAnswerPercentage')); //const correctAnswerPercentage = window.sessionStorage.getItem('correctAnswerPercentage');
+    setCorrectAnswerPercentage(window.sessionStorage.getItem('correctAnswerPercentage'));
   }, []);
   return __jsx("div", {
-    className: "container"
+    className: "container header-padding"
   }, __jsx("div", {
     className: "section-title"
   }, __jsx("h2", null, "Thank you for checking future readiness of your business"), __jsx("div", {
@@ -2358,12 +2355,7 @@ var result_jsx = external_react_default.a.createElement;
 
 class result_Result extends external_react_["Component"] {
   render() {
-    return result_jsx(external_react_default.a.Fragment, null, result_jsx(Navbar["a" /* default */], null), result_jsx(PageBanner["a" /* default */], {
-      pageTitle: "Result",
-      homePageUrl: "/",
-      homePageText: "Home",
-      activePageText: "Result"
-    }), result_jsx(ResultContent_ResultContent, null), result_jsx(Footer["a" /* default */], null));
+    return result_jsx(external_react_default.a.Fragment, null, result_jsx(Navbar["a" /* default */], null), result_jsx(ResultContent_ResultContent, null), result_jsx(Footer["a" /* default */], null));
   }
 
 }
@@ -2817,6 +2809,13 @@ class Navbar_Navbar extends external_react_["Component"] {
     }, Navbar_jsx("a", {
       className: "nav-link"
     }, "Growth Tips"))), Navbar_jsx("li", {
+      className: "nav-item"
+    }, Navbar_jsx(ActiveLink["a" /* default */], {
+      href: "/blog",
+      activeClassName: "active"
+    }, Navbar_jsx("a", {
+      className: "nav-link"
+    }, "Blogs"))), Navbar_jsx("li", {
       className: "nav-item"
     }, Navbar_jsx(ActiveLink["a" /* default */], {
       href: "/about",

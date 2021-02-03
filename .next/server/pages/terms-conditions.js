@@ -276,12 +276,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 class TermsConditions extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
-    return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_Layout_Navbar__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], null), __jsx(_components_Common_PageBanner__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"], {
-      pageTitle: "Terms & Conditions",
-      homePageUrl: "/",
-      homePageText: "Home",
-      activePageText: "Terms & Conditions"
-    }), __jsx("div", {
+    return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_Layout_Navbar__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], null), __jsx("div", {
       className: "conditions-section ptb-100"
     }, __jsx("div", {
       className: "container"
@@ -570,7 +565,7 @@ class PageBanner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 }
 
-/* harmony default export */ __webpack_exports__["a"] = (PageBanner);
+/* unused harmony default export */ var _unused_webpack_default_export = (PageBanner);
 
 /***/ }),
 
@@ -2765,6 +2760,13 @@ class Navbar_Navbar extends external_react_["Component"] {
     }, Navbar_jsx("a", {
       className: "nav-link"
     }, "Growth Tips"))), Navbar_jsx("li", {
+      className: "nav-item"
+    }, Navbar_jsx(ActiveLink["a" /* default */], {
+      href: "/blog",
+      activeClassName: "active"
+    }, Navbar_jsx("a", {
+      className: "nav-link"
+    }, "Blogs"))), Navbar_jsx("li", {
       className: "nav-item"
     }, Navbar_jsx(ActiveLink["a" /* default */], {
       href: "/about",

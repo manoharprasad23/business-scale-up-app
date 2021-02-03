@@ -9,12 +9,6 @@ class Services2 extends Component {
         return (
             <React.Fragment>
                 <Navbar />
-                <PageBanner 
-                    pageTitle="Services Two" 
-                    homePageUrl="/" 
-                    homePageText="Home" 
-                    activePageText="Services Style Two" 
-                /> 
                 <ServicesStyleTwo />
                 <Footer />
             </React.Fragment>

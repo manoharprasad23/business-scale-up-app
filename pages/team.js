@@ -9,12 +9,6 @@ class Team extends Component {
         return (
             <React.Fragment>
                 <Navbar />
-                <PageBanner 
-                    pageTitle="Team" 
-                    homePageUrl="/" 
-                    homePageText="Home" 
-                    activePageText="Team" 
-                /> 
                 <TeamCard />
                 <Footer />
             </React.Fragment>

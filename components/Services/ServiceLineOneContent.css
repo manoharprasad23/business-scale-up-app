@@ -102,7 +102,7 @@
 }
 
 .business-strategy-details .experience-section {
-    background-color: #f0f1fe;
+    background-color: #f0f4f8 
 }
 
 .approach-and-methodology {
@@ -316,11 +316,10 @@
 
 /* --------------   quiz-css -----------------*/
 
-.quiz-content {
-    /* background-color: #f0f4f8; */
+/* .quiz-content {
     margin-top: -20px;
     padding-top: 20px;
-}
+} */
 
 .quiz-content .text{
     text-align: center;
@@ -721,13 +720,19 @@
 }
 
 .services-section {
-    padding-top: 30px;
-
+    padding-top: 80px;
+    padding-bottom: 100px;
 }
 
 .blog-section {
     background-color: #f0f1fe;
     padding-top: 20px;
+}
+
+.home-page-item-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* ---------------- mobile css --------------------- */

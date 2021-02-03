@@ -569,7 +569,7 @@ class PageBanner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 }
 
-/* harmony default export */ __webpack_exports__["a"] = (PageBanner);
+/* unused harmony default export */ var _unused_webpack_default_export = (PageBanner);
 
 /***/ }),
 
@@ -690,9 +690,9 @@ class ServiceLineOneContent_ServiceLineOneContent extends external_react_["Compo
 
   render() {
     return __jsx("div", {
-      className: "services-details-area service-line-one-content"
+      className: "services-details-area service-line-one-content header-padding"
     }, __jsx("div", {
-      className: "container"
+      className: ""
     }, __jsx("div", {
       className: "services-details"
     }, __jsx("div", {
@@ -709,7 +709,9 @@ class ServiceLineOneContent_ServiceLineOneContent extends external_react_["Compo
       className: "col-lg-6"
     }, __jsx("div", {
       className: "tech-content"
-    }, __jsx("h3", null, "Holistic Business mentoring to deliver higher growth and profits"), __jsx("div", {
+    }, __jsx("div", {
+      className: "custom-sub-heading"
+    }, "Holistic Business mentoring to deliver higher growth and profits"), __jsx("br", null), __jsx("div", {
       className: "bar"
     }))), __jsx("div", {
       className: "col-lg-6 tech-section-buttons"
@@ -861,12 +863,7 @@ var service_line_one_jsx = external_react_default.a.createElement;
 
 class service_line_one_ServiceLineOne extends external_react_["Component"] {
   render() {
-    return service_line_one_jsx(external_react_default.a.Fragment, null, service_line_one_jsx(Navbar["a" /* default */], null), service_line_one_jsx(PageBanner["a" /* default */], {
-      pageTitle: "Our Services",
-      homePageUrl: "/",
-      homePageText: "Home",
-      activePageText: "Services"
-    }), service_line_one_jsx(Services_ServiceLineOneContent, null), service_line_one_jsx(Footer["a" /* default */], null));
+    return service_line_one_jsx(external_react_default.a.Fragment, null, service_line_one_jsx(Navbar["a" /* default */], null), service_line_one_jsx(Services_ServiceLineOneContent, null), service_line_one_jsx(Footer["a" /* default */], null));
   }
 
 }
@@ -3104,6 +3101,13 @@ class Navbar_Navbar extends external_react_["Component"] {
     }, Navbar_jsx("a", {
       className: "nav-link"
     }, "Growth Tips"))), Navbar_jsx("li", {
+      className: "nav-item"
+    }, Navbar_jsx(ActiveLink["a" /* default */], {
+      href: "/blog",
+      activeClassName: "active"
+    }, Navbar_jsx("a", {
+      className: "nav-link"
+    }, "Blogs"))), Navbar_jsx("li", {
       className: "nav-item"
     }, Navbar_jsx(ActiveLink["a" /* default */], {
       href: "/about",

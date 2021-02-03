@@ -9,13 +9,6 @@ class ServiceDetails extends Component {
         return (
             <React.Fragment>
                 <Navbar />
-                <PageBanner 
-                    pageTitle="Service Details" 
-                    homePageUrl="/" 
-                    homePageText="Home" 
-                    activePageText="Service Details" 
-                /> 
-
                 <ServiceDetailsContent />
             </React.Fragment>
         );

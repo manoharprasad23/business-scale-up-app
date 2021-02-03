@@ -5,9 +5,10 @@ class ServicesStyleOne extends Component {
     render() {
         return (
             <section className="services-section">
-                <div className="container">
+                <div className="">
                     <div className="section-title">
-                        <h2>All leading to your growth</h2>
+                        <h2>Our Services</h2>
+                        <p>All leading to your growth</p>
                         <div className="bar"></div>
                     </div>
 

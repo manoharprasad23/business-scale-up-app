@@ -534,13 +534,6 @@ module.exports = "/_next/static/images/logo-d78e6355605cf2d2e92506c9873489e6.png
 
 /***/ }),
 
-/***/ "D1UI":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/home-1-img4-f5e772b94a7df56605d3c4da5519ac70.png";
-
-/***/ }),
-
 /***/ "Osoz":
 /***/ (function(module, exports) {
 
@@ -633,27 +626,16 @@ class BannerSlider_BannerSlider extends external_react_["Component"] {
     }, __jsx(external_react_visibility_sensor_default.a, null, ({
       isVisible
     }) => __jsx("div", {
-      className: "container mt-50"
+      className: "container mt-50 home-page-item-1"
     }, __jsx("div", {
-      className: "main-banner-content"
-    }, __jsx("h1", {
-      className: isVisible ? "animated fadeInUp" : ''
-    }, "We help businesses succeed & grow to achieve their true potential"), __jsx("div", {
-      className: `banner-btn ${isVisible ? "animated fadeInUp" : ''}`
+      className: "main-banner-content custom-banner"
+    }, __jsx("div", null, __jsx("h1", null, "We help businesses succeed & grow to achieve their true potential"))), __jsx("div", {
+      className: "custom-btn-banner"
     }, __jsx(link_default.a, {
       href: "/contact"
     }, __jsx("a", {
       className: "default-btn"
-    }, "Enquire now")))), __jsx("div", {
-      className: `banner-image ${isVisible ? "animated fadeInUp" : ''}`
-    }, __jsx("img", {
-      src: __webpack_require__("tdna"),
-      alt: "Image"
-    }), __jsx("img", {
-      src: __webpack_require__("qFu6"),
-      className: "banner-img",
-      alt: "image"
-    }))))))), __jsx("div", {
+    }, "Enquire now")))))))), __jsx("div", {
       className: "home-item item-bg2"
     }, __jsx("div", {
       className: "d-table"
@@ -662,29 +644,16 @@ class BannerSlider_BannerSlider extends external_react_["Component"] {
     }, __jsx(external_react_visibility_sensor_default.a, null, ({
       isVisible
     }) => __jsx("div", {
-      className: "container mt-50"
+      className: "container mt-50 home-page-item-1"
     }, __jsx("div", {
-      className: "main-banner-content"
-    }, __jsx("h1", {
-      className: isVisible ? "animated fadeInUp" : ''
-    }, "How future ready is your business ?"), __jsx("p", {
-      className: isVisible ? "animated fadeInUp" : ''
-    }, "Our \"How future ready is your business ?\" template helps you assess your readiness !"), __jsx("div", {
-      className: `banner-btn ${isVisible ? "animated fadeInUp" : ''}`
+      className: "main-banner-content custom-banner"
+    }, __jsx("div", null, __jsx("h1", null, "How future ready is your business ?"), __jsx("p", null, "Our \"How future ready is your business ?\" template helps you assess your readiness !"))), __jsx("div", {
+      className: "custom-btn-banner"
     }, __jsx(link_default.a, {
       href: "/quiz"
     }, __jsx("a", {
       className: "default-btn"
-    }, "Get Started")))), __jsx("div", {
-      className: `banner-image ${isVisible ? "animated fadeInUp" : ''}`
-    }, __jsx("img", {
-      src: __webpack_require__("tdna"),
-      alt: "Image"
-    }), __jsx("img", {
-      src: __webpack_require__("iXsl"),
-      className: "banner-img",
-      alt: "image"
-    }))))))), __jsx("div", {
+    }, "Get Started")))))))), __jsx("div", {
       className: "home-item item-bg3"
     }, __jsx("div", {
       className: "d-table"
@@ -695,27 +664,14 @@ class BannerSlider_BannerSlider extends external_react_["Component"] {
     }) => __jsx("div", {
       className: "container mt-50"
     }, __jsx("div", {
-      className: "main-banner-content"
-    }, __jsx("h1", {
-      className: isVisible ? "animated fadeInUp" : ''
-    }, "Helping you \u201CScaleUp to the next Level\u201D"), __jsx("p", {
-      className: isVisible ? "animated fadeInUp" : ''
-    }, "Last Mile Rural Distribution & Logistics company Helped re draw strategies and execution plans for 10x growth"), __jsx("div", {
-      className: `banner-btn ${isVisible ? "animated fadeInUp" : ''}`
+      className: "main-banner-content custom-banner home-page-item-1"
+    }, __jsx("div", null, __jsx("h1", null, "Helping you \u201CScaleUp to the next Level\u201D"), __jsx("p", null, "Last Mile Rural Distribution & Logistics company Helped re draw strategies and execution plans for 10x growth"))), __jsx("div", {
+      className: "custom-btn-banner"
     }, __jsx(link_default.a, {
       href: "/blog-details"
     }, __jsx("a", {
       className: "default-btn"
-    }, "Know more")))), __jsx("div", {
-      className: `banner-image ${isVisible ? "animated fadeInUp" : ''}`
-    }, __jsx("img", {
-      src: __webpack_require__("tdna"),
-      alt: "Image"
-    }), __jsx("img", {
-      src: __webpack_require__("s3bY"),
-      className: "banner-img",
-      alt: "image"
-    }))))))), __jsx("div", {
+    }, "Know more")))))))), __jsx("div", {
       className: "home-item item-bg4"
     }, __jsx("div", {
       className: "d-table"
@@ -726,27 +682,14 @@ class BannerSlider_BannerSlider extends external_react_["Component"] {
     }) => __jsx("div", {
       className: "container mt-50"
     }, __jsx("div", {
-      className: "main-banner-content"
-    }, __jsx("h1", {
-      className: isVisible ? "animated fadeInUp" : ''
-    }, "Who benefits from us ?"), __jsx("p", {
-      className: isVisible ? "animated fadeInUp" : ''
-    }, "How do we make it more appealing ?"), __jsx("div", {
-      className: `banner-btn ${isVisible ? "animated fadeInUp" : ''}`
+      className: "main-banner-content custom-banner  home-page-item-1"
+    }, __jsx("div", null, __jsx("h1", null, "Who benefits from us ?"), __jsx("p", null, "How do we make it more appealing ?"))), __jsx("div", {
+      className: "custom-btn-banner"
     }, __jsx(link_default.a, {
       href: "/contact"
     }, __jsx("a", {
       className: "default-btn"
-    }, "Enquire Now")))), __jsx("div", {
-      className: `banner-image ${isVisible ? "animated fadeInUp" : ''}`
-    }, __jsx("img", {
-      src: __webpack_require__("tdna"),
-      alt: "Image"
-    }), __jsx("img", {
-      src: __webpack_require__("D1UI"),
-      className: "banner-img",
-      alt: "image"
-    })))))))) : '');
+    }, "Enquire Now"))))))))) : '');
   }
 
 }
@@ -990,7 +933,8 @@ class BlogPost extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       href: "/blog-details"
     }, __jsx("a", null, __jsx("img", {
       src: __webpack_require__("Stbh"),
-      alt: "image"
+      alt: "image",
+      className: "image-custom-border"
     })))), __jsx("div", {
       className: "content"
     }, __jsx("h3", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -1005,7 +949,8 @@ class BlogPost extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       href: "/blog-details"
     }, __jsx("a", null, __jsx("img", {
       src: __webpack_require__("8fC8"),
-      alt: "image"
+      alt: "image",
+      className: "image-custom-border"
     })))), __jsx("div", {
       className: "content"
     }, __jsx("h3", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -2453,13 +2398,6 @@ function parseRelativeUrl(url, base) {
 
 /***/ }),
 
-/***/ "iXsl":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/home-1-img2-81991bf26bcb99687f61abc940ae9e75.png";
-
-/***/ }),
-
 /***/ "iwtP":
 /***/ (function(module, exports) {
 
@@ -2633,20 +2571,6 @@ module.exports = require("react-owl-carousel3");
 
 /***/ }),
 
-/***/ "qFu6":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/home-1-img1-4964889679e8af947425d4aa42473305.png";
-
-/***/ }),
-
-/***/ "s3bY":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/home-1-img3-8a67b58c79e2051f10bda45d307960dd.png";
-
-/***/ }),
-
 /***/ "tVbm":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2664,10 +2588,10 @@ class ServicesStyleOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     return __jsx("section", {
       className: "services-section"
     }, __jsx("div", {
-      className: "container"
+      className: ""
     }, __jsx("div", {
       className: "section-title"
-    }, __jsx("h2", null, "All leading to your growth"), __jsx("div", {
+    }, __jsx("h2", null, "Our Services"), __jsx("p", null, "All leading to your growth"), __jsx("div", {
       className: "bar"
     })), __jsx("div", {
       className: "row"
@@ -2740,13 +2664,6 @@ class ServicesStyleOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 }
 
 /* harmony default export */ __webpack_exports__["a"] = (ServicesStyleOne);
-
-/***/ }),
-
-/***/ "tdna":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/home-1-shape-19f7531362a821f9175ea11e593ce3cf.png";
 
 /***/ }),
 
@@ -3202,6 +3119,13 @@ class Navbar_Navbar extends external_react_["Component"] {
     }, Navbar_jsx("a", {
       className: "nav-link"
     }, "Growth Tips"))), Navbar_jsx("li", {
+      className: "nav-item"
+    }, Navbar_jsx(ActiveLink["a" /* default */], {
+      href: "/blog",
+      activeClassName: "active"
+    }, Navbar_jsx("a", {
+      className: "nav-link"
+    }, "Blogs"))), Navbar_jsx("li", {
       className: "nav-item"
     }, Navbar_jsx(ActiveLink["a" /* default */], {
       href: "/about",

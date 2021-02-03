@@ -47,7 +47,7 @@ const QuizContent = () => {
         }
     }
     return (
-        <div className="quiz-content">
+        <div className="quiz-content header-padding">
             <div className="container">
                 <div className="section-title">
                     <h2>Take the test</h2>

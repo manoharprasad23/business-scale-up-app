@@ -526,14 +526,9 @@ var contact_jsx = external_react_default.a.createElement;
 
 class contact_Contact extends external_react_["Component"] {
   render() {
-    return contact_jsx(external_react_default.a.Fragment, null, contact_jsx(Navbar["a" /* default */], null), contact_jsx(PageBanner["a" /* default */], {
-      pageTitle: "Contact",
-      homePageUrl: "/",
-      homePageText: "Home",
-      activePageText: "Contact"
-    }), contact_jsx(Contact_ContactInfo, null), contact_jsx("div", {
+    return contact_jsx(external_react_default.a.Fragment, null, contact_jsx(Navbar["a" /* default */], null), contact_jsx("div", {
       className: "pb-100"
-    }, contact_jsx(ContactForm["a" /* default */], null)), contact_jsx(Footer["a" /* default */], null));
+    }, contact_jsx(ContactForm["a" /* default */], null)), contact_jsx(Contact_ContactInfo, null), contact_jsx(Footer["a" /* default */], null));
   }
 
 }
@@ -622,7 +617,7 @@ class PageBanner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 }
 
-/* harmony default export */ __webpack_exports__["a"] = (PageBanner);
+/* unused harmony default export */ var _unused_webpack_default_export = (PageBanner);
 
 /***/ }),
 
@@ -2289,9 +2284,9 @@ class ContactForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     return __jsx("section", {
       className: "contact-section"
     }, __jsx("div", {
-      className: "container"
+      className: "container header-padding"
     }, __jsx("div", {
-      className: "contact-text"
+      className: "contact-text spacing-custom"
     }, __jsx("h3", null, "We work with business, who share our beliefs and not just do business because it has to be done"), __jsx("p", null, "Have Any Questions About Us?")), __jsx("div", {
       className: "row align-items-center"
     }, __jsx("div", {
@@ -2302,7 +2297,7 @@ class ContactForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       id: "contactForm"
     }, __jsx("div", {
       className: "form-group"
-    }, __jsx("label", null, "User Name"), __jsx("input", {
+    }, __jsx("input", {
       type: "text",
       name: "name",
       id: "name",
@@ -2311,7 +2306,7 @@ class ContactForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       placeholder: "User Name"
     })), __jsx("div", {
       className: "form-group"
-    }, __jsx("label", null, "Email"), __jsx("input", {
+    }, __jsx("input", {
       type: "email",
       name: "email",
       id: "email",
@@ -2320,7 +2315,7 @@ class ContactForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       placeholder: "Your Email"
     })), __jsx("div", {
       className: "form-group"
-    }, __jsx("label", null, "Mobile Number"), __jsx("input", {
+    }, __jsx("input", {
       type: "text",
       name: "msg_subject",
       id: "msg_subject",
@@ -2329,7 +2324,7 @@ class ContactForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       placeholder: "Your Contact Number"
     })), __jsx("div", {
       className: "form-group"
-    }, __jsx("label", null, "Company"), __jsx("input", {
+    }, __jsx("input", {
       type: "text",
       name: "msg_subject",
       id: "msg_subject",
@@ -2338,7 +2333,7 @@ class ContactForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       placeholder: "Your Company"
     })), __jsx("div", {
       className: "form-group"
-    }, __jsx("label", null, "Message"), __jsx("textarea", {
+    }, __jsx("textarea", {
       name: "message",
       className: "form-control",
       id: "message",
@@ -2964,6 +2959,13 @@ class Navbar_Navbar extends external_react_["Component"] {
     }, Navbar_jsx("a", {
       className: "nav-link"
     }, "Growth Tips"))), Navbar_jsx("li", {
+      className: "nav-item"
+    }, Navbar_jsx(ActiveLink["a" /* default */], {
+      href: "/blog",
+      activeClassName: "active"
+    }, Navbar_jsx("a", {
+      className: "nav-link"
+    }, "Blogs"))), Navbar_jsx("li", {
       className: "nav-item"
     }, Navbar_jsx(ActiveLink["a" /* default */], {
       href: "/about",

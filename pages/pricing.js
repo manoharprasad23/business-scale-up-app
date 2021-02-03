@@ -10,12 +10,6 @@ class Pricing extends Component {
         return (
             <React.Fragment>
                 <Navbar />
-                <PageBanner 
-                    pageTitle="Pricing" 
-                    homePageUrl="/" 
-                    homePageText="Home" 
-                    activePageText="Pricing" 
-                /> 
                 <PricingCard />
 
                 <div className="ptb-100">
