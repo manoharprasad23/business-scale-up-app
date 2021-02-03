@@ -760,6 +760,10 @@
         flex-direction: column;
     }
 
+    .custom-banner {
+        width: 90%;
+    }
+
     /* .service-footer {
         display: flex;
         flex-direction: column;
