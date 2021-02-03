@@ -4,7 +4,7 @@ import Link from 'next/link';
 class ServicesStyleOne extends Component {
     render() {
         return (
-            <section className="services-section">
+            <section className="services-section our-services-home">
                 <div className="">
                     <div className="section-title">
                         <h2>Our Services</h2>
@@ -12,7 +12,7 @@ class ServicesStyleOne extends Component {
                         <div className="bar"></div>
                     </div>
 
-                    <div className="row">
+                    {/* <div className="row">
                         <div className="col-lg-4 col-md-6">
                             <div className="single-services">
                                 <div className="icon">
@@ -54,39 +54,71 @@ class ServicesStyleOne extends Component {
                                 </Link>
                             </div>
                         </div>
+                    </div> */}
+                    <div className="row">
+                            <div className="col-lg-4 col-md-6">
+                                <div className="single-blog">
+                                    <div className="image">
+                                        <Link href="/service-line-one">
+                                            <a>
+                                                <img src={require("../../images/case-studies-1.jpg")} alt="image" className="image-custom-border"/>
+                                            </a>
+                                        </Link>
+                                    </div>
 
+                                    <div className="content">
+                                        <h3>ScaleUp to the Next level</h3>
+                                        <p>Holistic Business mentoring to deliver higher growth & profits</p>
 
-                        {/* Pagination */}
-                        {/* <div className="col-lg-12 col-md-12">
-                            <div className="pagination-area">
-                                <Link href="#">
-                                    <a className="prev page-numbers">
-                                        <i className="flaticon-left"></i>
-                                    </a>
-                                </Link>
-
-                                <Link href="#">
-                                    <a className="page-numbers">1</a>
-                                </Link>
-
-                                <span className="page-numbers current" aria-current="page">2</span>
-
-                                <Link href="#">
-                                    <a className="page-numbers">3</a>
-                                </Link>
-
-                                <Link href="#">
-                                    <a className="page-numbers">4</a>
-                                </Link>
-
-                                <Link href="#">
-                                    <a className="next page-numbers">
-                                        <i className="flaticon-right"></i>
-                                    </a>
-                                </Link>
+                                        <Link href="/service-line-one">
+                                            <a className="read-btn">Know More</a>
+                                        </Link>
+                                    </div>
+                                </div>
                             </div>
-                        </div> */}
-                    </div>
+
+                            <div className="col-lg-4 col-md-6">
+                                <div className="single-blog">
+                                    <div className="image">
+                                        <Link href="/service-line-two">
+                                            <a>
+                                                <img src={require("../../images/case-studies-2.jpg")} alt="image" className="image-custom-border" />
+                                            </a>
+                                        </Link>
+                                    </div>
+
+                                    <div className="content">
+                                        <h3>Accelerate your growth</h3>
+                                        <p>Business Consulting & Advisory Services to win in the market place</p>
+                                        
+                                        <Link href="/service-line-two">
+                                            <a className="read-btn">Know More</a>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-4 col-md-6">
+                                <div className="single-blog">
+                                    <div className="image">
+                                        <Link href="/service-line-three">
+                                            <a>
+                                                <img src={require("../../images/case-studies-3.jpg")} alt="image" className="image-custom-border" />
+                                            </a>
+                                        </Link>
+                                    </div>
+
+                                    <div className="content">
+                                        <h3>Connect to  ScaleUp</h3>
+                                        <p>Strategic Connections & eco systems to scaleup your business</p>
+                                        
+                                        <Link href="/service-line-three">
+                                            <a className="read-btn">Know More</a>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                 </div>
 
                 {/* Shape Images */}

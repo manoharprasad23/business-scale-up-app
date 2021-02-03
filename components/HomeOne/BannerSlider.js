@@ -96,8 +96,8 @@ class BannerSlider extends Component {
                             <div className="d-table-cell">
                                 <VisibilitySensor>
                                     {({ isVisible }) => (
-                                        <div className="container mt-50">
-                                            <div className="main-banner-content custom-banner home-page-item-1">
+                                        <div className="container mt-50 home-page-item-1">
+                                            <div className="main-banner-content custom-banner">
                                                 <div>
                                                     <h1>
                                                         Helping you “ScaleUp to the next Level”
@@ -126,8 +126,8 @@ class BannerSlider extends Component {
                             <div className="d-table-cell">
                                 <VisibilitySensor>
                                     {({ isVisible }) => (
-                                        <div className="container mt-50">
-                                            <div className="main-banner-content custom-banner  home-page-item-1">
+                                        <div className="container mt-50  home-page-item-1">
+                                            <div className="main-banner-content custom-banner">
                                                 <div>
                                                     <h1>
                                                         Who benefits from us ?

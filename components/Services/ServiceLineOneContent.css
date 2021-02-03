@@ -225,6 +225,20 @@
     margin: 0;
 }
 
+.our-services-home .content .read-btn {
+    padding: 10px 30px;
+    border: 1px solid #007bff;
+    border-radius: 10px;
+    background-color: #007bff;
+    margin-right: 30px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-top: 15px;
+    color: #fff;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
 
 
 /* --------------   growth-tips-css -----------------*/
@@ -740,6 +754,10 @@
 @media only screen and (max-width: 767px) {
     .ptb-100 {
         padding-top: 90px;
+    }
+
+    .home-page-item-1 {
+        flex-direction: column;
     }
 
     /* .service-footer {

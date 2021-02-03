@@ -534,6 +534,13 @@ module.exports = "/_next/static/images/logo-d78e6355605cf2d2e92506c9873489e6.png
 
 /***/ }),
 
+/***/ "Flw6":
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/case-studies-3-615f3e19b34cb426dafc61f8ea5a2b59.jpg";
+
+/***/ }),
+
 /***/ "Osoz":
 /***/ (function(module, exports) {
 
@@ -662,9 +669,9 @@ class BannerSlider_BannerSlider extends external_react_["Component"] {
     }, __jsx(external_react_visibility_sensor_default.a, null, ({
       isVisible
     }) => __jsx("div", {
-      className: "container mt-50"
+      className: "container mt-50 home-page-item-1"
     }, __jsx("div", {
-      className: "main-banner-content custom-banner home-page-item-1"
+      className: "main-banner-content custom-banner"
     }, __jsx("div", null, __jsx("h1", null, "Helping you \u201CScaleUp to the next Level\u201D"), __jsx("p", null, "Last Mile Rural Distribution & Logistics company Helped re draw strategies and execution plans for 10x growth"))), __jsx("div", {
       className: "custom-btn-banner"
     }, __jsx(link_default.a, {
@@ -680,9 +687,9 @@ class BannerSlider_BannerSlider extends external_react_["Component"] {
     }, __jsx(external_react_visibility_sensor_default.a, null, ({
       isVisible
     }) => __jsx("div", {
-      className: "container mt-50"
+      className: "container mt-50  home-page-item-1"
     }, __jsx("div", {
-      className: "main-banner-content custom-banner  home-page-item-1"
+      className: "main-banner-content custom-banner"
     }, __jsx("div", null, __jsx("h1", null, "Who benefits from us ?"), __jsx("p", null, "How do we make it more appealing ?"))), __jsx("div", {
       className: "custom-btn-banner"
     }, __jsx(link_default.a, {
@@ -2586,7 +2593,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 class ServicesStyleOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
     return __jsx("section", {
-      className: "services-section"
+      className: "services-section our-services-home"
     }, __jsx("div", {
       className: ""
     }, __jsx("div", {
@@ -2598,40 +2605,58 @@ class ServicesStyleOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("div", {
       className: "col-lg-4 col-md-6"
     }, __jsx("div", {
-      className: "single-services"
+      className: "single-blog"
     }, __jsx("div", {
-      className: "icon"
-    }, __jsx("i", {
-      className: "flaticon-it"
-    })), __jsx("h3", null, "ScaleUp to the Next level"), __jsx("p", null, "Holistic Business mentoring to deliver higher growth & profits"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      className: "image"
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/service-line-one"
+    }, __jsx("a", null, __jsx("img", {
+      src: __webpack_require__("Stbh"),
+      alt: "image",
+      className: "image-custom-border"
+    })))), __jsx("div", {
+      className: "content"
+    }, __jsx("h3", null, "ScaleUp to the Next level"), __jsx("p", null, "Holistic Business mentoring to deliver higher growth & profits"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/service-line-one"
     }, __jsx("a", {
       className: "read-btn"
-    }, "Know More")))), __jsx("div", {
+    }, "Know More"))))), __jsx("div", {
       className: "col-lg-4 col-md-6"
     }, __jsx("div", {
-      className: "single-services"
+      className: "single-blog"
     }, __jsx("div", {
-      className: "icon"
-    }, __jsx("i", {
-      className: "flaticon-setting"
-    })), __jsx("h3", null, "Accelerate your growth"), __jsx("p", null, "Business Consulting & Advisory Services to win in the market place"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      className: "image"
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/service-line-two"
+    }, __jsx("a", null, __jsx("img", {
+      src: __webpack_require__("8fC8"),
+      alt: "image",
+      className: "image-custom-border"
+    })))), __jsx("div", {
+      className: "content"
+    }, __jsx("h3", null, "Accelerate your growth"), __jsx("p", null, "Business Consulting & Advisory Services to win in the market place"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/service-line-two"
     }, __jsx("a", {
       className: "read-btn"
-    }, "Know More")))), __jsx("div", {
+    }, "Know More"))))), __jsx("div", {
       className: "col-lg-4 col-md-6"
     }, __jsx("div", {
-      className: "single-services"
+      className: "single-blog"
     }, __jsx("div", {
-      className: "icon"
-    }, __jsx("i", {
-      className: "flaticon-promotion"
-    })), __jsx("h3", null, "Connect to  ScaleUp"), __jsx("p", null, "Strategic Connections & eco systems to scaleup your business"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      className: "image"
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/service-line-three"
+    }, __jsx("a", null, __jsx("img", {
+      src: __webpack_require__("Flw6"),
+      alt: "image",
+      className: "image-custom-border"
+    })))), __jsx("div", {
+      className: "content"
+    }, __jsx("h3", null, "Connect to  ScaleUp"), __jsx("p", null, "Strategic Connections & eco systems to scaleup your business"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/service-line-three"
     }, __jsx("a", {
       className: "read-btn"
-    }, "Know More")))))), __jsx("div", {
+    }, "Know More"))))))), __jsx("div", {
       className: "default-shape"
     }, __jsx("div", {
       className: "shape-1"
