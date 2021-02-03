@@ -31,10 +31,11 @@ const QuizContent = () => {
             }
         }
         console.log('correct answer count is -> ' + answersSelected, correctAnswerCount)
-
+        const correctAnswerPercentage = Math.round((correctAnswerCount/10)*100)
+        window.sessionStorage.setItem('correctAnswerPercentage', correctAnswerPercentage);
 
         if(answersSelected == 10){
-            console.log('form submit initiated');
+            console.log('form submission initiated');
             fetch('https://jsonplaceholder.typicode.com/posts', {
                 method: 'POST',
                 body: questionAndAnswerForm,
@@ -42,6 +43,7 @@ const QuizContent = () => {
                   'Content-type': 'application/json; charset=UTF-8',
                 }
             })
+            window.location.href = "http://localhost:3000/result";
         }
     }
     return (
@@ -115,7 +117,7 @@ const QuizContent = () => {
                     
                         <div className="submit-button">
                             {/* {
-                                count === 10
+                                answersSelected == 10
                                 ?   <Link href="/result">
                                     <button className="submit" type="submit">Submit</button>
                                     </Link>

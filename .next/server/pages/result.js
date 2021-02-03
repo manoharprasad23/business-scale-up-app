@@ -2304,6 +2304,16 @@ var __jsx = external_react_default.a.createElement;
 
 
 const ResultContent = () => {
+  // componentDidMount() {
+  //     const correctAnswerPercentage = window.sessionStorage.getItem('correctAnswerPercentage');
+  // }
+  const {
+    0: correctAnswerPercentage,
+    1: setCorrectAnswerPercentage
+  } = Object(external_react_["useState"])(0);
+  external_react_default.a.useEffect(() => {
+    setCorrectAnswerPercentage(window.sessionStorage.getItem('correctAnswerPercentage')); //const correctAnswerPercentage = window.sessionStorage.getItem('correctAnswerPercentage');
+  }, []);
   return __jsx("div", {
     className: "container"
   }, __jsx("div", {
@@ -2318,7 +2328,7 @@ const ResultContent = () => {
     className: "single-services"
   }, __jsx("h3", null, "How future ready is your business ?"))), __jsx("div", {
     className: "result-content col-lg-7 col-md-6"
-  }, __jsx("h3", null, "Your score was 25 out of 100"), __jsx("div", {
+  }, __jsx("h3", null, "Your score was ", correctAnswerPercentage, " out of 100"), __jsx("div", {
     className: "score-indicator"
   }, __jsx("h6", null, "What does this score indicate ?"), __jsx("p", null, "In this volatile business world, you are facing issues similar to many business around you. It's time for some significant 'surgery'. A detailed business health review is needed to help understand key challenges, prioritize actions and take corrective measures. You will certainly benefit from the advice and assistance of an expert Business advisor to explore and recommend impactful actions to you firmly on the way to stability, growth and success.")), __jsx("div", {
     className: "page-report"
