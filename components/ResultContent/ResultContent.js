@@ -1,9 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Link from 'next/link';
 
 const ResultContent = () => {
+    const [correctAnswerPercentage, setCorrectAnswerPercentage] = useState(0);
+    React.useEffect(() => {
+        setCorrectAnswerPercentage(window.sessionStorage.getItem('correctAnswerPercentage'));
+    }, []);
     return (
-        <div className="container">
+        <div className="container header-padding">
                 <div className="section-title">
                     <h2>Thank you for checking future readiness of your business</h2>
                     <div className="bar"></div>
@@ -15,7 +19,7 @@ const ResultContent = () => {
                         </div>
                     </div>
                     <div className="result-content col-lg-7 col-md-6">
-                        <h3>Your score was 25 out of 100</h3>
+                        <h3>Your score was {correctAnswerPercentage} out of 100</h3>
                         <div className="score-indicator">
                             <h6>What does this score indicate ?</h6>
                             <p>In this volatile business world, you are facing issues similar to many business around you. It's time for some significant 'surgery'. A detailed business health review is needed to help understand key challenges, prioritize actions and take corrective measures. You will certainly benefit from the advice and assistance of an expert Business advisor to explore and recommend impactful actions to you firmly on the way to stability, growth and success.</p>

@@ -1932,7 +1932,9 @@ const QuizData = [{
   question: "We have written 2-3 strategic plan with clear objectives and financial targets. We have a Business Plan for this year execution & reviews are a part of our life",
   optionOne: "Yes, we do have Business plans & work as per the objectives",
   optionTwo: "Yes, we do have Business plans & work as per the objectives",
-  optionThree: "Yes, we do have Business plans & work as per the objectives"
+  optionThree: "Yes, we do have Business plans & work as per the objectives",
+  correctAnswer: 1,
+  answerSelectedByUser: ""
 }, {
   id: 2,
   leftBannerText: "Strategic Business Planning",
@@ -1940,7 +1942,9 @@ const QuizData = [{
   question: "We have written 2-3 strategic plan with clear objectives and financial targets. We have a Business Plan for this year execution & reviews are a part of our life",
   optionOne: "Yes, we do have Business plans & work as per the objectives",
   optionTwo: "Yes, we do have Business plans & work as per the objectives",
-  optionThree: "Yes, we do have Business plans & work as per the objectives"
+  optionThree: "Yes, we do have Business plans & work as per the objectives",
+  correctAnswer: 2,
+  answerSelectedByUser: ""
 }, {
   id: 3,
   leftBannerText: "Strategic Business Planning",
@@ -1948,7 +1952,9 @@ const QuizData = [{
   question: "We have written 2-3 strategic plan with clear objectives and financial targets. We have a Business Plan for this year execution & reviews are a part of our life",
   optionOne: "Yes, we do have Business plans & work as per the objectives",
   optionTwo: "Yes, we do have Business plans & work as per the objectives",
-  optionThree: "Yes, we do have Business plans & work as per the objectives"
+  optionThree: "Yes, we do have Business plans & work as per the objectives",
+  correctAnswer: 3,
+  answerSelectedByUser: ""
 }, {
   id: 4,
   leftBannerText: "Strategic Business Planning",
@@ -1956,7 +1962,9 @@ const QuizData = [{
   question: "We have written 2-3 strategic plan with clear objectives and financial targets. We have a Business Plan for this year execution & reviews are a part of our life",
   optionOne: "Yes, we do have Business plans & work as per the objectives",
   optionTwo: "Yes, we do have Business plans & work as per the objectives",
-  optionThree: "Yes, we do have Business plans & work as per the objectives"
+  optionThree: "Yes, we do have Business plans & work as per the objectives",
+  correctAnswer: 1,
+  answerSelectedByUser: ""
 }, {
   id: 5,
   leftBannerText: "Strategic Business Planning",
@@ -1964,7 +1972,9 @@ const QuizData = [{
   question: "We have written 2-3 strategic plan with clear objectives and financial targets. We have a Business Plan for this year execution & reviews are a part of our life",
   optionOne: "Yes, we do have Business plans & work as per the objectives",
   optionTwo: "Yes, we do have Business plans & work as per the objectives",
-  optionThree: "Yes, we do have Business plans & work as per the objectives"
+  optionThree: "Yes, we do have Business plans & work as per the objectives",
+  correctAnswer: 2,
+  answerSelectedByUser: ""
 }, {
   id: 6,
   leftBannerText: "Strategic Business Planning",
@@ -1972,7 +1982,9 @@ const QuizData = [{
   question: "We have written 2-3 strategic plan with clear objectives and financial targets. We have a Business Plan for this year execution & reviews are a part of our life",
   optionOne: "Yes, we do have Business plans & work as per the objectives",
   optionTwo: "Yes, we do have Business plans & work as per the objectives",
-  optionThree: "Yes, we do have Business plans & work as per the objectives"
+  optionThree: "Yes, we do have Business plans & work as per the objectives",
+  correctAnswer: 3,
+  answerSelectedByUser: ""
 }, {
   id: 7,
   leftBannerText: "Strategic Business Planning",
@@ -1980,7 +1992,9 @@ const QuizData = [{
   question: "We have written 2-3 strategic plan with clear objectives and financial targets. We have a Business Plan for this year execution & reviews are a part of our life",
   optionOne: "Yes, we do have Business plans & work as per the objectives",
   optionTwo: "Yes, we do have Business plans & work as per the objectives",
-  optionThree: "Yes, we do have Business plans & work as per the objectives"
+  optionThree: "Yes, we do have Business plans & work as per the objectives",
+  correctAnswer: 1,
+  answerSelectedByUser: ""
 }, {
   id: 8,
   leftBannerText: "Strategic Business Planning",
@@ -1988,7 +2002,9 @@ const QuizData = [{
   question: "We have written 2-3 strategic plan with clear objectives and financial targets. We have a Business Plan for this year execution & reviews are a part of our life",
   optionOne: "Yes, we do have Business plans & work as per the objectives",
   optionTwo: "Yes, we do have Business plans & work as per the objectives",
-  optionThree: "Yes, we do have Business plans & work as per the objectives"
+  optionThree: "Yes, we do have Business plans & work as per the objectives",
+  correctAnswer: 2,
+  answerSelectedByUser: ""
 }, {
   id: 9,
   leftBannerText: "Strategic Business Planning",
@@ -1996,7 +2012,9 @@ const QuizData = [{
   question: "We have written 2-3 strategic plan with clear objectives and financial targets. We have a Business Plan for this year execution & reviews are a part of our life",
   optionOne: "Yes, we do have Business plans & work as per the objectives",
   optionTwo: "Yes, we do have Business plans & work as per the objectives",
-  optionThree: "Yes, we do have Business plans & work as per the objectives"
+  optionThree: "Yes, we do have Business plans & work as per the objectives",
+  correctAnswer: 3,
+  answerSelectedByUser: ""
 }, {
   id: 10,
   leftBannerText: "Strategic Business Planning",
@@ -2004,48 +2022,192 @@ const QuizData = [{
   question: "We have written 2-3 strategic plan with clear objectives and financial targets. We have a Business Plan for this year execution & reviews are a part of our life",
   optionOne: "Yes, we do have Business plans & work as per the objectives",
   optionTwo: "Yes, we do have Business plans & work as per the objectives",
-  optionThree: "Yes, we do have Business plans & work as per the objectives"
+  optionThree: "Yes, we do have Business plans & work as per the objectives",
+  correctAnswer: 1,
+  answerSelectedByUser: ""
 }]; //export default quizData;
 // CONCATENATED MODULE: ./components/Question/Question.js
 var __jsx = external_react_default.a.createElement;
 
 
 
+
 const Question = props => {
-  const totalNumberOfQuestions = QuizData.length;
+  const totalNumberOfQuestions = QuizData.length; // let answerCount = 0;
+  // let correctAnswers = 0;
+
+  let quizData = [{
+    id: 1,
+    leftBannerText: "Strategic Business Planning",
+    heading: "Statement of readiness",
+    question: "We have written 2-3 strategic plan with clear objectives and financial targets. We have a Business Plan for this year execution & reviews are a part of our life",
+    optionOne: "Yes, we do have Business plans & work as per the objectives",
+    optionTwo: "Yes, we do have Business plans & work as per the objectives",
+    optionThree: "Yes, we do have Business plans & work as per the objectives",
+    correctAnswer: "_first_option",
+    answerSelectedByUser: ""
+  }, {
+    id: 2,
+    leftBannerText: "Strategic Business Planning",
+    heading: "Statement of readiness",
+    question: "We have written 2-3 strategic plan with clear objectives and financial targets. We have a Business Plan for this year execution & reviews are a part of our life",
+    optionOne: "Yes, we do have Business plans & work as per the objectives",
+    optionTwo: "Yes, we do have Business plans & work as per the objectives",
+    optionThree: "Yes, we do have Business plans & work as per the objectives",
+    correctAnswer: "_second_option",
+    answerSelectedByUser: ""
+  }, {
+    id: 3,
+    leftBannerText: "Strategic Business Planning",
+    heading: "Statement of readiness",
+    question: "We have written 2-3 strategic plan with clear objectives and financial targets. We have a Business Plan for this year execution & reviews are a part of our life",
+    optionOne: "Yes, we do have Business plans & work as per the objectives",
+    optionTwo: "Yes, we do have Business plans & work as per the objectives",
+    optionThree: "Yes, we do have Business plans & work as per the objectives",
+    correctAnswer: "_first_option",
+    answerSelectedByUser: ""
+  }, {
+    id: 4,
+    leftBannerText: "Strategic Business Planning",
+    heading: "Statement of readiness",
+    question: "We have written 2-3 strategic plan with clear objectives and financial targets. We have a Business Plan for this year execution & reviews are a part of our life",
+    optionOne: "Yes, we do have Business plans & work as per the objectives",
+    optionTwo: "Yes, we do have Business plans & work as per the objectives",
+    optionThree: "Yes, we do have Business plans & work as per the objectives",
+    correctAnswer: "_third_option",
+    answerSelectedByUser: ""
+  }, {
+    id: 5,
+    leftBannerText: "Strategic Business Planning",
+    heading: "Statement of readiness",
+    question: "We have written 2-3 strategic plan with clear objectives and financial targets. We have a Business Plan for this year execution & reviews are a part of our life",
+    optionOne: "Yes, we do have Business plans & work as per the objectives",
+    optionTwo: "Yes, we do have Business plans & work as per the objectives",
+    optionThree: "Yes, we do have Business plans & work as per the objectives",
+    correctAnswer: "_second_option",
+    answerSelectedByUser: ""
+  }, {
+    id: 6,
+    leftBannerText: "Strategic Business Planning",
+    heading: "Statement of readiness",
+    question: "We have written 2-3 strategic plan with clear objectives and financial targets. We have a Business Plan for this year execution & reviews are a part of our life",
+    optionOne: "Yes, we do have Business plans & work as per the objectives",
+    optionTwo: "Yes, we do have Business plans & work as per the objectives",
+    optionThree: "Yes, we do have Business plans & work as per the objectives",
+    correctAnswer: "_first_option",
+    answerSelectedByUser: ""
+  }, {
+    id: 7,
+    leftBannerText: "Strategic Business Planning",
+    heading: "Statement of readiness",
+    question: "We have written 2-3 strategic plan with clear objectives and financial targets. We have a Business Plan for this year execution & reviews are a part of our life",
+    optionOne: "Yes, we do have Business plans & work as per the objectives",
+    optionTwo: "Yes, we do have Business plans & work as per the objectives",
+    optionThree: "Yes, we do have Business plans & work as per the objectives",
+    correctAnswer: "_first_option",
+    answerSelectedByUser: ""
+  }, {
+    id: 8,
+    leftBannerText: "Strategic Business Planning",
+    heading: "Statement of readiness",
+    question: "We have written 2-3 strategic plan with clear objectives and financial targets. We have a Business Plan for this year execution & reviews are a part of our life",
+    optionOne: "Yes, we do have Business plans & work as per the objectives",
+    optionTwo: "Yes, we do have Business plans & work as per the objectives",
+    optionThree: "Yes, we do have Business plans & work as per the objectives",
+    correctAnswer: "_third_option",
+    answerSelectedByUser: ""
+  }, {
+    id: 9,
+    leftBannerText: "Strategic Business Planning",
+    heading: "Statement of readiness",
+    question: "We have written 2-3 strategic plan with clear objectives and financial targets. We have a Business Plan for this year execution & reviews are a part of our life",
+    optionOne: "Yes, we do have Business plans & work as per the objectives",
+    optionTwo: "Yes, we do have Business plans & work as per the objectives",
+    optionThree: "Yes, we do have Business plans & work as per the objectives",
+    correctAnswer: "_second_option",
+    answerSelectedByUser: ""
+  }, {
+    id: 10,
+    leftBannerText: "Strategic Business Planning",
+    heading: "Statement of readiness",
+    question: "We have written 2-3 strategic plan with clear objectives and financial targets. We have a Business Plan for this year execution & reviews are a part of our life",
+    optionOne: "Yes, we do have Business plans & work as per the objectives",
+    optionTwo: "Yes, we do have Business plans & work as per the objectives",
+    optionThree: "Yes, we do have Business plans & work as per the objectives",
+    correctAnswer: "_first_option",
+    answerSelectedByUser: ""
+  }]; // quizData.forEach((item) => {
+  //     item.answerSelectedByUser = false;
+  //     item.correctAnswerSelected = false;
+  // })
+
   const {
-    0: questionAndAnswer,
-    1: setQuestionAndAnswer
-  } = Object(external_react_["useState"])([]);
+    0: correctAnswerCount,
+    1: setCorrectAnswerCount
+  } = Object(external_react_["useState"])(0);
+  const {
+    0: answerCount,
+    1: setAnswerCount
+  } = Object(external_react_["useState"])(0);
+  const {
+    0: correctAnswers,
+    1: setCorrectAnswers
+  } = Object(external_react_["useState"])(0);
+  const {
+    0: allQuestionsAnswered,
+    1: setAllQuestionsAnswered
+  } = Object(external_react_["useState"])(false);
 
-  const clickHandler = (id, answerOption) => {
-    if (answerOption === '_first_option') {
-      const newElement = {
-        question: JSON.parse(JSON.stringify(QuizData[id - 1].question)),
-        answerSelected: JSON.parse(JSON.stringify(QuizData[id - 1].optionOne))
-      };
-      setQuestionAndAnswer(questionAndAnswer => [...questionAndAnswer, newElement]);
-    } else if (answerOption === '_second_option') {
-      const newElement = {
-        question: JSON.parse(JSON.stringify(QuizData[id - 1].question)),
-        answerSelected: JSON.parse(JSON.stringify(QuizData[id - 1].optionTwo))
-      };
-      setQuestionAndAnswer(questionAndAnswer => [...questionAndAnswer, newElement]);
-    } else if (answerOption === '_third_option') {
-      const newElement = {
-        question: JSON.parse(JSON.stringify(QuizData[id - 1].question)),
-        answerSelected: JSON.parse(JSON.stringify(QuizData[id - 1].optionThree))
-      };
-      setQuestionAndAnswer(questionAndAnswer => [...questionAndAnswer, newElement]);
-    }
-
-    console.log('q-' + JSON.stringify(questionAndAnswer));
-    props.sendFormData(questionAndAnswer);
+  const clickHandler = (questionId, answerOption) => {//console.log('clicked item --->' + id, answerOption);
+    // if(answerOption === '_first_option') {
+    //     const newElement = {
+    //         question: JSON.parse(JSON.stringify(QuizData[id-1].question)),
+    //         answerSelected: JSON.parse(JSON.stringify(QuizData[id-1].optionOne))
+    //     }
+    //     setQuestionAndAnswer(questionAndAnswer => [...questionAndAnswer, newElement]);
+    // } else if (answerOption === '_second_option') {
+    //     const newElement = {
+    //         question: JSON.parse(JSON.stringify(QuizData[id-1].question)),
+    //         answerSelected: JSON.parse(JSON.stringify(QuizData[id-1].optionTwo))
+    //     }
+    //     setQuestionAndAnswer(questionAndAnswer => [...questionAndAnswer, newElement]);
+    // } else if(answerOption === '_third_option') {
+    //     const newElement = {
+    //         question: JSON.parse(JSON.stringify(QuizData[id-1].question)),
+    //         answerSelected: JSON.parse(JSON.stringify(QuizData[id-1].optionThree))
+    //     }
+    //     setQuestionAndAnswer(questionAndAnswer => [...questionAndAnswer, newElement]);
+    // }
+    // console.log(quizData);
+    // quizData.forEach((questionItem) => {
+    //     if(questionItem.id === questionId) {
+    //         questionItem.answerSelectedByUser = true;
+    //         if(questionItem.correctAnswer === answerOption) {
+    //             questionItem.correctAnswerSelected = true;
+    //         }
+    //     }
+    // })
+    // quizData.forEach((question) => {
+    //     if(question.answerSelectedByUser === true){
+    //         setAnswerCount(answerCount + 1);
+    //     }
+    //     if(question.correctAnswerSelected === true) {
+    //         setCorrectAnswers(correctAnswers + 1);
+    //     }
+    // })
+    // if(answerCount === 10) {
+    //     setAllQuestionsAnswered(true);
+    // }
+    // console.log('q-----'+answerCount, correctAnswerCount);
+    // props.sendFormData({
+    //     "allQuestionsAnswered": allQuestionsAnswered,
+    //     "correctAnswerCount": correctAnswers
+    // });
   };
 
   return __jsx("div", {
     className: "question-content"
-  }, QuizData.map(item => {
+  }, quizData.map(item => {
     const {
       id,
       heading,
@@ -2106,7 +2268,6 @@ const Question = props => {
 /* harmony default export */ var Question_Question = (Question);
 // EXTERNAL MODULE: ./node_modules/next/link.js
 var next_link = __webpack_require__("YFqc");
-var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 
 // CONCATENATED MODULE: ./components/QuizContent/QuizContent.js
 var QuizContent_jsx = external_react_default.a.createElement;
@@ -2114,18 +2275,41 @@ var QuizContent_jsx = external_react_default.a.createElement;
 
 
 
-const QuizContent = () => {
-  let questionAndAnswerForm;
 
-  const getFormData = formData => {
-    questionAndAnswerForm = JSON.stringify(formData);
-    console.log('form--->' + questionAndAnswerForm);
-  };
+const QuizContent = () => {
+  const totalNumberOfQuestions = QuizData.length; // const getFormData = (formData) => {
+  //     questionAndAnswerForm = [1,2];//JSON.stringify(formData);
+  //     //console.log('form--->' + questionAndAnswerForm);
+  // }
 
   const handleSubmit = event => {
     event.preventDefault();
+    let correctAnswerCount = 0;
+    let answersSelected = 0;
+    let questionAndAnswerForm = [];
+    var element = document.getElementsByTagName('input');
 
-    if (questionAndAnswerForm.length > 0) {
+    for (var i = 0; i < element.length; i++) {
+      if (element[i].type = "radio") {
+        if (element[i].checked) {
+          answersSelected++;
+          questionAndAnswerForm.push(element[i].value);
+        }
+      }
+    }
+
+    for (var i = 0; i < 10; i++) {
+      if (questionAndAnswerForm[i] == QuizData[i].correctAnswer) {
+        correctAnswerCount++;
+      }
+    }
+
+    console.log('correct answer count is -> ' + answersSelected, correctAnswerCount);
+    const correctAnswerPercentage = Math.round(correctAnswerCount / 10 * 100);
+    window.sessionStorage.setItem('correctAnswerPercentage', correctAnswerPercentage);
+
+    if (answersSelected == 10) {
+      console.log('form submission initiated');
       fetch('https://jsonplaceholder.typicode.com/posts', {
         method: 'POST',
         body: questionAndAnswerForm,
@@ -2133,11 +2317,12 @@ const QuizContent = () => {
           'Content-type': 'application/json; charset=UTF-8'
         }
       });
+      window.location.href = "http://localhost:3000/result";
     }
   };
 
   return QuizContent_jsx("div", {
-    className: "quiz-content"
+    className: "quiz-content header-padding"
   }, QuizContent_jsx("div", {
     className: "container"
   }, QuizContent_jsx("div", {
@@ -2146,16 +2331,72 @@ const QuizContent = () => {
     className: "bar"
   })), QuizContent_jsx("form", {
     onSubmit: handleSubmit
-  }, QuizContent_jsx(Question_Question, {
-    sendFormData: getFormData
-  }), QuizContent_jsx("div", {
+  }, QuizContent_jsx("div", {
+    className: "question-content"
+  }, QuizData.map(item => {
+    const clickHandler = (questionId, answerOption) => {//console.log(questionId, answerOption);
+    };
+
+    const {
+      id,
+      heading,
+      leftBannerText,
+      optionOne,
+      optionTwo,
+      optionThree,
+      question
+    } = item;
+    return QuizContent_jsx("div", {
+      className: "question-section"
+    }, QuizContent_jsx("div", {
+      className: "col-lg-4 col-md-6"
+    }, QuizContent_jsx("div", {
+      className: "single-services"
+    }, QuizContent_jsx("p", null, id, "/", totalNumberOfQuestions), QuizContent_jsx("h3", null, leftBannerText))), QuizContent_jsx("div", {
+      className: "right-side-question-content"
+    }, QuizContent_jsx("div", {
+      className: "question-title"
+    }, QuizContent_jsx("h5", null, heading)), QuizContent_jsx("div", {
+      className: "question"
+    }, QuizContent_jsx("p", null, question)), QuizContent_jsx("div", {
+      className: "answer-options"
+    }, QuizContent_jsx("div", {
+      className: "option"
+    }, QuizContent_jsx("label", {
+      for: "one"
+    }, QuizContent_jsx("input", {
+      onClick: () => clickHandler(id, '_first_option'),
+      type: "radio",
+      id: id + '_first_option',
+      name: id + "-answer",
+      value: "1"
+    }), optionOne)), QuizContent_jsx("div", {
+      className: "option"
+    }, QuizContent_jsx("label", {
+      for: "two"
+    }, QuizContent_jsx("input", {
+      onClick: () => clickHandler(id, '_second_option'),
+      type: "radio",
+      id: id + '_second_option',
+      name: id + "-answer",
+      value: "2"
+    }), optionTwo)), QuizContent_jsx("div", {
+      className: "option"
+    }, QuizContent_jsx("label", {
+      for: "three"
+    }, QuizContent_jsx("input", {
+      onClick: () => clickHandler(id, '_third_option'),
+      type: "radio",
+      id: id + '_third_option',
+      name: id + "-answer",
+      value: "3"
+    }), optionThree)))));
+  })), QuizContent_jsx("div", {
     className: "submit-button"
-  }, QuizContent_jsx(link_default.a, {
-    href: "/result"
   }, QuizContent_jsx("button", {
     className: "submit",
     type: "submit"
-  }, "Submit"))))));
+  }, "Submit")))));
 };
 
 /* harmony default export */ var QuizContent_QuizContent = (QuizContent);

@@ -11,7 +11,7 @@ class BlogDetailsContent extends Component {
         console.log(this.props);
         
         return (
-            <section className="news-details-area case-studies-sub-component-container">
+            <section className="news-details-area case-studies-sub-component-container header-padding">
                 <div className="container">
                     <div className="section-title">
                         <h2>Helping redraw strategies & execution plans for 10x growth</h2>

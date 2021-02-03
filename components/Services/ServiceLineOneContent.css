@@ -316,11 +316,10 @@
 
 /* --------------   quiz-css -----------------*/
 
-.quiz-content {
-    /* background-color: #f0f4f8; */
+/* .quiz-content {
     margin-top: -20px;
     padding-top: 20px;
-}
+} */
 
 .quiz-content .text{
     text-align: center;
@@ -722,12 +721,18 @@
 
 .services-section {
     padding-top: 80px;
-
+    padding-bottom: 100px;
 }
 
 .blog-section {
     background-color: #f0f1fe;
     padding-top: 20px;
+}
+
+.home-page-item-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* ---------------- mobile css --------------------- */
@@ -808,6 +813,21 @@
         display: flex;
         flex-direction: column;
         padding-left: 0;
+    }
+
+    .question-content .question-section {
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .question-content .question-section .single-services {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .question-content .question-section .right-side-question-content {
+        margin-top: 0;
+        padding-left: 20px;
     }
 }
 

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const DownloadResultContent = () => {
     return (
-        <div className="download-result-content">
+        <div className="download-result-content header-padding">
             {/* <div className="result-container container ptb-100">
                 <div className="left-side-box">
                     <p>How future ready is your business?</p>
@@ -30,27 +30,22 @@ const DownloadResultContent = () => {
                             <div className="contact-form">
                                 <form id="contactForm">
                                     <div className="form-group">
-                                        <label>User Name</label>
                                         <input type="text" name="name" id="name" className="form-control" required placeholder="User Name" />
                                     </div>
                                     
                                     <div className="form-group">
-                                        <label>Email</label>
                                         <input type="email" name="email" id="email" className="form-control" required placeholder="Your Email" />
                                     </div>
                                     
                                     <div className="form-group">
-                                        <label>Mobile Number</label>
                                         <input type="text" name="msg_subject" id="msg_subject" className="form-control" required  placeholder="Your Contact Number" />
                                     </div>
 
                                     <div className="form-group">
-                                        <label>Company</label>
                                         <input type="text" name="msg_subject" id="msg_subject" className="form-control" required  placeholder="Your Company" />
                                     </div>
                                 
                                     <div className="form-group">
-                                        <label>Message</label>
                                         <textarea name="message" className="form-control" id="message" cols="30" rows="6" required  placeholder="How can we help you? You could brief us, if possible"></textarea>
                                     </div>
 

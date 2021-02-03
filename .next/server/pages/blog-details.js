@@ -2355,7 +2355,7 @@ class BlogDetailsContent_BlogDetailsContent extends external_react_["Component"]
   render() {
     console.log(this.props);
     return BlogDetailsContent_jsx("section", {
-      className: "news-details-area case-studies-sub-component-container"
+      className: "news-details-area case-studies-sub-component-container header-padding"
     }, BlogDetailsContent_jsx("div", {
       className: "container"
     }, BlogDetailsContent_jsx("div", {
