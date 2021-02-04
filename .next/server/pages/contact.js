@@ -2298,7 +2298,7 @@ class ContactForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         headers: {
           'Content-type': 'application/json; charset=UTF-8'
         }
-      }).then(console.log(response));
+      }).then(response => response.json()).then(data => console.log(data));
     });
   }
 
