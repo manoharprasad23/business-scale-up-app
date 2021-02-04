@@ -2232,6 +2232,9 @@ function parseRelativeUrl(url, base) {
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
  // class ContactForm extends Component {
 //     render() {
 //         return (
@@ -2280,6 +2283,25 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 // }
 
 class ContactForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(...args) {
+    super(...args);
+
+    _defineProperty(this, "onSubmitHandler", e => {
+      e.preventDefault();
+      console.log(e.target);
+      const data = new FormData(e.target);
+      const value = Object.fromEntries(data.entries());
+      console.log(value);
+      fetch('http://localhost:3001/api/query', {
+        method: 'POST',
+        body: JSON.stringify(value),
+        headers: {
+          'Content-type': 'application/json; charset=UTF-8'
+        }
+      }).then(console.log(response));
+    });
+  }
+
   render() {
     return __jsx("section", {
       className: "contact-section"
@@ -2294,7 +2316,8 @@ class ContactForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("div", {
       className: "contact-form"
     }, __jsx("form", {
-      id: "contactForm"
+      id: "contactForm",
+      onSubmit: this.onSubmitHandler
     }, __jsx("div", {
       className: "form-group"
     }, __jsx("input", {
@@ -2317,7 +2340,7 @@ class ContactForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       className: "form-group"
     }, __jsx("input", {
       type: "text",
-      name: "msg_subject",
+      name: "phone",
       id: "msg_subject",
       className: "form-control",
       required: true,
@@ -2326,7 +2349,7 @@ class ContactForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       className: "form-group"
     }, __jsx("input", {
       type: "text",
-      name: "msg_subject",
+      name: "company",
       id: "msg_subject",
       className: "form-control",
       required: true,

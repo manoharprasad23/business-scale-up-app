@@ -55,6 +55,22 @@ import Link from 'next/link';
 // }
 
 class ContactForm extends Component {
+
+    onSubmitHandler = (e) => {
+        e.preventDefault();
+        console.log(e.target);
+        const data = new FormData(e.target);
+        const value = Object.fromEntries(data.entries());
+        console.log(value);
+        fetch('http://localhost:3001/api/query', {
+                method: 'POST',
+                body: JSON.stringify(value),
+                headers: {
+                  'Content-type': 'application/json; charset=UTF-8',
+                }
+        });
+    }
+
     render() {
         return (
             <section className="contact-section">
@@ -67,7 +83,7 @@ class ContactForm extends Component {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="contact-form">
-                                <form id="contactForm">
+                                <form id="contactForm" onSubmit={this.onSubmitHandler}>
                                     <div className="form-group">
                                         <input type="text" name="name" id="name" className="form-control" required placeholder="User Name" />
                                     </div>
@@ -77,11 +93,11 @@ class ContactForm extends Component {
                                     </div>
                                     
                                     <div className="form-group">
-                                        <input type="text" name="msg_subject" id="msg_subject" className="form-control" required  placeholder="Your Contact Number" />
+                                        <input type="text" name="phone" id="msg_subject" className="form-control" required  placeholder="Your Contact Number" />
                                     </div>
 
                                     <div className="form-group">
-                                        <input type="text" name="msg_subject" id="msg_subject" className="form-control" required  placeholder="Your Company" />
+                                        <input type="text" name="company" id="msg_subject" className="form-control" required  placeholder="Your Company" />
                                     </div>
                                 
                                     <div className="form-group">
