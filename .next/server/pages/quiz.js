@@ -2317,7 +2317,7 @@ const QuizContent = () => {
           'Content-type': 'application/json; charset=UTF-8'
         }
       });
-      window.location.href = "http://localhost:3000/result";
+      window.location.href = window.location.origin + "/result";
     }
   };
 
