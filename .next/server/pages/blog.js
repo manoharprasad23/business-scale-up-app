@@ -764,7 +764,7 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       className: "container header-padding"
     }, __jsx("div", {
       className: "section-title"
-    }, __jsx("h2", null, "We have the expertise in supporting businesses across industries"), __jsx("div", {
+    }, __jsx("h2", null, "Case Studies"), __jsx("p", null, "We have the expertise in supporting businesses across industries"), __jsx("div", {
       className: "bar"
     })), __jsx("div", {
       className: "row"
@@ -781,7 +781,7 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       alt: "image",
       className: "image-custom-border"
     })))), __jsx("div", {
-      className: "content"
+      className: "content custom-content"
     }, __jsx("h3", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
       href: "/blog-details"
     }, __jsx("a", null, "Last Mile Rural Distribution  & Logistics company"))), __jsx("p", null, "Helping re draw strategies and execution plans for 10x growth")))), __jsx("div", {
@@ -797,7 +797,7 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       alt: "image",
       className: "image-custom-border"
     })))), __jsx("div", {
-      className: "content"
+      className: "content custom-content"
     }, __jsx("h3", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
       href: "/blog-details"
     }, __jsx("a", null, "B2B focused IT Hardware & Services company "))), __jsx("p", null, "Covid impact and reinventing the business model")))), __jsx("div", {
@@ -813,7 +813,7 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       alt: "image",
       className: "image-custom-border"
     })))), __jsx("div", {
-      className: "content"
+      className: "content custom-content"
     }, __jsx("h3", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
       href: "/blog-details"
     }, __jsx("a", null, "Artifical Intelligence startup "))), __jsx("p", null, "Product ideas converted into Go To Market models \u2013 new Customer pipes ")))), __jsx("div", {
@@ -829,7 +829,7 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       alt: "image",
       className: "image-custom-border"
     })))), __jsx("div", {
-      className: "content"
+      className: "content custom-content"
     }, __jsx("h3", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
       href: "/blog-details"
     }, __jsx("a", null, "Healthcare company"))), __jsx("p", null, "Building a premium brand"), __jsx("p", null, "Developing new products"), __jsx("p", null, "New channels for growth")))), __jsx("div", {
@@ -845,7 +845,7 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       alt: "image",
       className: "image-custom-border"
     })))), __jsx("div", {
-      className: "content"
+      className: "content custom-content"
     }, __jsx("h3", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
       href: "/blog-details"
     }, __jsx("a", null, "North India Technology Retail Chain"))), __jsx("p", null, "Helping reset business operations & drive higher profitability"), __jsx("p", null, "Raising capital")))), __jsx("div", {
@@ -861,7 +861,7 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       alt: "image",
       className: "image-custom-border"
     })))), __jsx("div", {
-      className: "content"
+      className: "content custom-content"
     }, __jsx("h3", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
       href: "/blog-details"
     }, __jsx("a", null, "Government segment focused company"))), __jsx("p", null, "Connection with new brands & product lines"), __jsx("p", null, "Increased revenues & profitability"))))))), __jsx(_components_Layout_Footer__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"], null));

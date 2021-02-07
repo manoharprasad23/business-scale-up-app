@@ -11,8 +11,9 @@ class Blog extends Component {
                 <Navbar />
                 <section className="case-studies-container">
                     <div className="container header-padding">
-                        <div className="section-title">   
-                            <h2>We have the expertise in supporting businesses across industries</h2>
+                        <div className="section-title">
+                            <h2>Case Studies</h2>   
+                            <p>We have the expertise in supporting businesses across industries</p>
                             <div className="bar"></div>
                         </div>
                         <div className="row">
@@ -26,7 +27,7 @@ class Blog extends Component {
                                         </Link>
                                     </div>
 
-                                    <div className="content">
+                                    <div className="content custom-content">
                                         <h3>
                                             <Link href="/blog-details">
                                                 <a>Last Mile Rural Distribution  & Logistics company</a>
@@ -47,7 +48,7 @@ class Blog extends Component {
                                         </Link>
                                     </div>
 
-                                    <div className="content">
+                                    <div className="content custom-content">
                                         <h3>
                                             <Link href="/blog-details">
                                                 <a>B2B focused IT Hardware & Services company </a>
@@ -68,7 +69,7 @@ class Blog extends Component {
                                         </Link>
                                     </div>
 
-                                    <div className="content">
+                                    <div className="content custom-content">
                                         <h3>
                                             <Link href="/blog-details">
                                                 <a>Artifical Intelligence startup </a>
@@ -89,7 +90,7 @@ class Blog extends Component {
                                         </Link>
                                     </div>
 
-                                    <div className="content">
+                                    <div className="content custom-content">
                                         <h3>
                                             <Link href="/blog-details">
                                                 <a>Healthcare company</a>
@@ -112,7 +113,7 @@ class Blog extends Component {
                                         </Link>
                                     </div>
 
-                                    <div className="content">
+                                    <div className="content custom-content">
                                         <h3>
                                             <Link href="/blog-details">
                                                 <a>North India Technology Retail Chain</a>
@@ -134,7 +135,7 @@ class Blog extends Component {
                                         </Link>
                                     </div>
 
-                                    <div className="content">
+                                    <div className="content custom-content">
                                         <h3>
                                             <Link href="/blog-details">
                                                 <a>Government segment focused company</a>
