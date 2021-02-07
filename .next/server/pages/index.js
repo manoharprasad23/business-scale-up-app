@@ -654,10 +654,10 @@ class BannerSlider_BannerSlider extends external_react_["Component"] {
       className: "container mt-50 home-page-item-1"
     }, __jsx("div", {
       className: "main-banner-content custom-banner"
-    }, __jsx("div", null, __jsx("h1", null, "How future ready is your business ?"), __jsx("p", null, "Our \"How future ready is your business ?\" template helps you assess your readiness !"))), __jsx("div", {
+    }, __jsx("div", null, __jsx("h1", null, "How future ready is your business ?"))), __jsx("div", {
       className: "custom-btn-banner"
     }, __jsx(link_default.a, {
-      href: "/quiz"
+      href: "/growth-tips"
     }, __jsx("a", {
       className: "default-btn"
     }, "Get Started")))))))), __jsx("div", {
@@ -690,7 +690,7 @@ class BannerSlider_BannerSlider extends external_react_["Component"] {
       className: "container mt-50  home-page-item-1"
     }, __jsx("div", {
       className: "main-banner-content custom-banner"
-    }, __jsx("div", null, __jsx("h1", null, "Who benefits from us ?"), __jsx("p", null, "How do we make it more appealing ?"))), __jsx("div", {
+    }, __jsx("div", null, __jsx("h1", null, "Who benefits from us ?"))), __jsx("div", {
       className: "custom-btn-banner"
     }, __jsx(link_default.a, {
       href: "/contact"
@@ -2795,7 +2795,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       className: "footer-info-contact"
     }, __jsx("i", {
       className: "flaticon-pin"
-    }), __jsx("h3", null, "Address"), __jsx("span", null, "32 st Kilda Road, Melbourne VIC, 3004 Australia")))))), __jsx("div", {
+    }), __jsx("h3", null, "Address"), __jsx("span", null, "Scaleupinc Services Pvt Ltd,"), __jsx("br", null), __jsx("span", null, "B24 Sarita Vihar,"), __jsx("br", null), __jsx("span", null, "New Delhi 110076")))))), __jsx("div", {
       className: "lines"
     }, __jsx("div", {
       className: "line"

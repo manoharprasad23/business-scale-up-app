@@ -125,6 +125,15 @@ class ServiceLineOneContent extends Component {
                         <div className="col-lg-4 col-sm-6">
                             <div className="features-content">
                                 <div className="icon">
+                                    <i className="flaticon-trophy"></i>
+                                </div>
+                                <p>Rigor & discipline is the key component with scheduled reviews | assesments | correctives | Move forward</p>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-sm-6">
+                            <div className="features-content">
+                                <div className="icon">
                                     <i className="flaticon-clock"></i>
                                 </div>
                                 {/* <h3>Time Saving</h3> */}

@@ -108,16 +108,6 @@ class ServiceLineOneContent extends Component {
 
                         <div className="col-lg-4 col-sm-6">
                             <div className="features-content">
-                                <div className="icon">
-                                    <i className="flaticon-update"></i>
-                                </div>
-                                {/* <h3>Optimal Choice</h3> */}
-                                <p>We work with you to plot your business strategies, align or growth plans and helps in flawless execution.</p>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-sm-6">
-                            <div className="features-content">
                                 <div className="icon left-icon">
                                     <i className="flaticon-security"></i>
                                 </div>
@@ -125,17 +115,6 @@ class ServiceLineOneContent extends Component {
                                 <p>How do you address the parts of your strategy to Win in the market place? Our consulting expertise is available</p>
                             </div>
                         </div>
-
-                        <div className="col-lg-4 col-sm-6">
-                            <div className="features-content">
-                                <div className="icon">
-                                    <i className="flaticon-clock"></i>
-                                </div>
-                                {/* <h3>Time Saving</h3> */}
-                                <p>exp-guides</p>
-                            </div>
-                        </div>
-
                         <div className="col-lg-4 col-sm-6">
                             <div className="features-content">
                                 <div className="icon">

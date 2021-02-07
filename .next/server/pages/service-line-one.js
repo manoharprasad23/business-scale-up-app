@@ -770,6 +770,14 @@ class ServiceLineOneContent_ServiceLineOneContent extends external_react_["Compo
     }, __jsx("div", {
       className: "icon"
     }, __jsx("i", {
+      className: "flaticon-trophy"
+    })), __jsx("p", null, "Rigor & discipline is the key component with scheduled reviews | assesments | correctives | Move forward"))), __jsx("div", {
+      className: "col-lg-4 col-sm-6"
+    }, __jsx("div", {
+      className: "features-content"
+    }, __jsx("div", {
+      className: "icon"
+    }, __jsx("i", {
       className: "flaticon-clock"
     })), __jsx("p", null, "Impactful business transformation"))), __jsx("div", {
       className: "col-lg-4 col-sm-6"
@@ -2752,7 +2760,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       className: "footer-info-contact"
     }, __jsx("i", {
       className: "flaticon-pin"
-    }), __jsx("h3", null, "Address"), __jsx("span", null, "32 st Kilda Road, Melbourne VIC, 3004 Australia")))))), __jsx("div", {
+    }), __jsx("h3", null, "Address"), __jsx("span", null, "Scaleupinc Services Pvt Ltd,"), __jsx("br", null), __jsx("span", null, "B24 Sarita Vihar,"), __jsx("br", null), __jsx("span", null, "New Delhi 110076")))))), __jsx("div", {
       className: "lines"
     }, __jsx("div", {
       className: "line"

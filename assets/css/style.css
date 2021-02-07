@@ -1223,11 +1223,11 @@ Banner Area CSS
 
 .home-sliders .home-item .main-banner-content {
   position: relative;
-  max-width: 630px;
+  max-width: 800px;
 }
 
 .home-sliders .home-item .main-banner-content h1 {
-  font-size: 70px;
+  font-size: 44px;
   color: #ffffff;
   margin: 5px 0 15px 0;
 }
@@ -7921,7 +7921,7 @@ Go Top CSS
   display: flex;
 }
 
-.custom-btn-banner {
-  
+.custom-content {
+ height: 223px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -73,14 +73,10 @@ class BannerSlider extends Component {
                                                     <h1>
                                                         How future ready is your business ?
                                                     </h1>
-
-                                                    <p>
-                                                        Our "How future ready is your business ?" template helps you assess your readiness !
-                                                    </p>
                                                 </div>
                                             </div>
                                             <div className="custom-btn-banner">
-                                                    <Link href="/quiz">
+                                                    <Link href="/growth-tips">
                                                         <a className="default-btn">Get Started</a>
                                                     </Link>
                                                 </div>
@@ -132,10 +128,6 @@ class BannerSlider extends Component {
                                                     <h1>
                                                         Who benefits from us ?
                                                     </h1>
-
-                                                    <p>
-                                                        How do we make it more appealing ?
-                                                    </p>
                                                 </div>
                                             </div>
                                                 <div className="custom-btn-banner">

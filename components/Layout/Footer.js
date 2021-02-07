@@ -161,7 +161,9 @@ class Footer extends Component {
                                     <div className="footer-info-contact">
                                         <i className="flaticon-pin"></i>
                                         <h3>Address</h3>
-                                        <span>32 st Kilda Road, Melbourne VIC, 3004 Australia</span>
+                                        <span>Scaleupinc Services Pvt Ltd,</span><br/>
+                                        <span>B24 Sarita Vihar,</span><br/>
+                                        <span>New Delhi 110076</span>
                                     </div>
                                 </div>
                             </div>
