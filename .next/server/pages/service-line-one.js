@@ -770,6 +770,14 @@ class ServiceLineOneContent_ServiceLineOneContent extends external_react_["Compo
     }, __jsx("div", {
       className: "icon"
     }, __jsx("i", {
+      className: "flaticon-trophy"
+    })), __jsx("p", null, "Rigor & discipline is the key component with scheduled reviews | assesments | correctives | Move forward"))), __jsx("div", {
+      className: "col-lg-4 col-sm-6"
+    }, __jsx("div", {
+      className: "features-content"
+    }, __jsx("div", {
+      className: "icon"
+    }, __jsx("i", {
       className: "flaticon-clock"
     })), __jsx("p", null, "Impactful business transformation"))), __jsx("div", {
       className: "col-lg-4 col-sm-6"

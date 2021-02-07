@@ -628,26 +628,10 @@ class ServiceLineTwoContent_ServiceLineOneContent extends external_react_["Compo
     }, __jsx("div", {
       className: "features-content"
     }, __jsx("div", {
-      className: "icon"
-    }, __jsx("i", {
-      className: "flaticon-update"
-    })), __jsx("p", null, "We work with you to plot your business strategies, align or growth plans and helps in flawless execution."))), __jsx("div", {
-      className: "col-lg-4 col-sm-6"
-    }, __jsx("div", {
-      className: "features-content"
-    }, __jsx("div", {
       className: "icon left-icon"
     }, __jsx("i", {
       className: "flaticon-security"
     })), __jsx("p", null, "How do you address the parts of your strategy to Win in the market place? Our consulting expertise is available"))), __jsx("div", {
-      className: "col-lg-4 col-sm-6"
-    }, __jsx("div", {
-      className: "features-content"
-    }, __jsx("div", {
-      className: "icon"
-    }, __jsx("i", {
-      className: "flaticon-clock"
-    })), __jsx("p", null, "exp-guides"))), __jsx("div", {
       className: "col-lg-4 col-sm-6"
     }, __jsx("div", {
       className: "features-content"
