@@ -57,17 +57,18 @@ class ServicesStyleOne extends Component {
                     </div> */}
                     <div className="row">
                             <div className="col-lg-4 col-md-6">
-                                <div className="single-blog">
+                                <div className="single-blog first-service-card">
                                     <div className="image">
-                                        <Link href="/service-line-one">
+                                        {/* <Link href="/service-line-one">
                                             <a>
                                                 <img src={require("../../images/case-studies-1.jpg")} alt="image" className="image-custom-border"/>
                                             </a>
-                                        </Link>
+                                        </Link> */}
+                                        
+                                        <h2>ScaleUp to the Next level</h2>
                                     </div>
 
                                     <div className="content">
-                                        <h3>ScaleUp to the Next level</h3>
                                         <p>Holistic Business mentoring to deliver higher growth & profits</p>
 
                                         <Link href="/service-line-one">
@@ -78,17 +79,17 @@ class ServicesStyleOne extends Component {
                             </div>
 
                             <div className="col-lg-4 col-md-6">
-                                <div className="single-blog">
+                                <div className="single-blog second-service-card">
                                     <div className="image">
-                                        <Link href="/service-line-two">
+                                        {/* <Link href="/service-line-two">
                                             <a>
                                                 <img src={require("../../images/case-studies-2.jpg")} alt="image" className="image-custom-border" />
                                             </a>
-                                        </Link>
+                                        </Link> */}
+                                        <h2>Accelerate your growth</h2>
                                     </div>
 
                                     <div className="content">
-                                        <h3>Accelerate your growth</h3>
                                         <p>Business Consulting & Advisory Services to win in the market place</p>
                                         
                                         <Link href="/service-line-two">
@@ -99,17 +100,17 @@ class ServicesStyleOne extends Component {
                             </div>
 
                             <div className="col-lg-4 col-md-6">
-                                <div className="single-blog">
+                                <div className="single-blog third-service-card">
                                     <div className="image">
-                                        <Link href="/service-line-three">
+                                        {/* <Link href="/service-line-three">
                                             <a>
                                                 <img src={require("../../images/case-studies-3.jpg")} alt="image" className="image-custom-border" />
                                             </a>
-                                        </Link>
+                                        </Link> */}
+                                        <h2>Connect to  ScaleUp</h2>
                                     </div>
 
                                     <div className="content">
-                                        <h3>Connect to  ScaleUp</h3>
                                         <p>Strategic Connections & eco systems to scaleup your business</p>
                                         
                                         <Link href="/service-line-three">

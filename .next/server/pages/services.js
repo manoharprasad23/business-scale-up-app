@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 37);
+/******/ 	return __webpack_require__(__webpack_require__.s = 38);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -194,7 +194,7 @@ const ActiveLink = (_ref) => {
 
 /***/ }),
 
-/***/ 37:
+/***/ 38:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("eefG");
@@ -464,13 +464,6 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEiIGhlaWdodD0iMjAi
 
 /***/ }),
 
-/***/ "8fC8":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/case-studies-2-2785d41562d2576810dfac8ad96ef9a4.jpg";
-
-/***/ }),
-
 /***/ "AroE":
 /***/ (function(module, exports) {
 
@@ -511,13 +504,6 @@ module.exports = _typeof;
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/logo-d78e6355605cf2d2e92506c9873489e6.png";
-
-/***/ }),
-
-/***/ "Flw6":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/case-studies-3-615f3e19b34cb426dafc61f8ea5a2b59.jpg";
 
 /***/ }),
 
@@ -574,13 +560,6 @@ module.exports = require("next/dist/next-server/lib/router-context.js");
 
 "use strict";
 
-
-/***/ }),
-
-/***/ "Stbh":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/case-studies-1-240f4cc17c0d66ff2bfe7928f800c3b5.jpg";
 
 /***/ }),
 
@@ -2385,54 +2364,36 @@ class ServicesStyleOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("div", {
       className: "col-lg-4 col-md-6"
     }, __jsx("div", {
-      className: "single-blog"
+      className: "single-blog first-service-card"
     }, __jsx("div", {
       className: "image"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/service-line-one"
-    }, __jsx("a", null, __jsx("img", {
-      src: __webpack_require__("Stbh"),
-      alt: "image",
-      className: "image-custom-border"
-    })))), __jsx("div", {
+    }, __jsx("h2", null, "ScaleUp to the Next level")), __jsx("div", {
       className: "content"
-    }, __jsx("h3", null, "ScaleUp to the Next level"), __jsx("p", null, "Holistic Business mentoring to deliver higher growth & profits"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    }, __jsx("p", null, "Holistic Business mentoring to deliver higher growth & profits"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/service-line-one"
     }, __jsx("a", {
       className: "read-btn"
     }, "Know More"))))), __jsx("div", {
       className: "col-lg-4 col-md-6"
     }, __jsx("div", {
-      className: "single-blog"
+      className: "single-blog second-service-card"
     }, __jsx("div", {
       className: "image"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/service-line-two"
-    }, __jsx("a", null, __jsx("img", {
-      src: __webpack_require__("8fC8"),
-      alt: "image",
-      className: "image-custom-border"
-    })))), __jsx("div", {
+    }, __jsx("h2", null, "Accelerate your growth")), __jsx("div", {
       className: "content"
-    }, __jsx("h3", null, "Accelerate your growth"), __jsx("p", null, "Business Consulting & Advisory Services to win in the market place"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    }, __jsx("p", null, "Business Consulting & Advisory Services to win in the market place"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/service-line-two"
     }, __jsx("a", {
       className: "read-btn"
     }, "Know More"))))), __jsx("div", {
       className: "col-lg-4 col-md-6"
     }, __jsx("div", {
-      className: "single-blog"
+      className: "single-blog third-service-card"
     }, __jsx("div", {
       className: "image"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/service-line-three"
-    }, __jsx("a", null, __jsx("img", {
-      src: __webpack_require__("Flw6"),
-      alt: "image",
-      className: "image-custom-border"
-    })))), __jsx("div", {
+    }, __jsx("h2", null, "Connect to  ScaleUp")), __jsx("div", {
       className: "content"
-    }, __jsx("h3", null, "Connect to  ScaleUp"), __jsx("p", null, "Strategic Connections & eco systems to scaleup your business"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    }, __jsx("p", null, "Strategic Connections & eco systems to scaleup your business"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/service-line-three"
     }, __jsx("a", {
       className: "read-btn"

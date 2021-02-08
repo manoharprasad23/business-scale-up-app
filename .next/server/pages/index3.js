@@ -2252,7 +2252,7 @@ class BlogPost extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     })), __jsx("div", {
       className: "row landing-page-section"
     }, __jsx("div", {
-      className: "col-lg-6 col-md-6"
+      className: "col-lg-5 col-md-6"
     }, __jsx("div", {
       className: "single-blog"
     }, __jsx("div", {
@@ -2268,7 +2268,7 @@ class BlogPost extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("h3", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/blog-details"
     }, __jsx("a", null, "Last mile Rural Distribution & Logistics Company"))), __jsx("p", null, "Helped redraw strategies & execution plans for 10x growth")))), __jsx("div", {
-      className: "col-lg-6 col-md-6"
+      className: "col-lg-5 col-md-6"
     }, __jsx("div", {
       className: "single-blog"
     }, __jsx("div", {

@@ -13,7 +13,7 @@ class BlogPost extends Component {
                     </div>
 
                     <div className="row landing-page-section">
-                        <div className="col-lg-6 col-md-6">
+                        <div className="col-lg-5 col-md-6">
                             <div className="single-blog">
                                 <div className="image">
                                     <Link href="/blog-details">
@@ -34,7 +34,7 @@ class BlogPost extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-6 col-md-6">
+                        <div className="col-lg-5 col-md-6">
                             <div className="single-blog">
                                 <div className="image">
                                     <Link href="/blog-details">

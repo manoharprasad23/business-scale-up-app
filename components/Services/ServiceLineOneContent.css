@@ -227,18 +227,109 @@
 
 .our-services-home .content .read-btn {
     padding: 10px 30px;
-    border: 1px solid #007bff;
-    border-radius: 10px;
-    background-color: #007bff;
-    margin-right: 30px;
     cursor: pointer;
     align-self: flex-end;
-    margin-top: 15px;
     color: #fff;
     margin: 0 auto;
     text-decoration: none;
 }
 
+.our-services-home .image {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 55px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.our-services-home .image h2 {
+    justify-content: end;
+    align-items: initial;
+    font-weight: 400;
+}
+
+.our-services-home .content p {
+    padding: 20px 20px 20px 20px;
+}
+
+.our-services-home .content a {
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.our-services-home .first-service-card .image {
+    background: transparent url(https://thedigitalfellow.com/tdf_web/wp-content/uploads/2020/01/Asset-4.png) 0% 0%/auto repeat scroll;
+}
+
+.our-services-home .first-service-card .image h2 {
+    color: #fb9a9c;
+}
+
+.our-services-home .first-service-card .content a {
+    color: #ffffff;
+    background-color: #fa5f64;
+    border: 2px solid #fa5f64;
+}
+
+.our-services-home .first-service-card .content a:hover {
+    color: #fa5f64 !important;
+    background-color: #ffffff !important;
+    border: 2px solid #fa5f64 !important;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.our-services-home .second-service-card .image {
+    background: transparent url(https://thedigitalfellow.com/tdf_web/wp-content/uploads/2020/01/Asset-5.png) 0% 0%/auto repeat scroll;
+}
+
+.our-services-home .second-service-card .image h2 {
+    color: #b9cdf2;
+}
+
+.our-services-home .second-service-card .content a {
+    color: #ffffff;
+    background-color: #5c93e6;
+    border: 2px solid #5c93e6;
+}
+
+.our-services-home .second-service-card .content a:hover {
+    color: #5c93e6 !important;
+    background-color: #ffffff;
+    border: 2px solid #5c93e6 !important;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.our-services-home .third-service-card .image {
+    background: transparent url(https://thedigitalfellow.com/tdf_web/wp-content/uploads/2020/01/Asset-6.png) 0% 0%/auto repeat scroll;
+}
+
+.our-services-home .third-service-card .image h2 {
+    color: #bfb6d7;
+}
+
+.our-services-home .third-service-card .content a {
+    color: #ffffff;
+    background-color: #6e55ab;
+    border: 2px solid #6e55ab;
+}
+
+.our-services-home .third-service-card .content a:hover {
+    color: #6e55ab !important;
+    background-color: #ffffff;
+    border: 2px solid #6e55ab !important;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.our-services-home .single-blog {
+    background: #ffffff;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding: 0;
+    border: 2px solid #f1f1f1;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 10px 5px #f1f1f1;
+}
 
 
 /* --------------   growth-tips-css -----------------*/
@@ -748,6 +839,27 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.custom-btn-banner .default-btn {
+    color: #ffffff;
+    background-color: #5c93e6;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    border: 2px solid #5c93e6;
+    border-radius: 40px 40px 40px 40px;
+    cursor: pointer;
+    margin-top: 10%;
+    text-decoration: none;
+}
+
+.custom-btn-banner .default-btn:hover {
+    color: #5c93e6 !important;
+    background-color: #ffffff;
+    border: 2px solid #5c93e6 !important;
+    border-radius: 40px 40px 40px 40px;
+}
+
+
 
 /* ---------------- mobile css --------------------- */
 
