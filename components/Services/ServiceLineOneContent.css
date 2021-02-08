@@ -616,6 +616,11 @@
 
 .case-studies-sub-component-container .strategic-plans .more-features-content {
     text-align: left;
+    height: 350px;
+}
+
+.case-studies-sub-component-container .strategic-plans .more-features-content:hover {
+    color:#fff;
 }
 
 .case-studies-sub-component-container .strategic-plans .more-features-content h3 {
@@ -625,6 +630,15 @@
 
 .case-studies-sub-component-container .strategic-plans .more-features-content .details-list {
     padding: 0 20px 20px;
+    line-height: 1.8;
+    color: #666;
+    font-weight: 400;
+    font-family: Open Sans,sans-serif;
+    font-size: 15px!important;
+}
+
+.case-studies-sub-component-container .strategic-plans .more-features-content .details-list:hover {
+    color: #fff;
 }
 
 .footer-section .newsletter-form-container {

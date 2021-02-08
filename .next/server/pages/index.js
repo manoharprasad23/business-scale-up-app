@@ -6,7 +6,7 @@ module.exports =
 /******/ 	// object to store loaded chunks
 /******/ 	// "0" means "already loaded"
 /******/ 	var installedChunks = {
-/******/ 		15: 0
+/******/ 		18: 0
 /******/ 	};
 /******/
 /******/ 	// The require function
@@ -101,7 +101,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 12);
+/******/ 	return __webpack_require__(__webpack_require__.s = 15);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -214,7 +214,7 @@ const ActiveLink = (_ref) => {
 
 /***/ }),
 
-/***/ 12:
+/***/ 15:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("RNiq");
@@ -3107,7 +3107,7 @@ class Navbar_Navbar extends external_react_["Component"] {
     }, "Our Services"))), Navbar_jsx("li", {
       className: "nav-item"
     }, Navbar_jsx(ActiveLink["a" /* default */], {
-      href: "/blog",
+      href: "/case-studies",
       activeClassName: "active"
     }, Navbar_jsx("a", {
       className: "nav-link"

@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 31);
+/******/ 	return __webpack_require__(__webpack_require__.s = 34);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -374,7 +374,7 @@ class projects2_Projects2 extends external_react_["Component"] {
 
 /***/ }),
 
-/***/ 31:
+/***/ 34:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("0jLi");
@@ -2942,7 +2942,7 @@ class Navbar_Navbar extends external_react_["Component"] {
     }, "Our Services"))), Navbar_jsx("li", {
       className: "nav-item"
     }, Navbar_jsx(ActiveLink["a" /* default */], {
-      href: "/blog",
+      href: "/case-studies",
       activeClassName: "active"
     }, Navbar_jsx("a", {
       className: "nav-link"

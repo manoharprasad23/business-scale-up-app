@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 8);
+/******/ 	return __webpack_require__(__webpack_require__.s = 11);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -184,6 +184,14 @@ const ActiveLink = (_ref) => {
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (Object(next_router__WEBPACK_IMPORTED_MODULE_0__["withRouter"])(ActiveLink));
+
+/***/ }),
+
+/***/ 11:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("1Av3");
+
 
 /***/ }),
 
@@ -566,14 +574,6 @@ function _interopRequireWildcard(obj) {
 }
 
 module.exports = _interopRequireWildcard;
-
-/***/ }),
-
-/***/ 8:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("1Av3");
-
 
 /***/ }),
 
@@ -2847,7 +2847,7 @@ class Navbar_Navbar extends external_react_["Component"] {
     }, "Our Services"))), Navbar_jsx("li", {
       className: "nav-item"
     }, Navbar_jsx(ActiveLink["a" /* default */], {
-      href: "/blog",
+      href: "/case-studies",
       activeClassName: "active"
     }, Navbar_jsx("a", {
       className: "nav-link"

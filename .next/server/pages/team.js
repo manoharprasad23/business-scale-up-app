@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 42);
+/******/ 	return __webpack_require__(__webpack_require__.s = 45);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -243,7 +243,7 @@ function assign(target, ...searchParamsList) {
 
 /***/ }),
 
-/***/ 42:
+/***/ 45:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("YykV");
@@ -3073,7 +3073,7 @@ class Navbar_Navbar extends external_react_["Component"] {
     }, "Our Services"))), Navbar_jsx("li", {
       className: "nav-item"
     }, Navbar_jsx(ActiveLink["a" /* default */], {
-      href: "/blog",
+      href: "/case-studies",
       activeClassName: "active"
     }, Navbar_jsx("a", {
       className: "nav-link"

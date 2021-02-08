@@ -88,177 +88,10 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
-
-/***/ "/AV/":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("cDcd");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("YFqc");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-class CommentsArea extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
-  render() {
-    return __jsx("div", {
-      className: "comments-area"
-    }, __jsx("h3", {
-      className: "comments-title"
-    }, "2 Comments:"), __jsx("ol", {
-      className: "comment-list"
-    }, __jsx("li", {
-      className: "comment"
-    }, __jsx("div", {
-      className: "comment-body"
-    }, __jsx("footer", {
-      className: "comment-meta"
-    }, __jsx("div", {
-      className: "comment-author vcard"
-    }, __jsx("img", {
-      src: __webpack_require__("G3fv"),
-      className: "avatar",
-      alt: "image"
-    }), __jsx("b", {
-      className: "fn"
-    }, "John Jones"), __jsx("span", {
-      className: "says"
-    }, "says:")), __jsx("div", {
-      className: "comment-metadata"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, __jsx("span", null, "January  24, 2020 at 10:59 am"))))), __jsx("div", {
-      className: "comment-content"
-    }, __jsx("p", null, "Lorem Ipsum has been the industry\u2019s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.")), __jsx("div", {
-      className: "reply"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", {
-      className: "comment-reply-link"
-    }, "Reply")))), __jsx("ol", {
-      className: "children"
-    }, __jsx("li", {
-      className: "comment"
-    }, __jsx("div", {
-      className: "comment-body"
-    }, __jsx("footer", {
-      className: "comment-meta"
-    }, __jsx("div", {
-      className: "comment-author vcard"
-    }, __jsx("img", {
-      src: __webpack_require__("GQ/Q"),
-      className: "avatar",
-      alt: "image"
-    }), __jsx("b", {
-      className: "fn"
-    }, "Steven Smith"), __jsx("span", {
-      className: "says"
-    }, "says:")), __jsx("div", {
-      className: "comment-metadata"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, __jsx("span", null, "January  24, 2020 at 10:59 am"))))), __jsx("div", {
-      className: "comment-content"
-    }, __jsx("p", null, "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim")), __jsx("div", {
-      className: "reply"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", {
-      className: "comment-reply-link"
-    }, "Reply"))))))), __jsx("li", {
-      className: "comment"
-    }, __jsx("div", {
-      className: "comment-body"
-    }, __jsx("footer", {
-      className: "comment-meta"
-    }, __jsx("div", {
-      className: "comment-author vcard"
-    }, __jsx("img", {
-      src: __webpack_require__("RY6a"),
-      className: "avatar",
-      alt: "image"
-    }), __jsx("b", {
-      className: "fn"
-    }, "John Doe"), __jsx("span", {
-      className: "says"
-    }, "says:")), __jsx("div", {
-      className: "comment-metadata"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, __jsx("span", null, "January  24, 2020 at 10:59 am"))))), __jsx("div", {
-      className: "comment-content"
-    }, __jsx("p", null, "Lorem Ipsum has been the industry\u2019s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.")), __jsx("div", {
-      className: "reply"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", {
-      className: "comment-reply-link"
-    }, "Reply")))))), __jsx("div", {
-      className: "comment-respond"
-    }, __jsx("h3", {
-      className: "comment-reply-title"
-    }, "Leave a Reply"), __jsx("form", {
-      className: "comment-form"
-    }, __jsx("p", {
-      className: "comment-notes"
-    }, __jsx("span", {
-      id: "email-notes"
-    }, "Your email address will not be published."), "Required fields are marked ", __jsx("span", {
-      className: "required"
-    }, "*")), __jsx("p", {
-      className: "comment-form-author"
-    }, __jsx("label", null, "Name ", __jsx("span", {
-      className: "required"
-    }, "*")), __jsx("input", {
-      type: "text",
-      id: "author",
-      name: "author",
-      required: "required"
-    })), __jsx("p", {
-      className: "comment-form-email"
-    }, __jsx("label", null, "Email ", __jsx("span", {
-      className: "required"
-    }, "*")), __jsx("input", {
-      type: "email",
-      id: "email",
-      name: "email",
-      required: "required"
-    })), __jsx("p", {
-      className: "comment-form-url"
-    }, __jsx("label", null, "Website"), __jsx("input", {
-      type: "url",
-      id: "url",
-      name: "url"
-    })), __jsx("p", {
-      className: "comment-form-comment"
-    }, __jsx("label", null, "Comment"), __jsx("textarea", {
-      name: "comment",
-      id: "comment",
-      cols: "45",
-      rows: "5",
-      required: "required"
-    })), __jsx("p", {
-      className: "form-submit text-center"
-    }, __jsx("input", {
-      type: "submit",
-      name: "submit",
-      id: "submit",
-      className: "submit",
-      value: "Post A Comment"
-    })))));
-  }
-
-}
-
-/* unused harmony default export */ var _unused_webpack_default_export = (CommentsArea);
-
-/***/ }),
 
 /***/ "/jkW":
 /***/ (function(module, exports, __webpack_require__) {
@@ -361,14 +194,6 @@ const ActiveLink = (_ref) => {
 
 /***/ }),
 
-/***/ 3:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("iX55");
-
-
-/***/ }),
-
 /***/ "3WeD":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -429,6 +254,14 @@ function assign(target, ...searchParamsList) {
 /***/ (function(module, exports) {
 
 module.exports = require("next/router");
+
+/***/ }),
+
+/***/ 5:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("iX55");
+
 
 /***/ }),
 
@@ -2348,12 +2181,167 @@ var BlogSidebar = __webpack_require__("y1kX");
 
 // EXTERNAL MODULE: ./node_modules/next/link.js
 var next_link = __webpack_require__("YFqc");
+var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 
-// EXTERNAL MODULE: ./components/Blog/CommentsArea.js
-var CommentsArea = __webpack_require__("/AV/");
-
-// CONCATENATED MODULE: ./components/Blog/BlogDetailsContent.js
+// CONCATENATED MODULE: ./components/Blog/CommentsArea.js
 var __jsx = external_react_default.a.createElement;
+
+
+
+class CommentsArea_CommentsArea extends external_react_["Component"] {
+  render() {
+    return __jsx("div", {
+      className: "comments-area"
+    }, __jsx("h3", {
+      className: "comments-title"
+    }, "2 Comments:"), __jsx("ol", {
+      className: "comment-list"
+    }, __jsx("li", {
+      className: "comment"
+    }, __jsx("div", {
+      className: "comment-body"
+    }, __jsx("footer", {
+      className: "comment-meta"
+    }, __jsx("div", {
+      className: "comment-author vcard"
+    }, __jsx("img", {
+      src: __webpack_require__("G3fv"),
+      className: "avatar",
+      alt: "image"
+    }), __jsx("b", {
+      className: "fn"
+    }, "John Jones"), __jsx("span", {
+      className: "says"
+    }, "says:")), __jsx("div", {
+      className: "comment-metadata"
+    }, __jsx(link_default.a, {
+      href: "#"
+    }, __jsx("a", null, __jsx("span", null, "January  24, 2020 at 10:59 am"))))), __jsx("div", {
+      className: "comment-content"
+    }, __jsx("p", null, "Lorem Ipsum has been the industry\u2019s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.")), __jsx("div", {
+      className: "reply"
+    }, __jsx(link_default.a, {
+      href: "#"
+    }, __jsx("a", {
+      className: "comment-reply-link"
+    }, "Reply")))), __jsx("ol", {
+      className: "children"
+    }, __jsx("li", {
+      className: "comment"
+    }, __jsx("div", {
+      className: "comment-body"
+    }, __jsx("footer", {
+      className: "comment-meta"
+    }, __jsx("div", {
+      className: "comment-author vcard"
+    }, __jsx("img", {
+      src: __webpack_require__("GQ/Q"),
+      className: "avatar",
+      alt: "image"
+    }), __jsx("b", {
+      className: "fn"
+    }, "Steven Smith"), __jsx("span", {
+      className: "says"
+    }, "says:")), __jsx("div", {
+      className: "comment-metadata"
+    }, __jsx(link_default.a, {
+      href: "#"
+    }, __jsx("a", null, __jsx("span", null, "January  24, 2020 at 10:59 am"))))), __jsx("div", {
+      className: "comment-content"
+    }, __jsx("p", null, "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim")), __jsx("div", {
+      className: "reply"
+    }, __jsx(link_default.a, {
+      href: "#"
+    }, __jsx("a", {
+      className: "comment-reply-link"
+    }, "Reply"))))))), __jsx("li", {
+      className: "comment"
+    }, __jsx("div", {
+      className: "comment-body"
+    }, __jsx("footer", {
+      className: "comment-meta"
+    }, __jsx("div", {
+      className: "comment-author vcard"
+    }, __jsx("img", {
+      src: __webpack_require__("RY6a"),
+      className: "avatar",
+      alt: "image"
+    }), __jsx("b", {
+      className: "fn"
+    }, "John Doe"), __jsx("span", {
+      className: "says"
+    }, "says:")), __jsx("div", {
+      className: "comment-metadata"
+    }, __jsx(link_default.a, {
+      href: "#"
+    }, __jsx("a", null, __jsx("span", null, "January  24, 2020 at 10:59 am"))))), __jsx("div", {
+      className: "comment-content"
+    }, __jsx("p", null, "Lorem Ipsum has been the industry\u2019s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.")), __jsx("div", {
+      className: "reply"
+    }, __jsx(link_default.a, {
+      href: "#"
+    }, __jsx("a", {
+      className: "comment-reply-link"
+    }, "Reply")))))), __jsx("div", {
+      className: "comment-respond"
+    }, __jsx("h3", {
+      className: "comment-reply-title"
+    }, "Leave a Reply"), __jsx("form", {
+      className: "comment-form"
+    }, __jsx("p", {
+      className: "comment-notes"
+    }, __jsx("span", {
+      id: "email-notes"
+    }, "Your email address will not be published."), "Required fields are marked ", __jsx("span", {
+      className: "required"
+    }, "*")), __jsx("p", {
+      className: "comment-form-author"
+    }, __jsx("label", null, "Name ", __jsx("span", {
+      className: "required"
+    }, "*")), __jsx("input", {
+      type: "text",
+      id: "author",
+      name: "author",
+      required: "required"
+    })), __jsx("p", {
+      className: "comment-form-email"
+    }, __jsx("label", null, "Email ", __jsx("span", {
+      className: "required"
+    }, "*")), __jsx("input", {
+      type: "email",
+      id: "email",
+      name: "email",
+      required: "required"
+    })), __jsx("p", {
+      className: "comment-form-url"
+    }, __jsx("label", null, "Website"), __jsx("input", {
+      type: "url",
+      id: "url",
+      name: "url"
+    })), __jsx("p", {
+      className: "comment-form-comment"
+    }, __jsx("label", null, "Comment"), __jsx("textarea", {
+      name: "comment",
+      id: "comment",
+      cols: "45",
+      rows: "5",
+      required: "required"
+    })), __jsx("p", {
+      className: "form-submit text-center"
+    }, __jsx("input", {
+      type: "submit",
+      name: "submit",
+      id: "submit",
+      className: "submit",
+      value: "Post A Comment"
+    })))));
+  }
+
+}
+
+/* harmony default export */ var Blog_CommentsArea = (CommentsArea_CommentsArea);
+// CONCATENATED MODULE: ./components/Blog/BlogDetailsContent.js
+var BlogDetailsContent_jsx = external_react_default.a.createElement;
 
 
 
@@ -2365,36 +2353,36 @@ class BlogDetailsContent_BlogDetailsContent extends external_react_["Component"]
   }
 
   render() {
-    return __jsx("section", {
+    return BlogDetailsContent_jsx("section", {
       className: "news-details-area case-studies-sub-component-container header-padding"
-    }, __jsx("div", {
+    }, BlogDetailsContent_jsx("div", {
       className: "container"
-    }, __jsx("div", {
+    }, BlogDetailsContent_jsx("div", {
       className: "section-title"
-    }, __jsx("h2", null, "Last mile Rural Distribution & Logistics Company"), __jsx("h4", null, "Helping redraw strategies & execution plans for 10x growth"), __jsx("div", {
+    }, BlogDetailsContent_jsx("h2", null, "Last mile Rural Distribution & Logistics Company"), BlogDetailsContent_jsx("h4", null, "Helping redraw strategies & execution plans for 10x growth"), BlogDetailsContent_jsx("div", {
       className: "bar"
-    })), __jsx("img", {
+    })), BlogDetailsContent_jsx("img", {
       src: __webpack_require__("0OLa"),
       alt: "image"
-    }), __jsx("div", {
+    }), BlogDetailsContent_jsx("div", {
       className: "row strategic-plans"
-    }, __jsx("div", {
+    }, BlogDetailsContent_jsx("div", {
       className: "col-lg-4 col-md-6"
-    }, __jsx("div", {
+    }, BlogDetailsContent_jsx("div", {
       className: "more-features-content"
-    }, __jsx("h3", null, "The Goal"), __jsx("p", null, "Fulfil the aspirations of Rural India with a strong assisted e commerce play"))), __jsx("div", {
+    }, BlogDetailsContent_jsx("h3", null, "The Goal"), BlogDetailsContent_jsx("p", null, "Fulfil the aspirations of Rural India with a strong assisted e commerce play"))), BlogDetailsContent_jsx("div", {
       className: "col-lg-4 col-md-6"
-    }, __jsx("div", {
+    }, BlogDetailsContent_jsx("div", {
       className: "more-features-content"
-    }, __jsx("h3", null, "Our approach"), __jsx("ul", {
+    }, BlogDetailsContent_jsx("h3", null, "Our approach"), BlogDetailsContent_jsx("ul", {
       class: "details-list"
-    }, __jsx("li", null, "Finalize the Products & Services portfolio to deliver revenue and profits"), __jsx("li", null, "Roadmap of All India footprint for setting up Sale points in rural areas"), __jsx("li", null, "Plug the Last mile delivery issues with tech based platforms for efficiency")))), __jsx("div", {
+    }, BlogDetailsContent_jsx("li", null, "Finalize the Products & Services portfolio to deliver revenue and profits"), BlogDetailsContent_jsx("li", null, "Roadmap of All India footprint for setting up Sale points in rural areas"), BlogDetailsContent_jsx("li", null, "Plug the Last mile delivery issues with tech based platforms for efficiency")))), BlogDetailsContent_jsx("div", {
       className: "col-lg-4 col-md-6"
-    }, __jsx("div", {
+    }, BlogDetailsContent_jsx("div", {
       className: "more-features-content"
-    }, __jsx("h3", null, "The Result"), __jsx("ul", {
+    }, BlogDetailsContent_jsx("h3", null, "The Result"), BlogDetailsContent_jsx("ul", {
       class: "details-list"
-    }, __jsx("li", null, "Finalize the Products & Services portfolio to deliver revenue and profits"), __jsx("li", null, "Roadmap of All India footprint for setting up Sale points in rural areas"), __jsx("li", null, "Plug the Last mile delivery issues with tech based platforms for efficiency")))))));
+    }, BlogDetailsContent_jsx("li", null, "Finalize the Products & Services portfolio to deliver revenue and profits"), BlogDetailsContent_jsx("li", null, "Roadmap of All India footprint for setting up Sale points in rural areas"), BlogDetailsContent_jsx("li", null, "Plug the Last mile delivery issues with tech based platforms for efficiency")))))));
   }
 
 }
@@ -3141,7 +3129,7 @@ class Navbar_Navbar extends external_react_["Component"] {
     }, "Our Services"))), Navbar_jsx("li", {
       className: "nav-item"
     }, Navbar_jsx(ActiveLink["a" /* default */], {
-      href: "/blog",
+      href: "/case-studies",
       activeClassName: "active"
     }, Navbar_jsx("a", {
       className: "nav-link"

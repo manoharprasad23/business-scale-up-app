@@ -88,177 +88,10 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 26);
+/******/ 	return __webpack_require__(__webpack_require__.s = 29);
 /******/ })
 /************************************************************************/
 /******/ ({
-
-/***/ "/AV/":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("cDcd");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("YFqc");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-class CommentsArea extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
-  render() {
-    return __jsx("div", {
-      className: "comments-area"
-    }, __jsx("h3", {
-      className: "comments-title"
-    }, "2 Comments:"), __jsx("ol", {
-      className: "comment-list"
-    }, __jsx("li", {
-      className: "comment"
-    }, __jsx("div", {
-      className: "comment-body"
-    }, __jsx("footer", {
-      className: "comment-meta"
-    }, __jsx("div", {
-      className: "comment-author vcard"
-    }, __jsx("img", {
-      src: __webpack_require__("G3fv"),
-      className: "avatar",
-      alt: "image"
-    }), __jsx("b", {
-      className: "fn"
-    }, "John Jones"), __jsx("span", {
-      className: "says"
-    }, "says:")), __jsx("div", {
-      className: "comment-metadata"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, __jsx("span", null, "January  24, 2020 at 10:59 am"))))), __jsx("div", {
-      className: "comment-content"
-    }, __jsx("p", null, "Lorem Ipsum has been the industry\u2019s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.")), __jsx("div", {
-      className: "reply"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", {
-      className: "comment-reply-link"
-    }, "Reply")))), __jsx("ol", {
-      className: "children"
-    }, __jsx("li", {
-      className: "comment"
-    }, __jsx("div", {
-      className: "comment-body"
-    }, __jsx("footer", {
-      className: "comment-meta"
-    }, __jsx("div", {
-      className: "comment-author vcard"
-    }, __jsx("img", {
-      src: __webpack_require__("GQ/Q"),
-      className: "avatar",
-      alt: "image"
-    }), __jsx("b", {
-      className: "fn"
-    }, "Steven Smith"), __jsx("span", {
-      className: "says"
-    }, "says:")), __jsx("div", {
-      className: "comment-metadata"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, __jsx("span", null, "January  24, 2020 at 10:59 am"))))), __jsx("div", {
-      className: "comment-content"
-    }, __jsx("p", null, "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim")), __jsx("div", {
-      className: "reply"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", {
-      className: "comment-reply-link"
-    }, "Reply"))))))), __jsx("li", {
-      className: "comment"
-    }, __jsx("div", {
-      className: "comment-body"
-    }, __jsx("footer", {
-      className: "comment-meta"
-    }, __jsx("div", {
-      className: "comment-author vcard"
-    }, __jsx("img", {
-      src: __webpack_require__("RY6a"),
-      className: "avatar",
-      alt: "image"
-    }), __jsx("b", {
-      className: "fn"
-    }, "John Doe"), __jsx("span", {
-      className: "says"
-    }, "says:")), __jsx("div", {
-      className: "comment-metadata"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, __jsx("span", null, "January  24, 2020 at 10:59 am"))))), __jsx("div", {
-      className: "comment-content"
-    }, __jsx("p", null, "Lorem Ipsum has been the industry\u2019s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.")), __jsx("div", {
-      className: "reply"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", {
-      className: "comment-reply-link"
-    }, "Reply")))))), __jsx("div", {
-      className: "comment-respond"
-    }, __jsx("h3", {
-      className: "comment-reply-title"
-    }, "Leave a Reply"), __jsx("form", {
-      className: "comment-form"
-    }, __jsx("p", {
-      className: "comment-notes"
-    }, __jsx("span", {
-      id: "email-notes"
-    }, "Your email address will not be published."), "Required fields are marked ", __jsx("span", {
-      className: "required"
-    }, "*")), __jsx("p", {
-      className: "comment-form-author"
-    }, __jsx("label", null, "Name ", __jsx("span", {
-      className: "required"
-    }, "*")), __jsx("input", {
-      type: "text",
-      id: "author",
-      name: "author",
-      required: "required"
-    })), __jsx("p", {
-      className: "comment-form-email"
-    }, __jsx("label", null, "Email ", __jsx("span", {
-      className: "required"
-    }, "*")), __jsx("input", {
-      type: "email",
-      id: "email",
-      name: "email",
-      required: "required"
-    })), __jsx("p", {
-      className: "comment-form-url"
-    }, __jsx("label", null, "Website"), __jsx("input", {
-      type: "url",
-      id: "url",
-      name: "url"
-    })), __jsx("p", {
-      className: "comment-form-comment"
-    }, __jsx("label", null, "Comment"), __jsx("textarea", {
-      name: "comment",
-      id: "comment",
-      cols: "45",
-      rows: "5",
-      required: "required"
-    })), __jsx("p", {
-      className: "form-submit text-center"
-    }, __jsx("input", {
-      type: "submit",
-      name: "submit",
-      id: "submit",
-      className: "submit",
-      value: "Post A Comment"
-    })))));
-  }
-
-}
-
-/* unused harmony default export */ var _unused_webpack_default_export = (CommentsArea);
-
-/***/ }),
 
 /***/ "/jkW":
 /***/ (function(module, exports, __webpack_require__) {
@@ -361,7 +194,7 @@ const ActiveLink = (_ref) => {
 
 /***/ }),
 
-/***/ 26:
+/***/ 29:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("pSYu");
@@ -667,20 +500,6 @@ module.exports = "/_next/static/images/logo-d78e6355605cf2d2e92506c9873489e6.png
 
 /***/ }),
 
-/***/ "G3fv":
-/***/ (function(module, exports) {
-
-module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gA+Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2NjIpLCBkZWZhdWx0IHF1YWxpdHkK/9sAQwAIBgYHBgUIBwcHCQkICgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJCQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy/8AAEQgARgBGAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A9MooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAIrjHkkndnthiuT25FV7Qus3ll3faGDbjnGDhfzFXaKAKsc3nRTGQgKndSQSPXNQ/vI5I0Lvk7CFLE5yx3DnrgVoUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q=="
-
-/***/ }),
-
-/***/ "GQ/Q":
-/***/ (function(module, exports) {
-
-module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gA+Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2NjIpLCBkZWZhdWx0IHF1YWxpdHkK/9sAQwAIBgYHBgUIBwcHCQkICgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJCQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy/8AAEQgARgBGAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A9MooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAIrjHkkndnthiuT25FV7Qus3ll3faGDbjnGDhfzFXaKAKsc3nRTGQgKndSQSPXNQ/vI5I0Lvk7CFLE5yx3DnrgVoUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q=="
-
-/***/ }),
-
 /***/ "Ix5F":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -726,13 +545,6 @@ class PageBanner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 /***/ (function(module, exports) {
 
 module.exports = require("next/dist/next-server/lib/router-context.js");
-
-/***/ }),
-
-/***/ "RY6a":
-/***/ (function(module, exports) {
-
-module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gA+Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2NjIpLCBkZWZhdWx0IHF1YWxpdHkK/9sAQwAIBgYHBgUIBwcHCQkICgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJCQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy/8AAEQgARgBGAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A9MooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAIrjHkkndnthiuT25FV7Qus3ll3faGDbjnGDhfzFXaKAKsc3nRTGQgKndSQSPXNQ/vI5I0Lvk7CFLE5yx3DnrgVoUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q=="
 
 /***/ }),
 
@@ -2495,36 +2307,23 @@ var PageBanner = __webpack_require__("Ix5F");
 // EXTERNAL MODULE: ./components/Layout/Footer.js
 var Footer = __webpack_require__("v6Hh");
 
-// EXTERNAL MODULE: ./components/Blog/BlogSidebar.js
-var BlogSidebar = __webpack_require__("y1kX");
-
-// EXTERNAL MODULE: ./node_modules/next/link.js
-var next_link = __webpack_require__("YFqc");
-
-// EXTERNAL MODULE: ./components/Blog/CommentsArea.js
-var CommentsArea = __webpack_require__("/AV/");
-
-// CONCATENATED MODULE: ./components/Blog/LastMileRuralDistribution.js
+// CONCATENATED MODULE: ./components/CaseStudies/LastMileRuralDistributionContent.js
 var __jsx = external_react_default.a.createElement;
 
 
-
-
-
-class LastMileRuralDistribution_LastMileRuralDistribution extends external_react_["Component"] {
+class LastMileRuralDistributionContent_LastMileRuralDistributionContent extends external_react_["Component"] {
   constructor(props) {
     super(props);
   }
 
   render() {
-    console.log(this.props);
     return __jsx("section", {
       className: "news-details-area case-studies-sub-component-container header-padding"
     }, __jsx("div", {
       className: "container"
     }, __jsx("div", {
       className: "section-title"
-    }, __jsx("h2", null, "Helping redraw strategies & execution plans for 10x growth"), __jsx("div", {
+    }, __jsx("h2", null, "Last mile Rural Distribution & Logistics Company"), __jsx("h4", null, "Helping redraw strategies & execution plans for 10x growth"), __jsx("div", {
       className: "bar"
     })), __jsx("img", {
       src: __webpack_require__("0OLa"),
@@ -2547,12 +2346,12 @@ class LastMileRuralDistribution_LastMileRuralDistribution extends external_react
       className: "more-features-content"
     }, __jsx("h3", null, "The Result"), __jsx("ul", {
       class: "details-list"
-    }, __jsx("li", null, "Finalize the Products & Services portfolio to deliver revenue and profits"), __jsx("li", null, "Roadmap of All India footprint for setting up Sale points in rural areas"), __jsx("li", null, "Plug the Last mile delivery issues with tech based platforms for efficiency")))))));
+    }, __jsx("li", null, "Maximum profit portfolio of products & services developed"), __jsx("li", null, "Pilot started in 2 states \u2013 proof of concept success"), __jsx("li", null, "Hybrid logistics model for lower costs and fastest delivery ")))))));
   }
 
 }
 
-/* harmony default export */ var Blog_LastMileRuralDistribution = (LastMileRuralDistribution_LastMileRuralDistribution);
+/* harmony default export */ var CaseStudies_LastMileRuralDistributionContent = (LastMileRuralDistributionContent_LastMileRuralDistributionContent);
 // CONCATENATED MODULE: ./pages/last-mile-rural-distribution.js
 var last_mile_rural_distribution_jsx = external_react_default.a.createElement;
 
@@ -2563,7 +2362,7 @@ var last_mile_rural_distribution_jsx = external_react_default.a.createElement;
 
 class last_mile_rural_distribution_LastMileRuralDistributionContainer extends external_react_["Component"] {
   render() {
-    return last_mile_rural_distribution_jsx(external_react_default.a.Fragment, null, last_mile_rural_distribution_jsx(Navbar["a" /* default */], null), last_mile_rural_distribution_jsx(LastMileRuralDistributionContent, null));
+    return last_mile_rural_distribution_jsx(external_react_default.a.Fragment, null, last_mile_rural_distribution_jsx(Navbar["a" /* default */], null), last_mile_rural_distribution_jsx(CaseStudies_LastMileRuralDistributionContent, null), last_mile_rural_distribution_jsx(Footer["a" /* default */], null));
   }
 
 }
@@ -2718,143 +2517,6 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 "use strict";
 exports.__esModule=true;exports.normalizePathSep=normalizePathSep;exports.denormalizePagePath=denormalizePagePath;function normalizePathSep(path){return path.replace(/\\/g,'/');}function denormalizePagePath(page){page=normalizePathSep(page);if(page.startsWith('/index/')){page=page.slice(6);}else if(page==='/index'){page='/';}return page;}
 //# sourceMappingURL=denormalize-page-path.js.map
-
-/***/ }),
-
-/***/ "y1kX":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("cDcd");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("YFqc");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-class BlogSidebar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
-  render() {
-    return __jsx("div", {
-      className: "widget-area",
-      id: "secondary"
-    }, __jsx("div", {
-      className: "widget widget_search"
-    }, __jsx("div", {
-      className: "post-wrap"
-    }, __jsx("form", {
-      className: "search-form"
-    }, __jsx("label", null, __jsx("span", {
-      className: "screen-reader-text"
-    }, "Search for:"), __jsx("input", {
-      type: "search",
-      className: "search-field",
-      placeholder: "Search..."
-    })), __jsx("button", {
-      type: "submit"
-    }, __jsx("i", {
-      className: "bx bx-search"
-    }))))), __jsx("div", {
-      className: "widget widget-posts-thumb"
-    }, __jsx("h3", {
-      className: "widget-title"
-    }, "Popular Posts"), __jsx("div", {
-      className: "post-wrap"
-    }, __jsx("article", {
-      className: "item"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/blog-details"
-    }, __jsx("a", {
-      className: "thumb"
-    }, __jsx("span", {
-      className: "fullimage cover bg1",
-      role: "img"
-    }))), __jsx("div", {
-      className: "info"
-    }, __jsx("time", null, "February 20, 2020"), __jsx("h4", {
-      className: "title usmall"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/blog-details"
-    }, __jsx("a", null, "Making Peace With The Feast Or Famine Of Freelancing")))), __jsx("div", {
-      className: "clear"
-    })), __jsx("article", {
-      className: "item"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/blog-details"
-    }, __jsx("a", {
-      className: "thumb"
-    }, __jsx("span", {
-      className: "fullimage cover bg2",
-      role: "img"
-    }))), __jsx("div", {
-      className: "info"
-    }, __jsx("time", null, "February 21, 2020"), __jsx("h4", {
-      className: "title usmall"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/blog-details"
-    }, __jsx("a", null, "Be Healthy, Enjoy Life With Trifles Organic")))), __jsx("div", {
-      className: "clear"
-    })), __jsx("article", {
-      className: "item"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/blog-details"
-    }, __jsx("a", {
-      className: "thumb"
-    }, __jsx("span", {
-      className: "fullimage cover bg3",
-      role: "img"
-    }))), __jsx("div", {
-      className: "info"
-    }, __jsx("time", null, "February  22, 2020"), __jsx("h4", {
-      className: "title usmall"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/blog-details"
-    }, __jsx("a", null, "Buy Organic Food Online And Be Healthy")))), __jsx("div", {
-      className: "clear"
-    })))), __jsx("div", {
-      className: "widget widget_categories"
-    }, __jsx("h3", {
-      className: "widget-title"
-    }, "Categories"), __jsx("div", {
-      className: "post-wrap"
-    }, __jsx("ul", null, __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, "Business ", __jsx("span", null, "(10)")))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, "Privacy ", __jsx("span", null, "(20)")))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, "Technology ", __jsx("span", null, "(10)")))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, "Tips ", __jsx("span", null, "(12)")))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, "Uncategorized ", __jsx("span", null, "(16)"))))))), __jsx("div", {
-      className: "widget widget_tag_cloud"
-    }, __jsx("h3", {
-      className: "widget-title"
-    }, "Tags"), __jsx("div", {
-      className: "post-wrap"
-    }, __jsx("div", {
-      className: "tagcloud"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, "IT Solution (3)")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, "Uncategorized (3)")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, "Tips (2)")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, "AI Solution (2)")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, "Technology (1)")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, "Privacy (1)")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, "Business (1)"))))));
-  }
-
-}
-
-/* harmony default export */ __webpack_exports__["a"] = (BlogSidebar);
 
 /***/ }),
 
@@ -3142,7 +2804,7 @@ class Navbar_Navbar extends external_react_["Component"] {
     }, "Our Services"))), Navbar_jsx("li", {
       className: "nav-item"
     }, Navbar_jsx(ActiveLink["a" /* default */], {
-      href: "/blog",
+      href: "/case-studies",
       activeClassName: "active"
     }, Navbar_jsx("a", {
       className: "nav-link"

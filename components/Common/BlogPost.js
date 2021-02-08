@@ -46,7 +46,7 @@ class BlogPost extends Component {
 
                                 <div className="content">
                                     <h3>
-                                        <Link href="/blog-details">
+                                        <Link href="/artificial-intelligence-startup">
                                             <a>AI Technology startup</a>
                                         </Link>
                                     </h3>

@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -243,18 +243,18 @@ function assign(target, ...searchParamsList) {
 
 /***/ }),
 
-/***/ 4:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("YbiN");
-
-
-/***/ }),
-
 /***/ "4Q3z":
 /***/ (function(module, exports) {
 
 module.exports = require("next/router");
+
+/***/ }),
+
+/***/ 6:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("YbiN");
+
 
 /***/ }),
 
@@ -775,7 +775,7 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("div", {
       className: "image"
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-      href: "/blog-details"
+      href: "/last-mile-rural-distribution"
     }, __jsx("a", null, __jsx("img", {
       src: __webpack_require__("Stbh"),
       alt: "image",
@@ -783,7 +783,7 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     })))), __jsx("div", {
       className: "content custom-content"
     }, __jsx("h3", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-      href: "/blog-details"
+      href: "/last-mile-rural-distribution"
     }, __jsx("a", null, "Last Mile Rural Distribution  & Logistics company"))), __jsx("p", null, "Helping re draw strategies and execution plans for 10x growth")))), __jsx("div", {
       className: "col-lg-4 col-md-6"
     }, __jsx("div", {
@@ -2891,7 +2891,7 @@ class Navbar_Navbar extends external_react_["Component"] {
     }, "Our Services"))), Navbar_jsx("li", {
       className: "nav-item"
     }, Navbar_jsx(ActiveLink["a" /* default */], {
-      href: "/blog",
+      href: "/case-studies",
       activeClassName: "active"
     }, Navbar_jsx("a", {
       className: "nav-link"

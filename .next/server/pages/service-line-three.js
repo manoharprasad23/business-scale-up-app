@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 36);
+/******/ 	return __webpack_require__(__webpack_require__.s = 39);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -452,7 +452,7 @@ class service_line_three_ServiceLineOne extends external_react_["Component"] {
 
 /***/ }),
 
-/***/ 36:
+/***/ 39:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("1u4+");
@@ -3097,7 +3097,7 @@ class Navbar_Navbar extends external_react_["Component"] {
     }, "Our Services"))), Navbar_jsx("li", {
       className: "nav-item"
     }, Navbar_jsx(ActiveLink["a" /* default */], {
-      href: "/blog",
+      href: "/case-studies",
       activeClassName: "active"
     }, Navbar_jsx("a", {
       className: "nav-link"

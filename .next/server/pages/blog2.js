@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 7);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -250,14 +250,6 @@ module.exports = require("next/router");
 
 /***/ }),
 
-/***/ 5:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("ZuWU");
-
-
-/***/ }),
-
 /***/ "6D7l":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -386,6 +378,14 @@ function formatUrl(urlObj) {
   search = search.replace('#', '%23');
   return `${protocol}${host}${pathname}${search}${hash}`;
 }
+
+/***/ }),
+
+/***/ 7:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("ZuWU");
+
 
 /***/ }),
 
@@ -3081,7 +3081,7 @@ class Navbar_Navbar extends external_react_["Component"] {
     }, "Our Services"))), Navbar_jsx("li", {
       className: "nav-item"
     }, Navbar_jsx(ActiveLink["a" /* default */], {
-      href: "/blog",
+      href: "/case-studies",
       activeClassName: "active"
     }, Navbar_jsx("a", {
       className: "nav-link"

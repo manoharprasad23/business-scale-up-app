@@ -20,7 +20,7 @@ class Blog extends Component {
                             <div className="col-lg-4 col-md-6">
                                 <div className="single-blog">
                                     <div className="image">
-                                        <Link href="/blog-details">
+                                        <Link href="/last-mile-rural-distribution">
                                             <a>
                                                 <img src={require("../images/case-studies-1.jpg")} alt="image" className="image-custom-border"/>
                                             </a>
@@ -29,7 +29,7 @@ class Blog extends Component {
 
                                     <div className="content custom-content">
                                         <h3>
-                                            <Link href="/blog-details">
+                                            <Link href="/last-mile-rural-distribution">
                                                 <a>Last Mile Rural Distribution  & Logistics company</a>
                                             </Link>
                                         </h3>

@@ -16,7 +16,7 @@ const nextJsConfig = {
             '/about': { page: '/about' },
             '/blog': { page: '/blog' },
             '/blog2': { page: '/blog2' },
-            '/blog-details': { page: '/blog-details' },
+            '/last-mile-rural-distribution': { page: '/last-mile-rural-distribution' },
             '/coming-soon': { page: '/coming-soon' },
             '/contact': { page: '/contact' },
             '/error': { page: '/error' },
@@ -45,7 +45,10 @@ const nextJsConfig = {
             '/growth-tips': {page: '/growth-tips'},
             '/quiz': {page: '/quiz'},
             '/result': {page: '/result'},
-            '/download-result': {page: '/download-result'}
+            '/download-result': {page: '/download-result'},
+            '/case-studies': {page: '/case-studies'},
+            '/B2B-focused-IT-hardware': {page: '/B2B-focused-IT-hardware'},
+            '/artificial-intelligence-startup': {page: '/artificial-intelligence-startup'}
         }
     }
 }
