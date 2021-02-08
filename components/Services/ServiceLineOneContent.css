@@ -873,6 +873,14 @@
         flex-direction: column;
     }
 
+    .home-sliders .container.mt-50 {
+        align-items: center;
+    }
+
+    .owl-dots {
+        display: none;
+    }
+
     .custom-banner {
         width: 90%;
     }
