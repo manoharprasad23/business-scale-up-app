@@ -143,13 +143,6 @@ function withRouter(ComposedComponent) {
 
 /***/ }),
 
-/***/ "0OLa":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/last-mile-banner-fe485da540e642f44220033d9dcff646.jpg";
-
-/***/ }),
-
 /***/ "0Yqi":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -538,6 +531,13 @@ class PageBanner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 }
 
 /* unused harmony default export */ var _unused_webpack_default_export = (PageBanner);
+
+/***/ }),
+
+/***/ "JBNY":
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/government-segment-focussed-company-215be9016afdd6b469d7e8db2c77fd2c.jpg";
 
 /***/ }),
 
@@ -2326,7 +2326,7 @@ class GovernmentSegmentFocusedCompanyContent_GovernmentSegmentFocusedCompanyCont
     }, __jsx("h2", null, "Government segment focused company"), __jsx("h4", null, "Connection with new brands & product lines | Increased revenues & profitability"), __jsx("div", {
       className: "bar"
     })), __jsx("img", {
-      src: __webpack_require__("0OLa"),
+      src: __webpack_require__("JBNY"),
       alt: "image"
     }), __jsx("div", {
       className: "row strategic-plans"

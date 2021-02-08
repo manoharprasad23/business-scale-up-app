@@ -143,13 +143,6 @@ function withRouter(ComposedComponent) {
 
 /***/ }),
 
-/***/ "0OLa":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/last-mile-banner-fe485da540e642f44220033d9dcff646.jpg";
-
-/***/ }),
-
 /***/ "0Yqi":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -539,7 +532,7 @@ class HealthcareCompanyContent_HealthcareCompanyContent extends external_react_[
     }, __jsx("h2", null, "Healthcare company"), __jsx("h4", null, "Building a premium brand | Developing new products | New channels for growth"), __jsx("div", {
       className: "bar"
     })), __jsx("img", {
-      src: __webpack_require__("0OLa"),
+      src: __webpack_require__("QA6X"),
       alt: "image"
     }), __jsx("div", {
       className: "row strategic-plans"
@@ -629,6 +622,13 @@ class PageBanner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 /***/ (function(module, exports) {
 
 module.exports = require("next/dist/next-server/lib/router-context.js");
+
+/***/ }),
+
+/***/ "QA6X":
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/healthcare-company-fe485da540e642f44220033d9dcff646.jpg";
 
 /***/ }),
 

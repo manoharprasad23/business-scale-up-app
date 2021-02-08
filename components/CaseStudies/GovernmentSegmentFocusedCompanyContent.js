@@ -14,7 +14,7 @@ class GovernmentSegmentFocusedCompanyContent extends Component {
                         <h4>Connection with new brands & product lines | Increased revenues & profitability</h4>
                         <div className="bar"></div>
                     </div>
-                    <img src={require("../../images/last-mile-banner.jpg")} alt="image" />
+                    <img src={require("../../images/government-segment-focussed-company.jpg")} alt="image" />
                     <div className="row strategic-plans">
                         <div className="col-lg-4 col-md-6">
                             <div className="more-features-content">

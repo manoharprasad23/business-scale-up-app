@@ -14,7 +14,7 @@ class B2BFocusedITHardwareContent extends Component {
                         <h4>Covid impact and reinventing the business model</h4>
                         <div className="bar"></div>
                     </div>
-                    <img src={require("../../images/last-mile-banner.jpg")} alt="image" />
+                    <img src={require("../../images/focused-IT-hardware.jpg")} alt="image" />
                     <div className="row strategic-plans">
                         <div className="col-lg-4 col-md-6">
                             <div className="more-features-content">

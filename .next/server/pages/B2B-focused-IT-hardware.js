@@ -151,13 +151,6 @@ function withRouter(ComposedComponent) {
 
 /***/ }),
 
-/***/ "0OLa":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/last-mile-banner-fe485da540e642f44220033d9dcff646.jpg";
-
-/***/ }),
-
 /***/ "0Yqi":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -548,6 +541,13 @@ module.exports = require("next/dist/next-server/lib/router-context.js");
 
 /***/ }),
 
+/***/ "P0Zz":
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/focused-IT-hardware-c954be9cab532da1aa27d5e45ee62c5f.jpg";
+
+/***/ }),
+
 /***/ "S3md":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -595,7 +595,7 @@ class B2BFocusedITHardwareContent_B2BFocusedITHardwareContent extends external_r
     }, __jsx("h2", null, "B2B focused IT Hardware & Services company"), __jsx("h4", null, "Covid impact and reinventing the business model"), __jsx("div", {
       className: "bar"
     })), __jsx("img", {
-      src: __webpack_require__("0OLa"),
+      src: __webpack_require__("P0Zz"),
       alt: "image"
     }), __jsx("div", {
       className: "row strategic-plans"

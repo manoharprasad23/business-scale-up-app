@@ -14,7 +14,7 @@ class ArtificialIntelligenceStartupContent extends Component {
                         <h4>Product ideas converted into Go To Market models – new Customer pipes</h4>
                         <div className="bar"></div>
                     </div>
-                    <img src={require("../../images/last-mile-banner.jpg")} alt="image" />
+                    <img src={require("../../images/artificial-intelligence-startup.jpg")} alt="image" />
                     <div className="row strategic-plans">
                         <div className="col-lg-4 col-md-6">
                             <div className="more-features-content">

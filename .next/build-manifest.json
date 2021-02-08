@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/42j4dF1Rf8pyMFvKXaYr8/_buildManifest.js",
-    "static/42j4dF1Rf8pyMFvKXaYr8/_ssgManifest.js"
+    "static/zldVkOVyV7IeIYDDpMHsJ/_buildManifest.js",
+    "static/zldVkOVyV7IeIYDDpMHsJ/_ssgManifest.js"
   ],
   "pages": {
     "/": [
@@ -24,7 +24,7 @@
       "static/chunks/framework.8683c114909ee93ee89f.js",
       "static/chunks/commons.94304236c8b3ef5c5b49.js",
       "static/chunks/d630a0ef45031cfc0b3bf78da1752ad12f3d1bb8.43fe2823773e42d77032.js",
-      "static/chunks/pages/B2B-focused-IT-hardware-d9d08bae357567287f82.js"
+      "static/chunks/pages/B2B-focused-IT-hardware-097578f0f409a1c5cf5e.js"
     ],
     "/_app": [
       "static/chunks/main-1a4b92fafff350e04594.js",
@@ -58,7 +58,7 @@
       "static/chunks/framework.8683c114909ee93ee89f.js",
       "static/chunks/commons.94304236c8b3ef5c5b49.js",
       "static/chunks/d630a0ef45031cfc0b3bf78da1752ad12f3d1bb8.43fe2823773e42d77032.js",
-      "static/chunks/pages/artificial-intelligence-startup-a3458d507b04b0b8c69d.js"
+      "static/chunks/pages/artificial-intelligence-startup-8e9f98bbf040ad977c4f.js"
     ],
     "/blog": [
       "static/chunks/main-1a4b92fafff350e04594.js",
@@ -139,7 +139,7 @@
       "static/chunks/framework.8683c114909ee93ee89f.js",
       "static/chunks/commons.94304236c8b3ef5c5b49.js",
       "static/chunks/d630a0ef45031cfc0b3bf78da1752ad12f3d1bb8.43fe2823773e42d77032.js",
-      "static/chunks/pages/government-segment-focused-company-09e2a126623cfafe485e.js"
+      "static/chunks/pages/government-segment-focused-company-09f421f1a6b57edea098.js"
     ],
     "/growth-tips": [
       "static/chunks/main-1a4b92fafff350e04594.js",
@@ -155,7 +155,7 @@
       "static/chunks/framework.8683c114909ee93ee89f.js",
       "static/chunks/commons.94304236c8b3ef5c5b49.js",
       "static/chunks/d630a0ef45031cfc0b3bf78da1752ad12f3d1bb8.43fe2823773e42d77032.js",
-      "static/chunks/pages/healthcare-company-e3887b8f94bd04aea61c.js"
+      "static/chunks/pages/healthcare-company-d186005566325977376d.js"
     ],
     "/index2": [
       "static/chunks/main-1a4b92fafff350e04594.js",
@@ -293,7 +293,7 @@
       "static/chunks/framework.8683c114909ee93ee89f.js",
       "static/chunks/commons.94304236c8b3ef5c5b49.js",
       "static/chunks/d630a0ef45031cfc0b3bf78da1752ad12f3d1bb8.43fe2823773e42d77032.js",
-      "static/chunks/pages/north-india-technology-retail-chain-39a2859a3dc6ee8e56f6.js"
+      "static/chunks/pages/north-india-technology-retail-chain-a7e96d9a4755a4cd796c.js"
     ],
     "/pricing": [
       "static/chunks/main-1a4b92fafff350e04594.js",

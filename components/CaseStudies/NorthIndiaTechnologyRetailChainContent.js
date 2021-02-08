@@ -14,7 +14,7 @@ class NorthIndiaTechnologyRetailChainContent extends Component {
                         <h4>Helping reset business operations & drive higher profitability | Raise capital</h4>
                         <div className="bar"></div>
                     </div>
-                    <img src={require("../../images/last-mile-banner.jpg")} alt="image" />
+                    <img src={require("../../images/north-india-tech-retail-chain.jpg")} alt="image" />
                     <div className="row strategic-plans">
                         <div className="col-lg-4 col-md-6">
                             <div className="more-features-content">

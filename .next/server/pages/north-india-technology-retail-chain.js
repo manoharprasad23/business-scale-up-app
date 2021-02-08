@@ -143,13 +143,6 @@ function withRouter(ComposedComponent) {
 
 /***/ }),
 
-/***/ "0OLa":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/last-mile-banner-fe485da540e642f44220033d9dcff646.jpg";
-
-/***/ }),
-
 /***/ "0Yqi":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -541,6 +534,13 @@ class PageBanner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 /***/ }),
 
+/***/ "KAvs":
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/north-india-tech-retail-chain-ce1e329a953d829353f69d97d8e9e07a.jpg";
+
+/***/ }),
+
 /***/ "Osoz":
 /***/ (function(module, exports) {
 
@@ -587,7 +587,7 @@ class NorthIndiaTechnologyRetailChainContent_NorthIndiaTechnologyRetailChainCont
     }, __jsx("h2", null, "North India Technology Retail Chain"), __jsx("h4", null, "Helping reset business operations & drive higher profitability | Raise capital"), __jsx("div", {
       className: "bar"
     })), __jsx("img", {
-      src: __webpack_require__("0OLa"),
+      src: __webpack_require__("KAvs"),
       alt: "image"
     }), __jsx("div", {
       className: "row strategic-plans"

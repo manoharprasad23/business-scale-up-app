@@ -143,13 +143,6 @@ function withRouter(ComposedComponent) {
 
 /***/ }),
 
-/***/ "0OLa":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/last-mile-banner-fe485da540e642f44220033d9dcff646.jpg";
-
-/***/ }),
-
 /***/ "0Yqi":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -191,6 +184,13 @@ const ActiveLink = (_ref) => {
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (Object(next_router__WEBPACK_IMPORTED_MODULE_0__["withRouter"])(ActiveLink));
+
+/***/ }),
+
+/***/ "1hEY":
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/artificial-intelligence-startup-ce1e329a953d829353f69d97d8e9e07a.jpg";
 
 /***/ }),
 
@@ -580,7 +580,7 @@ class ArtificialIntelligenceStartupContent_ArtificialIntelligenceStartupContent 
     }, __jsx("h2", null, "Artifical Intelligence startup"), __jsx("h4", null, "Product ideas converted into Go To Market models \u2013 new Customer pipes"), __jsx("div", {
       className: "bar"
     })), __jsx("img", {
-      src: __webpack_require__("0OLa"),
+      src: __webpack_require__("1hEY"),
       alt: "image"
     }), __jsx("div", {
       className: "row strategic-plans"

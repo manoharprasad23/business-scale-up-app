@@ -14,7 +14,7 @@ class HealthcareCompanyContent extends Component {
                         <h4>Building a premium brand | Developing new products | New channels for growth</h4>
                         <div className="bar"></div>
                     </div>
-                    <img src={require("../../images/last-mile-banner.jpg")} alt="image" />
+                    <img src={require("../../images/healthcare-company.jpg")} alt="image" />
                     <div className="row strategic-plans">
                         <div className="col-lg-4 col-md-6">
                             <div className="more-features-content">
