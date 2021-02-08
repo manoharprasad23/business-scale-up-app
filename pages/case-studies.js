@@ -83,7 +83,7 @@ class CaseStudies extends Component {
                             <div className="col-lg-4 col-md-6">
                                 <div className="single-blog">
                                     <div className="image">
-                                        <Link href="/blog-details">
+                                        <Link href="/healthcare-company">
                                             <a>
                                                 <img src={require("../images/case-studies-4.jpg")} alt="image" className="image-custom-border" />
                                             </a>
@@ -92,7 +92,7 @@ class CaseStudies extends Component {
 
                                     <div className="content custom-content">
                                         <h3>
-                                            <Link href="/blog-details">
+                                            <Link href="/healthcare-company">
                                                 <a>Healthcare company</a>
                                             </Link>
                                         </h3>
@@ -106,7 +106,7 @@ class CaseStudies extends Component {
                             <div className="col-lg-4 col-md-6">
                                 <div className="single-blog">
                                     <div className="image">
-                                        <Link href="/blog-details">
+                                        <Link href="/north-india-technology-retail-chain">
                                             <a>
                                                 <img src={require("../images/case-studies-5.jpg")} alt="image" className="image-custom-border" />
                                             </a>
@@ -115,7 +115,7 @@ class CaseStudies extends Component {
 
                                     <div className="content custom-content">
                                         <h3>
-                                            <Link href="/blog-details">
+                                            <Link href="/north-india-technology-retail-chain">
                                                 <a>North India Technology Retail Chain</a>
                                             </Link>
                                         </h3>
@@ -128,7 +128,7 @@ class CaseStudies extends Component {
                             <div className="col-lg-4 col-md-6">
                                 <div className="single-blog">
                                     <div className="image">
-                                        <Link href="/blog-details">
+                                        <Link href="/government-segment-focused-company">
                                             <a>
                                                 <img src={require("../images/case-studies-6.jpg")} alt="image" className="image-custom-border" />
                                             </a>
@@ -137,7 +137,7 @@ class CaseStudies extends Component {
 
                                     <div className="content custom-content">
                                         <h3>
-                                            <Link href="/blog-details">
+                                            <Link href="/government-segment-focused-company">
                                                 <a>Government segment focused company</a>
                                             </Link>
                                         </h3>

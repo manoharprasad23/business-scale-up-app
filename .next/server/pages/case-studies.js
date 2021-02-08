@@ -649,7 +649,7 @@ class CaseStudies extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("div", {
       className: "image"
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-      href: "/blog-details"
+      href: "/healthcare-company"
     }, __jsx("a", null, __jsx("img", {
       src: __webpack_require__("UqRI"),
       alt: "image",
@@ -657,7 +657,7 @@ class CaseStudies extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     })))), __jsx("div", {
       className: "content custom-content"
     }, __jsx("h3", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-      href: "/blog-details"
+      href: "/healthcare-company"
     }, __jsx("a", null, "Healthcare company"))), __jsx("p", null, "Building a premium brand"), __jsx("p", null, "Developing new products"), __jsx("p", null, "New channels for growth")))), __jsx("div", {
       className: "col-lg-4 col-md-6"
     }, __jsx("div", {
@@ -665,7 +665,7 @@ class CaseStudies extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("div", {
       className: "image"
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-      href: "/blog-details"
+      href: "/north-india-technology-retail-chain"
     }, __jsx("a", null, __jsx("img", {
       src: __webpack_require__("Z/p/"),
       alt: "image",
@@ -673,7 +673,7 @@ class CaseStudies extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     })))), __jsx("div", {
       className: "content custom-content"
     }, __jsx("h3", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-      href: "/blog-details"
+      href: "/north-india-technology-retail-chain"
     }, __jsx("a", null, "North India Technology Retail Chain"))), __jsx("p", null, "Helping reset business operations & drive higher profitability"), __jsx("p", null, "Raising capital")))), __jsx("div", {
       className: "col-lg-4 col-md-6"
     }, __jsx("div", {
@@ -681,7 +681,7 @@ class CaseStudies extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("div", {
       className: "image"
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-      href: "/blog-details"
+      href: "/government-segment-focused-company"
     }, __jsx("a", null, __jsx("img", {
       src: __webpack_require__("r7DN"),
       alt: "image",
@@ -689,7 +689,7 @@ class CaseStudies extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     })))), __jsx("div", {
       className: "content custom-content"
     }, __jsx("h3", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-      href: "/blog-details"
+      href: "/government-segment-focused-company"
     }, __jsx("a", null, "Government segment focused company"))), __jsx("p", null, "Connection with new brands & product lines"), __jsx("p", null, "Increased revenues & profitability"))))))), __jsx(_components_Layout_Footer__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"], null));
   }
 

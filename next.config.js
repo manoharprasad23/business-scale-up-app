@@ -48,7 +48,10 @@ const nextJsConfig = {
             '/download-result': {page: '/download-result'},
             '/case-studies': {page: '/case-studies'},
             '/B2B-focused-IT-hardware': {page: '/B2B-focused-IT-hardware'},
-            '/artificial-intelligence-startup': {page: '/artificial-intelligence-startup'}
+            '/artificial-intelligence-startup': {page: '/artificial-intelligence-startup'},
+            '/healthcare-company': {page: '/healthcare-company'},
+            '/north-india-technology-retail-chain': {page: '/north-india-technology-retail-chain'},
+            '/government-segment-focused-company': {page: '/government-segment-focused-company'}
         }
     }
 }

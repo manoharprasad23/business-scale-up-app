@@ -6,7 +6,7 @@ module.exports =
 /******/ 	// object to store loaded chunks
 /******/ 	// "0" means "already loaded"
 /******/ 	var installedChunks = {
-/******/ 		25: 0
+/******/ 		27: 0
 /******/ 	};
 /******/
 /******/ 	// The require function
@@ -101,7 +101,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 22);
+/******/ 	return __webpack_require__(__webpack_require__.s = 24);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -214,7 +214,7 @@ const ActiveLink = (_ref) => {
 
 /***/ }),
 
-/***/ 22:
+/***/ 24:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("UBiT");
@@ -2109,7 +2109,7 @@ class BlogPost extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     })))), __jsx("div", {
       className: "content"
     }, __jsx("h3", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/blog-details"
+      href: "/artificial-intelligence-startup"
     }, __jsx("a", null, "AI Technology startup"))), __jsx("p", null, "Product ideas converted into Go To Market models \u2013 new Customer pipes")))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/blog-details"
     }, __jsx("div", {

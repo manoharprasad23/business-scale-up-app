@@ -2752,8 +2752,9 @@ Blog Area CSS
 
 .single-blog .content h3 {
   font-size: 22px;
-  margin: 10px 0 6px 0;
+  margin: 10px 0;
   line-height: 1.4;
+  height: 60px;
 }
 
 .single-blog .content .read-more {
