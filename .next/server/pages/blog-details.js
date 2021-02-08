@@ -2365,14 +2365,13 @@ class BlogDetailsContent_BlogDetailsContent extends external_react_["Component"]
   }
 
   render() {
-    console.log(this.props);
     return __jsx("section", {
       className: "news-details-area case-studies-sub-component-container header-padding"
     }, __jsx("div", {
       className: "container"
     }, __jsx("div", {
       className: "section-title"
-    }, __jsx("h2", null, "Helping redraw strategies & execution plans for 10x growth"), __jsx("div", {
+    }, __jsx("h2", null, "Last mile Rural Distribution & Logistics Company"), __jsx("h4", null, "Helping redraw strategies & execution plans for 10x growth"), __jsx("div", {
       className: "bar"
     })), __jsx("img", {
       src: __webpack_require__("0OLa"),

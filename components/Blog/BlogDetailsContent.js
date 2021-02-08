@@ -8,13 +8,13 @@ class BlogDetailsContent extends Component {
         super(props);
     }
     render() {
-        console.log(this.props);
         
         return (
             <section className="news-details-area case-studies-sub-component-container header-padding">
                 <div className="container">
                     <div className="section-title">
-                        <h2>Helping redraw strategies & execution plans for 10x growth</h2>
+                        <h2>Last mile Rural Distribution & Logistics Company</h2>
+                        <h4>Helping redraw strategies & execution plans for 10x growth</h4>
                         <div className="bar"></div>
                     </div>
                     <img src={require("../../images/last-mile-banner.jpg")} alt="image" />
