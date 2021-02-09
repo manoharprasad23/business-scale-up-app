@@ -111,9 +111,12 @@
 }
 
 .approach-and-methodology .single-services {
-    padding: 100px;
-    border-radius: 200px;
-    height: 300px;
+    border-radius: 100px;
+    height: 180px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .approach-and-methodology .single-services:before {
@@ -123,6 +126,7 @@
 
 .approach-and-methodology .single-services p {
     color: #666;
+    font-size: 18px!important;
 }
 
 .approach-design {
