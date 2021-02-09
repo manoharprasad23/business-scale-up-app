@@ -5,23 +5,29 @@ import {QuizData} from '../QuizData/QuizData';
 
 const QuizContent = () => {
     const totalNumberOfQuestions = QuizData.length;
-  
-    // const getFormData = (formData) => {
-    //     questionAndAnswerForm = [1,2];//JSON.stringify(formData);
-    //     //console.log('form--->' + questionAndAnswerForm);
-    // }
 
     const handleSubmit = (event) => {
         event.preventDefault();
         let correctAnswerCount = 0;
         let answersSelected = 0;
+        let optionOneCount = 0;
+        let optionTwoCount = 0;
+        let optionThreeCount = 0;
         let questionAndAnswerForm = [];
         var element = document.getElementsByTagName('input');
         for(var i = 0; i < element.length; i++) {   
             if(element[i].type="radio") { 
                 if(element[i].checked) {
+                    console.log('option selected ---> '+element[i].value);
                     answersSelected++;
                     questionAndAnswerForm.push(element[i].value);
+                    if(element[i].value == 1) {
+                        optionOneCount++;
+                    } else if (element[i].value == 2) {
+                        optionTwoCount++;
+                    } else if (element[i].value == 3) {
+                        optionThreeCount++;
+                    }
                 }
             } 
         }
@@ -31,11 +37,14 @@ const QuizContent = () => {
             }
         }
         console.log('correct answer count is -> ' + answersSelected, correctAnswerCount)
-        const correctAnswerPercentage = Math.round((correctAnswerCount/10)*100)
-        window.sessionStorage.setItem('correctAnswerPercentage', correctAnswerPercentage);
+        const correctAnswerPercentage = Math.round((correctAnswerCount/10)*100);
+        
+
+        const finalScore = Math.round((optionOneCount * 10) + (optionTwoCount * 7) + (optionThreeCount * 4) );
+        window.sessionStorage.setItem('correctAnswerPercentage', finalScore);
 
         if(answersSelected == 10){
-            console.log('form submission initiated');
+            //console.log('form submission initiated');
             fetch('https://jsonplaceholder.typicode.com/posts', {
                 method: 'POST',
                 body: questionAndAnswerForm,
@@ -65,7 +74,6 @@ const QuizContent = () => {
                             
                             QuizData.map((item) => {
                                 const clickHandler = (questionId, answerOption) => {
-                                    //console.log(questionId, answerOption);
                                 }
                                 const {id, heading, leftBannerText, optionOne, optionTwo, optionThree, question} = item;
                                 return (

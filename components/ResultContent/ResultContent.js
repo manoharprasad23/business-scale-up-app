@@ -22,7 +22,17 @@ const ResultContent = () => {
                         <h3>Your score was {correctAnswerPercentage} out of 100</h3>
                         <div className="score-indicator">
                             <h6>What does this score indicate ?</h6>
-                            <p>In this volatile business world, you are facing issues similar to many business around you. It's time for some significant 'surgery'. A detailed business health review is needed to help understand key challenges, prioritize actions and take corrective measures. You will certainly benefit from the advice and assistance of an expert Business advisor to explore and recommend impactful actions to you firmly on the way to stability, growth and success.</p>
+                            {/* <p>In this volatile business world, you are facing issues similar to many business around you. It's time for some significant 'surgery'. A detailed business health review is needed to help understand key challenges, prioritize actions and take corrective measures. You will certainly benefit from the advice and assistance of an expert Business advisor to explore and recommend impactful actions to you firmly on the way to stability, growth and success.</p> */}
+                            {
+                                (() => {
+                                    if (correctAnswerPercentage >= 80)
+                                        return <p>Your business is in fine shape for the years ahead. You might want to consider getting expert help on Strategic growth opportunities or strengthening your key growth pillars to assist with your longer-term success.</p>
+                                    if (correctAnswerPercentage >= 60 && correctAnswerPercentage < 80)
+                                        return <p>While you are aware of the big picture and execution is in motion, you’ll be experiencing some aches and pains, either due to  internal factors or external ones. Consider seeking the advice and assistance of an expert Business Advisor to explore and recommend  impactful actions to ensure you are firmly on the way to growth & success.</p>
+                                    else (correctAnswerPercentage < 60)
+                                        return <p>In this volatile business world, you are facing issues similar to many businesses around you.It's tme for some significant ‘surgery’. A  detailed business health review is needed to help understand key challenges, prioritize actions and take corrective measures. You will certainly benefit from the advice and assistance of an expert Business Advisor to explore and recommend  impactful actions to put you firmly on the way to stability, growth & success.</p>
+                                })()
+                            }
                         </div>
                         <div className="page-report">
                             <h6>Get a detailed 5 page report</h6>

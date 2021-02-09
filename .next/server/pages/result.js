@@ -2327,7 +2327,11 @@ const ResultContent = () => {
     className: "result-content col-lg-7 col-md-6"
   }, __jsx("h3", null, "Your score was ", correctAnswerPercentage, " out of 100"), __jsx("div", {
     className: "score-indicator"
-  }, __jsx("h6", null, "What does this score indicate ?"), __jsx("p", null, "In this volatile business world, you are facing issues similar to many business around you. It's time for some significant 'surgery'. A detailed business health review is needed to help understand key challenges, prioritize actions and take corrective measures. You will certainly benefit from the advice and assistance of an expert Business advisor to explore and recommend impactful actions to you firmly on the way to stability, growth and success.")), __jsx("div", {
+  }, __jsx("h6", null, "What does this score indicate ?"), (() => {
+    if (correctAnswerPercentage >= 80) return __jsx("p", null, "Your business is in fine shape for the years ahead. You might want to consider getting expert help on Strategic growth opportunities or strengthening your key growth pillars to assist with your longer-term success.");
+    if (correctAnswerPercentage >= 60 && correctAnswerPercentage < 80) return __jsx("p", null, "While you are aware of the big picture and execution is in motion, you\u2019ll be experiencing some aches and pains, either due to  internal factors or external ones. Consider seeking the advice and assistance of an expert Business Advisor to explore and recommend  impactful actions to ensure you are firmly on the way to growth & success.");else correctAnswerPercentage < 60;
+    return __jsx("p", null, "In this volatile business world, you are facing issues similar to many businesses around you.It's tme for some significant \u2018surgery\u2019. A  detailed business health review is needed to help understand key challenges, prioritize actions and take corrective measures. You will certainly benefit from the advice and assistance of an expert Business Advisor to explore and recommend  impactful actions to put you firmly on the way to stability, growth & success.");
+  })()), __jsx("div", {
     className: "page-report"
   }, __jsx("h6", null, "Get a detailed 5 page report"), __jsx("p", null, "Download a detailed 5 page report on the key success factors to help your business strategies and execution succeed.")), __jsx("div", {
     className: "download-button"
