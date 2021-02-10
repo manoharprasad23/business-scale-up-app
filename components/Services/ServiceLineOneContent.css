@@ -119,6 +119,10 @@
     justify-content: center;
 }
 
+.landing-page-section .col-lg-5:first-child .single-blog .content {
+    padding-bottom: 54px;
+}
+
 .our-services-home .align-center {
     margin: 0 auto;
 }

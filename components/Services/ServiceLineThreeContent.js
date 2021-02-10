@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ServicesBannerHeading from './ServicesBannerHeading';
 import Link from 'next/link';
 import IndividualResult from './IndividualResult';
-import ServiceCaseStudies from './ServiceCaseStudies';
+import ServiceCaseStudiesThree from './ServiceCaseStudiesThree';
 
 class ServiceLineOneContent extends Component {
 
@@ -246,7 +246,7 @@ class ServiceLineOneContent extends Component {
 
                 <div className="business-strategy-details business-case-studies">
                     <div className="results-container">
-                        <ServiceCaseStudies />
+                        <ServiceCaseStudiesThree />
                     </div>
                 </div>
             </div>

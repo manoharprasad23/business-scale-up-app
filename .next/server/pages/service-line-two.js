@@ -396,45 +396,6 @@ function formatUrl(urlObj) {
 
 /***/ }),
 
-/***/ "6cVd":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("cDcd");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-const ServiceCaseStudies = () => {
-  return __jsx("div", {
-    className: "service-case-studies services-section"
-  }, __jsx("div", {
-    className: "title"
-  }, __jsx("h3", null, "Case Studies"), __jsx("h5", null, "We have the expertise in supporting business across industries")), __jsx("div", {
-    className: "row"
-  }, __jsx("div", {
-    className: "col-lg-4 col-md-6"
-  }, __jsx("div", {
-    className: "single-services"
-  }, __jsx("div", {
-    className: "icon"
-  }, __jsx("i", {
-    className: "flaticon-it"
-  })), __jsx("h3", null, "Last Mile Rural Distribution and Logistics Company"), __jsx("p", null, "Helped re draw strategies and execution plans for 10x growth"))), __jsx("div", {
-    className: "col-lg-4 col-md-6"
-  }, __jsx("div", {
-    className: "single-services"
-  }, __jsx("div", {
-    className: "icon"
-  }, __jsx("i", {
-    className: "flaticon-setting"
-  })), __jsx("h3", null, "All Technology startup"), __jsx("p", null, "Product ideas converted into Go To market models - new Customer & Channel pipes")))));
-};
-
-/* harmony default export */ __webpack_exports__["a"] = (ServiceCaseStudies);
-
-/***/ }),
-
 /***/ "7KCV":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -523,11 +484,44 @@ var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 // EXTERNAL MODULE: ./components/Services/IndividualResult.js
 var IndividualResult = __webpack_require__("KTN4");
 
-// EXTERNAL MODULE: ./components/Services/ServiceCaseStudies.js
-var ServiceCaseStudies = __webpack_require__("6cVd");
-
-// CONCATENATED MODULE: ./components/Services/ServiceLineTwoContent.js
+// CONCATENATED MODULE: ./components/Services/ServiceCaseStudiesTwo.js
 var __jsx = external_react_default.a.createElement;
+
+
+
+const ServiceCaseStudiesTwo = () => {
+  return __jsx("div", {
+    className: "service-case-studies services-section"
+  }, __jsx("div", {
+    className: "title"
+  }, __jsx("h3", null, "Case Studies"), __jsx("h5", null, "We have the expertise in supporting business across industries")), __jsx("div", {
+    className: "row"
+  }, __jsx("div", {
+    className: "col-lg-4 col-md-6"
+  }, __jsx("div", {
+    className: "single-services"
+  }, __jsx("div", {
+    className: "icon"
+  }, __jsx("i", {
+    className: "flaticon-it"
+  })), __jsx(link_default.a, {
+    href: "/artificial-intelligence-startup"
+  }, __jsx("h3", null, "Artificial Intelligence Startup")), __jsx("p", null, "Product ideas converted into Go To Market models \u2013 new Customer pipes"))), __jsx("div", {
+    className: "col-lg-4 col-md-6"
+  }, __jsx("div", {
+    className: "single-services"
+  }, __jsx("div", {
+    className: "icon"
+  }, __jsx("i", {
+    className: "flaticon-setting"
+  })), __jsx(link_default.a, {
+    href: "/healthcare-company"
+  }, __jsx("h3", null, "Healthcare Company")), __jsx("p", null, "Building a premium brand"), __jsx("p", null, "Developing new products"), __jsx("p", null, "New channels for growth")))));
+};
+
+/* harmony default export */ var Services_ServiceCaseStudiesTwo = (ServiceCaseStudiesTwo);
+// CONCATENATED MODULE: ./components/Services/ServiceLineTwoContent.js
+var ServiceLineTwoContent_jsx = external_react_default.a.createElement;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -567,138 +561,138 @@ class ServiceLineTwoContent_ServiceLineOneContent extends external_react_["Compo
   }
 
   render() {
-    return __jsx("div", {
+    return ServiceLineTwoContent_jsx("div", {
       className: "services-details-area service-line-one-content header-padding"
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: ""
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: "services-details"
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: "section-title"
-    }, __jsx("h2", null, "Accelerate your growth"), __jsx("div", {
+    }, ServiceLineTwoContent_jsx("h2", null, "Accelerate your growth"), ServiceLineTwoContent_jsx("div", {
       className: "bar"
-    }), __jsx("section", {
+    }), ServiceLineTwoContent_jsx("section", {
       className: "tech-section"
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: ""
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: "row align-items-center"
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: "col-lg-6"
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: "tech-content"
-    }, __jsx("h3", null, "Business Consulting & Advisory Services to win in the market place"), __jsx("div", {
+    }, ServiceLineTwoContent_jsx("h3", null, "Business Consulting & Advisory Services to win in the market place"), ServiceLineTwoContent_jsx("div", {
       className: "bar"
-    }))), __jsx("div", {
+    }))), ServiceLineTwoContent_jsx("div", {
       className: "col-lg-6 tech-section-buttons"
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: "tech-btn"
-    }, __jsx(link_default.a, {
+    }, ServiceLineTwoContent_jsx(link_default.a, {
       href: "#"
-    }, __jsx("a", {
+    }, ServiceLineTwoContent_jsx("a", {
       className: "default-btn"
-    }, "Know More"))), __jsx("div", {
+    }, "Know More"))), ServiceLineTwoContent_jsx("div", {
       className: "tech-btn"
-    }, __jsx(link_default.a, {
+    }, ServiceLineTwoContent_jsx(link_default.a, {
       href: "#"
-    }, __jsx("a", {
+    }, ServiceLineTwoContent_jsx("a", {
       className: "default-btn"
-    }, "Enquire More")))))))))), __jsx("div", {
+    }, "Enquire More")))))))))), ServiceLineTwoContent_jsx("div", {
       className: "business-strategy-details"
-    }, __jsx("section", {
+    }, ServiceLineTwoContent_jsx("section", {
       className: "features-section pt-100 pb-70"
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: "container"
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: "section-title"
-    }, __jsx("h2", null, "Need to build & Strengthen a key strategy?"), __jsx("p", null, "We help you win in the market place"), __jsx("div", {
+    }, ServiceLineTwoContent_jsx("h2", null, "Need to build & Strengthen a key strategy?"), ServiceLineTwoContent_jsx("p", null, "We help you win in the market place"), ServiceLineTwoContent_jsx("div", {
       className: "bar"
-    })), __jsx("div", {
+    })), ServiceLineTwoContent_jsx("div", {
       className: "row we-understand-your-business"
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: "col-lg-4 col-sm-6"
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: "features-content"
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: "icon"
-    }, __jsx("i", {
+    }, ServiceLineTwoContent_jsx("i", {
       className: "flaticon-blueprint"
-    })), __jsx("p", null, "Every business - a startup or growth focussed one needs a strong business plan for successful execution"))), __jsx("div", {
+    })), ServiceLineTwoContent_jsx("p", null, "Every business - a startup or growth focussed one needs a strong business plan for successful execution"))), ServiceLineTwoContent_jsx("div", {
       className: "col-lg-4 col-sm-6"
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: "features-content"
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: "icon left-icon"
-    }, __jsx("i", {
+    }, ServiceLineTwoContent_jsx("i", {
       className: "flaticon-security"
-    })), __jsx("p", null, "How do you address the parts of your strategy to Win in the market place? Our consulting expertise is available"))), __jsx("div", {
+    })), ServiceLineTwoContent_jsx("p", null, "How do you address the parts of your strategy to Win in the market place? Our consulting expertise is available"))), ServiceLineTwoContent_jsx("div", {
       className: "col-lg-4 col-sm-6"
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: "features-content"
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: "icon"
-    }, __jsx("i", {
+    }, ServiceLineTwoContent_jsx("i", {
       className: "flaticon-clock"
-    })), __jsx("p", null, "Our deep and varied experience guides and helps you put into motion key strategy pillars."))))))), __jsx("div", {
+    })), ServiceLineTwoContent_jsx("p", null, "Our deep and varied experience guides and helps you put into motion key strategy pillars."))))))), ServiceLineTwoContent_jsx("div", {
       className: "business-strategy-details approach-and-methodology"
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: "section-title"
-    }, __jsx("h3", null, "Our approach & methodology"), __jsx("h4", null, "Customized engagement"), __jsx("div", {
+    }, ServiceLineTwoContent_jsx("h3", null, "Our approach & methodology"), ServiceLineTwoContent_jsx("h4", null, "Customized engagement"), ServiceLineTwoContent_jsx("div", {
       class: "bar"
-    })), __jsx("div", {
+    })), ServiceLineTwoContent_jsx("div", {
       className: "row"
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: "col-lg-4 col-md-6"
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: "single-services"
-    }, __jsx("p", null, "Detailed assignment -"), __jsx("p", null, "assignment"), __jsx("p", null, "of business"))), __jsx("div", {
+    }, ServiceLineTwoContent_jsx("p", null, "Detailed assignment -"), ServiceLineTwoContent_jsx("p", null, "assignment"), ServiceLineTwoContent_jsx("p", null, "of business"))), ServiceLineTwoContent_jsx("div", {
       className: "col-lg-4 col-md-6"
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: "single-services"
-    }, __jsx("p", null, "Identify key"), __jsx("p", null, "ares/s of"), __jsx("p", null, "building scale"))), __jsx("div", {
+    }, ServiceLineTwoContent_jsx("p", null, "Identify key"), ServiceLineTwoContent_jsx("p", null, "ares/s of"), ServiceLineTwoContent_jsx("p", null, "building scale"))), ServiceLineTwoContent_jsx("div", {
       className: "col-lg-4 col-md-6"
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: "single-services"
-    }, __jsx("p", null, "Comprehensive plans"), __jsx("p", null, "& actions developed"), __jsx("p", null, "to help growth"))))), __jsx("div", {
+    }, ServiceLineTwoContent_jsx("p", null, "Comprehensive plans"), ServiceLineTwoContent_jsx("p", null, "& actions developed"), ServiceLineTwoContent_jsx("p", null, "to help growth"))))), ServiceLineTwoContent_jsx("div", {
       className: "business-strategy-details"
-    }, __jsx("section", {
+    }, ServiceLineTwoContent_jsx("section", {
       className: "experience-section ptb-100"
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: "container-fluid"
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: "row align-items-center"
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: "col-lg-6"
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: "experience-inner-area"
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: "experience-content"
-    }, __jsx("h3", null, "The result"), __jsx("div", {
+    }, ServiceLineTwoContent_jsx("h3", null, "The result"), ServiceLineTwoContent_jsx("div", {
       className: "bar"
-    }), __jsx("p", null, "Delivering on our promise")), __jsx("div", {
+    }), ServiceLineTwoContent_jsx("p", null, "Delivering on our promise")), ServiceLineTwoContent_jsx("div", {
       className: "experience-inner-content"
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: "icon"
-    }, __jsx("i", {
+    }, ServiceLineTwoContent_jsx("i", {
       className: "flaticon-check"
-    })), __jsx("h3", null, "Alignment with all our stakeholders on key plans developed for action")), __jsx("div", {
+    })), ServiceLineTwoContent_jsx("h3", null, "Alignment with all our stakeholders on key plans developed for action")), ServiceLineTwoContent_jsx("div", {
       className: "experience-inner-content"
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: "icon"
-    }, __jsx("i", {
+    }, ServiceLineTwoContent_jsx("i", {
       className: "flaticon-check"
-    })), __jsx("h3", null, "Hand Hold and Kick start execution - the first step to success")))), __jsx("div", {
+    })), ServiceLineTwoContent_jsx("h3", null, "Hand Hold and Kick start execution - the first step to success")))), ServiceLineTwoContent_jsx("div", {
       className: "col-lg-6 pr-0"
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: "experience-image"
-    }, __jsx("img", {
+    }, ServiceLineTwoContent_jsx("img", {
       src: __webpack_require__("+Nwo"),
       alt: "image"
-    }))))))), __jsx("div", {
+    }))))))), ServiceLineTwoContent_jsx("div", {
       className: "business-strategy-details business-case-studies"
-    }, __jsx("div", {
+    }, ServiceLineTwoContent_jsx("div", {
       className: "results-container"
-    }, __jsx(ServiceCaseStudies["a" /* default */], null))));
+    }, ServiceLineTwoContent_jsx(Services_ServiceCaseStudiesTwo, null))));
   }
 
 }

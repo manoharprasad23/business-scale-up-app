@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const ServiceCaseStudies = () => {
+const ServiceCaseStudiesTwo = () => {
     return (
         <div className="service-case-studies services-section">
             <div className="title">
@@ -14,10 +14,10 @@ const ServiceCaseStudies = () => {
                                 <div className="icon">
                                     <i className="flaticon-it"></i>
                                 </div>
-                                <Link href="/last-mile-rural-distribution">
-                                    <h3>Last Mile Rural Distribution and Logistics Company</h3>
+                                <Link href="/artificial-intelligence-startup">
+                                    <h3>Artificial Intelligence Startup</h3>
                                 </Link>
-                                <p>Helped re draw strategies and execution plans for 10x growth</p>
+                                <p>Product ideas converted into Go To Market models – new Customer pipes</p>
                             </div>
                         </div>
 
@@ -26,10 +26,12 @@ const ServiceCaseStudies = () => {
                                 <div className="icon">
                                     <i className="flaticon-setting"></i>
                                 </div>
-                                <Link href="/B2B-focused-IT-hardware">
-                                    <h3>B2B Focused IT Hardware & Services Company</h3>
+                                <Link href="/healthcare-company">
+                                    <h3>Healthcare Company</h3>
                                 </Link>
-                                <p>Covid impact and reinventing the business model</p>
+                                <p>Building a premium brand</p>
+                                <p>Developing new products</p>
+                                <p>New channels for growth</p>
                             </div>
                         </div>
                     </div>
@@ -37,4 +39,4 @@ const ServiceCaseStudies = () => {
     )
 }
 
-export default ServiceCaseStudies;
+export default ServiceCaseStudiesTwo;

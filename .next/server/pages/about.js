@@ -271,13 +271,6 @@ function assign(target, ...searchParamsList) {
 
 /***/ }),
 
-/***/ "47cN":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/about-3-a458a70d34361e6ba1dc291b5a425685.jpg";
-
-/***/ }),
-
 /***/ "4Q3z":
 /***/ (function(module, exports) {
 
@@ -481,6 +474,13 @@ function _interopRequireWildcard(obj) {
 }
 
 module.exports = _interopRequireWildcard;
+
+/***/ }),
+
+/***/ "Aiwm":
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/about-3-ab003473c501638811bb2b08b73f1d13.png";
 
 /***/ }),
 
@@ -853,7 +853,7 @@ class AboutContent_AboutContent extends external_react_["Component"] {
     }, __jsx("div", {
       className: "about-image-3"
     }, __jsx("img", {
-      src: __webpack_require__("47cN"),
+      src: __webpack_require__("Aiwm"),
       alt: "image"
     }))), __jsx("div", {
       className: "col-lg-6"

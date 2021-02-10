@@ -221,11 +221,44 @@ var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 // EXTERNAL MODULE: ./components/Services/IndividualResult.js
 var IndividualResult = __webpack_require__("KTN4");
 
-// EXTERNAL MODULE: ./components/Services/ServiceCaseStudies.js
-var ServiceCaseStudies = __webpack_require__("6cVd");
-
-// CONCATENATED MODULE: ./components/Services/ServiceLineThreeContent.js
+// CONCATENATED MODULE: ./components/Services/ServiceCaseStudiesThree.js
 var __jsx = external_react_default.a.createElement;
+
+
+
+const ServiceCaseStudiesThree = () => {
+  return __jsx("div", {
+    className: "service-case-studies services-section"
+  }, __jsx("div", {
+    className: "title"
+  }, __jsx("h3", null, "Case Studies"), __jsx("h5", null, "We have the expertise in supporting business across industries")), __jsx("div", {
+    className: "row"
+  }, __jsx("div", {
+    className: "col-lg-4 col-md-6"
+  }, __jsx("div", {
+    className: "single-services"
+  }, __jsx("div", {
+    className: "icon"
+  }, __jsx("i", {
+    className: "flaticon-it"
+  })), __jsx(link_default.a, {
+    href: "/north-india-technology-retail-chain"
+  }, __jsx("h3", null, "North India Technology Retail Chain")), __jsx("p", null, "Helping reset business operations & drive higher profitability"), __jsx("p", null, "Raising capital"))), __jsx("div", {
+    className: "col-lg-4 col-md-6"
+  }, __jsx("div", {
+    className: "single-services"
+  }, __jsx("div", {
+    className: "icon"
+  }, __jsx("i", {
+    className: "flaticon-setting"
+  })), __jsx(link_default.a, {
+    href: "/government-segment-focused-company"
+  }, __jsx("h3", null, "Government Segment Focused Company")), __jsx("p", null, "Connection with new brands & product lines"), __jsx("p", null, "Increased revenues & profitability")))));
+};
+
+/* harmony default export */ var Services_ServiceCaseStudiesThree = (ServiceCaseStudiesThree);
+// CONCATENATED MODULE: ./components/Services/ServiceLineThreeContent.js
+var ServiceLineThreeContent_jsx = external_react_default.a.createElement;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -268,163 +301,163 @@ class ServiceLineThreeContent_ServiceLineOneContent extends external_react_["Com
   }
 
   render() {
-    return __jsx("div", {
+    return ServiceLineThreeContent_jsx("div", {
       className: "services-details-area service-line-one-content header-padding"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: ""
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "services-details"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "section-title"
-    }, __jsx("h2", null, "Connect to ScaleUp"), __jsx("div", {
+    }, ServiceLineThreeContent_jsx("h2", null, "Connect to ScaleUp"), ServiceLineThreeContent_jsx("div", {
       className: "bar"
-    }), __jsx("section", {
+    }), ServiceLineThreeContent_jsx("section", {
       className: "tech-section"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: ""
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "row align-items-center"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "col-lg-6"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "tech-content"
-    }, __jsx("h3", null, "Strategic connections & eco system to scaleup your business"), __jsx("div", {
+    }, ServiceLineThreeContent_jsx("h3", null, "Strategic connections & eco system to scaleup your business"), ServiceLineThreeContent_jsx("div", {
       className: "bar"
-    }))), __jsx("div", {
+    }))), ServiceLineThreeContent_jsx("div", {
       className: "col-lg-6 tech-section-buttons"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "tech-btn"
-    }, __jsx(link_default.a, {
+    }, ServiceLineThreeContent_jsx(link_default.a, {
       href: "#"
-    }, __jsx("a", {
+    }, ServiceLineThreeContent_jsx("a", {
       className: "default-btn"
-    }, "Know More"))), __jsx("div", {
+    }, "Know More"))), ServiceLineThreeContent_jsx("div", {
       className: "tech-btn"
-    }, __jsx(link_default.a, {
+    }, ServiceLineThreeContent_jsx(link_default.a, {
       href: "#"
-    }, __jsx("a", {
+    }, ServiceLineThreeContent_jsx("a", {
       className: "default-btn"
-    }, "Enquire More")))))))))), __jsx("div", {
+    }, "Enquire More")))))))))), ServiceLineThreeContent_jsx("div", {
       className: "business-strategy-details"
-    }, __jsx("section", {
+    }, ServiceLineThreeContent_jsx("section", {
       className: "features-section pt-100 pb-70"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "container"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "section-title"
-    }, __jsx("h2", null, "Connections to scaleup your business"), __jsx("p", null, "We help you win in the market place"), __jsx("div", {
+    }, ServiceLineThreeContent_jsx("h2", null, "Connections to scaleup your business"), ServiceLineThreeContent_jsx("p", null, "We help you win in the market place"), ServiceLineThreeContent_jsx("div", {
       className: "bar"
-    })), __jsx("div", {
+    })), ServiceLineThreeContent_jsx("div", {
       className: "row we-understand-your-business"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "col-lg-4 col-sm-6"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "features-content"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "icon"
-    }, __jsx("i", {
+    }, ServiceLineThreeContent_jsx("i", {
       className: "flaticon-blueprint"
-    })), __jsx("p", null, "We bring our eco system expertise to help you in creating new success"))), __jsx("div", {
+    })), ServiceLineThreeContent_jsx("p", null, "We bring our eco system expertise to help you in creating new success"))), ServiceLineThreeContent_jsx("div", {
       className: "col-lg-4 col-sm-6"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "features-content"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "icon"
-    }, __jsx("i", {
+    }, ServiceLineThreeContent_jsx("i", {
       className: "flaticon-update"
-    })), __jsx("p", null, "Facilitating growth - Help you establish connects for business engagement & sales success: Be it a customer connect or a new channel"))), __jsx("div", {
+    })), ServiceLineThreeContent_jsx("p", null, "Facilitating growth - Help you establish connects for business engagement & sales success: Be it a customer connect or a new channel"))), ServiceLineThreeContent_jsx("div", {
       className: "col-lg-4 col-sm-6"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "features-content"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "icon left-icon"
-    }, __jsx("i", {
+    }, ServiceLineThreeContent_jsx("i", {
       className: "flaticon-security"
-    })), __jsx("p", null, "Raising capital - help you raise capital: Financial Institutions to VC"))), __jsx("div", {
+    })), ServiceLineThreeContent_jsx("p", null, "Raising capital - help you raise capital: Financial Institutions to VC"))), ServiceLineThreeContent_jsx("div", {
       className: "col-lg-4 col-sm-6"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "features-content"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "icon"
-    }, __jsx("i", {
+    }, ServiceLineThreeContent_jsx("i", {
       className: "flaticon-clock"
-    })), __jsx("p", null, "Personal coaching to Leadership training to Sales development program - every aspect of organization capability building is addressed"))), __jsx("div", {
+    })), ServiceLineThreeContent_jsx("p", null, "Personal coaching to Leadership training to Sales development program - every aspect of organization capability building is addressed"))), ServiceLineThreeContent_jsx("div", {
       className: "col-lg-4 col-sm-6"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "features-content"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "icon"
-    }, __jsx("i", {
+    }, ServiceLineThreeContent_jsx("i", {
       className: "flaticon-clock"
-    })), __jsx("p", null, "Marketing success: Marketing Engine & Digital impact actions"))))))), __jsx("div", {
+    })), ServiceLineThreeContent_jsx("p", null, "Marketing success: Marketing Engine & Digital impact actions"))))))), ServiceLineThreeContent_jsx("div", {
       className: "business-strategy-details approach-and-methodology"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "section-title"
-    }, __jsx("h3", null, "Our approach & methodology"), __jsx("h4", null, "Address Key need of client"), __jsx("div", {
+    }, ServiceLineThreeContent_jsx("h3", null, "Our approach & methodology"), ServiceLineThreeContent_jsx("h4", null, "Address Key need of client"), ServiceLineThreeContent_jsx("div", {
       class: "bar"
-    })), __jsx("div", {
+    })), ServiceLineThreeContent_jsx("div", {
       className: "row"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "col-lg-4 col-md-6"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "single-services"
-    }, __jsx("p", null, "Your new"), __jsx("p", null, "plan"))), __jsx("div", {
+    }, ServiceLineThreeContent_jsx("p", null, "Your new"), ServiceLineThreeContent_jsx("p", null, "plan"))), ServiceLineThreeContent_jsx("div", {
       className: "col-lg-4 col-md-6"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "single-services"
-    }, __jsx("p", null, "Our eco system"))), __jsx("div", {
+    }, ServiceLineThreeContent_jsx("p", null, "Our eco system"))), ServiceLineThreeContent_jsx("div", {
       className: "col-lg-4 col-md-6"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "image-container"
-    }, __jsx("img", {
+    }, ServiceLineThreeContent_jsx("img", {
       src: __webpack_require__("0jcP"),
       alt: "image"
-    }))))), __jsx("div", {
+    }))))), ServiceLineThreeContent_jsx("div", {
       className: "business-strategy-details"
-    }, __jsx("section", {
+    }, ServiceLineThreeContent_jsx("section", {
       className: "experience-section ptb-100"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "container-fluid"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "row align-items-center"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "col-lg-6"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "experience-inner-area"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "experience-content"
-    }, __jsx("h3", null, "The result"), __jsx("div", {
+    }, ServiceLineThreeContent_jsx("h3", null, "The result"), ServiceLineThreeContent_jsx("div", {
       className: "bar"
-    }), __jsx("p", null, "Delivering on our promise")), __jsx("div", {
+    }), ServiceLineThreeContent_jsx("p", null, "Delivering on our promise")), ServiceLineThreeContent_jsx("div", {
       className: "experience-inner-content"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "icon"
-    }, __jsx("i", {
+    }, ServiceLineThreeContent_jsx("i", {
       className: "flaticon-check"
-    })), __jsx("h3", null, "New connects for business success")), __jsx("div", {
+    })), ServiceLineThreeContent_jsx("h3", null, "New connects for business success")), ServiceLineThreeContent_jsx("div", {
       className: "experience-inner-content"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "icon"
-    }, __jsx("i", {
+    }, ServiceLineThreeContent_jsx("i", {
       className: "flaticon-check"
-    })), __jsx("h3", null, "Capital raised for business growth")), __jsx("div", {
+    })), ServiceLineThreeContent_jsx("h3", null, "Capital raised for business growth")), ServiceLineThreeContent_jsx("div", {
       className: "experience-inner-content"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "icon"
-    }, __jsx("i", {
+    }, ServiceLineThreeContent_jsx("i", {
       className: "flaticon-check"
-    })), __jsx("h3", null, "Organized skill & ready for the future")))), __jsx("div", {
+    })), ServiceLineThreeContent_jsx("h3", null, "Organized skill & ready for the future")))), ServiceLineThreeContent_jsx("div", {
       className: "col-lg-6 pr-0"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "experience-image"
-    }, __jsx("img", {
+    }, ServiceLineThreeContent_jsx("img", {
       src: __webpack_require__("3DWa"),
       alt: "image"
-    }))))))), __jsx("div", {
+    }))))))), ServiceLineThreeContent_jsx("div", {
       className: "business-strategy-details business-case-studies"
-    }, __jsx("div", {
+    }, ServiceLineThreeContent_jsx("div", {
       className: "results-container"
-    }, __jsx(ServiceCaseStudies["a" /* default */], null))));
+    }, ServiceLineThreeContent_jsx(Services_ServiceCaseStudiesThree, null))));
   }
 
 }
@@ -658,45 +691,6 @@ function formatUrl(urlObj) {
   search = search.replace('#', '%23');
   return `${protocol}${host}${pathname}${search}${hash}`;
 }
-
-/***/ }),
-
-/***/ "6cVd":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("cDcd");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-const ServiceCaseStudies = () => {
-  return __jsx("div", {
-    className: "service-case-studies services-section"
-  }, __jsx("div", {
-    className: "title"
-  }, __jsx("h3", null, "Case Studies"), __jsx("h5", null, "We have the expertise in supporting business across industries")), __jsx("div", {
-    className: "row"
-  }, __jsx("div", {
-    className: "col-lg-4 col-md-6"
-  }, __jsx("div", {
-    className: "single-services"
-  }, __jsx("div", {
-    className: "icon"
-  }, __jsx("i", {
-    className: "flaticon-it"
-  })), __jsx("h3", null, "Last Mile Rural Distribution and Logistics Company"), __jsx("p", null, "Helped re draw strategies and execution plans for 10x growth"))), __jsx("div", {
-    className: "col-lg-4 col-md-6"
-  }, __jsx("div", {
-    className: "single-services"
-  }, __jsx("div", {
-    className: "icon"
-  }, __jsx("i", {
-    className: "flaticon-setting"
-  })), __jsx("h3", null, "All Technology startup"), __jsx("p", null, "Product ideas converted into Go To market models - new Customer & Channel pipes")))));
-};
-
-/* harmony default export */ __webpack_exports__["a"] = (ServiceCaseStudies);
 
 /***/ }),
 
