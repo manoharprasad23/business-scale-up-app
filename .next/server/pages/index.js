@@ -2594,7 +2594,7 @@ class ServicesStyleOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("h2", null, "Our Services"), __jsx("p", null, "All leading to your growth"), __jsx("div", {
       className: "bar"
     })), __jsx("div", {
-      className: "row"
+      className: "row container align-center"
     }, __jsx("div", {
       className: "col-lg-4 col-md-6"
     }, __jsx("div", {

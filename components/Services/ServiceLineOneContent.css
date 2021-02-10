@@ -119,6 +119,10 @@
     justify-content: center;
 }
 
+.our-services-home .align-center {
+    margin: 0 auto;
+}
+
 .approach-and-methodology .single-services:before {
     border-radius: 200px;
     background: none;

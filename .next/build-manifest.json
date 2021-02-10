@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/w2fmM0kzZSV9QvzRR19xi/_buildManifest.js",
-    "static/w2fmM0kzZSV9QvzRR19xi/_ssgManifest.js"
+    "static/OWBch0usPVFacr2Minef7/_buildManifest.js",
+    "static/OWBch0usPVFacr2Minef7/_ssgManifest.js"
   ],
   "pages": {
     "/": [
@@ -16,7 +16,7 @@
       "static/chunks/commons.94304236c8b3ef5c5b49.js",
       "static/chunks/d630a0ef45031cfc0b3bf78da1752ad12f3d1bb8.43fe2823773e42d77032.js",
       "static/chunks/cc833ac6faefcf7cedb631b1a5fc74d98596a928.a95a72e0cbbc50677217.js",
-      "static/chunks/pages/index-14bbd2bc53e0a2b0bbd1.js"
+      "static/chunks/pages/index-3c58a25364bf2fa98d92.js"
     ],
     "/B2B-focused-IT-hardware": [
       "static/chunks/main-1a4b92fafff350e04594.js",
@@ -33,8 +33,8 @@
       "static/css/e17e4d0af160e726c955.css",
       "static/chunks/f78a9dd8.7b37a38a8911fc5fb44b.js",
       "static/chunks/commons.94304236c8b3ef5c5b49.js",
-      "static/css/1b85cd373d9ca1d3b12b.css",
-      "static/chunks/pages/_app-677ceffdd75247ae5db9.js"
+      "static/css/567d280e5dd46b9b3ca1.css",
+      "static/chunks/pages/_app-4dcafe310a18d830dcbd.js"
     ],
     "/_error": [
       "static/chunks/main-1a4b92fafff350e04594.js",
@@ -391,7 +391,7 @@
       "static/chunks/framework.8683c114909ee93ee89f.js",
       "static/chunks/commons.94304236c8b3ef5c5b49.js",
       "static/chunks/d630a0ef45031cfc0b3bf78da1752ad12f3d1bb8.43fe2823773e42d77032.js",
-      "static/chunks/pages/services-6fae92307060be13a633.js"
+      "static/chunks/pages/services-e0b5be209584a635cc1b.js"
     ],
     "/services2": [
       "static/chunks/main-1a4b92fafff350e04594.js",

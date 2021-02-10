@@ -55,7 +55,7 @@ class ServicesStyleOne extends Component {
                             </div>
                         </div>
                     </div> */}
-                    <div className="row">
+                    <div className="row container align-center">
                             <div className="col-lg-4 col-md-6">
                                 <div className="single-blog first-service-card">
                                     <div className="image">
