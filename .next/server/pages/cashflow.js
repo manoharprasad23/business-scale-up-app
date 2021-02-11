@@ -583,7 +583,13 @@ const CashFlowContent = () => {
     className: "features-text"
   }, __jsx("h4", null, __jsx("i", {
     className: "flaticon-tick"
-  }), " Planning and Coordination"), __jsx("p", null, "Cash Flow Statement helps the management to understand how much funds are needed and for what purposes, how much cash is generated from internal sources, how much cash can be procured from outside the business. It also helps to prepare cash budgets"))))));
+  }), " Planning and Coordination"), __jsx("p", null, "Cash Flow Statement helps the management to understand how much funds are needed and for what purposes, how much cash is generated from internal sources, how much cash can be procured from outside the business. It also helps to prepare cash budgets")))), __jsx("div", {
+    className: "col-lg-12 col-md-12"
+  }, __jsx("div", {
+    className: "projects-details-desc"
+  }, __jsx("h3", null, "Holistic cash flow Management:"), __jsx("p", null, "Though Cash flow is the key success factor, it should not be considered in isolation, and holistic Approach with the overall objective of the company need to the backdrop. The following are few pointers in order to achieve the said objective:"), __jsx("div", {
+    className: "features-text custom-spacing"
+  }, __jsx("ul", null, __jsx("li", null, "Turn financial data into actionable insights"), __jsx("li", null, "Shorten Cash conversion cycle"), __jsx("li", null, "Negotiate payment terms; Align Accounts receivables to that of Accounts Payable"), __jsx("li", null, "Determine biggest fixed expenses and ways to reduce/realign"), __jsx("li", null, "Pay importance to cash cycle"), __jsx("li", null, "Improve the customer experience- from consumption till payment"), __jsx("li", null, "Work with right set of customers, who are just profitable, but pay on time too!"), __jsx("li", null, "Note that Each rupee pending in receivable is a rupee less available for business "), __jsx("li", null, "Reduce carrying cost \u2013 by managing inventory optimally"), __jsx("li", null, "Determine the cost of capital and try different payable/receivable matrix")))))));
 };
 
 /* harmony default export */ var CashFlow_CashFlowContent = (CashFlowContent);

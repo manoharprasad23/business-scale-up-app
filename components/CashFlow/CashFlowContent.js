@@ -115,6 +115,28 @@ const CashFlowContent = () => {
         </div>
         </div>
 
+        <div className="col-lg-12 col-md-12">
+            <div className="projects-details-desc">
+                    <h3>Holistic cash flow Management:
+                    </h3>
+                    <p>Though Cash flow is the key success factor, it should not be considered in isolation, and holistic Approach with the overall objective of the company need to the backdrop. The following are few pointers in order to achieve the said objective:
+                    </p>
+                <div className="features-text custom-spacing">
+                    <ul>
+                        <li>Turn financial data into actionable insights</li>
+                        <li>Shorten Cash conversion cycle</li>
+                        <li>Negotiate payment terms; Align Accounts receivables to that of Accounts Payable</li>
+                        <li>Determine biggest fixed expenses and ways to reduce/realign</li>
+                        <li>Pay importance to cash cycle</li>
+                        <li>Improve the customer experience- from consumption till payment</li>
+                        <li>Work with right set of customers, who are just profitable, but pay on time too!</li>
+                        <li>Note that Each rupee pending in receivable is a rupee less available for business </li>
+                        <li>Reduce carrying cost – by managing inventory optimally</li>
+                        <li>Determine the cost of capital and try different payable/receivable matrix</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         </div>
     </div>
     )
