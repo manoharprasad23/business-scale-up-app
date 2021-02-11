@@ -2614,7 +2614,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       className: "footer-info-contact"
     }, __jsx("i", {
       className: "flaticon-pin"
-    }), __jsx("h3", null, "Address"), __jsx("span", null, "Scaleupinc Services Pvt Ltd,"), __jsx("br", null), __jsx("span", null, "B24, Sarita Vihar,"), __jsx("br", null), __jsx("span", null, "New Delhi 110076")))))), __jsx("div", {
+    }), __jsx("h3", null, "Address"), __jsx("span", null, "Scaleupinc Services Pvt Ltd,"), __jsx("br", null), __jsx("span", null, "B24, Sarita Vihar,"), __jsx("br", null), __jsx("span", null, "New Delhi 110076"), __jsx("br", null), __jsx("span", null, "India")))))), __jsx("div", {
       className: "lines"
     }, __jsx("div", {
       className: "line"

@@ -163,7 +163,8 @@ class Footer extends Component {
                                         <h3>Address</h3>
                                         <span>Scaleupinc Services Pvt Ltd,</span><br/>
                                         <span>B24, Sarita Vihar,</span><br/>
-                                        <span>New Delhi 110076</span>
+                                        <span>New Delhi 110076</span><br/>
+                                        <span>India</span>
                                     </div>
                                 </div>
                             </div>
