@@ -10,7 +10,7 @@ const ServiceCaseStudiesThree = () => {
             </div>
             <div className="row">
                         <div className="col-lg-4 col-md-6">
-                            <div className="single-services">
+                            <div className="single-services mouse-pointer">
                                 <div className="icon">
                                     <i className="flaticon-it"></i>
                                 </div>
@@ -23,7 +23,7 @@ const ServiceCaseStudiesThree = () => {
                         </div>
 
                         <div className="col-lg-4 col-md-6">
-                            <div className="single-services">
+                            <div className="single-services mouse-pointer">
                                 <div className="icon">
                                     <i className="flaticon-setting"></i>
                                 </div>

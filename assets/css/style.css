@@ -7945,4 +7945,8 @@ Go Top CSS
 .contact-box-custom-height {
   height: 220px;
 }
+
+.mouse-pointer {
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */

@@ -499,7 +499,7 @@ const ServiceCaseStudiesTwo = () => {
   }, __jsx("div", {
     className: "col-lg-4 col-md-6"
   }, __jsx("div", {
-    className: "single-services"
+    className: "single-services mouse-pointer"
   }, __jsx("div", {
     className: "icon"
   }, __jsx("i", {
@@ -509,7 +509,7 @@ const ServiceCaseStudiesTwo = () => {
   }, __jsx("h3", null, "Artificial Intelligence Startup")), __jsx("p", null, "Product ideas converted into Go To Market models \u2013 new Customer pipes"))), __jsx("div", {
     className: "col-lg-4 col-md-6"
   }, __jsx("div", {
-    className: "single-services"
+    className: "single-services mouse-pointer"
   }, __jsx("div", {
     className: "icon"
   }, __jsx("i", {
@@ -2701,7 +2701,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/about"
     }, __jsx("a", null, "About Us"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/growth-tips"
+      href: "/innovation"
     }, __jsx("a", null, "Growth Tips"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/services"
     }, __jsx("a", null, "Services"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
