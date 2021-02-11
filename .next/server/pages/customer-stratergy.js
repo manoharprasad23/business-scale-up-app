@@ -258,6 +258,13 @@ module.exports = require("next/router");
 
 /***/ }),
 
+/***/ "5hfD":
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/customer-strategy-2-fdf9ce855bdceb57a4db23822b51735c.png";
+
+/***/ }),
+
 /***/ "6D7l":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -546,6 +553,20 @@ module.exports = require("next/dist/next-server/lib/router-context.js");
 
 "use strict";
 
+
+/***/ }),
+
+/***/ "Sarc":
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/customer-strategy-3-8eb901c96d2d0a76b95a34456827f03b.png";
+
+/***/ }),
+
+/***/ "U568":
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/customer-strategy-1-eeb76cc280bcf783b258b8e256ba11fa.png";
 
 /***/ }),
 
@@ -2165,7 +2186,84 @@ const CustomerStratergyContent = () => {
     className: "section-title header-padding"
   }, __jsx("h2", null, "Customer Stratergy"), __jsx("div", {
     className: "bar"
-  }))));
+  })), __jsx("div", {
+    className: "col-lg-12 col-md-12"
+  }, __jsx("div", {
+    className: "projects-details-desc"
+  }, __jsx("div", {
+    className: "features-text"
+  }, __jsx("h3", null, "Sorting your eggs "), __jsx("h3", null, "Rejig your Customer Strategy for increased Revenues & Profits"), __jsx("p", null), __jsx("h4", null, __jsx("i", {
+    className: "flaticon-tick"
+  }), "Sorting your eggs:"), __jsx("p", null, __jsx("i", null, "\u201CIt\u2019s axiomatic: You\u2019re as good \u2013 or as bad \u2013 as the character of your Client List. In a very real sense, you are your Client List!\u201D")), __jsx("p", null, "\u2013 Tom Peters,\xA0The Professional Service Firm 50; Author of\u201D In search of excellence\u201D")), __jsx("div", {
+    className: "features-text"
+  }, __jsx("h4", null, __jsx("i", {
+    className: "flaticon-tick"
+  }), "Customer Strategy:"), __jsx("p", null, "Everyone (Business owners, Authors, Marketers, Promoters, CEOs etc) agree on the importance of customer centricity and a robust customer strategy. But what is Customer Strategy? \xA0 "), __jsx("p", null, "Merkle aptly defines customer strategy as a \u201Ca data-driven approach to maximizing the financial value of customers\u201D. "), __jsx("p", null, "A customer order hence is not just a sale \u2013 it\u2019s the beginning of a potential lifelong association, (Of course, profitable!) ")), __jsx("div", {
+    className: "features-text"
+  }, __jsx("h4", null, __jsx("i", {
+    className: "flaticon-tick"
+  }), "Need to rejig customer strategy:"), __jsx("div", {
+    className: "learn-content"
+  }, __jsx("ul", {
+    className: "learn-list"
+  }, __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "Size of business of my customer is the key criteria "), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "My biggest customers get me the least profits  "), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "Payment delays are a part of my business"), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "High inventory issues "), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "Hear the threat of competition & business loss"))), __jsx("p", null, "Have you experienced/associated with aforementioned thoughts? Does any of the above sounds familiar? If the answer to any of the above statement is yes, or you could relate with the statement, it is time to rejig the customer strategy. "), __jsx("p", null, "Remember, It\u2019s not just about the revenues that the customer brings in !  "), __jsx("p", null, "As the famous saying goes, it\u2019s true that Customer is the king. However, it pays to work for the right king! ")), __jsx("div", {
+    className: "features-text"
+  }, __jsx("h4", null, __jsx("i", {
+    className: "flaticon-tick"
+  }), "Developing successful customer strategy:"), __jsx("p", null, "A well-designed customer strategy will coordinate many different functions, skills, and practices. It should encompass data analytics; go-to-market and channel choices; and the delivery of products, services, and experiences. "), __jsx("p", null, "In developing (or rejig) deliberate, well-designed, and perceptive customer strategy, the following must be necessarily addressed:  "), __jsx("div", {
+    className: "learn-content"
+  }, __jsx("ul", {
+    className: "learn-list"
+  }, __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "Who are our customers? "), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "Which of their needs can we address?  "), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "Given our company\u2019s overall value proposition and strategy, what customer experience should we create?"), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "What capabilities do we need to deliver that experience? How should we organize ourselves accordingly? "), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "How can you reorganize around customer?"), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "How can you leverage existing eco system?"))), __jsx("p", null, "And more, based on your industry, size, stage of industry and so on. ")), __jsx("div", {
+    className: "features-text"
+  }, __jsx("h4", null, __jsx("i", {
+    className: "flaticon-tick"
+  }), "How should I go about rejig customer strategy?"), __jsx("p", null, "How is almost always the difficult part isn\u2019t it, though in many cases It\u2019s simple. ( Simple, though not easy) "), __jsx("p", null, "Once you realize the importance of relooking customer/customer strategy, taking a look at current customer base factually is the key. It could be done by rating existing customers. Balanced approach though is required. Try answering the following, as a first step.  "), __jsx("div", {
+    className: "project-details-image spacing-custom"
+  }, __jsx("img", {
+    src: __webpack_require__("U568"),
+    alt: "projects"
+  }))), __jsx("div", {
+    className: "features-text"
+  }, __jsx("h4", null, __jsx("i", {
+    className: "flaticon-tick"
+  }), "How to rate your customer?"), __jsx("p", null, "You may start by using the following for quick understanding of the existing landscape. Please note, this is the pointer, and further deep drive analytics may be required to arrive at final conclusion. "), __jsx("div", {
+    className: "project-details-image spacing-custom"
+  }, __jsx("img", {
+    src: __webpack_require__("5hfD"),
+    alt: "projects"
+  }))), __jsx("div", {
+    className: "features-text"
+  }, __jsx("h4", null, __jsx("i", {
+    className: "flaticon-tick"
+  }), "The winning ways"), __jsx("p", null, "As re iterated earlier, A customer order is not a sale \u2013 it\u2019s the beginning of a potential lifelong association. The following additional pointers, could be used as passing thoughts: "), __jsx("div", {
+    className: "project-details-image spacing-custom"
+  }, __jsx("img", {
+    src: __webpack_require__("Sarc"),
+    alt: "projects"
+  })))))));
 };
 
 /* harmony default export */ var CustomerStratergy_CustomerStratergyContent = (CustomerStratergyContent);
