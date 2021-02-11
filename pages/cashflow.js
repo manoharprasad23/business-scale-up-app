@@ -2,14 +2,13 @@ import React, { Component } from 'react';
 import Navbar from '../components/Layout/Navbar';
 import PageBanner from '../components/Common/PageBanner';
 import Footer from '../components/Layout/Footer';
-import GrowthTipsContent from '../components/GrowthTips/GrowthTipsContent';
-
+import CashFlowContent from '../components/CashFlow/CashFlowContent';
 class CashFlow extends Component {
     render() {
         return (
             <React.Fragment>
                 <Navbar />
-                <GrowthTipsContent />
+                <CashFlowContent />
                 <Footer />
             </React.Fragment>
         );

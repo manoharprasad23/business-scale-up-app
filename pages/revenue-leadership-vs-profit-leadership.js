@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import Navbar from '../components/Layout/Navbar';
 import PageBanner from '../components/Common/PageBanner';
 import Footer from '../components/Layout/Footer';
-import GrowthTipsContent from '../components/GrowthTips/GrowthTipsContent';
+import RevenueLeaderShipVsProfitContent from '../components/RevenueLeaderShipVsProfit/RevenueLeaderShipVsProfitContent';
 
 class RevenueLeadershipvsProfitLeadership extends Component {
     render() {
         return (
             <React.Fragment>
                 <Navbar />
-                <GrowthTipsContent />
+                <RevenueLeaderShipVsProfitContent />
                 <Footer />
             </React.Fragment>
         );

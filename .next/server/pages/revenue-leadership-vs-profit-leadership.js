@@ -247,28 +247,72 @@ function assign(target, ...searchParamsList) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("cDcd");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Layout_Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("zCU4");
-/* harmony import */ var _components_Common_PageBanner__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("Ix5F");
-/* harmony import */ var _components_Layout_Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("v6Hh");
-/* harmony import */ var _components_GrowthTips_GrowthTipsContent__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("upXy");
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__("cDcd");
+var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
+
+// EXTERNAL MODULE: ./components/Layout/Navbar.js + 1 modules
+var Navbar = __webpack_require__("zCU4");
+
+// EXTERNAL MODULE: ./components/Common/PageBanner.js
+var PageBanner = __webpack_require__("Ix5F");
+
+// EXTERNAL MODULE: ./components/Layout/Footer.js
+var Footer = __webpack_require__("v6Hh");
+
+// EXTERNAL MODULE: ./node_modules/next/link.js
+var next_link = __webpack_require__("YFqc");
+var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
+
+// CONCATENATED MODULE: ./components/RevenueLeaderShipVsProfit/RevenueLeaderShipVsProfitContent.js
+var __jsx = external_react_default.a.createElement;
+
+
+
+const RevenueLeaderShipVsProfitContent = () => {
+  return __jsx("div", {
+    className: "growth-tips"
+  }, __jsx("div", {
+    className: "container"
+  }, __jsx("div", {
+    className: "section-title header-padding"
+  }, __jsx("h2", null, "Revenue LeaderShip vs Profit Leadership"), __jsx("div", {
+    className: "bar"
+  })), __jsx("div", {
+    className: "row future-ready"
+  }, __jsx("div", {
+    className: "col-lg-4 col-md-6"
+  }, __jsx("div", {
+    className: "single-services"
+  }, __jsx("h3", null, "How Future Ready Is Your Business?"))), __jsx("div", {
+    class: "right-side-content section-title col-lg-7 col-md-6"
+  }, __jsx("p", null, "Business dynamics are always changing - more so today than ever before and every business leader or owner is planning and executing strategies to survive, grow and thrive!"), __jsx("p", null, "Our \"How future ready is your business ?\" template helps you assess your readiness !"), __jsx("p", null, "To assure you that you are indeed on the right track for the future or spot areas to help your plans & execution more robust to succeed in the future."), __jsx("h6", null, "How future ready is your business?"), __jsx(link_default.a, {
+    href: "/quiz"
+  }, __jsx("button", {
+    className: "default-btn"
+  }, "Check Now - Free"))))));
+};
+
+/* harmony default export */ var RevenueLeaderShipVsProfit_RevenueLeaderShipVsProfitContent = (RevenueLeaderShipVsProfitContent);
+// CONCATENATED MODULE: ./pages/revenue-leadership-vs-profit-leadership.js
+var revenue_leadership_vs_profit_leadership_jsx = external_react_default.a.createElement;
 
 
 
 
 
 
-class RevenueLeadershipvsProfitLeadership extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+class revenue_leadership_vs_profit_leadership_RevenueLeadershipvsProfitLeadership extends external_react_["Component"] {
   render() {
-    return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_Layout_Navbar__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], null), __jsx(_components_GrowthTips_GrowthTipsContent__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"], null), __jsx(_components_Layout_Footer__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"], null));
+    return revenue_leadership_vs_profit_leadership_jsx(external_react_default.a.Fragment, null, revenue_leadership_vs_profit_leadership_jsx(Navbar["a" /* default */], null), revenue_leadership_vs_profit_leadership_jsx(RevenueLeaderShipVsProfit_RevenueLeaderShipVsProfitContent, null), revenue_leadership_vs_profit_leadership_jsx(Footer["a" /* default */], null));
   }
 
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (RevenueLeadershipvsProfitLeadership);
+/* harmony default export */ var revenue_leadership_vs_profit_leadership = __webpack_exports__["default"] = (revenue_leadership_vs_profit_leadership_RevenueLeadershipvsProfitLeadership);
 
 /***/ }),
 
@@ -2306,46 +2350,6 @@ function makePublicRouterInstance(router) {
   });
   return instance;
 }
-
-/***/ }),
-
-/***/ "upXy":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("cDcd");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("YFqc");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-const GrowthTipsContent = () => {
-  return __jsx("div", {
-    className: "growth-tips"
-  }, __jsx("div", {
-    className: "container"
-  }, __jsx("div", {
-    className: "section-title header-padding"
-  }, __jsx("h2", null, "Business Growth Tips"), __jsx("div", {
-    className: "bar"
-  })), __jsx("div", {
-    className: "row future-ready"
-  }, __jsx("div", {
-    className: "col-lg-4 col-md-6"
-  }, __jsx("div", {
-    className: "single-services"
-  }, __jsx("h3", null, "How Future Ready Is Your Business?"))), __jsx("div", {
-    class: "right-side-content section-title col-lg-7 col-md-6"
-  }, __jsx("p", null, "Business dynamics are always changing - more so today than ever before and every business leader or owner is planning and executing strategies to survive, grow and thrive!"), __jsx("p", null, "Our \"How future ready is your business ?\" template helps you assess your readiness !"), __jsx("p", null, "To assure you that you are indeed on the right track for the future or spot areas to help your plans & execution more robust to succeed in the future."), __jsx("h6", null, "How future ready is your business?"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/quiz"
-  }, __jsx("button", {
-    className: "default-btn"
-  }, "Check Now - Free"))))));
-};
-
-/* harmony default export */ __webpack_exports__["a"] = (GrowthTipsContent);
 
 /***/ }),
 

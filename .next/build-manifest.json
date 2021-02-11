@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/t2Q5EZs__Y1lrvh6bDaKo/_buildManifest.js",
-    "static/t2Q5EZs__Y1lrvh6bDaKo/_ssgManifest.js"
+    "static/r0dciGWfSI4QjMeAjrJbL/_buildManifest.js",
+    "static/r0dciGWfSI4QjMeAjrJbL/_ssgManifest.js"
   ],
   "pages": {
     "/": [
@@ -98,7 +98,7 @@
       "static/chunks/framework.8683c114909ee93ee89f.js",
       "static/chunks/commons.94304236c8b3ef5c5b49.js",
       "static/chunks/c3e8543e426ac671ca297762e10dba92c3299117.8d2a5d2cdb2c4fdd9452.js",
-      "static/chunks/pages/cashflow-71432a3307035d58fcfc.js"
+      "static/chunks/pages/cashflow-05b4e6e413f2d276b448.js"
     ],
     "/coming-soon": [
       "static/chunks/main-1a4b92fafff350e04594.js",
@@ -121,7 +121,7 @@
       "static/chunks/framework.8683c114909ee93ee89f.js",
       "static/chunks/commons.94304236c8b3ef5c5b49.js",
       "static/chunks/c3e8543e426ac671ca297762e10dba92c3299117.8d2a5d2cdb2c4fdd9452.js",
-      "static/chunks/pages/customer-stratergy-a0b360ca01b1d00a3769.js"
+      "static/chunks/pages/customer-stratergy-fc84e06fafec0741dbdb.js"
     ],
     "/download-result": [
       "static/chunks/main-1a4b92fafff350e04594.js",
@@ -161,7 +161,7 @@
       "static/chunks/framework.8683c114909ee93ee89f.js",
       "static/chunks/commons.94304236c8b3ef5c5b49.js",
       "static/chunks/c3e8543e426ac671ca297762e10dba92c3299117.8d2a5d2cdb2c4fdd9452.js",
-      "static/chunks/pages/growth-tips-c3259f31bbd869169944.js"
+      "static/chunks/pages/growth-tips-c9b6d2e1df6a43eabf0e.js"
     ],
     "/healthcare-company": [
       "static/chunks/main-1a4b92fafff350e04594.js",
@@ -177,7 +177,7 @@
       "static/chunks/framework.8683c114909ee93ee89f.js",
       "static/chunks/commons.94304236c8b3ef5c5b49.js",
       "static/chunks/c3e8543e426ac671ca297762e10dba92c3299117.8d2a5d2cdb2c4fdd9452.js",
-      "static/chunks/pages/how-future-ready-is-your-business-f160ea3bdfc61b836984.js"
+      "static/chunks/pages/how-future-ready-is-your-business-fbfe7f4026ff7b3c4fb3.js"
     ],
     "/index2": [
       "static/chunks/main-1a4b92fafff350e04594.js",
@@ -380,7 +380,7 @@
       "static/chunks/framework.8683c114909ee93ee89f.js",
       "static/chunks/commons.94304236c8b3ef5c5b49.js",
       "static/chunks/c3e8543e426ac671ca297762e10dba92c3299117.8d2a5d2cdb2c4fdd9452.js",
-      "static/chunks/pages/revenue-leadership-vs-profit-leadership-1e8fc7536e2a12aee0b2.js"
+      "static/chunks/pages/revenue-leadership-vs-profit-leadership-3cf28ed3934d0616c9a7.js"
     ],
     "/service-details": [
       "static/chunks/main-1a4b92fafff350e04594.js",
