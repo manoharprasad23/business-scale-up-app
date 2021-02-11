@@ -184,23 +184,8 @@ class Footer extends Component {
                             <div className="row align-items-center">
                                 <div className="col-lg-6 col-md-6">
                                     <p>
-                                        Copyright @{currentYear} Luzon. All Rights Reserved by <Link href="https://envytheme.com/"><a target="_blank">EnvyTheme</a></Link>
+                                        Copyright @{currentYear} Scaleupinc.
                                     </p>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <ul>
-                                        <li>
-                                            <Link href="/terms-conditions">
-                                                <a>Terms & Conditions</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/privacy-policy">
-                                                <a>Privacy Policy</a>
-                                            </Link>
-                                        </li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>

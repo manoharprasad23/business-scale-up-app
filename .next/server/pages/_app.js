@@ -302,13 +302,13 @@ class _app_MyApp extends app_default.a {
       pageProps
     } = this.props;
     return _app_jsx(external_react_default.a.Fragment, null, _app_jsx(external_next_seo_["DefaultSeo"], {
-      title: "Luzon - React IT Startups & Digital Services Template",
-      description: "Luzon - React IT Startups & Digital Services Template. This has been built with React, Next.js and ES6+",
+      title: "Scaleupinc - Accelerating your growth",
+      description: "Scaleupinc - Accelerating your growth",
       openGraph: {
         type: 'website',
         locale: 'en_IE',
-        url: 'https://luzon-react.envytheme.com/',
-        site_name: 'Luzon - React IT Startups & Digital Services Template'
+        url: 'https://Scaleupinc/',
+        site_name: 'Scaleupinc'
       }
     }), _app_jsx(Component, pageProps), _app_jsx(Shared_Loader, {
       loading: this.state.loading

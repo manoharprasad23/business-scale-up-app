@@ -2540,17 +2540,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       className: "row align-items-center"
     }, __jsx("div", {
       className: "col-lg-6 col-md-6"
-    }, __jsx("p", null, "Copyright @", currentYear, " Luzon. All Rights Reserved by ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "https://envytheme.com/"
-    }, __jsx("a", {
-      target: "_blank"
-    }, "EnvyTheme")))), __jsx("div", {
-      className: "col-lg-6 col-md-6"
-    }, __jsx("ul", null, __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/terms-conditions"
-    }, __jsx("a", null, "Terms & Conditions"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/privacy-policy"
-    }, __jsx("a", null, "Privacy Policy"))))))))));
+    }, __jsx("p", null, "Copyright @", currentYear, " Scaleupinc.")))))));
   }
 
 }

@@ -47,13 +47,13 @@ export default class MyApp extends App {
         return (
             <React.Fragment>
                 <DefaultSeo
-                    title="Luzon - React IT Startups & Digital Services Template"
-                    description="Luzon - React IT Startups & Digital Services Template. This has been built with React, Next.js and ES6+"
+                    title="Scaleupinc - Accelerating your growth"
+                    description="Scaleupinc - Accelerating your growth"
                     openGraph={{
                         type: 'website',
                         locale: 'en_IE',
-                        url: 'https://luzon-react.envytheme.com/',
-                        site_name: 'Luzon - React IT Startups & Digital Services Template',
+                        url: 'https://Scaleupinc/',
+                        site_name: 'Scaleupinc',
                     }}
                 />
 
