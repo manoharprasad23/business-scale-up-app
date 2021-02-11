@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 48);
+/******/ 	return __webpack_require__(__webpack_require__.s = 52);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -243,18 +243,18 @@ function assign(target, ...searchParamsList) {
 
 /***/ }),
 
-/***/ 48:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("YykV");
-
-
-/***/ }),
-
 /***/ "4Q3z":
 /***/ (function(module, exports) {
 
 module.exports = require("next/router");
+
+/***/ }),
+
+/***/ 52:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("YykV");
+
 
 /***/ }),
 

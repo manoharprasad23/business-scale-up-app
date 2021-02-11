@@ -51,7 +51,12 @@ const nextJsConfig = {
             '/artificial-intelligence-startup': {page: '/artificial-intelligence-startup'},
             '/healthcare-company': {page: '/healthcare-company'},
             '/north-india-technology-retail-chain': {page: '/north-india-technology-retail-chain'},
-            '/government-segment-focused-company': {page: '/government-segment-focused-company'}
+            '/government-segment-focused-company': {page: '/government-segment-focused-company'},
+            '/how-future-ready-is-your-business': {page: '/how-future-ready-is-your-business'},
+            '/cashflow': {page: '/cashflow'},
+            '/customer-stratergy': {page: '/customer-stratergy'},
+            '/revenue-leadership-vs-profit-leadership': {page: '/revenue-leadership-vs-profit-leadership'}
+
         }
     }
 }

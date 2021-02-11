@@ -6,7 +6,7 @@ module.exports =
 /******/ 	// object to store loaded chunks
 /******/ 	// "0" means "already loaded"
 /******/ 	var installedChunks = {
-/******/ 		24: 0
+/******/ 		27: 0
 /******/ 	};
 /******/
 /******/ 	// The require function
@@ -101,7 +101,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 21);
+/******/ 	return __webpack_require__(__webpack_require__.s = 24);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -214,7 +214,7 @@ const ActiveLink = (_ref) => {
 
 /***/ }),
 
-/***/ 21:
+/***/ 24:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("tttB");

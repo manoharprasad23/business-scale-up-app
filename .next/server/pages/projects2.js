@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 37);
+/******/ 	return __webpack_require__(__webpack_require__.s = 40);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -374,14 +374,6 @@ class projects2_Projects2 extends external_react_["Component"] {
 
 /***/ }),
 
-/***/ 37:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("0jLi");
-
-
-/***/ }),
-
 /***/ "3WeD":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -435,6 +427,14 @@ function assign(target, ...searchParamsList) {
   });
   return target;
 }
+
+/***/ }),
+
+/***/ 40:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("0jLi");
+
 
 /***/ }),
 

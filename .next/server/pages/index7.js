@@ -6,7 +6,7 @@ module.exports =
 /******/ 	// object to store loaded chunks
 /******/ 	// "0" means "already loaded"
 /******/ 	var installedChunks = {
-/******/ 		26: 0
+/******/ 		29: 0
 /******/ 	};
 /******/
 /******/ 	// The require function
@@ -101,7 +101,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 23);
+/******/ 	return __webpack_require__(__webpack_require__.s = 26);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -228,7 +228,7 @@ module.exports = require("react-wow");
 
 /***/ }),
 
-/***/ 23:
+/***/ 26:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("X1+5");
