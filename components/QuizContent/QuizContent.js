@@ -53,6 +53,8 @@ const QuizContent = () => {
                 }
             })
             window.location.href = window.location.origin + "/result";
+        } else {
+            alert("Please answer all the questions");
         }
     }
     return (
