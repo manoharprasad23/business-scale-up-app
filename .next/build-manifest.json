@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/AmzjS52_u6pOWXrGs4ucc/_buildManifest.js",
-    "static/AmzjS52_u6pOWXrGs4ucc/_ssgManifest.js"
+    "static/sQ7iDvExIZVYI0urBxCkP/_buildManifest.js",
+    "static/sQ7iDvExIZVYI0urBxCkP/_ssgManifest.js"
   ],
   "pages": {
     "/": [
@@ -30,8 +30,8 @@
       "static/chunks/main-1a4b92fafff350e04594.js",
       "static/chunks/webpack-7a888d714ade57745b10.js",
       "static/chunks/framework.8683c114909ee93ee89f.js",
-      "static/css/f46782018e5512356ca7.css",
-      "static/chunks/72945a70.7b37a38a8911fc5fb44b.js",
+      "static/css/6300b7d8b3b23a30b870.css",
+      "static/chunks/b02b7e93.7b37a38a8911fc5fb44b.js",
       "static/chunks/commons.94304236c8b3ef5c5b49.js",
       "static/css/65c7964e3b10d9043ab4.css",
       "static/chunks/pages/_app-ef1b654a520c0bad98ec.js"
@@ -50,7 +50,7 @@
       "static/chunks/commons.94304236c8b3ef5c5b49.js",
       "static/chunks/d630a0ef45031cfc0b3bf78da1752ad12f3d1bb8.ad590ed24fcfae814523.js",
       "static/chunks/964f9aa77e7cd8277d12dc1bc9dceacfe1ad6074.f9610a06f290f6da701c.js",
-      "static/chunks/pages/about-cb4d3e1c6d682470b33d.js"
+      "static/chunks/pages/about-c0dfd75a30c38f9fc626.js"
     ],
     "/artificial-intelligence-startup": [
       "static/chunks/main-1a4b92fafff350e04594.js",

@@ -854,7 +854,9 @@ class AboutContent_AboutContent extends external_react_["Component"] {
       className: "about-image-3"
     }, __jsx("img", {
       src: __webpack_require__("Aiwm"),
-      alt: "image"
+      alt: "image",
+      width: "658px",
+      height: "735px"
     }))), __jsx("div", {
       className: "col-lg-6"
     }, __jsx("div", {
