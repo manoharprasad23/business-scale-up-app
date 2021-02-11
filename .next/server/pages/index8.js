@@ -3863,15 +3863,15 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       className: "footer-info-contact"
     }, __jsx("i", {
       className: "flaticon-phone-call"
-    }), __jsx("h3", null, "Phone"), __jsx("span", null, "+123(456)123")), __jsx("div", {
+    }), __jsx("h3", null, "Phone"), __jsx("span", null, "+91 9810065985")), __jsx("div", {
       className: "footer-info-contact"
     }, __jsx("i", {
       className: "flaticon-envelope"
-    }), __jsx("h3", null, "Email"), __jsx("span", null, "hello@luzon.com")), __jsx("div", {
+    }), __jsx("h3", null, "Email"), __jsx("span", null, "info@scaleup-inc.com")), __jsx("div", {
       className: "footer-info-contact"
     }, __jsx("i", {
       className: "flaticon-pin"
-    }), __jsx("h3", null, "Address"), __jsx("span", null, "Scaleupinc Services Pvt Ltd,"), __jsx("br", null), __jsx("span", null, "B24 Sarita Vihar,"), __jsx("br", null), __jsx("span", null, "New Delhi 110076")))))), __jsx("div", {
+    }), __jsx("h3", null, "Address"), __jsx("span", null, "Scaleupinc Services Pvt Ltd,"), __jsx("br", null), __jsx("span", null, "B24, Sarita Vihar,"), __jsx("br", null), __jsx("span", null, "New Delhi 110076")))))), __jsx("div", {
       className: "lines"
     }, __jsx("div", {
       className: "line"

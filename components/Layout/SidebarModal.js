@@ -75,9 +75,9 @@ class SidebarModal extends Component {
                             <div className="contact-info">
                                 <div className="contact-info-content">
                                     <h2>
-                                        <a className="pnumber">+088 130 629 8615</a>
+                                        <a className="pnumber">+91 9810065985</a>
                                         <span className="or">OR</span>
-                                        <a className="email">hello@luzon.com</a>
+                                        <a className="email">info@scaleup-inc.com</a>
                                     </h2>
             
                                     <ul className="social">
