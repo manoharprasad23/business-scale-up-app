@@ -273,14 +273,141 @@ var __jsx = external_react_default.a.createElement;
 
 const RevenueLeaderShipVsProfitContent = () => {
   return __jsx("div", {
-    className: "growth-tips"
+    className: "growth-tips revenueLeadership"
   }, __jsx("div", {
     className: "container"
   }, __jsx("div", {
     className: "section-title header-padding"
   }, __jsx("h2", null, "Revenue LeaderShip vs Profit Leadership"), __jsx("div", {
     className: "bar"
-  }))));
+  })), __jsx("div", {
+    className: "col-lg-12 col-md-12"
+  }, __jsx("div", {
+    className: "projects-details-desc"
+  }, __jsx("div", {
+    className: "features-text"
+  }, __jsx("p", null, "Mark Twain is famously believed to have said, \u201CRevenue is Vanity; Profit is Sanity\u201D, more than a century ago! This (almost) seems to settle a Very familiar, cut & dry business conundrum- \u2018Revenue Leadership or Profit Leadership\u2019."), __jsx("p", null, "But as the saying goes, every rule has got an exception. So is for this. Though no one can dispute the importance and necessity of profit drive, businesses cannot ignore revenue and earnings growth."), __jsx("p", null, "Profitable revenue growth, best of both worlds, would be the ideal scenario for any company to find itself in. But alas, not all, and definitely not all the time companies find itself in this idealistic situation."), __jsx("p", null, "According to Harvard Study, in the long term only about 30% (of the global 1000 companies) achieved both positive profitability and real revenue growth in the same year, but couldn\u2019t sustain for 3 years-more often they failed to do so!")), __jsx("div", {
+    className: "features-text"
+  }, __jsx("h4", null, __jsx("i", {
+    className: "flaticon-tick"
+  }), " Profit drive v/s Revenue drive- basic distinction:"), __jsx("p", null, "In nutshell, let us understand the fine distinction between Profit drive v/s Revenue drive"), __jsx("p", null, "Profit drive is more about doing it with less. The amount of money left over after the business has paid all costs associated with operating the business. "), __jsx("p", null, "Revenue drive is about doing more. Total amount of money received from the sale of goods and services\xA0before\xA0any expenses are deducted. Revenue leadership comes with near term costs which eat into the company\u2019s long-term profitability.")), __jsx("div", {
+    className: "features-text"
+  }, __jsx("h4", null, __jsx("i", {
+    className: "flaticon-tick"
+  }), " Profit Leadership \u2013Why should it be pursued?"), __jsx("p", null, "\"If you aren't in business for fun & profit, what are you doing there? \u201C, remarked Robert Townsend - Business-maverick & author of \u2018Up the Organization\u2019. And rightly so!"), __jsx("p", null, "Profit leadership is the most critical matrix, and perhaps the ONLY measure of success, as "), __jsx("div", {
+    className: "learn-content"
+  }, __jsx("ul", {
+    className: "learn-list"
+  }, __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "Cost Model is always fixed. Revenue Model is the true variable "), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "It\u2019s mathematically impossible to pursue both Profit drive & Revenue drive.  "), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "Revenue does not cover the cost, or the resources needed to grow"), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "Brings in more discipline "), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "Business is all about shareholder wealth maximization. (If you aren\u2019t public, YOU are the shareholder!)"), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "Revenue at the cost of Profit is a liability, not an asset (Not just in accounting term)"), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "Profit loss is impossible to make up with added volume, (unless the cost dynamics change)."), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "At any point in demand curve at marginal cost of sales, maximizes revenue does not maximize profit")))), __jsx("div", {
+    className: "features-text"
+  }, __jsx("h4", null, __jsx("i", {
+    className: "flaticon-tick"
+  }), " Profit Drive V/s Revenue Drive\u2013 When should it be pursued?"), __jsx("p", null, "Profit Drive \u2013 when?"), __jsx("p", null, "Always! Period."), __jsx("p", null, "Revenue Leadership \u2013 when?"), __jsx("div", {
+    className: "learn-content"
+  }, __jsx("ul", {
+    className: "learn-list"
+  }, __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "To offset massive, fixed costs in an industry that needs scale to reach profitability "), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "Revenue growth factors into determining value for certain sectors. Eg: many early-stage ad/ tech business  "), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "For startups - investors will pay for real, sustainable growth in an expanding market. (Eg: Flipkart/Oyo) "), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "When there is an opportunity to expand or acquire new clients (Jio/Amazon) or a strategic geographical move. (Jio) "), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "When there is little differentiation in a saturated market "), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "If you want your business to go public (We work) or be acquired for significant value (WhatsApp by Facebook, Daily ninja by Big basket) ")))), __jsx("div", {
+    className: "features-text"
+  }, __jsx("h4", null, __jsx("i", {
+    className: "flaticon-tick"
+  }), " Factors Determining Profit V/s Revenue -What?"), __jsx("p", null, "Let\u2019s see few critical factors, that determines what takes precedence and shall be pursued."), __jsx("div", {
+    className: "project-details-image spacing-custom"
+  }, __jsx("img", {
+    src: __webpack_require__("z/f3"),
+    alt: "projects"
+  }))), __jsx("div", {
+    className: "features-text"
+  }, __jsx("h4", null, __jsx("i", {
+    className: "flaticon-tick"
+  }), " Achieving Profit Leadership -How?"), __jsx("p", null, "Few of the pointers and catalysts which enables in achieving the Profit Leadership are: "), __jsx("div", {
+    className: "learn-content"
+  }, __jsx("ul", {
+    className: "learn-list"
+  }, __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "Working with right set of customers (and sell more to them) "), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "Using Pareto principle to determine those 20% of causes(customers) that determines affects 80% (Profit)  "), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "To ascertain \u201CCritical Mass\u201D applicable to your business/industry (Eg: Critical Mass It would be entirely different for lifestyle product like Gucci/Bentley v/s that of Ecommerce firm like Amazon) "), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "Quantitatively measuring parameters and finding causal equations in business (Cause-effect). Not just based on Gut Feel "), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "Effective Leveraging "), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "Uncover REAL cost and Checking in on all the time (Not necessarily denominator Management) "), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "Implementing process improvement tools- in all aspects of business (ISO/Six sigma/CMMI/Lean etc.) "), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "Increasing productivity "), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "Keeping a BIG EYE on Opportunity Cost")))), __jsx("div", {
+    className: "features-text"
+  }, __jsx("h4", null, __jsx("i", {
+    className: "flaticon-tick"
+  }), "Revisiting Revenue Leadership v/s Profit Leadership "), __jsx("p", null, "What\u2019s profit - could be strategic; different!! "), __jsx("div", {
+    className: "learn-content"
+  }, __jsx("ul", {
+    className: "learn-list"
+  }, __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "For a 'traditional' bricks and mortar business, that could be profit. "), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "For a professional practice, it could be revenue.  "), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "For an R&D firm, it could be number of commercialized patents. "), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "Quantitatively measuring parameters and finding causal equations in business (Cause-effect). Not just based on Gut Feel "), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "For an Internet startup - it might be number of registered users. "), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "For E commerce- No of visits/revenue per customer ")))), __jsx("div", {
+    className: "features-text"
+  }, __jsx("h4", null, __jsx("i", {
+    className: "flaticon-tick"
+  }), "Let us come back to the quote of Robert Townsend - Business-maverick & author of \u2018Up the Organization\u2019 "), __jsx("p", null, "\"If you aren't in business for fun & profit, what are you doing there? \u201C  "), __jsx("p", null), __jsx("p", null, "Pat answer would be\u2013 \u201CTo earn profit\u201D"), __jsx("p", null, "Alternate Answer could be - \u201CI'm there [in business] to exit. Period.\" "), __jsx("p", null, "Real answer shall be- To get more of whatever multiplicand somebody is willing to pay me for\". "), __jsx("p", null, "And relative convenience is the decisive fact. Perspective! ")), __jsx("div", {
+    className: "features-text"
+  }, __jsx("h4", null, __jsx("i", {
+    className: "flaticon-tick"
+  }), "Three Tensions: "), __jsx("p", null, "Dodd & Favaro have famously popularized, 3 tensions any business faces: "), __jsx("div", {
+    className: "learn-content"
+  }, __jsx("ul", {
+    className: "learn-list"
+  }, __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "Profit V/s Growth "), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "Part/ Whole  "), __jsx("li", null, __jsx("i", {
+    class: "bx bx-chevrons-right"
+  }), "Short Term V/s Long Term "))), __jsx("p", null, "All business (or businessmen) must face and manage, these three tensions all the time "), __jsx("p", null, "So, start by finding out what it is in your industry, then build a plan to get there ... fast! "))))));
 };
 
 /* harmony default export */ var RevenueLeaderShipVsProfit_RevenueLeaderShipVsProfitContent = (RevenueLeaderShipVsProfitContent);
@@ -2476,6 +2603,13 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 "use strict";
 exports.__esModule=true;exports.normalizePathSep=normalizePathSep;exports.denormalizePagePath=denormalizePagePath;function normalizePathSep(path){return path.replace(/\\/g,'/');}function denormalizePagePath(page){page=normalizePathSep(page);if(page.startsWith('/index/')){page=page.slice(6);}else if(page==='/index'){page='/';}return page;}
 //# sourceMappingURL=denormalize-page-path.js.map
+
+/***/ }),
+
+/***/ "z/f3":
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/internal-external-factors-f8772cf99c8911b80aa5cdf367152469.png";
 
 /***/ }),
 

@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/pdJT3njuXFe_CU95_o4c3/_buildManifest.js",
-    "static/pdJT3njuXFe_CU95_o4c3/_ssgManifest.js"
+    "static/Izxqv9uX8p6hsXek4OFVh/_buildManifest.js",
+    "static/Izxqv9uX8p6hsXek4OFVh/_ssgManifest.js"
   ],
   "pages": {
     "/": [
@@ -33,8 +33,8 @@
       "static/css/d4b3425db285dfc36ea3.css",
       "static/chunks/337985c4.7b37a38a8911fc5fb44b.js",
       "static/chunks/commons.94304236c8b3ef5c5b49.js",
-      "static/css/e514f879c53f91b90080.css",
-      "static/chunks/pages/_app-5dc705b3ce452185c762.js"
+      "static/css/99e1827ce5b52df5fa04.css",
+      "static/chunks/pages/_app-c6838b46debb7bc3f52c.js"
     ],
     "/_error": [
       "static/chunks/main-1a4b92fafff350e04594.js",
@@ -390,7 +390,7 @@
       "static/chunks/framework.8683c114909ee93ee89f.js",
       "static/chunks/commons.94304236c8b3ef5c5b49.js",
       "static/chunks/d2ae0ae039bbbf08515b6751aae0d376158a0070.11b6613797042d33c83d.js",
-      "static/chunks/pages/revenue-leadership-vs-profit-leadership-76d413592d2effef059b.js"
+      "static/chunks/pages/revenue-leadership-vs-profit-leadership-156d2373d2ff57500bb5.js"
     ],
     "/service-details": [
       "static/chunks/main-1a4b92fafff350e04594.js",

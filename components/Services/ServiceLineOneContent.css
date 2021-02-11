@@ -453,6 +453,10 @@
     height: 20px;
 }
 
+.revenueLeadership .learn-content .learn-list li {
+    font-weight: 200;
+}
+
 /* --------------   quiz-css -----------------*/
 
 /* .quiz-content {
