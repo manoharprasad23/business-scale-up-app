@@ -1,2 +1,5 @@
 node_modules
 .next/
+.next/BUILD_ID
+.next/build-manifest.json
+.next/prerender-manifest.json
