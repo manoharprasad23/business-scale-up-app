@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/xnNvNQ_0mM5vNDtuEWrMc/_buildManifest.js",
-    "static/xnNvNQ_0mM5vNDtuEWrMc/_ssgManifest.js"
+    "static/9jOZ3BqV-VQArpkzKKymw/_buildManifest.js",
+    "static/9jOZ3BqV-VQArpkzKKymw/_ssgManifest.js"
   ],
   "pages": {
     "/": [
@@ -177,7 +177,7 @@
       "static/chunks/framework.8683c114909ee93ee89f.js",
       "static/chunks/commons.94304236c8b3ef5c5b49.js",
       "static/chunks/c3e8543e426ac671ca297762e10dba92c3299117.8d2a5d2cdb2c4fdd9452.js",
-      "static/chunks/pages/how-future-ready-is-your-business-495d73affe1e9d15b97f.js"
+      "static/chunks/pages/how-future-ready-is-your-business-35bd3d900c1530261b0b.js"
     ],
     "/index2": [
       "static/chunks/main-1a4b92fafff350e04594.js",

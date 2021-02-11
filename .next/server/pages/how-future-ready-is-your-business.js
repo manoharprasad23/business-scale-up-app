@@ -472,6 +472,7 @@ var Footer = __webpack_require__("v6Hh");
 
 // EXTERNAL MODULE: ./node_modules/next/link.js
 var next_link = __webpack_require__("YFqc");
+var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 
 // CONCATENATED MODULE: ./components/HowFutureReadyIsYourBusiness/HowFutureReadyIsYourBusinessContent.js
 var __jsx = external_react_default.a.createElement;
@@ -487,7 +488,58 @@ const HowFutureReadyIsYourBusinessContent = () => {
     className: "section-title header-padding"
   }, __jsx("h2", null, "How Future Ready is Your Business"), __jsx("div", {
     className: "bar"
-  }))));
+  })), __jsx("div", {
+    className: "col-lg-12 col-md-12"
+  }, __jsx("div", {
+    className: "projects-details-desc"
+  }, __jsx("h3", null, "Future Readiness of Companies"), __jsx("p", null, "The best way to predict the future is to create one, goes the famous saying. But alas, not every company can be next Google, Facebook or Apple. So, it\u2019s imperative to prepare the business and the people involved in the business for the changing future, that you may not have created."), __jsx("div", {
+    className: "features-text"
+  }, __jsx("h4", null, __jsx("i", {
+    className: "flaticon-tick"
+  }), " What is \u201CFuture Readiness\u201D?"), __jsx("p", null, "An Organization is ", __jsx("b", null, "future ready"), ", if it\u2019s able to successfully respond to changes in its environment, both internally and externally, which allows it to survive and thrive. In its simplest form, this is Future Readiness.")), __jsx("div", {
+    className: "features-text"
+  }, __jsx("h4", null, __jsx("i", {
+    className: "flaticon-tick"
+  }), " Why is being \u201CFuture Ready\u201D important?"), __jsx("p", null, "In today\u2019s fast-paced competitive environment, consumer needs and preferences are changing constantly, which is both challenging and demanding. This is altering the competitive landscape and leading to transformation in company operating models. A key determinant of organizational success is the ability to always be ready for what is coming next. ", __jsx("b", null, "Companies are left with no choice to be future ready, not only to grow business but to even sustain the business."))))), __jsx("div", {
+    className: "col-lg-12 col-md-12"
+  }, __jsx("div", {
+    className: "projects-details-desc"
+  }, __jsx("h3", null, "What makes a business \u201CFuture ready\u201D?"), __jsx("p", null, "According to a detailed Meta data study conducted, common characteristics of a \u2018future ready\u2019 Organizations are:"), __jsx("div", {
+    className: "features-text"
+  }, __jsx("h4", null, __jsx("i", {
+    className: "flaticon-tick"
+  }), " Resilience in the face of disruption"), __jsx("p", null, "\u2018Future ready\u2019 businesses see the crisis as a time to experiment and excel with new ways of working, enabled by the smarter investments in new technology.")), __jsx("div", {
+    className: "features-text"
+  }, __jsx("h4", null, __jsx("i", {
+    className: "flaticon-tick"
+  }), " Adapting to the times, trend, and technology(ies)"), __jsx("p", null, "They aren\u2019t afraid to adapt and take risks - Highly adaptable")), __jsx("div", {
+    className: "features-text"
+  }, __jsx("h4", null, __jsx("i", {
+    className: "flaticon-tick"
+  }), " Nurturing talent"), __jsx("p", null, "A business is only as good as its people and accommodating the modern workforce has never been a greater challenge. Using technology as enabler, making it easier for all kinds of employees to work more flexibly, with a focus on their wellbeing, always")), __jsx("div", {
+    className: "features-text"
+  }, __jsx("h4", null, __jsx("i", {
+    className: "flaticon-tick"
+  }), " A data centric Outlook"), __jsx("p", null, "In god we trust; rest all bring data to the table. Data based decision, securing and processing data is internalized in future ready companies")))), __jsx("div", {
+    className: "col-lg-12 col-md-12"
+  }, __jsx("div", {
+    className: "projects-details-desc"
+  }, __jsx("h3", null, "Areas to focus for Future Readiness"), __jsx("p", null, "It\u2019s back to basics and back to future ! The areas to focus on being future ready are simple. Simple, not easy though. Stay focused, always.")), __jsx("div", {
+    className: "project-details-image spacing-custom"
+  }, __jsx("img", {
+    src: __webpack_require__("kGAE"),
+    alt: "projects"
+  }))), __jsx("div", {
+    className: "col-lg-12 col-md-12"
+  }, __jsx("div", {
+    className: "projects-details-desc"
+  }, __jsx("h3", null, "How Future ready is your Business?"), __jsx("p", null, "Our ", __jsx("b", null, "\u201CHow Future ready is your business ?\u201D"), " template helps you assess your readiness !"), __jsx("p", null, "To reassure you that you are indeed on the right track for the future or spot areas to help your plans & execution more robust to succeed in the future."), __jsx(link_default.a, {
+    href: "/quiz"
+  }, __jsx("button", {
+    className: "default-btn"
+  }, "How Future ready is your business? Check Now - Free")), __jsx("br", null), __jsx("ul", {
+    className: "spacing-custom"
+  }, __jsx("li", null, __jsx("p", null, "You will get a summary on your Future readiness now ")), __jsx("li", null, __jsx("p", null, "You could also download a detailed 5 page report on the key success factors to help your business strategies & and execution succeed.")))))));
 };
 
 /* harmony default export */ var HowFutureReadyIsYourBusiness_HowFutureReadyIsYourBusinessContent = (HowFutureReadyIsYourBusinessContent);
@@ -2185,6 +2237,13 @@ function parseRelativeUrl(url, base) {
     href: href.slice(DUMMY_BASE.origin.length)
   };
 }
+
+/***/ }),
+
+/***/ "kGAE":
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/how-future-ready-1-e8c8f8f35b7583a27acfafe8a30d959e.png";
 
 /***/ }),
 
