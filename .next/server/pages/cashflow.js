@@ -528,9 +528,62 @@ const CashFlowContent = () => {
     className: "container"
   }, __jsx("div", {
     className: "section-title header-padding"
-  }, __jsx("h2", null, "CashFlow"), __jsx("div", {
+  }, __jsx("h2", null, "Cashflow \u2013 Major Success factor in Business"), __jsx("div", {
     className: "bar"
-  }))));
+  })), __jsx("div", {
+    className: "projects-details-desc"
+  }, __jsx("h3", null, "As always, the wisdom of Mark Twain is so true even in this sense. But a small caveat for contemporary scenario : Revenue is Vanity; Profit is Sanity\u201D. But cash is reality!")), __jsx("div", {
+    className: "row align-items-center"
+  }, __jsx("div", {
+    className: "col-lg-6"
+  }, __jsx("div", {
+    className: "features-text"
+  }, __jsx("h4", null, __jsx("i", {
+    className: "flaticon-tick"
+  }), " Cashflow importance as viewed by CEOs"), __jsx("p", null, "Consider the following key facts and findings about Cash flow - stated by CEOs, Business owners & Analysts in Metadata analysis. This holds good for companies of all sizes, and cuts across industries and sectors."))), __jsx("div", {
+    className: "col-lg-6"
+  }, __jsx("div", {
+    className: "faq-image"
+  }, __jsx("img", {
+    src: __webpack_require__("nFa1"),
+    alt: "image"
+  })))), __jsx("div", {
+    className: "col-lg-12 col-md-12"
+  }, __jsx("div", {
+    className: "projects-details-desc"
+  }, __jsx("div", {
+    className: "features-text"
+  }, __jsx("h4", null, __jsx("i", {
+    className: "flaticon-tick"
+  }), " What is Cash flow then?"), __jsx("p", null, "Cash flow is the inflow and outflow of money from a business. It is necessary in general to manage operating costs. Positive cash flow indicates that a company\u2019s\u2019 liquid assets\xA0are increasing, which enables it to reinvest free cash flow in its business, besides providing a buffer against future financial challenges.\xA0Negative cash flow indicates that a company's liquid assets are decreasing."), __jsx("p", null, "The cash flow statement is believed to be the most intuitive of all the budget summaries since it follows the money made by the business in three primary ways\u2014through operations, investment, and financing. The sum of these three segments is known as net cash flow.")), __jsx("div", {
+    className: "features-text"
+  }, __jsx("h4", null, __jsx("i", {
+    className: "flaticon-tick"
+  }), " Better Cashflow Management \u2013 Key Success factor for any business"), __jsx("p", null, "Why so much fuss about Cashflow? It\u2019s enough if companies manage to achieve profitable revenue growth, right?")), __jsx("div", {
+    className: "features-text custom-spacing"
+  }, __jsx("h4", null, "Wrong!!")), __jsx("p", null, "Consider the following:"), __jsx("div", {
+    className: "custom-spacing"
+  }, __jsx("ul", null, __jsx("li", null, "A Business is successful if the cash it generates exceeds the cash it consumes"), __jsx("li", null, "Poor cash flow management is the biggest reason why small business fail"), __jsx("li", null, "Cash flow determines Liquidity of the business"), __jsx("li", null, "Cash Flow is as important, as profit. Perhaps more in some cases!"), __jsx("li", null, "Cashflow drives everyday operations and purchasing power"), __jsx("li", null, "Without cash flow, even profitable business with revenue growth, best of both worlds, could go bankrupt!! "), __jsx("li", null, "The faster you grow; more financing is required. Growth costs cash!"), __jsx("li", null, "When cash flow is freed, business owners can focus on growing the enterprise"))))), __jsx("div", {
+    className: "col-lg-12 col-md-12"
+  }, __jsx("div", {
+    className: "projects-details-desc"
+  }, __jsx("h3", null, "Advantages of Cash flow statement"), __jsx("div", {
+    className: "features-text"
+  }, __jsx("h4", null, __jsx("i", {
+    className: "flaticon-tick"
+  }), " Verifying Profitability and Liquidity Positions"), __jsx("p", null, "Cash Flow Statement helps the management to ascertain the liquidity and profitability position of businesses.")), __jsx("div", {
+    className: "features-text"
+  }, __jsx("h4", null, __jsx("i", {
+    className: "flaticon-tick"
+  }), " Verifying Capital Cash Balance"), __jsx("p", null, "It is possible for businesses to verify the idle and/or excess and/or shortage of cash position if capital cash balance is determined.")), __jsx("div", {
+    className: "features-text"
+  }, __jsx("h4", null, __jsx("i", {
+    className: "flaticon-tick"
+  }), " Cash Management"), __jsx("p", null, "If the Cash Flow Statement is properly prepared, it becomes easy for business to manage the cash. The management can prepare an estimate about future plans.")), __jsx("div", {
+    className: "features-text"
+  }, __jsx("h4", null, __jsx("i", {
+    className: "flaticon-tick"
+  }), " Planning and Coordination"), __jsx("p", null, "Cash Flow Statement helps the management to understand how much funds are needed and for what purposes, how much cash is generated from internal sources, how much cash can be procured from outside the business. It also helps to prepare cash budgets"))))));
 };
 
 /* harmony default export */ var CashFlow_CashFlowContent = (CashFlowContent);
@@ -2185,6 +2238,13 @@ function parseRelativeUrl(url, base) {
     href: href.slice(DUMMY_BASE.origin.length)
   };
 }
+
+/***/ }),
+
+/***/ "nFa1":
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/innov-2-2b88230d72b13b22b10118dd28b69ecb.png";
 
 /***/ }),
 
