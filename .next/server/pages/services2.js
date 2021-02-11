@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 49);
+/******/ 	return __webpack_require__(__webpack_require__.s = 50);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -243,14 +243,6 @@ function assign(target, ...searchParamsList) {
 
 /***/ }),
 
-/***/ 49:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("9oRn");
-
-
-/***/ }),
-
 /***/ "4Q3z":
 /***/ (function(module, exports) {
 
@@ -262,6 +254,14 @@ module.exports = require("next/router");
 /***/ (function(module, exports) {
 
 module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAbgAAAFyBAMAAAB1l9JSAAAAG1BMVEXMzMyWlpacnJyqqqrFxcWxsbGjo6O3t7e+vr6He3KoAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAFmElEQVR4nO3Zy2/bRhDA4SFFijxqVb+OYpIiPkpN0/ZIJUaao6WiPktoAOcouYDPVnrpn9198SGTitIALtng9wEWVyYXmMFyZ5eUCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6LbrI/8s9dcJ+Nf/6Kbv+9gRo9bi6UUt99pssnfV5dNv59rFsHdlVyvjk0savVwR6JPa82IrEqjI5360JWJeebCxvl6cEec5fPxaPkjnXrQKzK5HwzVerl1Z1SD4e6zNRp/utajfeTO9qtA/MqOd8cqjP9uT54g0VK5TavzV5yx7p1YVYl55s7dSIm05MDPRJ3663VVKK/na26PtqtA6kq51zRnOmoTeU8NHsGLv6tmpT/Wp8d79aBUG2L5IpmZqdNaubUgS4rc5hXhSgx6R7r1oHFWVAE6ZuRDy8zM8sI3eK1K264wA6RBFVyb/Rd2ejWvUhdFEEWzcQvxDOzkBmJLSB6jl2774FrzKvbcjZu6da9gZoWyRXN2M+aRZGMHoxp/X6Lf8/NYVvWxdQteY+7dW6n8iK5ojlQ5/b71t199syFuTnP97uWI6lPTdu6dS47LedO0RyaVMSktPIX2RWsXhyNWJWTa2tazW5di3XEPrmyGZZRTvxVkdl2ZPtbj/fraiQzM9ua3bo21xH75Mpm6KtivWCoVWL3H4XUb5wtuxC0devY7Kws6WUzKKMsS/1cXYR7Ow+TXDlwQ3sjtnTrVmoCCvxu+aRMzkVXW8diNV7s1Qk7cj/6Lzt7w7Z061ZoCp6Lpmq2RZkptbc22+TG/j/rcf3y3iS3MGG5aKpm2/21bTynvV8Wz6WpO9W32zKy88bvucpmW2UIVaNMRGtfHv0+um8FpagEo71mW01PVHNT9cbvtwI3gn1bCmqVoNZsW40HLe9GYr84bN1OpW+L+LZ8jj6pNdv2UTvlQ68pNpszV2r6tv1qT65tB7xWtce0317Zg9632KMfwL5tnNuTK55d1tU009uTrPo2c0mJS86/dJCWbp1qT67lqVMXi9q+eeFO+Ot8sezjw6rsrbrBgdcM+tEtrBa6rRsbv9sMiqx7+JqhJbniTU/5ZjzScSfVFmXuSsbQpVtWx0a3Pmgk13hHZ4v+uqyCoXoh4h9hawWkh6/2WpJrvF2dmzTK90N+gUszd8G6eM7r40vZZnKN9+IzE/CwfKDTa8Dtw/uZv6C8Xfv4Or2Z3ONfNFIbf1qF7c67C6KqgPTwh5CW5B79FjV0NWJWe6di2bmWVk/offwJq5mc+dGgVvT8bJtXz97mvHppm3FtqPa79VX0k/rs77/RTfvPxke6AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMCXC/zfN+kbSE6Nfzxw5lFyI/0tUErJWCQcma/a2+xW5J36IMFEJHvaSL/CKHp14ExLcvbz7EHufXLR9/lf+uNqmQcfJVk/fbT/0kjeyA/PJcwT3YifTSVYjsxh8GyhzwbL5zLc6DO15M5XcuuTG1y7j3ga3Mtw22UerXRy8Yd314PNXP6Um6vXEnywh5srMxCBPpVO5LXUkhtdphOfXJi7j2gShA+f+jdB9W0Z5tEknS43v8gLPUZBbg8vZK7PBvqU3Oo/PTnNfLPJ3Q83Prmg+BgFyeq2f8npgmIHZHK5mpgETKzmMCrm3Eg+DTZSH7nwTpojJy8n/UtuZKIzw7P6uNLDZTMwh9rIhUt/oU8uPpXmnJPFdS+TM3NOlpu7a7nP35oMzKGac5Kc+wt9cvaL/axVS+njomiC1NVSdvk8lyS7NCGaQ1UtJZn4C+vJuVv3rSrWOeljcl9guOk6gid013UATyi47DoCAMD/zD/iVdXhli1RzwAAAABJRU5ErkJggg=="
+
+/***/ }),
+
+/***/ 50:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("9oRn");
+
 
 /***/ }),
 
@@ -2587,7 +2587,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/about"
     }, __jsx("a", null, "About Us"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/innovation"
+      href: "/innovation-page"
     }, __jsx("a", null, "Growth Tips"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/services"
     }, __jsx("a", null, "Services"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -2939,7 +2939,7 @@ class Navbar_Navbar extends external_react_["Component"] {
     }, "Case Studies"))), Navbar_jsx("li", {
       className: "nav-item"
     }, Navbar_jsx(ActiveLink["a" /* default */], {
-      href: "/innovation",
+      href: "/innovation-page",
       activeClassName: "active"
     }, Navbar_jsx("a", {
       className: "nav-link"

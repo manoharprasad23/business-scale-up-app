@@ -55,8 +55,8 @@ const nextJsConfig = {
             '/how-future-ready-is-your-business': {page: '/how-future-ready-is-your-business'},
             '/cashflow': {page: '/cashflow'},
             '/customer-stratergy': {page: '/customer-stratergy'},
-            '/revenue-leadership-vs-profit-leadership': {page: '/revenue-leadership-vs-profit-leadership'}
-
+            '/revenue-leadership-vs-profit-leadership': {page: '/revenue-leadership-vs-profit-leadership'},
+            '/innovation-page': {page: '/innovation-page'}
         }
     }
 }

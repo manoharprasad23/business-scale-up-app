@@ -100,7 +100,7 @@ class Navbar extends Component {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link href="/innovation" activeClassName="active">
+                                        <Link href="/innovation-page" activeClassName="active">
                                             <a className="nav-link">Growth Tips</a>
                                         </Link>
                                     </li>
