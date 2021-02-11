@@ -3242,7 +3242,7 @@ class Navbar_Navbar extends external_react_["Component"] {
     }, "Case Studies"))), Navbar_jsx("li", {
       className: "nav-item"
     }, Navbar_jsx(ActiveLink["a" /* default */], {
-      href: "/growth-tips",
+      href: "/innovation",
       activeClassName: "active"
     }, Navbar_jsx("a", {
       className: "nav-link"

@@ -653,7 +653,7 @@ class BannerSlider_BannerSlider extends external_react_["Component"] {
       href: "/growth-tips"
     }, __jsx("a", {
       className: "default-btn"
-    }, "Get Started")))))))), __jsx("div", {
+    }, "Know More")))))))), __jsx("div", {
       className: "home-item item-bg3"
     }, __jsx("div", {
       className: "d-table"
@@ -3104,7 +3104,7 @@ class Navbar_Navbar extends external_react_["Component"] {
     }, "Case Studies"))), Navbar_jsx("li", {
       className: "nav-item"
     }, Navbar_jsx(ActiveLink["a" /* default */], {
-      href: "/growth-tips",
+      href: "/innovation",
       activeClassName: "active"
     }, Navbar_jsx("a", {
       className: "nav-link"
