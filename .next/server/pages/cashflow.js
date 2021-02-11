@@ -515,7 +515,6 @@ var Footer = __webpack_require__("v6Hh");
 
 // EXTERNAL MODULE: ./node_modules/next/link.js
 var next_link = __webpack_require__("YFqc");
-var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 
 // CONCATENATED MODULE: ./components/CashFlow/CashFlowContent.js
 var __jsx = external_react_default.a.createElement;
@@ -531,19 +530,7 @@ const CashFlowContent = () => {
     className: "section-title header-padding"
   }, __jsx("h2", null, "CashFlow"), __jsx("div", {
     className: "bar"
-  })), __jsx("div", {
-    className: "row future-ready"
-  }, __jsx("div", {
-    className: "col-lg-4 col-md-6"
-  }, __jsx("div", {
-    className: "single-services"
-  }, __jsx("h3", null, "How Future Ready Is Your Business?"))), __jsx("div", {
-    class: "right-side-content section-title col-lg-7 col-md-6"
-  }, __jsx("p", null, "Business dynamics are always changing - more so today than ever before and every business leader or owner is planning and executing strategies to survive, grow and thrive!"), __jsx("p", null, "Our \"How future ready is your business ?\" template helps you assess your readiness !"), __jsx("p", null, "To assure you that you are indeed on the right track for the future or spot areas to help your plans & execution more robust to succeed in the future."), __jsx("h6", null, "How future ready is your business?"), __jsx(link_default.a, {
-    href: "/quiz"
-  }, __jsx("button", {
-    className: "default-btn"
-  }, "Check Now - Free"))))));
+  }))));
 };
 
 /* harmony default export */ var CashFlow_CashFlowContent = (CashFlowContent);
