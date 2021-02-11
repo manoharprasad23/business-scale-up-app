@@ -5,13 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-<<<<<<< HEAD
-    "static/9jOZ3BqV-VQArpkzKKymw/_buildManifest.js",
-    "static/9jOZ3BqV-VQArpkzKKymw/_ssgManifest.js"
-=======
-    "static/XBD_B-z8Wyx-RRpVr700g/_buildManifest.js",
-    "static/XBD_B-z8Wyx-RRpVr700g/_ssgManifest.js"
->>>>>>> 3b3529ee484da3b81d86da9b4db1badcf88316aa
+    "static/pdJT3njuXFe_CU95_o4c3/_buildManifest.js",
+    "static/pdJT3njuXFe_CU95_o4c3/_ssgManifest.js"
   ],
   "pages": {
     "/": [
@@ -38,8 +33,8 @@
       "static/css/d4b3425db285dfc36ea3.css",
       "static/chunks/337985c4.7b37a38a8911fc5fb44b.js",
       "static/chunks/commons.94304236c8b3ef5c5b49.js",
-      "static/css/d9eb39856cacf0b0dfa7.css",
-      "static/chunks/pages/_app-20c13a9104918a68345e.js"
+      "static/css/e514f879c53f91b90080.css",
+      "static/chunks/pages/_app-5dc705b3ce452185c762.js"
     ],
     "/_error": [
       "static/chunks/main-1a4b92fafff350e04594.js",
@@ -183,13 +178,8 @@
       "static/chunks/webpack-7a888d714ade57745b10.js",
       "static/chunks/framework.8683c114909ee93ee89f.js",
       "static/chunks/commons.94304236c8b3ef5c5b49.js",
-<<<<<<< HEAD
-      "static/chunks/c3e8543e426ac671ca297762e10dba92c3299117.8d2a5d2cdb2c4fdd9452.js",
-      "static/chunks/pages/how-future-ready-is-your-business-35bd3d900c1530261b0b.js"
-=======
       "static/chunks/d2ae0ae039bbbf08515b6751aae0d376158a0070.11b6613797042d33c83d.js",
-      "static/chunks/pages/how-future-ready-is-your-business-2d5ef9e72064cf96ef96.js"
->>>>>>> 3b3529ee484da3b81d86da9b4db1badcf88316aa
+      "static/chunks/pages/how-future-ready-is-your-business-1b18314edb84b3c9aec4.js"
     ],
     "/index2": [
       "static/chunks/main-1a4b92fafff350e04594.js",
