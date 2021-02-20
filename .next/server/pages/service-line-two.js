@@ -498,25 +498,25 @@ const ServiceCaseStudiesTwo = () => {
     className: "row"
   }, __jsx("div", {
     className: "col-lg-4 col-md-6"
+  }, __jsx(link_default.a, {
+    href: "/artificial-intelligence-startup"
   }, __jsx("div", {
     className: "single-services mouse-pointer"
   }, __jsx("div", {
     className: "icon"
   }, __jsx("i", {
     className: "flaticon-it"
-  })), __jsx(link_default.a, {
-    href: "/artificial-intelligence-startup"
-  }, __jsx("h3", null, "Artificial Intelligence Startup")), __jsx("p", null, "Product ideas converted into Go To Market models \u2013 new Customer pipes"))), __jsx("div", {
+  })), __jsx("h3", null, "Artificial Intelligence Startup"), __jsx("p", null, "Product ideas converted into Go To Market models \u2013 new Customer pipes")))), __jsx("div", {
     className: "col-lg-4 col-md-6"
+  }, __jsx(link_default.a, {
+    href: "/healthcare-company"
   }, __jsx("div", {
     className: "single-services mouse-pointer"
   }, __jsx("div", {
     className: "icon"
   }, __jsx("i", {
     className: "flaticon-setting"
-  })), __jsx(link_default.a, {
-    href: "/healthcare-company"
-  }, __jsx("h3", null, "Healthcare Company")), __jsx("p", null, "Building a premium brand"), __jsx("p", null, "Developing new products"), __jsx("p", null, "New channels for growth")))));
+  })), __jsx("h3", null, "Healthcare Company"), __jsx("p", null, "Building a premium brand"), __jsx("p", null, "Developing new products"), __jsx("p", null, "New channels for growth"))))));
 };
 
 /* harmony default export */ var Services_ServiceCaseStudiesTwo = (ServiceCaseStudiesTwo);
@@ -2639,11 +2639,11 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
     let currentYear = new Date().getFullYear();
     return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("footer", {
-      className: "footer-section pt-100 pb-70"
-    }, __jsx("div", {
-      className: "container"
+      className: "footer-section pb-70"
     }, __jsx("div", {
       className: "subscribe-area"
+    }, __jsx("div", {
+      className: "container"
     }, __jsx("div", {
       className: "row align-items-center"
     }, __jsx("div", {
@@ -2656,7 +2656,9 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       className: "newsletter-form"
     }, __jsx("button", {
       type: "submit"
-    }, "Enquire Now"))))), __jsx("div", {
+    }, "Enquire Now")))))), __jsx("div", {
+      className: "container"
+    }, __jsx("div", {
       className: "row"
     }, __jsx("div", {
       className: "col-lg-4 col-md-6 col-sm-6"
@@ -3058,13 +3060,6 @@ class Navbar_Navbar extends external_react_["Component"] {
     }, Navbar_jsx("a", {
       className: "nav-link"
     }, "Growth Tips"))), Navbar_jsx("li", {
-      className: "nav-item"
-    }, Navbar_jsx(ActiveLink["a" /* default */], {
-      href: "/blog",
-      activeClassName: "active"
-    }, Navbar_jsx("a", {
-      className: "nav-link"
-    }, "Blogs"))), Navbar_jsx("li", {
       className: "nav-item"
     }, Navbar_jsx(ActiveLink["a" /* default */], {
       href: "/about",

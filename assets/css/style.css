@@ -7653,7 +7653,7 @@ Fooetr Area CSS
   background-color: #086AD8;
   color: #ffffff;
   border: none;
-  height: 62px;
+  height: 55px;
   padding: 0 30px;
   border-radius: 10px;
   -webkit-transition: 0.5s;
@@ -7663,11 +7663,21 @@ Fooetr Area CSS
   cursor: pointer;
   font-size: 16px;
   font-weight: 400;
+
+    color: #fa5f64;
+    background-color: #ffffff;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    border: 2px solid #ffffff;
+    border-radius: 40px 40px 40px 40px;
 }
 
 .subscribe-area .newsletter-form button:hover {
   background-color: #212121;
   color: #ffffff;
+    background-color: #fa5f64;
+    border: 2px solid #ffffff;
+    border-radius: 40px 40px 40px 40px;
 }
 
 .subscribe-area .newsletter-form #validator-newsletter {

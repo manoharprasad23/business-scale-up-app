@@ -6,9 +6,9 @@ class Footer extends Component {
         let currentYear = new Date().getFullYear();
         return (
             <React.Fragment>
-                <footer className="footer-section pt-100 pb-70">
+                <footer className="footer-section pb-70">
+                <div className="subscribe-area">
                     <div className="container">
-                        <div className="subscribe-area">
                             <div className="row align-items-center">
                                 <div className="col-lg-6 col-md-6">
                                     <div className="subscribe-content">
@@ -25,7 +25,9 @@ class Footer extends Component {
                                 </div>
                             </div>
                         </div>
-
+                    </div>
+                    
+                    <div className="container">
                         <div className="row">
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="single-footer-widget">

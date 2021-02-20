@@ -21,7 +21,7 @@ class InnovationContent extends Component {
 
 
                     <div className="row">
-                            <div className="col-lg-6 col-md-6">
+                            <div className="col-lg-5 col-md-6 mrg-50">
                                 <div className="single-blog">
                                     <div className="image">
                                         <Link href="/how-future-ready-is-your-business">
@@ -41,7 +41,7 @@ class InnovationContent extends Component {
                                 </div>
                             </div>
 
-                            <div className="col-lg-6 col-md-6">
+                            <div className="col-lg-5 col-md-6 mrg-50">
                                 <div className="single-blog">
                                     <div className="image">
                                         <Link href="/cashflow">
@@ -62,7 +62,7 @@ class InnovationContent extends Component {
                                 </div>
                             </div>
 
-                            <div className="col-lg-6 col-md-6">
+                            <div className="col-lg-5 col-md-6">
                                 <div className="single-blog">
                                     <div className="image">
                                         <Link href="/revenue-leadership-vs-profit-leadership">
@@ -82,7 +82,7 @@ class InnovationContent extends Component {
                                 </div>
                             </div>
 
-                            <div className="col-lg-6 col-md-6">
+                            <div className="col-lg-5 col-md-6">
                                 <div className="single-blog">
                                     <div className="image">
                                         <Link href="/customer-stratergy">

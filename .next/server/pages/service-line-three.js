@@ -235,25 +235,25 @@ const ServiceCaseStudiesThree = () => {
     className: "row"
   }, __jsx("div", {
     className: "col-lg-4 col-md-6"
+  }, __jsx(link_default.a, {
+    href: "/north-india-technology-retail-chain"
   }, __jsx("div", {
     className: "single-services mouse-pointer"
   }, __jsx("div", {
     className: "icon"
   }, __jsx("i", {
     className: "flaticon-it"
-  })), __jsx(link_default.a, {
-    href: "/north-india-technology-retail-chain"
-  }, __jsx("h3", null, "North India Technology Retail Chain")), __jsx("p", null, "Helping reset business operations & drive higher profitability"), __jsx("p", null, "Raising capital"))), __jsx("div", {
+  })), __jsx("h3", null, "North India Technology Retail Chain"), __jsx("p", null, "Helping reset business operations & drive higher profitability"), __jsx("p", null, "Raising capital")))), __jsx("div", {
     className: "col-lg-4 col-md-6"
+  }, __jsx(link_default.a, {
+    href: "/government-segment-focused-company"
   }, __jsx("div", {
     className: "single-services mouse-pointer"
   }, __jsx("div", {
     className: "icon"
   }, __jsx("i", {
     className: "flaticon-setting"
-  })), __jsx(link_default.a, {
-    href: "/government-segment-focused-company"
-  }, __jsx("h3", null, "Government Segment Focused Company")), __jsx("p", null, "Connection with new brands & product lines"), __jsx("p", null, "Increased revenues & profitability")))));
+  })), __jsx("h3", null, "Government Segment Focused Company"), __jsx("p", null, "Connection with new brands & product lines"), __jsx("p", null, "Increased revenues & profitability"))))));
 };
 
 /* harmony default export */ var Services_ServiceCaseStudiesThree = (ServiceCaseStudiesThree);
@@ -2674,11 +2674,11 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
     let currentYear = new Date().getFullYear();
     return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("footer", {
-      className: "footer-section pt-100 pb-70"
-    }, __jsx("div", {
-      className: "container"
+      className: "footer-section pb-70"
     }, __jsx("div", {
       className: "subscribe-area"
+    }, __jsx("div", {
+      className: "container"
     }, __jsx("div", {
       className: "row align-items-center"
     }, __jsx("div", {
@@ -2691,7 +2691,9 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       className: "newsletter-form"
     }, __jsx("button", {
       type: "submit"
-    }, "Enquire Now"))))), __jsx("div", {
+    }, "Enquire Now")))))), __jsx("div", {
+      className: "container"
+    }, __jsx("div", {
       className: "row"
     }, __jsx("div", {
       className: "col-lg-4 col-md-6 col-sm-6"
@@ -3093,13 +3095,6 @@ class Navbar_Navbar extends external_react_["Component"] {
     }, Navbar_jsx("a", {
       className: "nav-link"
     }, "Growth Tips"))), Navbar_jsx("li", {
-      className: "nav-item"
-    }, Navbar_jsx(ActiveLink["a" /* default */], {
-      href: "/blog",
-      activeClassName: "active"
-    }, Navbar_jsx("a", {
-      className: "nav-link"
-    }, "Blogs"))), Navbar_jsx("li", {
       className: "nav-item"
     }, Navbar_jsx(ActiveLink["a" /* default */], {
       href: "/about",

@@ -617,25 +617,25 @@ const ServiceCaseStudies = () => {
     className: "row"
   }, __jsx("div", {
     className: "col-lg-4 col-md-6"
+  }, __jsx(link_default.a, {
+    href: "/last-mile-rural-distribution"
   }, __jsx("div", {
     className: "single-services mouse-pointer"
   }, __jsx("div", {
     className: "icon"
   }, __jsx("i", {
     className: "flaticon-it"
-  })), __jsx(link_default.a, {
-    href: "/last-mile-rural-distribution"
-  }, __jsx("h3", null, "Last Mile Rural Distribution and Logistics Company")), __jsx("p", null, "Helped re draw strategies and execution plans for 10x growth"))), __jsx("div", {
+  })), __jsx("h3", null, "Last Mile Rural Distribution and Logistics Company"), __jsx("p", null, "Helped re draw strategies and execution plans for 10x growth")))), __jsx("div", {
     className: "col-lg-4 col-md-6"
+  }, __jsx(link_default.a, {
+    href: "/B2B-focused-IT-hardware"
   }, __jsx("div", {
     className: "single-services mouse-pointer"
   }, __jsx("div", {
     className: "icon"
   }, __jsx("i", {
     className: "flaticon-setting"
-  })), __jsx(link_default.a, {
-    href: "/B2B-focused-IT-hardware"
-  }, __jsx("h3", null, "B2B Focused IT Hardware & Services Company")), __jsx("p", null, "Covid impact and reinventing the business model")))));
+  })), __jsx("h3", null, "B2B Focused IT Hardware & Services Company"), __jsx("p", null, "Covid impact and reinventing the business model"))))));
 };
 
 /* harmony default export */ var Services_ServiceCaseStudies = (ServiceCaseStudies);
@@ -2667,11 +2667,11 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
     let currentYear = new Date().getFullYear();
     return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("footer", {
-      className: "footer-section pt-100 pb-70"
-    }, __jsx("div", {
-      className: "container"
+      className: "footer-section pb-70"
     }, __jsx("div", {
       className: "subscribe-area"
+    }, __jsx("div", {
+      className: "container"
     }, __jsx("div", {
       className: "row align-items-center"
     }, __jsx("div", {
@@ -2684,7 +2684,9 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       className: "newsletter-form"
     }, __jsx("button", {
       type: "submit"
-    }, "Enquire Now"))))), __jsx("div", {
+    }, "Enquire Now")))))), __jsx("div", {
+      className: "container"
+    }, __jsx("div", {
       className: "row"
     }, __jsx("div", {
       className: "col-lg-4 col-md-6 col-sm-6"
@@ -3093,13 +3095,6 @@ class Navbar_Navbar extends external_react_["Component"] {
     }, Navbar_jsx("a", {
       className: "nav-link"
     }, "Growth Tips"))), Navbar_jsx("li", {
-      className: "nav-item"
-    }, Navbar_jsx(ActiveLink["a" /* default */], {
-      href: "/blog",
-      activeClassName: "active"
-    }, Navbar_jsx("a", {
-      className: "nav-link"
-    }, "Blogs"))), Navbar_jsx("li", {
       className: "nav-item"
     }, Navbar_jsx(ActiveLink["a" /* default */], {
       href: "/about",

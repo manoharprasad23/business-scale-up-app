@@ -4001,11 +4001,11 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
     let currentYear = new Date().getFullYear();
     return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("footer", {
-      className: "footer-section pt-100 pb-70"
-    }, __jsx("div", {
-      className: "container"
+      className: "footer-section pb-70"
     }, __jsx("div", {
       className: "subscribe-area"
+    }, __jsx("div", {
+      className: "container"
     }, __jsx("div", {
       className: "row align-items-center"
     }, __jsx("div", {
@@ -4018,7 +4018,9 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       className: "newsletter-form"
     }, __jsx("button", {
       type: "submit"
-    }, "Enquire Now"))))), __jsx("div", {
+    }, "Enquire Now")))))), __jsx("div", {
+      className: "container"
+    }, __jsx("div", {
       className: "row"
     }, __jsx("div", {
       className: "col-lg-4 col-md-6 col-sm-6"
