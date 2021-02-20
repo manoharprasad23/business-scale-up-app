@@ -31,7 +31,7 @@ const CashFlowContent = () => {
                         </div>
                         <div className="col-lg-6">
                             <div className="faq-image">
-                                <img src={require("../../images/innovation/innov-2.png")} alt="image" />
+                                <img className="cashflow-importance" src={require("../../images/innovation/innov-2.png")} alt="image" />
                             </div>
                         </div>
                     </div>

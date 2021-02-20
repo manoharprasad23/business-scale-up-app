@@ -545,6 +545,7 @@ const CashFlowContent = () => {
   }, __jsx("div", {
     className: "faq-image"
   }, __jsx("img", {
+    className: "cashflow-importance",
     src: __webpack_require__("nFa1"),
     alt: "image"
   })))), __jsx("div", {
