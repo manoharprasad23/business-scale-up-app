@@ -1205,6 +1205,10 @@ Banner Area CSS
   opacity: 0.6;
 }
 
+.home-sliders .home-item {
+  background-image: url(../../images/151.jpg);
+}
+
 .home-sliders .home-item.item-bg1 {
   /* background-image: url(../../images/home-one/slider-bg.jpg); */
   background-color: #f0f1fe;
