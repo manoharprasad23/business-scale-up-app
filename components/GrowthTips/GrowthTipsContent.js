@@ -45,13 +45,16 @@ const GrowthTipsContent = () => {
                         </div>
                         <div class="right-side-content section-title col-lg-7 col-md-6">
                                 <p>Business dynamics are always changing - more so today than ever before and every business leader or owner is planning and executing strategies to survive, grow and thrive!</p>
-                                <p>Our "How future ready is your business ?" template helps you assess your readiness !</p>
-                                <p>To assure you that you are indeed on the right track for the future or spot areas to help your plans & execution more robust to succeed in the future.</p>
+                                <p>Our <b>"How future ready is your business ?"</b> template helps you assess your readiness !</p>
+                                <p>To reassure you that you are indeed on the right track for the future or spot areas to help your plans & execution more robust to succeed in the future.</p>
                                 {/* <a class="read-btn" href="/service-line-one">Know More</a> */}
                                 <h6>How future ready is your business?</h6>
                                     <Link href="/quiz">
                                         <button className="default-btn">Check Now - Free</button>
                                     </Link>
+                                <p></p>
+                                <p>You will get a summary on your Future readiness now </p>
+                                <p>You could also download a detailed 5 page report on the key success factors to help your business strategies & and execution succeed. </p>
                         </div>
                     </div>
                 </div>

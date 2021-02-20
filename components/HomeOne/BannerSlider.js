@@ -131,8 +131,8 @@ class BannerSlider extends Component {
                                                 </div>
                                             </div>
                                                 <div className="custom-btn-banner">
-                                                    <Link href="/contact">
-                                                        <a className="default-btn">Enquire Now</a>
+                                                    <Link href="/who-benefits-from-us">
+                                                        <a className="default-btn">Know More</a>
                                                     </Link>
                                                 </div>
                                         </div>

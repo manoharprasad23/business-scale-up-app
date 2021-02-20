@@ -54,5 +54,6 @@
   "/signup": "pages/signup.js",
   "/team": "pages/team.js",
   "/terms-conditions": "pages/terms-conditions.js",
+  "/who-benefits-from-us": "pages/who-benefits-from-us.js",
   "/_error": "pages/_error.js"
 }

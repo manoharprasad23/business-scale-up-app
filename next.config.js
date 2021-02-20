@@ -56,7 +56,8 @@ const nextJsConfig = {
             '/cashflow': {page: '/cashflow'},
             '/customer-stratergy': {page: '/customer-stratergy'},
             '/revenue-leadership-vs-profit-leadership': {page: '/revenue-leadership-vs-profit-leadership'},
-            '/innovation-page': {page: '/innovation-page'}
+            '/innovation-page': {page: '/innovation-page'},
+            '/who-benefits-from-us': {page: '/who-benefits-from-us'}
         }
     }
 }

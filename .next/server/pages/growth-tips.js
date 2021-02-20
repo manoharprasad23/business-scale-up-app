@@ -2174,11 +2174,11 @@ const GrowthTipsContent = () => {
     className: "single-services"
   }, __jsx("h3", null, "How Future Ready Is Your Business?"))), __jsx("div", {
     class: "right-side-content section-title col-lg-7 col-md-6"
-  }, __jsx("p", null, "Business dynamics are always changing - more so today than ever before and every business leader or owner is planning and executing strategies to survive, grow and thrive!"), __jsx("p", null, "Our \"How future ready is your business ?\" template helps you assess your readiness !"), __jsx("p", null, "To assure you that you are indeed on the right track for the future or spot areas to help your plans & execution more robust to succeed in the future."), __jsx("h6", null, "How future ready is your business?"), __jsx(link_default.a, {
+  }, __jsx("p", null, "Business dynamics are always changing - more so today than ever before and every business leader or owner is planning and executing strategies to survive, grow and thrive!"), __jsx("p", null, "Our ", __jsx("b", null, "\"How future ready is your business ?\""), " template helps you assess your readiness !"), __jsx("p", null, "To reassure you that you are indeed on the right track for the future or spot areas to help your plans & execution more robust to succeed in the future."), __jsx("h6", null, "How future ready is your business?"), __jsx(link_default.a, {
     href: "/quiz"
   }, __jsx("button", {
     className: "default-btn"
-  }, "Check Now - Free"))))));
+  }, "Check Now - Free")), __jsx("p", null), __jsx("p", null, "You will get a summary on your Future readiness now "), __jsx("p", null, "You could also download a detailed 5 page report on the key success factors to help your business strategies & and execution succeed. ")))));
 };
 
 /* harmony default export */ var GrowthTips_GrowthTipsContent = (GrowthTipsContent);

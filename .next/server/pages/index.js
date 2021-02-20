@@ -686,10 +686,10 @@ class BannerSlider_BannerSlider extends external_react_["Component"] {
     }, __jsx("div", null, __jsx("h1", null, "Who benefits from us ?"))), __jsx("div", {
       className: "custom-btn-banner"
     }, __jsx(link_default.a, {
-      href: "/contact"
+      href: "/who-benefits-from-us"
     }, __jsx("a", {
       className: "default-btn"
-    }, "Enquire Now"))))))))) : '');
+    }, "Know More"))))))))) : '');
   }
 
 }
