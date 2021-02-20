@@ -2284,7 +2284,7 @@ class BlogPost extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("h3", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/artificial-intelligence-startup"
     }, __jsx("a", null, "AI Technology startup"))), __jsx("p", null, "Product ideas converted into Go To Market models \u2013 new Customer pipes")))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/blog-details"
+      href: "/case-studies"
     }, __jsx("div", {
       className: "col-lg-6 col-md-6"
     }, __jsx("div", {

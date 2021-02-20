@@ -7668,19 +7668,18 @@ Fooetr Area CSS
   cursor: pointer;
   font-size: 16px;
   font-weight: 400;
-
-    color: #fa5f64;
     background-color: #ffffff;
     text-transform: capitalize;
     letter-spacing: 2px;
     border: 2px solid #ffffff;
     border-radius: 40px 40px 40px 40px;
+    color: #6DC6EF;
 }
 
 .subscribe-area .newsletter-form button:hover {
   background-color: #212121;
   color: #ffffff;
-    background-color: #fa5f64;
+    background-color: #6DC6EF;
     border: 2px solid #ffffff;
     border-radius: 40px 40px 40px 40px;
 }

@@ -477,6 +477,13 @@ module.exports = _interopRequireWildcard;
 
 /***/ }),
 
+/***/ "Aiwm":
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/about-3-ab003473c501638811bb2b08b73f1d13.png";
+
+/***/ }),
+
 /***/ "AroE":
 /***/ (function(module, exports) {
 
@@ -846,7 +853,7 @@ class AboutContent_AboutContent extends external_react_["Component"] {
     }, __jsx("div", {
       className: "about-image-3"
     }, __jsx("img", {
-      src: __webpack_require__("StC5"),
+      src: __webpack_require__("Aiwm"),
       alt: "image"
     }))), __jsx("div", {
       className: "col-lg-6"
@@ -1003,13 +1010,6 @@ module.exports = require("next/dist/next-server/lib/router-context.js");
 
 "use strict";
 
-
-/***/ }),
-
-/***/ "StC5":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/about-3-0a2b1a14346a3a19ff54655638f08af4.jpeg";
 
 /***/ }),
 

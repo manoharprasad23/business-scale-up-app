@@ -121,7 +121,7 @@ class AboutContent extends Component {
                     <div className="row">
                         <div className="col-lg-6 p-0">
                             <div className="about-image-3">
-                                <img src={require("../../images/about/about-3.jpeg")} alt="image" />
+                                <img src={require("../../images/about/about-3.png")} alt="image" />
                             </div>
                         </div>
 

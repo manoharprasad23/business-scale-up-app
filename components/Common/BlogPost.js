@@ -54,7 +54,7 @@ class BlogPost extends Component {
                                 </div>
                             </div>
                         </div>
-                        <Link href="/blog-details">
+                        <Link href="/case-studies">
                             {/* <div className="view-more">
                                 <button>View More</button>
                             </div> */}
