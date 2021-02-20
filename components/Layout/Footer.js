@@ -164,7 +164,7 @@ class Footer extends Component {
                                         <i className="flaticon-pin"></i>
                                         <h3>Address</h3>
                                         <span>Scaleupinc Services Pvt Ltd,</span><br/>
-                                        <span>B24, Sarita Vihar,</span><br/>
+                                        <span>B-24, Sarita Vihar,</span><br/>
                                         <span>New Delhi 110076</span><br/>
                                         <span>India</span>
                                     </div>

@@ -711,6 +711,9 @@
     padding: 50px;
 }
 
+.who-benefits-from-us .section-title {
+    margin-bottom: -50px;
+}
 
 /* --------------------------- About Us css --------------------------- */
 
@@ -916,7 +919,7 @@
 }
 
 .landing-page-section .view-more button:hover {
-    background-color: #212121;
+    background-color: #6DC6EF;
     color: #fff;
 }
 

@@ -6565,7 +6565,7 @@ Services Details CSS
 Projects Details Area CSS
 =================================================*/
 .project-details-image {
-  margin-bottom: 30px;
+  margin: 30px 0;
 }
 
 .projects-details-desc {

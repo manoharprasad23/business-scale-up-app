@@ -11,7 +11,7 @@ class ContactInfo extends Component {
                                 <i className="flaticon-pin"></i>
                                 <div className="content-title">
                                     <h3>Address</h3>
-                                    <p>Scaleupinc Services Pvt Ltd, B24, Sarita Vihar, New Delhi 110076 India</p>
+                                    <p>Scaleupinc Services Pvt Ltd, B-24, Sarita Vihar, New Delhi 110076 India</p>
                                 </div>
                             </div>
                         </div>
